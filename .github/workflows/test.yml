@@ -33,7 +33,7 @@ jobs:
       - name: Gradle cache
         uses: gradle/actions/setup-gradle@v3
 
-      # add OpenChargeMaps API key to local.properties          
+      # add TMDB API key to local.properties          
       - name: Setup local.properties
         working-directory: ./AndroidProject
         env:        
