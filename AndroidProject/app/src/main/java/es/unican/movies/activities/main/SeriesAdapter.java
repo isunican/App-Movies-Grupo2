@@ -16,33 +16,33 @@ import com.squareup.picasso.Picasso;
 import java.util.List;
 
 import es.unican.movies.R;
-import es.unican.movies.model.Movie;
+import es.unican.movies.model.Series;
 import es.unican.movies.service.EImageSize;
 import es.unican.movies.service.ITmdbApi;
 
 /**
- * Adapter for the list of movies.
+ * Adapter for the list of series.
  */
-public class MovieAdapter extends ArrayAdapter<Movie> {
+public class SeriesAdapter extends ArrayAdapter<Series> {
 
     /**
-     * List of movies to display.
+     * List of series to display.
      */
-    private final List<Movie> movieList;
+    private final List<Series> seriesList;
 
     private final Context context;
     
     // Constructor without OnItemClickListener, which is now handled by the ListView itself
-    protected MovieAdapter(@NonNull Context context, @NonNull List<Movie> movieList) {
-        super(context, R.layout.activity_main_movie_item, movieList);
+    protected SeriesAdapter(@NonNull Context context, @NonNull List<Series> seriesList) {
+        super(context, R.layout.activity_main_movie_item, seriesList);
         this.context = context;
-        this.movieList = movieList;
+        this.seriesList = seriesList;
     }
 
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
-        Movie movie = getItem(position);
+        Series series = getItem(position);
 
         if (convertView == null) {
             convertView = LayoutInflater.from(getContext())
@@ -51,25 +51,25 @@ public class MovieAdapter extends ArrayAdapter<Movie> {
 
         // poster
         ImageView ivPoster = convertView.findViewById(R.id.ivPoster);
-        String imageUrl = ITmdbApi.getFullImagePath(movie.getPosterPath(), EImageSize.W92);
+        String imageUrl = ITmdbApi.getFullImagePath(series.getPosterPath(), EImageSize.W92);
         Picasso.get().load(imageUrl).fit().centerInside().into(ivPoster);
 
         // titulo
         TextView tvTitle = convertView.findViewById(R.id.tvTitle);
-        tvTitle.setText(movie.getTitle());
+        tvTitle.setText(series.getName());
 
         return convertView;
     }
 
     @Override
     public int getCount() {
-        return movieList.size();
+        return seriesList.size();
     }
 
     @Nullable
     @Override
-    public Movie getItem(int position) {
-        return movieList.get(position);
+    public Series getItem(int position) {
+        return seriesList.get(position);
     }
 
 }

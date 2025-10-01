@@ -8,10 +8,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import org.parceler.Parcels;
 
 import es.unican.movies.R;
-import es.unican.movies.model.Movie;
+import es.unican.movies.model.Series;
 
 /**
- * Activity to show the details of a movie.
+ * Activity to show the details of a TV series.
  */
 public class DetailsView extends AppCompatActivity {
 
@@ -23,12 +23,12 @@ public class DetailsView extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_details);
 
-        Movie movie = Parcels.unwrap(getIntent().getExtras().getParcelable(INTENT_MOVIE));
-        assert movie != null;
+        Series series = Parcels.unwrap(getIntent().getExtras().getParcelable(INTENT_MOVIE));
+        assert series != null;
         TextView tvTitle = findViewById(R.id.tvTitle);
         TextView tvId = findViewById(R.id.tvId);
-        tvTitle.setText(movie.getTitle());
-        tvId.setText(String.valueOf(movie.getId()));
+        tvTitle.setText(series.getName());
+        tvId.setText(String.valueOf(series.getId()));
         
     }
 }

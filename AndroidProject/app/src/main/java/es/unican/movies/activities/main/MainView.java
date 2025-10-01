@@ -22,11 +22,11 @@ import dagger.hilt.android.AndroidEntryPoint;
 import es.unican.movies.R;
 import es.unican.movies.activities.details.DetailsView;
 import es.unican.movies.activities.info.InfoActivity;
-import es.unican.movies.model.Movie;
+import es.unican.movies.model.Series;
 import es.unican.movies.service.IMoviesRepository;
 
 /**
- * Activity to show the list of movies.
+ * Activity to show the list of series.
  */
 @AndroidEntryPoint
 public class MainView extends AppCompatActivity implements IMainContract.View {
@@ -43,9 +43,9 @@ public class MainView extends AppCompatActivity implements IMainContract.View {
     IMoviesRepository repository;
 
     /**
-     * Reference to the ListView that shows the list of movies
+     * Reference to the ListView that shows the list of series
      */
-    private ListView lvMovies; // Added ListView member
+    private ListView lvSeries; // Added ListView member
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -88,10 +88,10 @@ public class MainView extends AppCompatActivity implements IMainContract.View {
 
     @Override
     public void init() {
-        lvMovies = findViewById(R.id.lvMovies);
-        lvMovies.setOnItemClickListener((parent, view, position, id) -> {
-            Movie movie = (Movie) parent.getItemAtPosition(position);
-            presenter.onItemClicked(movie);
+        lvSeries = findViewById(R.id.lvSeries);
+        lvSeries.setOnItemClickListener((parent, view, position, id) -> {
+            Series series = (Series) parent.getItemAtPosition(position);
+            presenter.onItemClicked(series);
         });
     }
 
@@ -101,25 +101,25 @@ public class MainView extends AppCompatActivity implements IMainContract.View {
     }
 
     @Override
-    public void showMovies(List<Movie> movies) {
-        MovieAdapter adapter = new MovieAdapter(this, movies);
-        lvMovies.setAdapter(adapter);
+    public void showSeries(List<Series> series) {
+        SeriesAdapter adapter = new SeriesAdapter(this, series);
+        lvSeries.setAdapter(adapter);
     }
 
     @Override
-    public void showLoadCorrect(int movies) {
-        Toast.makeText(this, "Loaded " + movies + " movies", Toast.LENGTH_SHORT).show();
+    public void showLoadCorrect(int series) {
+        Toast.makeText(this, "Loaded " + series + " series", Toast.LENGTH_SHORT).show();
     }
 
     @Override
     public void showLoadError() {
-        Toast.makeText(this, "Error loading movies", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Error loading series", Toast.LENGTH_SHORT).show();
     }
 
     @Override
-    public void showMovieDetails(Movie movie) {
+    public void showSeriesDetails(Series series) {
         Intent intent = new Intent(this, DetailsView.class);
-        intent.putExtra(DetailsView.INTENT_MOVIE, Parcels.wrap(movie));
+        intent.putExtra(DetailsView.INTENT_MOVIE, Parcels.wrap(series));
         startActivity(intent);
     }
 

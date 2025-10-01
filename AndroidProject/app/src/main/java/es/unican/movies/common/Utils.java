@@ -12,6 +12,7 @@ import java.lang.reflect.Type;
 import java.util.List;
 
 import es.unican.movies.model.Movie;
+import es.unican.movies.model.Series;
 
 /**
  * Utility class with helper methods.
@@ -19,14 +20,14 @@ import es.unican.movies.model.Movie;
 public class Utils {
 
     /**
-     * Parse a JSON resource file into a list of movies.
+     * Parse a JSON resource file into a list of series.
      * @param context the context
      * @param jsonId the id of the JSON resource file
      * @return a list of movies
      */
-    public static List<Movie> parseMovies(Context context, int jsonId) {
+    public static List<Series> parseSeries(Context context, int jsonId) {
         InputStream is = context.getResources().openRawResource(jsonId);
-        Type typeToken = new TypeToken<List<Movie>>() { }.getType();
+        Type typeToken = new TypeToken<List<Series>>() { }.getType();
         BufferedReader reader = new BufferedReader(new InputStreamReader(is));
         return new GsonBuilder()
                 .create()

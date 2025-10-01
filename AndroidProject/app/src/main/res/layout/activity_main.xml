@@ -26,7 +26,7 @@
             app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
 
         <ListView
-            android:id="@+id/lvMovies"
+            android:id="@+id/lvSeries"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
     </LinearLayout>

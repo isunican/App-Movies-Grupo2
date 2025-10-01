@@ -1,10 +1,8 @@
 package es.unican.movies.activities.main;
 
-import android.util.Log;
-
 import java.util.List;
 
-import es.unican.movies.model.Movie;
+import es.unican.movies.model.Series;
 import es.unican.movies.service.ICallback;
 import es.unican.movies.service.IMoviesRepository;
 
@@ -21,11 +19,11 @@ public class MainPresenter implements IMainContract.Presenter {
     }
 
     @Override
-    public void onItemClicked(Movie movie) {
-        if (movie == null) {
+    public void onItemClicked(Series series) {
+        if (series == null) {
             return;
         }
-        view.showMovieDetails(movie);
+        view.showSeriesDetails(series);
     }
 
     @Override
@@ -34,14 +32,14 @@ public class MainPresenter implements IMainContract.Presenter {
     }
 
     /**
-     * Loads the movies from the repository, and sends them to the view
+     * Loads the series from the repository, and sends them to the view
      */
     private void load() {
         IMoviesRepository repository = view.getMoviesRepository();
-        repository.requestAggregateMovies(new ICallback<List<Movie>>() {
+        repository.requestAggregateSeries(new ICallback<>() {
             @Override
-            public void onSuccess(List<Movie> elements) {
-                view.showMovies(elements);
+            public void onSuccess(List<Series> elements) {
+                view.showSeries(elements);
                 view.showLoadCorrect(elements.size());
             }
 

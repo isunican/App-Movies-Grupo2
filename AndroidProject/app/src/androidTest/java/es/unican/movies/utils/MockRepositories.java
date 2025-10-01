@@ -12,6 +12,7 @@ import java.util.List;
 
 import es.unican.movies.common.Utils;
 import es.unican.movies.model.Movie;
+import es.unican.movies.model.Series;
 import es.unican.movies.service.IMoviesRepository;
 import es.unican.movies.service.ICallback;
 
@@ -30,10 +31,10 @@ public class MockRepositories {
     public static IMoviesRepository getTestRepository(Context context, int jsonId) {
         IMoviesRepository mock = mock(IMoviesRepository.class);
         doAnswer(invocation -> {
-            ICallback<List<Movie>> callback = invocation.getArgument(0);
-            callback.onSuccess(Utils.parseMovies(context, jsonId));
+            ICallback<List<Series>> callback = invocation.getArgument(0);
+            callback.onSuccess(Utils.parseSeries(context, jsonId));
             return null;
-        }).when(mock).requestAggregateMovies(any(ICallback.class));
+        }).when(mock).requestAggregateSeries(any(ICallback.class));
         return mock;
     }
 

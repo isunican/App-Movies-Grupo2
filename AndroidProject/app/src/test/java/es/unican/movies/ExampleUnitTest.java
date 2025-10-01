@@ -5,6 +5,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 import es.unican.movies.model.Movie;
+import es.unican.movies.model.Series;
 
 /**
  * Example local unit test, which will execute on the development machine (host).
@@ -13,10 +14,10 @@ import es.unican.movies.model.Movie;
  */
 public class ExampleUnitTest {
     @Test
-    public void movieTitle_isCorrect() {
-        Movie movie = new Movie();
-        movie.setTitle("La Mega Película 2.0");
-        assertEquals("La Mega Película 2.0", movie.getTitle());
-        assertNull(movie.getPosterPath());
+    public void seriesName_isCorrect() {
+        Series series = new Series();
+        series.setName("La Mega Película 2.0");
+        assertEquals("La Mega Película 2.0", series.getName());
+        assertNull(series.getPosterPath());
     }
 }

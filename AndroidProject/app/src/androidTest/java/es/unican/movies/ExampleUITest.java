@@ -36,17 +36,17 @@ public class ExampleUITest {
     @Rule(order = 1)
     public ActivityScenarioRule<MainView> activityRule = new ActivityScenarioRule<>(MainView.class);
 
-    // I need the context to access resources, such as the json with test gas stations
+    // I need the context to access resources, such as the json with test movies or tv series
     final Context context = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
     // Mock repository that provides data from a JSON file instead of downloading it from the internet.
     @BindValue
-    final IMoviesRepository repository = getTestRepository(context, R.raw.sample_movies);
+    final IMoviesRepository repository = getTestRepository(context, R.raw.sample_series);
 
     @Test
     public void movieList_exists() {
-        onView(withId(R.id.lvMovies)).check(matches(isDisplayed()));
-        onData(anything()).inAdapterView(withId(R.id.lvMovies)).atPosition(0).check(matches(isDisplayed()));
+        onView(withId(R.id.lvSeries)).check(matches(isDisplayed()));
+        onData(anything()).inAdapterView(withId(R.id.lvSeries)).atPosition(0).check(matches(isDisplayed()));
     }
 
 }
