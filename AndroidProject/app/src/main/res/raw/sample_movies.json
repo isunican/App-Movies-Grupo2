@@ -1,0 +1,2358 @@
+[
+  {
+    "adult": false,
+    "backdrop_path": "/3IgJReIyunq95ta86CTSOs9vAht.jpg",
+    "belongs_to_collection": null,
+    "budget": 200000000,
+    "genres": [
+      {
+        "id": 878,
+        "name": "Ciencia ficción"
+      },
+      {
+        "id": 12,
+        "name": "Aventura"
+      }
+    ],
+    "homepage": "https://www.disney.es/peliculas/los-cuatro-fantasticos-primeros-pasos",
+    "id": 617126,
+    "imdb_id": "tt10676052",
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_title": "The Fantastic 4: First Steps",
+    "overview": "Con un mundo retrofuturista inspirado en los años 60 como telón de fondo, la Primera Familia de Marvel deberá hacer frente a su mayor desafío hasta la fecha. Obligados a buscar el equilibrio entre su papel de héroes y sus fuertes vínculos familiares, tendrán que defender la Tierra de un hambriento dios espacial llamado Galactus y su intrigante heraldo, Estela Plateada.",
+    "popularity": 691.9206,
+    "poster_path": "/ckfiXWGEMWrUP53cc6QyHijLlhl.jpg",
+    "production_companies": [
+      {
+        "id": 420,
+        "logo_path": "/hUzeosd33nzE5MCNsZxCGEKTXaQ.png",
+        "name": "Marvel Studios",
+        "origin_country": "US"
+      },
+      {
+        "id": 176762,
+        "logo_path": null,
+        "name": "Kevin Feige Productions",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "release_date": "2025-07-22",
+    "revenue": 520716140,
+    "runtime": 115,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Released",
+    "tagline": "Bienvenidos a la familia.",
+    "title": "Los Cuatro Fantásticos: Primeros pasos",
+    "video": false,
+    "vote_average": 7.175,
+    "vote_count": 1535,
+    "credits": {
+      "cast": [
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 1253360,
+          "known_for_department": "Acting",
+          "name": "Pedro Pascal",
+          "original_name": "Pedro Pascal",
+          "popularity": 10.3597,
+          "profile_path": "/oKcMbVn0NJTNzQt0ClKKvVXkm60.jpg",
+          "cast_id": 23,
+          "character": "Reed Richards / Mister Fantastic",
+          "credit_id": "65cce4a4e210230162c35b9f",
+          "order": 0
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 556356,
+          "known_for_department": "Acting",
+          "name": "Vanessa Kirby",
+          "original_name": "Vanessa Kirby",
+          "popularity": 7.1824,
+          "profile_path": "/a8a9U00KL2JJkkekzhNnueIGKKF.jpg",
+          "cast_id": 24,
+          "character": "Sue Storm / Invisible Woman",
+          "credit_id": "65cce4c0efd3c2017c37d90f",
+          "order": 1
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 21042,
+          "known_for_department": "Acting",
+          "name": "Ebon Moss-Bachrach",
+          "original_name": "Ebon Moss-Bachrach",
+          "popularity": 2.0519,
+          "profile_path": "/xD8GVNayMpiTZxLfahy2DseYcQq.jpg",
+          "cast_id": 26,
+          "character": "Ben Grimm / The Thing",
+          "credit_id": "65cce4d813af5f017c9fed78",
+          "order": 2
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 1597365,
+          "known_for_department": "Acting",
+          "name": "Joseph Quinn",
+          "original_name": "Joseph Quinn",
+          "popularity": 5.4996,
+          "profile_path": "/zshhuioZaH8S5ZKdMcojzWi1ntl.jpg",
+          "cast_id": 27,
+          "character": "Johnny Storm / Human Torch",
+          "credit_id": "65cce4e7e210230185c40b56",
+          "order": 3
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 202032,
+          "known_for_department": "Acting",
+          "name": "Ralph Ineson",
+          "original_name": "Ralph Ineson",
+          "popularity": 2.4473,
+          "profile_path": "/sn3ONJw2pJxMHiCqPwvkaiWr5mc.jpg",
+          "cast_id": 38,
+          "character": "Galactus",
+          "credit_id": "663d48d191ead4bae330077f",
+          "order": 4
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 936970,
+          "known_for_department": "Acting",
+          "name": "Julia Garner",
+          "original_name": "Julia Garner",
+          "popularity": 4.055,
+          "profile_path": "/ud1RXbvW70J89iqeic7no8olxvb.jpg",
+          "cast_id": 33,
+          "character": "Shalla-Bal / Silver Surfer",
+          "credit_id": "660dc566e039f1017ce7d4d7",
+          "order": 5
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 1294982,
+          "known_for_department": "Acting",
+          "name": "Paul Walter Hauser",
+          "original_name": "Paul Walter Hauser",
+          "popularity": 1.9135,
+          "profile_path": "/nmBdzJpfHMRHsT3VrjyXAxMFLZA.jpg",
+          "cast_id": 36,
+          "character": "Harvey Elder / Mole Man",
+          "credit_id": "6633ec239652200127f6422b",
+          "order": 6
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 10871,
+          "known_for_department": "Acting",
+          "name": "Natasha Lyonne",
+          "original_name": "Natasha Lyonne",
+          "popularity": 2.4719,
+          "profile_path": "/2QJoTBEIeYyjGSDot9qxv2ayPH3.jpg",
+          "cast_id": 40,
+          "character": "Rachel Rozman",
+          "credit_id": "6644ecfc0c18fad384242429",
+          "order": 7
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 65447,
+          "known_for_department": "Acting",
+          "name": "Sarah Niles",
+          "original_name": "Sarah Niles",
+          "popularity": 1.8286,
+          "profile_path": "/ySelhnmCCX9VnlPvceO9c5XOelK.jpg",
+          "cast_id": 76,
+          "character": "Lynne Nichols / F4 Chief of Staff",
+          "credit_id": "6736e6736bd4889bfbc799c1",
+          "order": 8
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 34546,
+          "known_for_department": "Acting",
+          "name": "Mark Gatiss",
+          "original_name": "Mark Gatiss",
+          "popularity": 1.2993,
+          "profile_path": "/rkZKKDRbnGqqg2fjd5iPYDS4syy.jpg",
+          "cast_id": 155,
+          "character": "Ted Gilbert",
+          "credit_id": "67f2fdbbe1d5c23c6ed968b1",
+          "order": 9
+        }
+      ],
+      "crew": [
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 1212522,
+          "known_for_department": "Directing",
+          "name": "Matt Shakman",
+          "original_name": "Matt Shakman",
+          "popularity": 1.1471,
+          "profile_path": "/kraLXlC9egJh4pTNTpKUYhkkNiu.jpg",
+          "credit_id": "630747a2dcb6a300835876e5",
+          "department": "Directing",
+          "job": "Director"
+        }
+      ]
+    }
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/1RgPyOhN4DRs225BGTlHJqCudII.jpg",
+    "belongs_to_collection": {
+      "id": 925155,
+      "name": "Demon Slayer: Kimetsu no Yaiba Collection",
+      "poster_path": "/7HWkUmer2r5nVxtMAlYlZY8kclV.jpg",
+      "backdrop_path": "/oHx043lHsysn8klll1nPvKMBHLf.jpg"
+    },
+    "budget": 20000000,
+    "genres": [
+      {
+        "id": 16,
+        "name": "Animación"
+      },
+      {
+        "id": 28,
+        "name": "Acción"
+      },
+      {
+        "id": 14,
+        "name": "Fantasía"
+      },
+      {
+        "id": 53,
+        "name": "Suspense"
+      }
+    ],
+    "homepage": "https://www.sonypictures.es/pelicula/guardianes-de-la-noche-kimetsu-no-yaiba-la-fortaleza-infinita",
+    "id": 1311031,
+    "imdb_id": "tt32820897",
+    "origin_country": [
+      "JP"
+    ],
+    "original_language": "ja",
+    "original_title": "劇場版「鬼滅の刃」無限城編 第一章 猗窩座再来",
+    "overview": "El Cuerpo de Cazadores de Demonios se enfrenta a los Doce Kizuki restantes antes de enfrentarse a Muzan en el Castillo del Infinito para derrotarlo de una vez por todas.",
+    "popularity": 511.9974,
+    "poster_path": "/iWLV12z9oexSRLz2WKyqCZbKoPA.jpg",
+    "production_companies": [
+      {
+        "id": 5887,
+        "logo_path": "/m6FEqz8rQECnmfjEwjNhNAlmhCJ.png",
+        "name": "ufotable",
+        "origin_country": "JP"
+      },
+      {
+        "id": 2883,
+        "logo_path": "/rDYExnBV61jGQnkhVVrPN4Yl7O1.png",
+        "name": "Aniplex",
+        "origin_country": "JP"
+      },
+      {
+        "id": 2918,
+        "logo_path": "/gyEWUBWwqrm3H5T2hkERD9LxpOq.png",
+        "name": "Shueisha",
+        "origin_country": "JP"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "JP",
+        "name": "Japan"
+      }
+    ],
+    "release_date": "2025-07-18",
+    "revenue": 558756781,
+    "runtime": 155,
+    "spoken_languages": [
+      {
+        "english_name": "Japanese",
+        "iso_639_1": "ja",
+        "name": "日本語"
+      }
+    ],
+    "status": "Released",
+    "tagline": "",
+    "title": "Guardianes de la noche: Kimetsu no Yaiba La fortaleza infinita",
+    "video": false,
+    "vote_average": 7.8,
+    "vote_count": 371,
+    "credits": {
+      "cast": [
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 1256603,
+          "known_for_department": "Acting",
+          "name": "Natsuki Hanae",
+          "original_name": "花江夏樹",
+          "popularity": 2.4135,
+          "profile_path": "/alTb0DlcPIbcwM08WSmxFai58sd.jpg",
+          "cast_id": 2,
+          "character": "Tanjiro Kamado (voice)",
+          "credit_id": "66e6e105e8211ecd22b08a62",
+          "order": 0
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 119145,
+          "known_for_department": "Acting",
+          "name": "Hiro Shimono",
+          "original_name": "下野紘",
+          "popularity": 1.4862,
+          "profile_path": "/yrSDcgFefHtWkFmLnTrcw2t0MV.jpg",
+          "cast_id": 1,
+          "character": "Zenitsu Agatsuma (voice)",
+          "credit_id": "66e6e0e8050f14e4fccf8130",
+          "order": 1
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 9705,
+          "known_for_department": "Acting",
+          "name": "Takahiro Sakurai",
+          "original_name": "櫻井孝宏",
+          "popularity": 3.5531,
+          "profile_path": "/8s8owcKmpRAuhzEGjSdRpztthUg.jpg",
+          "cast_id": 25,
+          "character": "Giyu Tomioka (voice)",
+          "credit_id": "67cec4fba8b335257e2aa988",
+          "order": 2
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 81244,
+          "known_for_department": "Acting",
+          "name": "Akira Ishida",
+          "original_name": "石田彰",
+          "popularity": 2.6298,
+          "profile_path": "/jnW2Gn2NlR2uwOCeyOuzypnTmkH.jpg",
+          "cast_id": 336,
+          "character": "Akaza (voice)",
+          "credit_id": "687d4a14807abd7583d98d45",
+          "order": 3
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 233590,
+          "known_for_department": "Acting",
+          "name": "Yoshitsugu Matsuoka",
+          "original_name": "松岡禎丞",
+          "popularity": 2.1421,
+          "profile_path": "/ugDwdWEXnmv43jcbnfAi4XwiQ8C.jpg",
+          "cast_id": 3,
+          "character": "Inosuke Hashibira (voice)",
+          "credit_id": "66e6e11be8211ecd22b08a76",
+          "order": 4
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 90571,
+          "known_for_department": "Acting",
+          "name": "Toshihiko Seki",
+          "original_name": "関俊彦",
+          "popularity": 2.2905,
+          "profile_path": "/7jUPvx4hxWZWZJgyiCwd8KxWuvI.jpg",
+          "cast_id": 10,
+          "character": "Muzan Kibutsuji (voice)",
+          "credit_id": "67cec12fa8b335257e2aa78e",
+          "order": 5
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 1452028,
+          "known_for_department": "Acting",
+          "name": "Reina Ueda",
+          "original_name": "上田麗奈",
+          "popularity": 2.2945,
+          "profile_path": "/hlzrvBzeSYejeaTSZDvEWE44Qjj.jpg",
+          "cast_id": 23,
+          "character": "Kanao Tsuyuri (voice)",
+          "credit_id": "67cec4ba53282c9de62a757c",
+          "order": 6
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 1245094,
+          "known_for_department": "Acting",
+          "name": "Nobuhiko Okamoto",
+          "original_name": "岡本信彦",
+          "popularity": 1.5696,
+          "profile_path": "/7s1K2yQVF5iIWILaOfG7QrMZkXA.jpg",
+          "cast_id": 24,
+          "character": "Genya Shinazugawa (voice)",
+          "credit_id": "67cec4d753282c9de62a758d",
+          "order": 7
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 24647,
+          "known_for_department": "Acting",
+          "name": "Katsuyuki Konishi",
+          "original_name": "小西克幸",
+          "popularity": 1.5671,
+          "profile_path": "/nYM5cH6U7cp4x9dIzW0enmEKmeV.jpg",
+          "cast_id": 26,
+          "character": "Tengen Uzui (voice)",
+          "credit_id": "67cec508a8b335257e2aa996",
+          "order": 8
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 1563442,
+          "known_for_department": "Acting",
+          "name": "Akari Kito",
+          "original_name": "鬼頭明里",
+          "popularity": 1.4868,
+          "profile_path": "/AoRQOZRC0yINB0WeKnM569rV1wF.jpg",
+          "cast_id": 4,
+          "character": "Nezuko Kamado (voice)",
+          "credit_id": "66e6e12ed7bcca524db090ba",
+          "order": 9
+        }
+      ],
+      "crew": [
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 1283010,
+          "known_for_department": "Directing",
+          "name": "Haruo Sotozaki",
+          "original_name": "外崎春雄",
+          "popularity": 1.0637,
+          "profile_path": "/ylaWAuJB1PyAzaefqENBDEAKTLI.jpg",
+          "credit_id": "66e6e1483768a73f8d915c4a",
+          "department": "Directing",
+          "job": "Director"
+        }
+      ]
+    }
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/iZLqwEwUViJdSkGVjePGhxYzbDb.jpg",
+    "belongs_to_collection": null,
+    "budget": 0,
+    "genres": [
+      {
+        "id": 878,
+        "name": "Ciencia ficción"
+      },
+      {
+        "id": 53,
+        "name": "Suspense"
+      }
+    ],
+    "homepage": "",
+    "id": 755898,
+    "imdb_id": "tt13186306",
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_title": "War of the Worlds",
+    "overview": "Will Radford, un destacado analista de ciberseguridad, pasa sus días rastreando posibles amenazas a la seguridad nacional a través de un programa de vigilancia masiva. Un ataque de una entidad desconocida le lleva a cuestionarse si el gobierno le está ocultando algo a él... y al resto del mundo.",
+    "popularity": 424.3553,
+    "poster_path": "/fjgSlNGECNgVeMJaOdDAXmGh7ZM.jpg",
+    "production_companies": [
+      {
+        "id": 33,
+        "logo_path": "/8lvHyhjr8oUKOOy2dKXoALWKdp0.png",
+        "name": "Universal Pictures",
+        "origin_country": "US"
+      },
+      {
+        "id": 109501,
+        "logo_path": "/4dtmZKPLHzIALpGbdeSNX6Rw1p3.png",
+        "name": "Bazelevs",
+        "origin_country": "US"
+      },
+      {
+        "id": 59827,
+        "logo_path": null,
+        "name": "Patrick Aiello Productions",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "release_date": "2025-07-29",
+    "revenue": 0,
+    "runtime": 90,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Released",
+    "tagline": "",
+    "title": "La guerra de los mundos",
+    "video": false,
+    "vote_average": 4.392,
+    "vote_count": 580,
+    "credits": {
+      "cast": [
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 9778,
+          "known_for_department": "Acting",
+          "name": "Ice Cube",
+          "original_name": "Ice Cube",
+          "popularity": 1.3493,
+          "profile_path": "/9EghwabQ1wIQT4oN69qtPlzqGn4.jpg",
+          "cast_id": 5,
+          "character": "William Radford",
+          "credit_id": "5f904ffc7614210037899456",
+          "order": 0
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 52605,
+          "known_for_department": "Acting",
+          "name": "Eva Longoria",
+          "original_name": "Eva Longoria",
+          "popularity": 1.5413,
+          "profile_path": "/1u26GLWK1DE7gBugyI9P3OMFq4A.jpg",
+          "cast_id": 6,
+          "character": "NASA Scientist Sandra Salas",
+          "credit_id": "5f905008fed59700384b0724",
+          "order": 1
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 9048,
+          "known_for_department": "Acting",
+          "name": "Clark Gregg",
+          "original_name": "Clark Gregg",
+          "popularity": 1.2999,
+          "profile_path": "/mq686D91XoZpqkzELn0888NOiZW.jpg",
+          "cast_id": 84,
+          "character": "NSA Director Donald Briggs",
+          "credit_id": "688a1b63841955f210a1a63c",
+          "order": 2
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 1632530,
+          "known_for_department": "Acting",
+          "name": "Iman Benson",
+          "original_name": "Iman Benson",
+          "popularity": 0.7036,
+          "profile_path": "/6s8Cyc4rxDRpX1vYnczU52RM4IM.jpg",
+          "cast_id": 9,
+          "character": "Faith Radford",
+          "credit_id": "649c86dc091e6200ad53cee4",
+          "order": 3
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 60482,
+          "known_for_department": "Acting",
+          "name": "Henry Hunter Hall",
+          "original_name": "Henry Hunter Hall",
+          "popularity": 1.1658,
+          "profile_path": "/qZEv8RIGC9yLwY29Vo4KQzpO9Dt.jpg",
+          "cast_id": 30,
+          "character": "David Radford",
+          "credit_id": "688542767b01f1092616bf02",
+          "order": 4
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 90498,
+          "known_for_department": "Acting",
+          "name": "Devon Bostick",
+          "original_name": "Devon Bostick",
+          "popularity": 2.5717,
+          "profile_path": "/zAdSA85Plp7NzhQeM2w8heHWgEd.jpg",
+          "cast_id": 82,
+          "character": "Mark Goodman",
+          "credit_id": "688a1b126f8172cdd7d02402",
+          "order": 5
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 71402,
+          "known_for_department": "Acting",
+          "name": "Andrea Savage",
+          "original_name": "Andrea Savage",
+          "popularity": 1.3715,
+          "profile_path": "/dh2prcwPU9U1PBdCNu5SSd4Of9j.jpg",
+          "cast_id": 83,
+          "character": "FBI Field Agent Sheila Jeffries",
+          "credit_id": "688a1b435a39da12ae5ae27e",
+          "order": 6
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 98811,
+          "known_for_department": "Acting",
+          "name": "Nicole Pulliam",
+          "original_name": "Nicole Pulliam",
+          "popularity": 0.5936,
+          "profile_path": "/XcJAw0P7bPE9ET52P4fZ2hdokk.jpg",
+          "cast_id": 32,
+          "character": "News Reporter",
+          "credit_id": "6885434caaded2ad6652ab24",
+          "order": 7
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 21710,
+          "known_for_department": "Acting",
+          "name": "Michael O'Neill",
+          "original_name": "Michael O'Neill",
+          "popularity": 0.9537,
+          "profile_path": "/u9Ejl9iS4ZJ36Y653UCe8huLaOn.jpg",
+          "cast_id": 8,
+          "character": "Secretary of Defense Walter Crystal",
+          "credit_id": "649c86d5091e6200eb7a5b66",
+          "order": 8
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 30697,
+          "known_for_department": "Acting",
+          "name": "Jim Meskimen",
+          "original_name": "Jim Meskimen",
+          "popularity": 0.5875,
+          "profile_path": "/18eXUo8DfTwannhq8FOwgVdFs9Y.jpg",
+          "cast_id": 85,
+          "character": "POTUS",
+          "credit_id": "688a1bdebb82bb41c158133e",
+          "order": 9
+        }
+      ],
+      "crew": [
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 1634181,
+          "known_for_department": "Directing",
+          "name": "Rich Lee",
+          "original_name": "Rich Lee",
+          "popularity": 1.721,
+          "profile_path": "/r7WIjhtHWcnRJO3nlao6jwsrWG6.jpg",
+          "credit_id": "5f904f83383df20036ad4276",
+          "department": "Directing",
+          "job": "Director"
+        }
+      ]
+    }
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/aIsjCdfiAS89cMjdDWEpKmUTHsZ.jpg",
+    "belongs_to_collection": null,
+    "budget": 10000000,
+    "genres": [
+      {
+        "id": 28,
+        "name": "Acción"
+      },
+      {
+        "id": 10752,
+        "name": "Bélica"
+      }
+    ],
+    "homepage": "",
+    "id": 1009640,
+    "imdb_id": "tt21442114",
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_title": "Valiant One",
+    "overview": "Un helicóptero estadounidense se estrella en el lado norcoreano, ahora los supervivientes deben trabajar juntos para proteger a un civil especialista en tecnología y encontrar la salida sin la ayuda del apoyo militar estadounidense.",
+    "popularity": 278.9108,
+    "poster_path": "/sT8Z14RDCAd6szzxzWFAU4xcMwg.jpg",
+    "production_companies": [
+      {
+        "id": 133093,
+        "logo_path": "/sE2KvR3L4ZgR56HgEmIEWjQcpzN.png",
+        "name": "Monarch Media",
+        "origin_country": "US"
+      },
+      {
+        "id": 12006,
+        "logo_path": null,
+        "name": "Goldmann Pictures",
+        "origin_country": "US"
+      },
+      {
+        "id": 1063,
+        "logo_path": "/fpVBhNnopOZwGuF0gg99oBHp1ht.png",
+        "name": "Brightlight Pictures",
+        "origin_country": "CA"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      },
+      {
+        "iso_3166_1": "CA",
+        "name": "Canada"
+      }
+    ],
+    "release_date": "2025-01-30",
+    "revenue": 1236630,
+    "runtime": 86,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Released",
+    "tagline": "",
+    "title": "Valiant One",
+    "video": false,
+    "vote_average": 6.1,
+    "vote_count": 18,
+    "credits": {
+      "cast": [
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 2077864,
+          "known_for_department": "Acting",
+          "name": "Chase Stokes",
+          "original_name": "Chase Stokes",
+          "popularity": 1.5725,
+          "profile_path": "/okoMZYMICceGRrca6jhCVkDxVxi.jpg",
+          "cast_id": 1,
+          "character": "Captain Edward Brockman",
+          "credit_id": "62f0030cd207f3007a0a8844",
+          "order": 0
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 1452046,
+          "known_for_department": "Acting",
+          "name": "Lana Condor",
+          "original_name": "Lana Condor",
+          "popularity": 0.9891,
+          "profile_path": "/vWn27Fk2GLwH7o9fBG9hBWZI6OR.jpg",
+          "cast_id": 8,
+          "character": "Specialist Selby",
+          "credit_id": "6328aa96b18f32007b7c470a",
+          "order": 1
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 972079,
+          "known_for_department": "Acting",
+          "name": "Desmin Borges",
+          "original_name": "Desmin Borges",
+          "popularity": 0.2629,
+          "profile_path": "/9tF2giXqRiSJc2lkZG9R3G8FPjv.jpg",
+          "cast_id": 9,
+          "character": "Josh Weaver",
+          "credit_id": "6328aab3d7a70a0079c7e697",
+          "order": 2
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 208296,
+          "known_for_department": "Acting",
+          "name": "Callan Mulvey",
+          "original_name": "Callan Mulvey",
+          "popularity": 0.7875,
+          "profile_path": "/wJ8P1yNVmkx1PS1mc6Pi48tphfG.jpg",
+          "cast_id": 10,
+          "character": "Chris Lebold",
+          "credit_id": "6328acdf20af770080fcd5ba",
+          "order": 3
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 3115351,
+          "known_for_department": "Acting",
+          "name": "Diana Tsoy",
+          "original_name": "Diana Tsoy",
+          "popularity": 0.2492,
+          "profile_path": "/AfiqfFRPchrL0x5ifUeU4v0bFll.jpg",
+          "cast_id": 11,
+          "character": "Binna",
+          "credit_id": "6328ad4faafebd007e2169a0",
+          "order": 4
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 1872281,
+          "known_for_department": "Acting",
+          "name": "Daniel Jun",
+          "original_name": "Daniel Jun",
+          "popularity": 0.4191,
+          "profile_path": "/xEuWQDSnIYUQRGH7mYjF3ckardG.jpg",
+          "cast_id": 15,
+          "character": "Wilson Lee",
+          "credit_id": "674f8cfca93bdea8c25085dd",
+          "order": 5
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 1518194,
+          "known_for_department": "Acting",
+          "name": "Jonathan Whitesell",
+          "original_name": "Jonathan Whitesell",
+          "popularity": 0.4397,
+          "profile_path": "/aU1Tsj7PW4DPJf47CCNZLAkDlKP.jpg",
+          "cast_id": 16,
+          "character": "Jonah Ross",
+          "credit_id": "674f8d06f858e9bb1659c159",
+          "order": 6
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 2651106,
+          "known_for_department": "Acting",
+          "name": "Stephen Adekolu",
+          "original_name": "Stephen Adekolu",
+          "popularity": 0.2495,
+          "profile_path": "/kgPVIwFPEFhUJBLJDffNsClkz0q.jpg",
+          "cast_id": 17,
+          "character": "Cooper",
+          "credit_id": "674f8d11f858e9bb1659c161",
+          "order": 7
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 97614,
+          "known_for_department": "Acting",
+          "name": "Ronald Patrick Thompson",
+          "original_name": "Ronald Patrick Thompson",
+          "popularity": 0.2258,
+          "profile_path": "/8mObNyDvc2ohr436Q1iQXpMAhMr.jpg",
+          "cast_id": 18,
+          "character": "Milner",
+          "credit_id": "674f8d1af858e9bb1659c16a",
+          "order": 8
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 1252319,
+          "known_for_department": "Acting",
+          "name": "Leo Chiang",
+          "original_name": "Leo Chiang",
+          "popularity": 0.6853,
+          "profile_path": "/tuMNenYBajmM4YHxzhvBnm7ZQ6V.jpg",
+          "cast_id": 19,
+          "character": "Medic Crew Chief",
+          "credit_id": "674f8d26f858e9bb1659c16f",
+          "order": 9
+        }
+      ],
+      "crew": [
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 3767680,
+          "known_for_department": "Production",
+          "name": "Steve Barnett",
+          "original_name": "Steve Barnett",
+          "popularity": 0.2695,
+          "profile_path": "/jsoAorIihuziTGuwJ3GcODqyyLU.jpg",
+          "credit_id": "63b194bb875d1a00a01fa498",
+          "department": "Directing",
+          "job": "Director"
+        }
+      ]
+    }
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/9KSboWOt09J72aMY4x8SS1IaOHK.jpg",
+    "belongs_to_collection": null,
+    "budget": 0,
+    "genres": [
+      {
+        "id": 16,
+        "name": "Animación"
+      },
+      {
+        "id": 28,
+        "name": "Acción"
+      },
+      {
+        "id": 12,
+        "name": "Aventura"
+      },
+      {
+        "id": 14,
+        "name": "Fantasía"
+      }
+    ],
+    "homepage": "",
+    "id": 987400,
+    "imdb_id": "tt21110654",
+    "origin_country": [
+      "MX"
+    ],
+    "original_language": "es",
+    "original_title": "Batman Azteca: Choque de imperios",
+    "overview": "En la época del Imperio Azteca, Yohualli Coatl, un joven azteca, experimenta una tragedia cuando su padre y líder de la aldea, Toltecatzin, es asesinado por los conquistadores españoles. Yohualli escapa a Tenochtitlán para advertir al rey Moctezuma y a su sumo sacerdote, Yoka, del peligro inminente. Usando el templo de Tzinacan, el dios murciélago, como guarida, Yohualli entrena con su mentor y asistente, Acatzin, desarrollando equipo y armamento para enfrentar la invasión española, proteger el templo de Moctezuma y vengar la muerte de su padre.",
+    "popularity": 271.3749,
+    "poster_path": "/wpMaI2J3ISYZiaIWNkoA1lVb5LQ.jpg",
+    "production_companies": [
+      {
+        "id": 2785,
+        "logo_path": "/l5zW8jjmQOCx2dFmvnmbYmqoBmL.png",
+        "name": "Warner Bros. Animation",
+        "origin_country": "US"
+      },
+      {
+        "id": 9965,
+        "logo_path": "/sxA2AfKijRSS1dxcXejJ27wg20H.png",
+        "name": "Ánima Estudios",
+        "origin_country": "MX"
+      },
+      {
+        "id": 177082,
+        "logo_path": null,
+        "name": "Chatrone",
+        "origin_country": "US"
+      },
+      {
+        "id": 119056,
+        "logo_path": "/vbhwOf0TQ4z12GIytYGWmhPJAOz.png",
+        "name": "Particular Crowd",
+        "origin_country": "US"
+      },
+      {
+        "id": 9993,
+        "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+        "name": "DC Entertainment",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      },
+      {
+        "iso_3166_1": "MX",
+        "name": "Mexico"
+      }
+    ],
+    "release_date": "2025-09-18",
+    "revenue": 0,
+    "runtime": 89,
+    "spoken_languages": [
+      {
+        "english_name": "Spanish",
+        "iso_639_1": "es",
+        "name": "Español"
+      }
+    ],
+    "status": "Released",
+    "tagline": "",
+    "title": "Batman Azteca: Choque de imperios",
+    "video": false,
+    "vote_average": 8.083,
+    "vote_count": 72,
+    "credits": {
+      "cast": [
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 52746,
+          "known_for_department": "Acting",
+          "name": "Horacio García Rojas",
+          "original_name": "Horacio García Rojas",
+          "popularity": 0.7608,
+          "profile_path": "/75Yo3FmhEOZhMzP0ImYQIoalurn.jpg",
+          "cast_id": 8,
+          "character": "Yohualli Coatl / Batman (voice)",
+          "credit_id": "6317c39bd2b209008178fe26",
+          "order": 0
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 1340020,
+          "known_for_department": "Acting",
+          "name": "Álvaro Morte",
+          "original_name": "Álvaro Morte",
+          "popularity": 1.3266,
+          "profile_path": "/2TGPhdpRC5wjdFEJqnLYiN5kbwg.jpg",
+          "cast_id": 10,
+          "character": "Hernán Cortés / Two-Face (voice)",
+          "credit_id": "6317c3c78ac3d0007b386326",
+          "order": 1
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 1134885,
+          "known_for_department": "Acting",
+          "name": "Omar Chaparro",
+          "original_name": "Omar Chaparro",
+          "popularity": 1.5805,
+          "profile_path": "/fAIDrbtyHBcDDbRdRZ3bvNesKU7.jpg",
+          "cast_id": 9,
+          "character": "Yoka / Joker (voice)",
+          "credit_id": "6317c3b2ed2ac2009866fca6",
+          "order": 2
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 266,
+          "known_for_department": "Acting",
+          "name": "Humberto Busto",
+          "original_name": "Humberto Busto",
+          "popularity": 0.4043,
+          "profile_path": "/uFFwrUoVjd2jpcx0Wu4CP1xy5fu.jpg",
+          "cast_id": 38,
+          "character": "Moctezuma (voice)",
+          "credit_id": "68cdf7b046fc7a9aadfe8c39",
+          "order": 3
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 1265056,
+          "known_for_department": "Directing",
+          "name": "Jorge R. Gutierrez",
+          "original_name": "Jorge R. Gutierrez",
+          "popularity": 0.3292,
+          "profile_path": "/dhL3pHR1WkbONH9dD4Sya9DbrXq.jpg",
+          "cast_id": 20,
+          "character": "Jefe Toltecatzin (voice)",
+          "credit_id": "6883b9d29f14f68eb2245e81",
+          "order": 4
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 2027555,
+          "known_for_department": "Acting",
+          "name": "Jesús Guzmán",
+          "original_name": "Jesús Guzmán",
+          "popularity": 0.2395,
+          "profile_path": "/m3bbEELSWpZaF4bbyQT8e0BkF7w.jpg",
+          "cast_id": 39,
+          "character": "Joven Yohualli (voice)",
+          "credit_id": "68cdf86267b7b3c0cd74900e",
+          "order": 5
+        },
+        {
+          "adult": false,
+          "gender": 0,
+          "id": 4102576,
+          "known_for_department": "Acting",
+          "name": "José Carlos Illanes",
+          "original_name": "José Carlos Illanes",
+          "popularity": 0.1774,
+          "profile_path": "/ixMmAMSzs5XiGzeKfC58dZpNWYM.jpg",
+          "cast_id": 15,
+          "character": "Pedro de Alvarado (voice)",
+          "credit_id": "688248a23cf100600b52a05b",
+          "order": 6
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 36638,
+          "known_for_department": "Acting",
+          "name": "Maya Zapata",
+          "original_name": "Maya Zapata",
+          "popularity": 0.4833,
+          "profile_path": "/8waYezV2WB1xqS09HfNrjxnXdWE.jpg",
+          "cast_id": 40,
+          "character": "Hiedra del Bosque / Poison Ivy (voice)",
+          "credit_id": "68d419e724bbfd506b6d5378",
+          "order": 7
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 589722,
+          "known_for_department": "Acting",
+          "name": "Teresa Ruiz",
+          "original_name": "Teresa Ruiz",
+          "popularity": 0.8154,
+          "profile_path": "/yIsoNVBvXnjKqtTwXgNuxnlVHOI.jpg",
+          "cast_id": 41,
+          "character": "Mujer Jaguar / Catwoman (voice)",
+          "credit_id": "68d41ed6b1bd15054449f636",
+          "order": 8
+        }
+      ],
+      "crew": [
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 1345328,
+          "known_for_department": "Directing",
+          "name": "Juan Jose Meza-Leon",
+          "original_name": "Juan Jose Meza-Leon",
+          "popularity": 0.3483,
+          "profile_path": null,
+          "credit_id": "62a7dbdb3d4d9617e86ca1ed",
+          "department": "Directing",
+          "job": "Director"
+        }
+      ]
+    }
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/fq8gLtrz1ByW3KQ2IM3RMZEIjsQ.jpg",
+    "belongs_to_collection": {
+      "id": 313086,
+      "name": "Expediente Warren [The Conjuring] - Colección",
+      "poster_path": "/zKseh0hk46w1cKWDOA1e3smMhyv.jpg",
+      "backdrop_path": "/kHZaX0vuhZdbuq0WKU3BpA9WIQ0.jpg"
+    },
+    "budget": 55000000,
+    "genres": [
+      {
+        "id": 27,
+        "name": "Terror"
+      }
+    ],
+    "homepage": "",
+    "id": 1038392,
+    "imdb_id": "tt22898462",
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_title": "The Conjuring: Last Rites",
+    "overview": "Los investigadores de lo paranormal Ed y Lorraine Warren se enfrentan a un último caso aterrador en el que están implicadas entidades misteriosas a las que deben enfrentarse.",
+    "popularity": 246.1097,
+    "poster_path": "/dyW5mX4wwDoZWgTYObx6pg9V0i9.jpg",
+    "production_companies": [
+      {
+        "id": 12,
+        "logo_path": "/2ycs64eqV5rqKYHyQK0GVoKGvfX.png",
+        "name": "New Line Cinema",
+        "origin_country": "US"
+      },
+      {
+        "id": 76907,
+        "logo_path": "/ygMQtjsKX7BZkCQhQZY82lgnCUO.png",
+        "name": "Atomic Monster",
+        "origin_country": "US"
+      },
+      {
+        "id": 11565,
+        "logo_path": "/odU3l6csuBmXUrzFm6araUgEUHQ.png",
+        "name": "The Safran Company",
+        "origin_country": "US"
+      },
+      {
+        "id": 216687,
+        "logo_path": "/kKVYqekveOvLK1IgqdJojLjQvtu.png",
+        "name": "Domain Entertainment",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "release_date": "2025-09-03",
+    "revenue": 404094110,
+    "runtime": 135,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Released",
+    "tagline": "",
+    "title": "Expediente Warren: El último rito",
+    "video": false,
+    "vote_average": 6.576,
+    "vote_count": 440,
+    "credits": {
+      "cast": [
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 21657,
+          "known_for_department": "Acting",
+          "name": "Vera Farmiga",
+          "original_name": "Vera Farmiga",
+          "popularity": 4.0563,
+          "profile_path": "/5Vs7huBmTKftwlsc2BPAntyaQYj.jpg",
+          "cast_id": 5,
+          "character": "Lorraine Warren",
+          "credit_id": "63532f0f9590e3007afb754b",
+          "order": 0
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 17178,
+          "known_for_department": "Acting",
+          "name": "Patrick Wilson",
+          "original_name": "Patrick Wilson",
+          "popularity": 3.2675,
+          "profile_path": "/tc1ezEfIY8BhCy85svOUDtpBFPt.jpg",
+          "cast_id": 4,
+          "character": "Ed Warren",
+          "credit_id": "63532efc9369a2007c2c2605",
+          "order": 1
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 3011652,
+          "known_for_department": "Acting",
+          "name": "Mia Tomlinson",
+          "original_name": "Mia Tomlinson",
+          "popularity": 3.5125,
+          "profile_path": "/cBSSODc05j8s8omYfX0Px07AIvr.jpg",
+          "cast_id": 19,
+          "character": "Judy Warren",
+          "credit_id": "66ec1e8f2d67799ad3eb9895",
+          "order": 2
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 1452045,
+          "known_for_department": "Acting",
+          "name": "Ben Hardy",
+          "original_name": "Ben Hardy",
+          "popularity": 2.7208,
+          "profile_path": "/s8UEIomgY5AaEmPHkcPAScp68Fw.jpg",
+          "cast_id": 20,
+          "character": "Tony Spera",
+          "credit_id": "66ec1e9de43f07de82eba0b4",
+          "order": 3
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 1355139,
+          "known_for_department": "Acting",
+          "name": "Rebecca Calder",
+          "original_name": "Rebecca Calder",
+          "popularity": 1.0786,
+          "profile_path": "/A43USnarLnfWXDvWimT24cPVfEm.jpg",
+          "cast_id": 40,
+          "character": "Janet Smurl",
+          "credit_id": "681a41e1c391e5888a4ff261",
+          "order": 4
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 3839198,
+          "known_for_department": "Acting",
+          "name": "Tilly Walker",
+          "original_name": "Tilly Walker",
+          "popularity": 0.5334,
+          "profile_path": "/oiRyVNlrUHajGyT1d3Kqj4V6Bdf.jpg",
+          "cast_id": 44,
+          "character": "Carin Smurl",
+          "credit_id": "681a427999029af53798e0ce",
+          "order": 5
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 51120,
+          "known_for_department": "Acting",
+          "name": "Elliot Cowan",
+          "original_name": "Elliot Cowan",
+          "popularity": 0.9419,
+          "profile_path": "/zxewsfDGYuCqV7gsZjMQct6BXMJ.jpg",
+          "cast_id": 41,
+          "character": "Jack Smurl",
+          "credit_id": "681a4201980b4f33a2c635f4",
+          "order": 6
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 979807,
+          "known_for_department": "Acting",
+          "name": "Shannon Kook",
+          "original_name": "Shannon Kook",
+          "popularity": 0.883,
+          "profile_path": "/gBJmrtY2fBFfkQRfosLv2MNWx2J.jpg",
+          "cast_id": 25,
+          "character": "Drew Thomas",
+          "credit_id": "66edeee20ea80d1fe38cf80a",
+          "order": 7
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 80619,
+          "known_for_department": "Acting",
+          "name": "Steve Coulter",
+          "original_name": "Steve Coulter",
+          "popularity": 0.5771,
+          "profile_path": "/ng01ren9pCYPIsIwRqC1xHzD5IG.jpg",
+          "cast_id": 26,
+          "character": "Father Gordon",
+          "credit_id": "66f0ac0aa97880148f3ae7dc",
+          "order": 8
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 3042998,
+          "known_for_department": "Acting",
+          "name": "Kíla Lord Cassidy",
+          "original_name": "Kíla Lord Cassidy",
+          "popularity": 0.6702,
+          "profile_path": "/7vUPASAuPkgfXzS9DQhOo9uTLJc.jpg",
+          "cast_id": 42,
+          "character": "Heather Smurl",
+          "credit_id": "681a424f550a9b5ba3c37c0d",
+          "order": 9
+        }
+      ],
+      "crew": [
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 1607672,
+          "known_for_department": "Directing",
+          "name": "Michael Chaves",
+          "original_name": "Michael Chaves",
+          "popularity": 2.0121,
+          "profile_path": "/kdY5UWdsLQvlBBkzuiR8upujNtn.jpg",
+          "credit_id": "65c6dd79d7107e0188efb57e",
+          "department": "Directing",
+          "job": "Director"
+        }
+      ]
+    }
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/mEW9XMgYDO6U0MJcIRqRuSwjzN5.jpg",
+    "belongs_to_collection": {
+      "id": 1129084,
+      "name": "Nadie - Colección",
+      "poster_path": "/nE8IEpW1Kwqrv4POLyTPLlEsOP3.jpg",
+      "backdrop_path": "/AcUE9Fw00FgTh69VLncBh5UKqsX.jpg"
+    },
+    "budget": 25000000,
+    "genres": [
+      {
+        "id": 28,
+        "name": "Acción"
+      },
+      {
+        "id": 53,
+        "name": "Suspense"
+      }
+    ],
+    "homepage": "https://www.universalpictures.es/micro/nadie-2",
+    "id": 1007734,
+    "imdb_id": "tt28996126",
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_title": "Nobody 2",
+    "overview": "Cuatro años después de enfrentarse involuntariamente a la mafia rusa, Hutch Mansell sigue intentando saldar una deuda de 30 millones de dólares con golpes a criminales internacionales. Agotado y distanciado de su familia, organiza unas vacaciones con su esposa e hijos en Plummerville, el lugar donde solía ir con su hermano de niño. Pero un pequeño altercado los convierte en el objetivo de un peligroso mafioso local y de su corrupto sheriff, poniendo en riesgo toda la familia.",
+    "popularity": 196.9096,
+    "poster_path": "/qwdBh0102NX5fslXv3L9MSlXqKc.jpg",
+    "production_companies": [
+      {
+        "id": 33,
+        "logo_path": "/8lvHyhjr8oUKOOy2dKXoALWKdp0.png",
+        "name": "Universal Pictures",
+        "origin_country": "US"
+      },
+      {
+        "id": 121470,
+        "logo_path": "/zvJFu1C6gB80A98n6IGXBvMtgVl.png",
+        "name": "87North Productions",
+        "origin_country": "US"
+      },
+      {
+        "id": 86647,
+        "logo_path": "/jefZmEJlxUAkuuwkH9CHQchgmJX.png",
+        "name": "OPE Partners",
+        "origin_country": "US"
+      },
+      {
+        "id": 123230,
+        "logo_path": null,
+        "name": "Eighty Two Films",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "release_date": "2025-08-13",
+    "revenue": 38802325,
+    "runtime": 89,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Released",
+    "tagline": "Nadie joderá sus vacaciones.",
+    "title": "Nadie 2",
+    "video": false,
+    "vote_average": 7.175,
+    "vote_count": 683,
+    "credits": {
+      "cast": [
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 59410,
+          "known_for_department": "Acting",
+          "name": "Bob Odenkirk",
+          "original_name": "Bob Odenkirk",
+          "popularity": 2.6586,
+          "profile_path": "/rF0Lb6SBhGSTvjRffmlKRSeI3jE.jpg",
+          "cast_id": 2,
+          "character": "Hutch Mansell",
+          "credit_id": "639fd58a8ddc3414e9bf7692",
+          "order": 0
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 935,
+          "known_for_department": "Acting",
+          "name": "Connie Nielsen",
+          "original_name": "Connie Nielsen",
+          "popularity": 3.6155,
+          "profile_path": "/lvQypTfeH2Gn2PTbzq6XkT2PLmn.jpg",
+          "cast_id": 20,
+          "character": "Becca Mansell",
+          "credit_id": "66aa9b5df5379e508cbfe2df",
+          "order": 1
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 4430,
+          "known_for_department": "Acting",
+          "name": "Sharon Stone",
+          "original_name": "Sharon Stone",
+          "popularity": 2.2837,
+          "profile_path": "/9lrTRK7KILnzcfEmiylQisPuRnV.jpg",
+          "cast_id": 18,
+          "character": "Lendina",
+          "credit_id": "669e90fa4194f9b3d7dd2a87",
+          "order": 2
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 40543,
+          "known_for_department": "Acting",
+          "name": "John Ortiz",
+          "original_name": "John Ortiz",
+          "popularity": 0.9713,
+          "profile_path": "/tMDPYhpc9nqIJAK3vtMroEH9qho.jpg",
+          "cast_id": 22,
+          "character": "Wyatt Martin",
+          "credit_id": "66f2fb680315b91f463b8273",
+          "order": 3
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 3492,
+          "known_for_department": "Acting",
+          "name": "Colin Hanks",
+          "original_name": "Colin Hanks",
+          "popularity": 3.3372,
+          "profile_path": "/iljyDSiJRcwJL8QXQZ2WTyU1wh5.jpg",
+          "cast_id": 21,
+          "character": "Sheriff Abel",
+          "credit_id": "66b680c40a0fd67d70c4e6e6",
+          "order": 4
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 150,
+          "known_for_department": "Sound",
+          "name": "RZA",
+          "original_name": "RZA",
+          "popularity": 0.8496,
+          "profile_path": "/2PVYCKXb1X3PLawJNoYGLN1x0In.jpg",
+          "cast_id": 27,
+          "character": "Harry Mansell",
+          "credit_id": "6716841ebd91c83829d78271",
+          "order": 5
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 1062,
+          "known_for_department": "Acting",
+          "name": "Christopher Lloyd",
+          "original_name": "Christopher Lloyd",
+          "popularity": 2.2419,
+          "profile_path": "/nxVjpyb3UrfbPZnEyDNlQVlFAs5.jpg",
+          "cast_id": 19,
+          "character": "David Mansell",
+          "credit_id": "66aa5d4c5638bcbff1bff4e6",
+          "order": 6
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 119251,
+          "known_for_department": "Acting",
+          "name": "Gage Munroe",
+          "original_name": "Gage Munroe",
+          "popularity": 1.2566,
+          "profile_path": "/9IIuzYiVroMxZPEPNWU40GLWJGt.jpg",
+          "cast_id": 37,
+          "character": "Brady Mansell",
+          "credit_id": "67ede243b5b1c5a4c3a78ca1",
+          "order": 7
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 2593447,
+          "known_for_department": "Acting",
+          "name": "Paisley Cadorath",
+          "original_name": "Paisley Cadorath",
+          "popularity": 3.5049,
+          "profile_path": "/4fbnxs6x5I2f4lSkegDP021ISTJ.jpg",
+          "cast_id": 38,
+          "character": "Sammy Mansell",
+          "credit_id": "67ede24f15f6ba86f1e17b39",
+          "order": 8
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 5414,
+          "known_for_department": "Acting",
+          "name": "Colin Salmon",
+          "original_name": "Colin Salmon",
+          "popularity": 0.9302,
+          "profile_path": "/mLlAU6Zl2MIL5znp5UHdX3sVTN7.jpg",
+          "cast_id": 35,
+          "character": "The Barber",
+          "credit_id": "67ede22815f6ba86f1e17b2d",
+          "order": 9
+        }
+      ],
+      "crew": [
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 235430,
+          "known_for_department": "Directing",
+          "name": "Timo Tjahjanto",
+          "original_name": "Timo Tjahjanto",
+          "popularity": 2.1549,
+          "profile_path": "/Aw0IoH1gMRihDiSyqcjxIQ02SWP.jpg",
+          "credit_id": "66799c534641262f1a5650fd",
+          "department": "Directing",
+          "job": "Director"
+        }
+      ]
+    }
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/Q2OajDi2kcO6yErb1IAyVDTKMs.jpg",
+    "belongs_to_collection": {
+      "id": 1531466,
+      "name": "Weapons - Colección",
+      "poster_path": "/xoeSn325CFQLt1WC9jSBBTsvPWR.jpg",
+      "backdrop_path": "/xt2V8A0NVw4lUIUU8gRLnrCBrIR.jpg"
+    },
+    "budget": 38000000,
+    "genres": [
+      {
+        "id": 27,
+        "name": "Terror"
+      },
+      {
+        "id": 9648,
+        "name": "Misterio"
+      }
+    ],
+    "homepage": "",
+    "id": 1078605,
+    "imdb_id": "tt26581740",
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_title": "Weapons",
+    "overview": "Cuando todos los alumnos de una misma clase, salvo uno, desaparecen misteriosamente la misma noche y exactamente a la misma hora, la pequeña ciudad donde viven se pregunta quién o qué está detrás de su desaparición.",
+    "popularity": 197.4862,
+    "poster_path": "/nYqEQ3ltw0hHc1kBaNWr7Rb8WNZ.jpg",
+    "production_companies": [
+      {
+        "id": 12,
+        "logo_path": "/2ycs64eqV5rqKYHyQK0GVoKGvfX.png",
+        "name": "New Line Cinema",
+        "origin_country": "US"
+      },
+      {
+        "id": 240675,
+        "logo_path": null,
+        "name": "Subconscious",
+        "origin_country": "US"
+      },
+      {
+        "id": 829,
+        "logo_path": "/iJo9zP5QCKyBsmKSOcvXd6UDNih.png",
+        "name": "Vertigo Entertainment",
+        "origin_country": "US"
+      },
+      {
+        "id": 18609,
+        "logo_path": "/pxtYCfl1DWzvizqZcYwE4NefOOF.png",
+        "name": "BoulderLight Pictures",
+        "origin_country": "US"
+      },
+      {
+        "id": 216687,
+        "logo_path": "/kKVYqekveOvLK1IgqdJojLjQvtu.png",
+        "name": "Domain Entertainment",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "release_date": "2025-08-04",
+    "revenue": 263517324,
+    "runtime": 129,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      },
+      {
+        "english_name": "Spanish",
+        "iso_639_1": "es",
+        "name": "Español"
+      }
+    ],
+    "status": "Released",
+    "tagline": "Ayer por la noche a las 2:17 de la madrugada, todos los niños de la clase de la Srta. Gandy se despertaron,  se levantaron, bajaron las escaleras, abrieron la puerta, y se perdieron la oscuridad ...para no regresar jamás.",
+    "title": "Weapons",
+    "video": false,
+    "vote_average": 7.402,
+    "vote_count": 1592,
+    "credits": {
+      "cast": [
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 936970,
+          "known_for_department": "Acting",
+          "name": "Julia Garner",
+          "original_name": "Julia Garner",
+          "popularity": 4.055,
+          "profile_path": "/ud1RXbvW70J89iqeic7no8olxvb.jpg",
+          "cast_id": 20,
+          "character": "Justine",
+          "credit_id": "662993dbc15b55011fe191b6",
+          "order": 0
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 16851,
+          "known_for_department": "Acting",
+          "name": "Josh Brolin",
+          "original_name": "Josh Brolin",
+          "popularity": 3.1922,
+          "profile_path": "/sX2etBbIkxRaCsATyw5ZpOVMPTD.jpg",
+          "cast_id": 14,
+          "character": "Archer",
+          "credit_id": "65d66073c8a5ac017be262a3",
+          "order": 1
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 71375,
+          "known_for_department": "Acting",
+          "name": "Alden Ehrenreich",
+          "original_name": "Alden Ehrenreich",
+          "popularity": 1.7255,
+          "profile_path": "/bx86TPUmeHp0QkijQb16r2qIwEr.jpg",
+          "cast_id": 21,
+          "character": "Paul",
+          "credit_id": "662ffc43028f14012b695f87",
+          "order": 2
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 148992,
+          "known_for_department": "Acting",
+          "name": "Austin Abrams",
+          "original_name": "Austin Abrams",
+          "popularity": 1.9704,
+          "profile_path": "/9pSpSAk9NsYC5puqAVsmSK3OSeu.jpg",
+          "cast_id": 24,
+          "character": "James",
+          "credit_id": "6633cd6f813cb60127871634",
+          "order": 3
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 30082,
+          "known_for_department": "Acting",
+          "name": "Benedict Wong",
+          "original_name": "Benedict Wong",
+          "popularity": 3.0903,
+          "profile_path": "/yYfLyrC2CE6vBWSJfkpuVKL2POM.jpg",
+          "cast_id": 22,
+          "character": "Marcus",
+          "credit_id": "6633cd63c0442901238e7a5e",
+          "order": 4
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 23882,
+          "known_for_department": "Acting",
+          "name": "Amy Madigan",
+          "original_name": "Amy Madigan",
+          "popularity": 2.5082,
+          "profile_path": "/xgtQOuPAmQZXWUO2PXetNpXm08A.jpg",
+          "cast_id": 23,
+          "character": "Gladys",
+          "credit_id": "6633cd696e938a01248907b8",
+          "order": 5
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 2407997,
+          "known_for_department": "Acting",
+          "name": "Cary Christopher",
+          "original_name": "Cary Christopher",
+          "popularity": 0.9305,
+          "profile_path": "/id5UrEyjXvr1KgQB4pnmD8JpSUR.jpg",
+          "cast_id": 25,
+          "character": "Alex",
+          "credit_id": "6633cd79c0442901298e69d8",
+          "order": 6
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 18271,
+          "known_for_department": "Acting",
+          "name": "Toby Huss",
+          "original_name": "Toby Huss",
+          "popularity": 1.1609,
+          "profile_path": "/lFW4D9TgMgtHPTD4SM3eKFpMT67.jpg",
+          "cast_id": 36,
+          "character": "Captain Ed",
+          "credit_id": "67ed8c2e3d8e74e518013d0f",
+          "order": 7
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 1105322,
+          "known_for_department": "Acting",
+          "name": "Whitmer Thomas",
+          "original_name": "Whitmer Thomas",
+          "popularity": 0.4681,
+          "profile_path": "/ivz8rehM5WFKsUpDSULUFgPYyze.jpg",
+          "cast_id": 55,
+          "character": "Alex's Dad",
+          "credit_id": "6805257e03344aee7089dcf7",
+          "order": 8
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 2438324,
+          "known_for_department": "Acting",
+          "name": "Callie Schuttera",
+          "original_name": "Callie Schuttera",
+          "popularity": 0.6183,
+          "profile_path": "/rStZupJY2T9bRr8Y1kg4CEgnHUX.jpg",
+          "cast_id": 68,
+          "character": "Alex's Mom",
+          "credit_id": "682b98a3846aa0a86cdb2d8b",
+          "order": 9
+        }
+      ],
+      "crew": [
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 84833,
+          "known_for_department": "Acting",
+          "name": "Zach Cregger",
+          "original_name": "Zach Cregger",
+          "popularity": 1.2951,
+          "profile_path": "/bpFGFfWYIrZVK7WjwkVLwIoMKEb.jpg",
+          "credit_id": "63d183639f51af00b67ca988",
+          "department": "Directing",
+          "job": "Director"
+        }
+      ]
+    }
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/bwP4UJZjjfAVOuTAWT8W8J2AKtG.jpg",
+    "belongs_to_collection": null,
+    "budget": 0,
+    "genres": [
+      {
+        "id": 53,
+        "name": "Suspense"
+      },
+      {
+        "id": 28,
+        "name": "Acción"
+      }
+    ],
+    "homepage": "",
+    "id": 1450529,
+    "imdb_id": "tt35974872",
+    "origin_country": [
+      "AR"
+    ],
+    "original_language": "es",
+    "original_title": "Gatillero",
+    "overview": "Una cruda historia de tragedia y redención, contada a través de un único plano continuo. Rodada en la verdadera Isla Maciel, en las afueras de Buenos Aires, Argentina.",
+    "popularity": 206.4691,
+    "poster_path": "/moiLQPK2YjritOYG674DrWHvlgp.jpg",
+    "production_companies": [
+      {
+        "id": 212004,
+        "logo_path": "/ysl4FSU0c96OZFGlwIIxy1Ph68o.png",
+        "name": "Dukkah Producciones",
+        "origin_country": "AR"
+      },
+      {
+        "id": 141986,
+        "logo_path": null,
+        "name": "Perspectiva Audiovisual",
+        "origin_country": "AR"
+      },
+      {
+        "id": 6458,
+        "logo_path": "/eT4oMUK7ODM0vvZue8yq3Ojwqf8.png",
+        "name": "INCAA",
+        "origin_country": "AR"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "AR",
+        "name": "Argentina"
+      }
+    ],
+    "release_date": "2025-06-12",
+    "revenue": 0,
+    "runtime": 80,
+    "spoken_languages": [
+      {
+        "english_name": "Spanish",
+        "iso_639_1": "es",
+        "name": "Español"
+      }
+    ],
+    "status": "Released",
+    "tagline": "",
+    "title": "Gatillero",
+    "video": false,
+    "vote_average": 5.8,
+    "vote_count": 5,
+    "credits": {
+      "cast": [
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 1084216,
+          "known_for_department": "Acting",
+          "name": "Sergio Podeley",
+          "original_name": "Sergio Podeley",
+          "popularity": 0.1548,
+          "profile_path": "/e45vWB2INf2cGiGNVzdgCVjlOOa.jpg",
+          "cast_id": 5,
+          "character": "Pablo, \"El Galgo\"",
+          "credit_id": "67d98f1d1bb4b5c58bc6b696",
+          "order": 0
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 140542,
+          "known_for_department": "Acting",
+          "name": "Julieta Díaz",
+          "original_name": "Julieta Díaz",
+          "popularity": 0.6764,
+          "profile_path": "/nFurIb8TGBINrru5ITrmTtzN4Nq.jpg",
+          "cast_id": 6,
+          "character": "La Madrina",
+          "credit_id": "67e73a7d6b367d469567a11b",
+          "order": 1
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 1637068,
+          "known_for_department": "Acting",
+          "name": "Ramiro Blas",
+          "original_name": "Ramiro Blas",
+          "popularity": 0.4151,
+          "profile_path": "/dvK9IRC7wrTd9wxpMLzVxYVRpvP.jpg",
+          "cast_id": 14,
+          "character": "Nelson",
+          "credit_id": "67ede03e5f3bd7242e629020",
+          "order": 2
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 1061040,
+          "known_for_department": "Acting",
+          "name": "Maite Lanata",
+          "original_name": "Maite Lanata",
+          "popularity": 0.2964,
+          "profile_path": "/aQa21YwxwgnHQhaedoILCNG6iIO.jpg",
+          "cast_id": 13,
+          "character": "Isa",
+          "credit_id": "67ede0365f3bd7242e62901a",
+          "order": 3
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 1110361,
+          "known_for_department": "Acting",
+          "name": "Mariano Torre",
+          "original_name": "Mariano Torre",
+          "popularity": 0.1532,
+          "profile_path": "/7doLzpSQLCU3TMaZeVRrxXZAkq2.jpg",
+          "cast_id": 15,
+          "character": "Noni",
+          "credit_id": "67ede0464680f26bf3a79605",
+          "order": 4
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 143604,
+          "known_for_department": "Acting",
+          "name": "Matías Desiderio",
+          "original_name": "Matías Desiderio",
+          "popularity": 0.3837,
+          "profile_path": "/ieN7UA2d619tIKGF30WEnwDh8Ih.jpg",
+          "cast_id": 16,
+          "character": "Lalo",
+          "credit_id": "67ede0764680f26bf3a7960e",
+          "order": 5
+        },
+        {
+          "adult": false,
+          "gender": 0,
+          "id": 5345557,
+          "known_for_department": "Acting",
+          "name": "Gonzalo Gravano",
+          "original_name": "Gonzalo Gravano",
+          "popularity": 0.0725,
+          "profile_path": null,
+          "cast_id": 17,
+          "character": "Pitu",
+          "credit_id": "67ede0878689061e1fe178d0",
+          "order": 6
+        },
+        {
+          "adult": false,
+          "gender": 0,
+          "id": 5345558,
+          "known_for_department": "Acting",
+          "name": "Bianca Di Pasquale",
+          "original_name": "Bianca Di Pasquale",
+          "popularity": 0.051,
+          "profile_path": null,
+          "cast_id": 18,
+          "character": "Vir",
+          "credit_id": "67ede0925f3bd7242e629039",
+          "order": 7
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 1152801,
+          "known_for_department": "Acting",
+          "name": "Susana Varela",
+          "original_name": "Susana Varela",
+          "popularity": 1.1669,
+          "profile_path": "/9FtcKSHZyoAZsVkoRpLzzJZmvhY.jpg",
+          "cast_id": 19,
+          "character": "Nilda",
+          "credit_id": "67ede0a18689061e1fe178d7",
+          "order": 8
+        },
+        {
+          "adult": false,
+          "gender": 0,
+          "id": 3678291,
+          "known_for_department": "Acting",
+          "name": "Carolina Saade",
+          "original_name": "Carolina Saade",
+          "popularity": 0.0,
+          "profile_path": null,
+          "cast_id": 35,
+          "character": "Amiga de Isa",
+          "credit_id": "6859f902cb37a51b2b9a28b7",
+          "order": 9
+        }
+      ],
+      "crew": [
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 2405377,
+          "known_for_department": "Directing",
+          "name": "Cristian Tapia Marchiori",
+          "original_name": "Cristian Tapia Marchiori",
+          "popularity": 0.193,
+          "profile_path": "/siu96c6bJRervwKWcVmF8YMQCAm.jpg",
+          "credit_id": "67d98ee10af62258a9366a1b",
+          "department": "Directing",
+          "job": "Director"
+        }
+      ]
+    }
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/eU7IfdWq8KQy0oNd4kKXS0QUR08.jpg",
+    "belongs_to_collection": {
+      "id": 1540907,
+      "name": "Superman (DCU) Collection",
+      "poster_path": "/2L0dVc82ZWUgo6Fe2lnJ5qqUDId.jpg",
+      "backdrop_path": "/6xQWbcYRHoVDRkyspTy64x8l22m.jpg"
+    },
+    "budget": 225000000,
+    "genres": [
+      {
+        "id": 878,
+        "name": "Ciencia ficción"
+      },
+      {
+        "id": 12,
+        "name": "Aventura"
+      },
+      {
+        "id": 28,
+        "name": "Acción"
+      }
+    ],
+    "homepage": "https://www.superman.entradaswb.com",
+    "id": 1061474,
+    "imdb_id": "tt5950044",
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_title": "Superman",
+    "overview": "En un mundo que ha perdido la fe en la bondad, Superman lucha por reconciliar su herencia kryptoniana con los valores humanos que moldearon su carácter. Criado en la Tierra, representa la verdad, la justicia y el estilo americano, pero debe enfrentarse a un mundo cínico que cuestiona sus ideales. Entre el deber de proteger a la humanidad y la búsqueda de su identidad, Superman demuestra que la esperanza y la bondad nunca pasan de moda, incluso en los tiempos más oscuros, inspirando a otros a creer en un futuro mejor.",
+    "popularity": 187.7255,
+    "poster_path": "/fvUJb08yatV2b3NUSwuYdQKYoFd.jpg",
+    "production_companies": [
+      {
+        "id": 184898,
+        "logo_path": "/iNTsbEgntSUwHmsZ9whiLhm60WB.png",
+        "name": "DC Studios",
+        "origin_country": "US"
+      },
+      {
+        "id": 94218,
+        "logo_path": "/kxuhS8wyKtVprOn5nckdHyNuSg1.png",
+        "name": "Troll Court Entertainment",
+        "origin_country": "US"
+      },
+      {
+        "id": 11565,
+        "logo_path": "/odU3l6csuBmXUrzFm6araUgEUHQ.png",
+        "name": "The Safran Company",
+        "origin_country": "US"
+      },
+      {
+        "id": 216687,
+        "logo_path": "/kKVYqekveOvLK1IgqdJojLjQvtu.png",
+        "name": "Domain Entertainment",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "release_date": "2025-07-09",
+    "revenue": 615636363,
+    "runtime": 129,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Released",
+    "tagline": "Mira al cielo.",
+    "title": "Superman",
+    "video": false,
+    "vote_average": 7.476,
+    "vote_count": 3352,
+    "credits": {
+      "cast": [
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 1785590,
+          "known_for_department": "Acting",
+          "name": "David Corenswet",
+          "original_name": "David Corenswet",
+          "popularity": 3.8186,
+          "profile_path": "/qB0hBMu4wU1nPrqtdUQP3sQeN5t.jpg",
+          "cast_id": 16,
+          "character": "Superman",
+          "credit_id": "649b4104b1f68d00af51ed3f",
+          "order": 0
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 993774,
+          "known_for_department": "Acting",
+          "name": "Rachel Brosnahan",
+          "original_name": "Rachel Brosnahan",
+          "popularity": 3.5538,
+          "profile_path": "/1f9NK43gWrXN2uMmYMlennB7jCC.jpg",
+          "cast_id": 17,
+          "character": "Lois Lane",
+          "credit_id": "649b412baf58cb00c5cf5329",
+          "order": 1
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 3292,
+          "known_for_department": "Acting",
+          "name": "Nicholas Hoult",
+          "original_name": "Nicholas Hoult",
+          "popularity": 5.3393,
+          "profile_path": "/laeAYQVBV9U3DkJ1B4Cn1XhpT8P.jpg",
+          "cast_id": 24,
+          "character": "Lex Luthor",
+          "credit_id": "655be91010923000ab494c5f",
+          "order": 2
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 39391,
+          "known_for_department": "Acting",
+          "name": "Edi Gathegi",
+          "original_name": "Edi Gathegi",
+          "popularity": 2.0789,
+          "profile_path": "/dt8yMyycDlzxkjhmuuJJ4tXDbp4.jpg",
+          "cast_id": 20,
+          "character": "Mr. Terrific",
+          "credit_id": "64adcf52e24b93011d7534f8",
+          "order": 3
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 51797,
+          "known_for_department": "Acting",
+          "name": "Nathan Fillion",
+          "original_name": "Nathan Fillion",
+          "popularity": 3.9315,
+          "profile_path": "/aW6vCxkUZtwb6iH2Wf88Uq0XNVv.jpg",
+          "cast_id": 21,
+          "character": "Guy Gardner",
+          "credit_id": "64adcfba1cfe3a00e4c51493",
+          "order": 4
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 1428070,
+          "known_for_department": "Acting",
+          "name": "Isabela Merced",
+          "original_name": "Isabela Merced",
+          "popularity": 6.4632,
+          "profile_path": "/5R1oi4PH7GXWETJS8SbSo673gJt.jpg",
+          "cast_id": 18,
+          "character": "Hawkgirl",
+          "credit_id": "64adcf1ce24b9300c6b0cd9c",
+          "order": 5
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 1601451,
+          "known_for_department": "Acting",
+          "name": "María Gabriela de Faría",
+          "original_name": "María Gabriela de Faría",
+          "popularity": 1.495,
+          "profile_path": "/joKXt8ai99udROK7VEFCDsBEm3Y.jpg",
+          "cast_id": 23,
+          "character": "The Engineer",
+          "credit_id": "6555354d9653f613f4758d54",
+          "order": 6
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 61263,
+          "known_for_department": "Acting",
+          "name": "Skyler Gisondo",
+          "original_name": "Skyler Gisondo",
+          "popularity": 2.21,
+          "profile_path": "/vyalCuJUUP7Ht1vMWZQzhOrscXV.jpg",
+          "cast_id": 26,
+          "character": "Jimmy Olsen",
+          "credit_id": "655d06a0b5400214d82efd41",
+          "order": 7
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 21088,
+          "known_for_department": "Acting",
+          "name": "Alan Tudyk",
+          "original_name": "Alan Tudyk",
+          "popularity": 1.947,
+          "profile_path": "/jUuUbPuMGonFT5E2pcs4alfqaCN.jpg",
+          "cast_id": 81,
+          "character": "Gary",
+          "credit_id": "66f5dcf3773f0a7aa5d5e206",
+          "order": 8
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 5441666,
+          "known_for_department": "Acting",
+          "name": "Grace Chan",
+          "original_name": "Grace Chan",
+          "popularity": 0.1546,
+          "profile_path": "/vs6aMdkXkR8A0sOCXK6AGIrVeHb.jpg",
+          "cast_id": 186,
+          "character": "Superman Robot #12 (voice)",
+          "credit_id": "6826c44cbadcd951ef4b5c95",
+          "order": 9
+        }
+      ],
+      "crew": [
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 15218,
+          "known_for_department": "Writing",
+          "name": "James Gunn",
+          "original_name": "James Gunn",
+          "popularity": 2.6917,
+          "profile_path": "/pnKqZub3IlKYbyH9RRTMDOoqEn0.jpg",
+          "credit_id": "640b67f83a4a1200ee543519",
+          "department": "Directing",
+          "job": "Director"
+        }
+      ]
+    }
+  }
+]

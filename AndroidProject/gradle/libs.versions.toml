@@ -1,0 +1,52 @@
+[versions]
+agp = "8.13.0"
+junit = "4.13.2"
+junitVersion = "1.3.0"
+espressoCore = "3.7.0"
+espressoContrib = "3.7.0"
+appcompat = "1.7.1"
+material = "1.13.0"
+activity = "1.11.0"
+constraintlayout = "2.2.1"
+gson = "2.13.2"
+picasso = "2.8"
+retrofit = "3.0.0"
+hilt = "2.57.2"
+mockito = "5.20.0"
+robolectric = "4.16"
+sonarqube = "5.1.0.4882"  # Do not use newer versions! https://community.sonarsource.com/t/execution-failed-for-task-sonar/136857/5
+parceler = "1.1.13"
+recyclerview = "1.4.0"
+lombok = "1.18.42"
+secrets = "2.0.1"
+
+[libraries]
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+espresso-contrib = { group = "androidx.test.espresso", name = "espresso-contrib", version.ref = "espressoContrib" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson"}
+picasso = { group = "com.squareup.picasso", name = "picasso", version.ref = "picasso"}
+retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit"}
+retrofit-gson = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofit"}
+hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt"}
+hilt-compiler = { group = "com.google.dagger", name = "hilt-compiler", version.ref = "hilt"}
+hilt-android-testing = { group = "com.google.dagger", name = "hilt-android-testing", version.ref = "hilt"}
+mockito-core = { group = "org.mockito", name = "mockito-core", version.ref = "mockito"}
+mockito-android = { group = "org.mockito", name = "mockito-android", version.ref = "mockito"}
+roboelectric = { group = "org.robolectric", name = "robolectric", version.ref = "robolectric"}
+parceler = { group = "org.parceler", name = "parceler", version.ref = "parceler"}
+parceler-api = { group = "org.parceler", name = "parceler-api", version.ref = "parceler"}
+recyclerview = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "recyclerview" }
+lombok = { group = "org.projectlombok", name = "lombok", version.ref = "lombok"}
+
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
+sonarqube = { id = "org.sonarqube", version.ref = "sonarqube"}
+secrets = { id = "com.google.android.libraries.mapsplatform.secrets-gradle-plugin", version.ref = "secrets"}

@@ -1,0 +1,141 @@
+plugins {
+    alias(libs.plugins.android.application)
+    alias(libs.plugins.hilt)
+    alias(libs.plugins.sonarqube)
+    alias(libs.plugins.secrets)
+    id "jacoco"
+}
+
+apply plugin: "jacoco"
+
+jacoco {
+    toolVersion = '0.8.12'
+}
+
+tasks.withType(Test) {
+    jacoco.includeNoLocationClasses = true
+    jacoco.excludes = ['jdk.internal.*'] // needed to support roboelectric with jacoco
+}
+
+task jacocoTestReport(type: JacocoReport, dependsOn: ['testDebugUnitTest', 'connectedDebugAndroidTest']) {
+
+    reports {
+        xml.required = true
+        html.required = true
+    }
+
+    def fileFilter = ['**/R.class', '**/R$*.class', '**/BuildConfig.*', '**/Manifest*.*', '**/*Test*.*', 'android/**/*.*', 'hilt**', 'dagger']
+    def mainSrc = "$project.projectDir/src/main/java"
+    def javaTree = fileTree(dir: "$project.buildDir/intermediates/javac/debug/compileDebugJavaWithJavac/classes", excludes: fileFilter)
+
+    sourceDirectories.setFrom(files([mainSrc]))
+    classDirectories.setFrom(files([javaTree]))
+    executionData.setFrom(fileTree(dir: project.buildDir, includes: ['outputs/unit_test_code_coverage/debugUnitTest/testDebugUnitTest.exec', 'outputs/code_coverage/debugAndroidTest/connected/*/coverage.ec']))
+}
+
+sonar {
+    properties {
+        property "sonar.host.url", "https://sonarcloud.io"
+        property "sonar.organization", "isuc"
+        property "sonar.token", "120537998e2c122476f30cade8d4a25865210fa6"
+        property "sonar.projectKey", "App-Movies-2025"
+        property "sonar.projectName", "App-Movies-2025"
+
+        // I need this property to avoid the error where sonarqube does not close some files and
+        // prevents a clean afterwards
+        property "sonar.scm.disabled", true
+
+        // this property is deprecated, now I use the xml file defined below it
+        // property "sonar.jacoco.reportPaths", "${project.buildDir}/jacoco/testDebugUnitTest.exec"
+        property "sonar.coverage.jacoco.xmlReportPaths", "${project.buildDir}/reports/jacoco/jacocoTestReport/jacocoTestReport.xml, ${project.buildDir}/reports/coverage/androidTest/debug/connected/report.xml"
+    }
+}
+
+// Handle secrets stored in local.properties
+secrets {
+    // Add your API KEYS here. This file is not version controlled.
+    // If the secrets.properties file does not exist, create it in the same folder as the local.properties file.
+    // Include the TMDB API KEY: TMDB_API_KEY=<key>
+    propertiesFileName = "secrets.properties"
+
+    // A properties file containing default safe values. This file can be checked in version control.
+    // This is used in the CI/CD server (Github Actions) to generate the local.properties file.
+    defaultPropertiesFileName = "local.defaults.properties"
+}
+
+android {
+    namespace 'es.unican.movies'
+    compileSdk 36
+
+    buildFeatures {
+        buildConfig true
+    }
+
+    defaultConfig {
+        applicationId "es.unican.movies"
+        minSdk 28
+        targetSdk 36
+        versionCode 1
+        versionName "1.0"
+
+        // I need a custom test runner to support Hilt dependency injection
+        // testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner
+        testInstrumentationRunner "es.unican.movies.utils.CustomTestRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            testCoverageEnabled true
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+}
+
+dependencies {
+
+    implementation libs.appcompat
+    implementation libs.material
+    implementation libs.activity
+    implementation libs.constraintlayout
+    implementation libs.gson
+    implementation libs.picasso
+    implementation libs.retrofit
+    implementation libs.retrofit.gson
+    implementation libs.recyclerview
+
+    testImplementation libs.junit
+
+    androidTestImplementation libs.ext.junit
+    androidTestImplementation libs.espresso.core
+    androidTestImplementation libs.espresso.contrib
+
+    // Parceler (automatically implements methods to create parcels)
+    implementation libs.parceler.api
+    annotationProcessor libs.parceler
+
+    // Mockito (mocks for testing)
+    testImplementation libs.mockito.core
+    androidTestImplementation libs.mockito.android
+
+    // Hilt (for dependency injection)
+    implementation libs.hilt.android
+    annotationProcessor libs.hilt.compiler
+    androidTestImplementation  libs.hilt.android.testing
+    androidTestAnnotationProcessor libs.hilt.compiler
+    testImplementation libs.hilt.android.testing
+    testAnnotationProcessor libs.hilt.compiler
+
+    // Roboelectric (to get a proper Context object in unit tests)
+    testImplementation libs.roboelectric
+
+    // lombok
+    compileOnly libs.lombok
+    annotationProcessor libs.lombok
+}

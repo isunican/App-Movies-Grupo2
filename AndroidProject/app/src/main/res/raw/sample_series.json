@@ -1,0 +1,5180 @@
+[
+  {
+    "adult": false,
+    "backdrop_path": "/pj1wFbZF3gpEg7F0EreXTvZNZTG.jpg",
+    "created_by": [
+      {
+        "id": 15218,
+        "credit_id": "5fb532d73a48c5003f855998",
+        "name": "James Gunn",
+        "original_name": "James Gunn",
+        "gender": 2,
+        "profile_path": "/pnKqZub3IlKYbyH9RRTMDOoqEn0.jpg"
+      }
+    ],
+    "episode_run_time": [],
+    "first_air_date": "2022-01-13",
+    "genres": [
+      {
+        "id": 10759,
+        "name": "Action & Adventure"
+      },
+      {
+        "id": 10765,
+        "name": "Sci-Fi & Fantasy"
+      },
+      {
+        "id": 18,
+        "name": "Drama"
+      }
+    ],
+    "homepage": "https://www.hbomax.com/shows/peacemaker-2022/a939d96b-7ffb-4481-96f6-472838d104ca",
+    "id": 110492,
+    "in_production": true,
+    "languages": [
+      "en"
+    ],
+    "last_air_date": "2025-09-25",
+    "last_episode_to_air": {
+      "id": 6209415,
+      "name": "Chris que no ve, corazón que no siente",
+      "overview": "Mientras los 11th Street Kids luchan por traer de vuelta a la persona desaparecida, Flag redobla sus esfuerzos para que Peacemaker rinda cuentas.",
+      "vote_average": 8.0,
+      "vote_count": 18,
+      "air_date": "2025-09-25",
+      "episode_number": 6,
+      "episode_type": "standard",
+      "production_code": "",
+      "runtime": 36,
+      "season_number": 2,
+      "show_id": 110492,
+      "still_path": "/l55bH1tdPjWjCVaOe0yaXHVC2wn.jpg"
+    },
+    "name": "El Pacificador",
+    "next_episode_to_air": {
+      "id": 6209416,
+      "name": "Episodio 7",
+      "overview": "",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "air_date": "2025-10-02",
+      "episode_number": 7,
+      "episode_type": "standard",
+      "production_code": "",
+      "runtime": null,
+      "season_number": 2,
+      "show_id": 110492,
+      "still_path": null
+    },
+    "networks": [
+      {
+        "id": 3186,
+        "logo_path": "/nmU0UMDJB3dRRQSTUqawzF2Od1a.png",
+        "name": "HBO Max",
+        "origin_country": ""
+      },
+      {
+        "id": 8304,
+        "logo_path": "/gqWI9y0owo9sxgzZD7TXOeILYI9.png",
+        "name": "HBO Max",
+        "origin_country": ""
+      }
+    ],
+    "number_of_episodes": 16,
+    "number_of_seasons": 2,
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_name": "Peacemaker",
+    "overview": "La historia de origen de Peacemaker, un hombre que cree en la paz a cualquier precio, no importa cuántas personas tenga que matar para conseguirla.",
+    "popularity": 154.5954,
+    "poster_path": "/t7NakS7qZekeXSocv6jcyd5on7A.jpg",
+    "production_companies": [
+      {
+        "id": 1957,
+        "logo_path": "/pJJw98MtNFC9cHn3o15G7vaUnnX.png",
+        "name": "Warner Bros. Television",
+        "origin_country": "US"
+      },
+      {
+        "id": 11565,
+        "logo_path": "/odU3l6csuBmXUrzFm6araUgEUHQ.png",
+        "name": "The Safran Company",
+        "origin_country": "US"
+      },
+      {
+        "id": 94218,
+        "logo_path": "/kxuhS8wyKtVprOn5nckdHyNuSg1.png",
+        "name": "Troll Court Entertainment",
+        "origin_country": "US"
+      },
+      {
+        "id": 184898,
+        "logo_path": "/iNTsbEgntSUwHmsZ9whiLhm60WB.png",
+        "name": "DC Studios",
+        "origin_country": "US"
+      },
+      {
+        "id": 429,
+        "logo_path": "/4Y00XuSMuP1gimd0jP6JT57QbCI.png",
+        "name": "DC",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "seasons": [
+      {
+        "air_date": "2022-11-21",
+        "episode_count": 3,
+        "id": 322663,
+        "name": "Especiales",
+        "overview": "",
+        "poster_path": "/gds3teCjWRX4nQDnchSYq6zW167.jpg",
+        "season_number": 0,
+        "vote_average": 0.0
+      },
+      {
+        "air_date": "2022-01-13",
+        "episode_count": 8,
+        "id": 163789,
+        "name": "Temporada 1",
+        "overview": "La historia de origen de Peacemaker, un hombre que cree en la paz a cualquier precio, no importa cuántas personas tenga que matar para conseguirla.",
+        "poster_path": "/sO7UWFvYT9N2ODltfbxJFYyHKeG.jpg",
+        "season_number": 1,
+        "vote_average": 7.5
+      },
+      {
+        "air_date": "2025-08-21",
+        "episode_count": 8,
+        "id": 427669,
+        "name": "Temporada 2",
+        "overview": "",
+        "poster_path": "/lDh3Y58Wha8OYWurBTYETTXCgD9.jpg",
+        "season_number": 2,
+        "vote_average": 7.7
+      }
+    ],
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Returning Series",
+    "tagline": "¿En qué mundo ellos son los héroes?",
+    "type": "Scripted",
+    "vote_average": 8.2,
+    "vote_count": 3019,
+    "aggregate_credits": {
+      "cast": [
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 56446,
+          "known_for_department": "Acting",
+          "name": "John Cena",
+          "original_name": "John Cena",
+          "popularity": 3.6617,
+          "profile_path": "/rgB2eIOt7WyQjdgJCOuESdDlrjg.jpg",
+          "total_episode_count": 16,
+          "order": 0
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 1075037,
+          "known_for_department": "Acting",
+          "name": "Danielle Brooks",
+          "original_name": "Danielle Brooks",
+          "popularity": 1.7668,
+          "profile_path": "/pPSG2Vmq24cwAL5XGK1NLs3KEoZ.jpg",
+          "total_episode_count": 16,
+          "order": 1
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 234934,
+          "known_for_department": "Acting",
+          "name": "Freddie Stroma",
+          "original_name": "Freddie Stroma",
+          "popularity": 2.1691,
+          "profile_path": "/wZ8nqxyGvybdInXLBfQIjg2es5Z.jpg",
+          "total_episode_count": 16,
+          "order": 2
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 87165,
+          "known_for_department": "Acting",
+          "name": "Jennifer Holland",
+          "original_name": "Jennifer Holland",
+          "popularity": 2.6793,
+          "profile_path": "/ynuKq1Pd6aVGwhb07uJ0PiYV4F6.jpg",
+          "total_episode_count": 16,
+          "order": 3
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 559457,
+          "known_for_department": "Acting",
+          "name": "Steve Agee",
+          "original_name": "Steve Agee",
+          "popularity": 1.5936,
+          "profile_path": "/1mEghLjAQznkOM8SC8D9PQsGhO.jpg",
+          "total_episode_count": 16,
+          "order": 5
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 418,
+          "known_for_department": "Acting",
+          "name": "Robert Patrick",
+          "original_name": "Robert Patrick",
+          "popularity": 3.0012,
+          "profile_path": "/qRv2Es9rZoloullTbzss3I5j1Mp.jpg",
+          "total_episode_count": 16,
+          "order": 7
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 23680,
+          "known_for_department": "Acting",
+          "name": "Dee Bradley Baker",
+          "original_name": "Dee Bradley Baker",
+          "popularity": 1.3421,
+          "profile_path": "/9oFnToDZWp0I484s7Ua1EzNQQ2m.jpg",
+          "total_episode_count": 14,
+          "order": 564
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 105238,
+          "known_for_department": "Acting",
+          "name": "Chukwudi Iwuji",
+          "original_name": "Chukwudi Iwuji",
+          "popularity": 0.97,
+          "profile_path": "/tyR9fKjEoW2wI3glTQYOkurGSf8.jpg",
+          "total_episode_count": 8,
+          "order": 4
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 81685,
+          "known_for_department": "Acting",
+          "name": "Frank Grillo",
+          "original_name": "Frank Grillo",
+          "popularity": 3.0735,
+          "profile_path": "/br2nPzelch2Tb3pZHnYAbXng7cz.jpg",
+          "total_episode_count": 8,
+          "order": 6
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 1533764,
+          "known_for_department": "Acting",
+          "name": "Annie Chang",
+          "original_name": "Annie Chang",
+          "popularity": 1.5133,
+          "profile_path": "/aRCg4OFqRcSDuzsgLCHVrM7KRAd.jpg",
+          "total_episode_count": 8,
+          "order": 9
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 58058,
+          "known_for_department": "Acting",
+          "name": "Lochlyn Munro",
+          "original_name": "Lochlyn Munro",
+          "popularity": 2.036,
+          "profile_path": "/iyEKTi04DSYLAGLLBGuqCQD5wKe.jpg",
+          "total_episode_count": 8,
+          "order": 10
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 2697179,
+          "known_for_department": "Acting",
+          "name": "Nhut Le",
+          "original_name": "Nhut Le",
+          "popularity": 0.1572,
+          "profile_path": "/A9DmI30NVJZHZ67f1cgEp4PJeeV.jpg",
+          "total_episode_count": 7,
+          "order": 11
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 1718567,
+          "known_for_department": "Acting",
+          "name": "Elizabeth Faith Ludlow",
+          "original_name": "Elizabeth Faith Ludlow",
+          "popularity": 0.9604,
+          "profile_path": "/1uPWvmq1SsFqjJPhgZsr8GNXbcI.jpg",
+          "total_episode_count": 7,
+          "order": 562
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 100878,
+          "known_for_department": "Acting",
+          "name": "Rochelle Greenwood",
+          "original_name": "Rochelle Greenwood",
+          "popularity": 0.3978,
+          "profile_path": "/pgYWXAFoR3QzDBArAP00BSENpvb.jpg",
+          "total_episode_count": 6,
+          "order": 552
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 52705,
+          "known_for_department": "Acting",
+          "name": "Zak Santiago",
+          "original_name": "Zak Santiago",
+          "popularity": 0.4682,
+          "profile_path": "/hzFNa8a6rAD9FtWqJoXj20F2xdq.jpg",
+          "total_episode_count": 6,
+          "order": 556
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 1254331,
+          "known_for_department": "Acting",
+          "name": "Sol Rodriguez",
+          "original_name": "Sol Rodriguez",
+          "popularity": 1.0326,
+          "profile_path": "/trBvJNWzg1uFkVXpzilfl6xLrzC.jpg",
+          "total_episode_count": 6,
+          "order": 588
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 205560,
+          "known_for_department": "Acting",
+          "name": "Kevin O'Grady",
+          "original_name": "Kevin O'Grady",
+          "popularity": 0.2597,
+          "profile_path": "/yTH5u9Sdh06i9BE8W4zU54DQqwU.jpg",
+          "total_episode_count": 5,
+          "order": 553
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 1815071,
+          "known_for_department": "Acting",
+          "name": "Neil Webb",
+          "original_name": "Neil Webb",
+          "popularity": 0.2377,
+          "profile_path": "/1kh8qAPiOix87Cg4vGBH9zZbVPV.jpg",
+          "total_episode_count": 5,
+          "order": 554
+        },
+        {
+          "adult": false,
+          "gender": 0,
+          "id": 2300492,
+          "known_for_department": "Acting",
+          "name": "Bzhaun Rhoden",
+          "original_name": "Bzhaun Rhoden",
+          "popularity": 0.1279,
+          "profile_path": "/eMLSCvqhfhSFk1lZsqcpIGru1pM.jpg",
+          "total_episode_count": 5,
+          "order": 555
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 51857,
+          "known_for_department": "Acting",
+          "name": "Tim Meadows",
+          "original_name": "Tim Meadows",
+          "popularity": 1.1096,
+          "profile_path": "/eDILWIU0NOvopdwwQ5CdfYqnTOZ.jpg",
+          "total_episode_count": 5,
+          "order": 585
+        }
+      ]
+    }
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/obtdxPgmfykYwVnvuYXC5f2xKlQ.jpg",
+    "created_by": [
+      {
+        "id": 117443,
+        "credit_id": "525743f5760ee36aaa0e0ff8",
+        "name": "Dick Wolf",
+        "original_name": "Dick Wolf",
+        "gender": 2,
+        "profile_path": "/tRMEuYNVFjXYJ7gh1sGJSxq9Vwq.jpg"
+      }
+    ],
+    "episode_run_time": [
+      43
+    ],
+    "first_air_date": "1999-09-20",
+    "genres": [
+      {
+        "id": 80,
+        "name": "Crimen"
+      },
+      {
+        "id": 18,
+        "name": "Drama"
+      },
+      {
+        "id": 9648,
+        "name": "Misterio"
+      }
+    ],
+    "homepage": "http://www.nbc.com/law-and-order-special-victims-unit",
+    "id": 2734,
+    "in_production": true,
+    "languages": [
+      "en"
+    ],
+    "last_air_date": "2025-09-25",
+    "last_episode_to_air": {
+      "id": 6414039,
+      "name": "Episodio 1",
+      "overview": "",
+      "vote_average": 10.0,
+      "vote_count": 4,
+      "air_date": "2025-09-25",
+      "episode_number": 1,
+      "episode_type": "standard",
+      "production_code": "",
+      "runtime": null,
+      "season_number": 27,
+      "show_id": 2734,
+      "still_path": "/d2wM8SPv1J89TEdz1unNdgJ5GAf.jpg"
+    },
+    "name": "Ley y orden: Unidad de Víctimas Especiales",
+    "next_episode_to_air": {
+      "id": 6501282,
+      "name": "Episodio 2",
+      "overview": "",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "air_date": "2025-10-02",
+      "episode_number": 2,
+      "episode_type": "standard",
+      "production_code": "",
+      "runtime": null,
+      "season_number": 27,
+      "show_id": 2734,
+      "still_path": null
+    },
+    "networks": [
+      {
+        "id": 6,
+        "logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+        "name": "NBC",
+        "origin_country": "US"
+      }
+    ],
+    "number_of_episodes": 579,
+    "number_of_seasons": 27,
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_name": "Law & Order: Special Victims Unit",
+    "overview": "‘Ley y Orden: Unidad de Víctimas Especiales’ es una serie de televisión estadounidense grabada en Nueva York donde es también principalmente producida. Con el estilo de la original ‘Ley y Orden’ los episodios son usualmente \"sacados de los titulares\" o basados libremente en verdaderos asesinatos que han recibido la atención de los medios.",
+    "popularity": 149.6804,
+    "poster_path": "/2Rk9me3Jlho02Y9RRTodfuiWULy.jpg",
+    "production_companies": [
+      {
+        "id": 25545,
+        "logo_path": "/8Lqf0okunSPAwBBL08Ua1IRe1xi.png",
+        "name": "Wolf Entertainment",
+        "origin_country": "US"
+      },
+      {
+        "id": 26727,
+        "logo_path": "/jeTxdjXhzgKZyLr3l9MllkTn3fy.png",
+        "name": "Universal Television",
+        "origin_country": "US"
+      },
+      {
+        "id": 56401,
+        "logo_path": null,
+        "name": "Studios USA",
+        "origin_country": "US"
+      },
+      {
+        "id": 8301,
+        "logo_path": "/zrcVDabl14MNfPwxL8DC2IyR12t.png",
+        "name": "Universal Media Studios",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "seasons": [
+      {
+        "air_date": null,
+        "episode_count": 6,
+        "id": 8888,
+        "name": "Especiales",
+        "overview": "",
+        "poster_path": "/3pLGDNuFGdpgMd7IjfTznLDAl0.jpg",
+        "season_number": 0,
+        "vote_average": 0.0
+      },
+      {
+        "air_date": "1999-09-20",
+        "episode_count": 22,
+        "id": 8878,
+        "name": "Temporada 1",
+        "overview": "",
+        "poster_path": "/fMcB4Kznfz3sR4Jkg1lOtf5blCp.jpg",
+        "season_number": 1,
+        "vote_average": 7.5
+      },
+      {
+        "air_date": "2000-10-20",
+        "episode_count": 21,
+        "id": 8877,
+        "name": "Temporada 2",
+        "overview": "",
+        "poster_path": "/9yyzbzZuPUPlnvhuyi4VmDac1SL.jpg",
+        "season_number": 2,
+        "vote_average": 8.0
+      },
+      {
+        "air_date": "2001-09-28",
+        "episode_count": 23,
+        "id": 8876,
+        "name": "Temporada 3",
+        "overview": "",
+        "poster_path": "/9S59DS9XpzrBRcDhrEsurHxaTwD.jpg",
+        "season_number": 3,
+        "vote_average": 8.0
+      },
+      {
+        "air_date": "2002-09-26",
+        "episode_count": 25,
+        "id": 8885,
+        "name": "Temporada 4",
+        "overview": "",
+        "poster_path": "/iIlD5l14GbVPDGcVqFXB7XObGlp.jpg",
+        "season_number": 4,
+        "vote_average": 7.5
+      },
+      {
+        "air_date": "2003-09-22",
+        "episode_count": 25,
+        "id": 8881,
+        "name": "Temporada 5",
+        "overview": "",
+        "poster_path": "/vowmLggLYRC75DpEttts7ej2FBM.jpg",
+        "season_number": 5,
+        "vote_average": 7.8
+      },
+      {
+        "air_date": "2004-09-20",
+        "episode_count": 23,
+        "id": 8880,
+        "name": "Temporada 6",
+        "overview": "",
+        "poster_path": "/p3iU1fLz9h8O1d6g4KrOzKbU2vq.jpg",
+        "season_number": 6,
+        "vote_average": 7.6
+      },
+      {
+        "air_date": "2005-09-19",
+        "episode_count": 22,
+        "id": 8884,
+        "name": "Temporada 7",
+        "overview": "",
+        "poster_path": "/i66p9aJpaPPd2Y83cRE256R4kiv.jpg",
+        "season_number": 7,
+        "vote_average": 7.7
+      },
+      {
+        "air_date": "2006-09-18",
+        "episode_count": 22,
+        "id": 8879,
+        "name": "Temporada 8",
+        "overview": "",
+        "poster_path": "/mvNHgkbvREA6ty5lJpW4Dj0ks7L.jpg",
+        "season_number": 8,
+        "vote_average": 7.7
+      },
+      {
+        "air_date": "2007-09-24",
+        "episode_count": 19,
+        "id": 8882,
+        "name": "Temporada 9",
+        "overview": "",
+        "poster_path": "/hSJbnNHL2Hlm6HO2JzrT0s4vNVZ.jpg",
+        "season_number": 9,
+        "vote_average": 7.9
+      },
+      {
+        "air_date": "2008-09-21",
+        "episode_count": 22,
+        "id": 8883,
+        "name": "Temporada 10",
+        "overview": "",
+        "poster_path": "/j2qRsT11WL8sX1ULWWxS7opu8Dj.jpg",
+        "season_number": 10,
+        "vote_average": 7.8
+      },
+      {
+        "air_date": "2009-09-21",
+        "episode_count": 24,
+        "id": 8886,
+        "name": "Temporada 11",
+        "overview": "",
+        "poster_path": "/uVNfsziEtWZpnAbKevNjArafEGa.jpg",
+        "season_number": 11,
+        "vote_average": 7.5
+      },
+      {
+        "air_date": "2010-09-21",
+        "episode_count": 24,
+        "id": 8887,
+        "name": "Temporada 12",
+        "overview": "",
+        "poster_path": "/oEOX17rWyWOx9gNmb9cJAiKqQBa.jpg",
+        "season_number": 12,
+        "vote_average": 7.5
+      },
+      {
+        "air_date": "2011-09-20",
+        "episode_count": 23,
+        "id": 8889,
+        "name": "Temporada 13",
+        "overview": "",
+        "poster_path": "/tITqx6k7Pansb4gEPeZ0AG3lkDf.jpg",
+        "season_number": 13,
+        "vote_average": 7.4
+      },
+      {
+        "air_date": "2012-09-25",
+        "episode_count": 24,
+        "id": 8890,
+        "name": "Temporada 14",
+        "overview": "",
+        "poster_path": "/vSJ7X9IY4Sa1MyuhCKX4qylDqLM.jpg",
+        "season_number": 14,
+        "vote_average": 7.9
+      },
+      {
+        "air_date": "2013-09-24",
+        "episode_count": 24,
+        "id": 8891,
+        "name": "Temporada 15",
+        "overview": "",
+        "poster_path": "/rpkLpzLncTl2Sowna0SDKinyZPG.jpg",
+        "season_number": 15,
+        "vote_average": 8.3
+      },
+      {
+        "air_date": "2014-09-23",
+        "episode_count": 23,
+        "id": 62900,
+        "name": "Temporada 16",
+        "overview": "",
+        "poster_path": "/vbxnHjk1kbAYtSg2YG1NkH7N3kf.jpg",
+        "season_number": 16,
+        "vote_average": 8.1
+      },
+      {
+        "air_date": "2015-09-22",
+        "episode_count": 23,
+        "id": 68816,
+        "name": "Temporada 17",
+        "overview": "",
+        "poster_path": "/3S1WWliIdFSXglNutCSppRnk4jE.jpg",
+        "season_number": 17,
+        "vote_average": 8.4
+      },
+      {
+        "air_date": "2016-09-20",
+        "episode_count": 21,
+        "id": 79484,
+        "name": "Temporada 18",
+        "overview": "",
+        "poster_path": "/3i28LB4U06W3zo7xJ3iD2ftIxPT.jpg",
+        "season_number": 18,
+        "vote_average": 7.9
+      },
+      {
+        "air_date": "2017-09-26",
+        "episode_count": 24,
+        "id": 91257,
+        "name": "Temporada 19",
+        "overview": "",
+        "poster_path": "/6LZk57ODCi1A6HCDqpssn43OjFN.jpg",
+        "season_number": 19,
+        "vote_average": 7.9
+      },
+      {
+        "air_date": "2018-09-26",
+        "episode_count": 24,
+        "id": 105509,
+        "name": "Temporada 20",
+        "overview": "",
+        "poster_path": "/qnZEj6rA5UFW839dOKRhIFI4moe.jpg",
+        "season_number": 20,
+        "vote_average": 7.5
+      },
+      {
+        "air_date": "2019-09-25",
+        "episode_count": 20,
+        "id": 129334,
+        "name": "Temporada 21",
+        "overview": "",
+        "poster_path": "/1sSCkqrjq8DgS5WpdLoim4JetYH.jpg",
+        "season_number": 21,
+        "vote_average": 7.5
+      },
+      {
+        "air_date": "2020-11-11",
+        "episode_count": 16,
+        "id": 160634,
+        "name": "Temporada 22",
+        "overview": "",
+        "poster_path": "/4fClCRCTK5pRDP80tVUmABQtuSe.jpg",
+        "season_number": 22,
+        "vote_average": 8.3
+      },
+      {
+        "air_date": "2021-09-22",
+        "episode_count": 22,
+        "id": 202465,
+        "name": "Temporada 23",
+        "overview": "",
+        "poster_path": "/36tKvA2NJRd2XUhM88YeZ8ZeeiA.jpg",
+        "season_number": 23,
+        "vote_average": 8.3
+      },
+      {
+        "air_date": "2022-09-22",
+        "episode_count": 22,
+        "id": 299109,
+        "name": "Temporada 24",
+        "overview": "",
+        "poster_path": "/uCM7F376UCIs5y6fMg2UyVGOmfr.jpg",
+        "season_number": 24,
+        "vote_average": 8.4
+      },
+      {
+        "air_date": "2024-01-17",
+        "episode_count": 13,
+        "id": 366618,
+        "name": "Temporada 25",
+        "overview": "",
+        "poster_path": "/1JAgsFkMc3Ik1EGDUp1djaLnHLv.jpg",
+        "season_number": 25,
+        "vote_average": 8.1
+      },
+      {
+        "air_date": "2024-10-03",
+        "episode_count": 22,
+        "id": 401572,
+        "name": "Temporada 26",
+        "overview": "",
+        "poster_path": "/2Rk9me3Jlho02Y9RRTodfuiWULy.jpg",
+        "season_number": 26,
+        "vote_average": 8.7
+      },
+      {
+        "air_date": "2025-09-25",
+        "episode_count": 7,
+        "id": 467360,
+        "name": "Temporada 27",
+        "overview": "",
+        "poster_path": "/iofokHZoUB4Qhik4PflvJl8TT6a.jpg",
+        "season_number": 27,
+        "vote_average": 10.0
+      }
+    ],
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Returning Series",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 7.939,
+    "vote_count": 4020,
+    "aggregate_credits": {
+      "cast": [
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 6240,
+          "known_for_department": "Acting",
+          "name": "Mariska Hargitay",
+          "original_name": "Mariska Hargitay",
+          "popularity": 1.6495,
+          "profile_path": "/7tULgPSy5hksTi7mBF9uOnrrzHX.jpg",
+          "total_episode_count": 580,
+          "order": 0
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 21411,
+          "known_for_department": "Acting",
+          "name": "Ice-T",
+          "original_name": "Ice-T",
+          "popularity": 1.315,
+          "profile_path": "/96TdPckI16ggfHcPrSFf6bHYLLe.jpg",
+          "total_episode_count": 558,
+          "order": 1
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 9175,
+          "known_for_department": "Acting",
+          "name": "Dann Florek",
+          "original_name": "Dann Florek",
+          "popularity": 1.4635,
+          "profile_path": "/qVi8ah5m5OP2Jc3DwqGePa5YxDE.jpg",
+          "total_episode_count": 333,
+          "order": 9
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 32396,
+          "known_for_department": "Acting",
+          "name": "Richard Belzer",
+          "original_name": "Richard Belzer",
+          "popularity": 0.6932,
+          "profile_path": "/pc5UOMd78kO7Us0nUvKOMgbigd2.jpg",
+          "total_episode_count": 325,
+          "order": 5
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 22227,
+          "known_for_department": "Acting",
+          "name": "Christopher Meloni",
+          "original_name": "Christopher Meloni",
+          "popularity": 1.037,
+          "profile_path": "/nHlFFbRTh85vkohBBtRQjYnWEtb.jpg",
+          "total_episode_count": 284,
+          "order": 2
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 206637,
+          "known_for_department": "Acting",
+          "name": "Kelli Giddish",
+          "original_name": "Kelli Giddish",
+          "popularity": 0.9264,
+          "profile_path": "/3zcqEyAguRhYofePyJehWm19uUX.jpg",
+          "total_episode_count": 268,
+          "order": 51
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 1217599,
+          "known_for_department": "Acting",
+          "name": "Peter Scanavino",
+          "original_name": "Peter Scanavino",
+          "popularity": 0.7136,
+          "profile_path": "/kQzX89Ar4rEC1wwHcuDMr0YxUve.jpg",
+          "total_episode_count": 238,
+          "order": 151
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 14592,
+          "known_for_department": "Acting",
+          "name": "BD Wong",
+          "original_name": "BD Wong",
+          "popularity": 1.5539,
+          "profile_path": "/w7Hs9m6ocS2qlibvrLOvmyCKbAN.jpg",
+          "total_episode_count": 231,
+          "order": 14
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 42694,
+          "known_for_department": "Acting",
+          "name": "Tamara Tunie",
+          "original_name": "Tamara Tunie",
+          "popularity": 0.9177,
+          "profile_path": "/1KM30uSzeB27UEY7ICtTVDf16CQ.jpg",
+          "total_episode_count": 226,
+          "order": 13
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 107515,
+          "known_for_department": "Acting",
+          "name": "Raúl Esparza",
+          "original_name": "Raúl Esparza",
+          "popularity": 1.6837,
+          "profile_path": "/m0qln1HWU0u29x4kAww719bndAw.jpg",
+          "total_episode_count": 130,
+          "order": 10
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 65639,
+          "known_for_department": "Acting",
+          "name": "Diane Neal",
+          "original_name": "Diane Neal",
+          "popularity": 0.7928,
+          "profile_path": "/4hVzSxLMKD6oGKDy0u0xt2rdHqU.jpg",
+          "total_episode_count": 113,
+          "order": 647
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 59156,
+          "known_for_department": "Acting",
+          "name": "Stephanie March",
+          "original_name": "Stephanie March",
+          "popularity": 0.9069,
+          "profile_path": "/7iDG2vgajeDQJROkhkVjHYuKS3.jpg",
+          "total_episode_count": 97,
+          "order": 11
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 72132,
+          "known_for_department": "Acting",
+          "name": "Danny Pino",
+          "original_name": "Danny Pino",
+          "popularity": 1.4325,
+          "profile_path": "/2Sp7Mq9aqwq5BIPpobWMG2F0O5x.jpg",
+          "total_episode_count": 95,
+          "order": 3
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 1653331,
+          "known_for_department": "Crew",
+          "name": "Frank Anello",
+          "original_name": "Frank Anello",
+          "popularity": 0.3359,
+          "profile_path": "/w7tB4wlr8aQez0AycPdlReVRCFk.jpg",
+          "total_episode_count": 88,
+          "order": 7133
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 1478384,
+          "known_for_department": "Acting",
+          "name": "Octavio Pisano",
+          "original_name": "Octavio Pisano",
+          "popularity": 0.532,
+          "profile_path": "/pGd6zEplbaI5oCJwwOXZ1Ueox1C.jpg",
+          "total_episode_count": 80,
+          "order": 17
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 27107,
+          "known_for_department": "Acting",
+          "name": "Mike Doyle",
+          "original_name": "Mike Doyle",
+          "popularity": 0.9234,
+          "profile_path": "/vWvYo2T80nz0F4hcXRBDpawUBo0.jpg",
+          "total_episode_count": 53,
+          "order": 5577
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 156648,
+          "known_for_department": "Acting",
+          "name": "Joel de la Fuente",
+          "original_name": "Joel de la Fuente",
+          "popularity": 0.4527,
+          "profile_path": "/xRDyGJpIYG0IFEv1nLD3C23WSeA.jpg",
+          "total_episode_count": 52,
+          "order": 4643
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 1413757,
+          "known_for_department": "Acting",
+          "name": "Kevin Kane",
+          "original_name": "Kevin Kane",
+          "popularity": 1.2186,
+          "profile_path": "/e0yDVCropmYrjJxHaVX0gxCiYiL.jpg",
+          "total_episode_count": 51,
+          "order": 2725
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 1954844,
+          "known_for_department": "Acting",
+          "name": "Caren Browning",
+          "original_name": "Caren Browning",
+          "popularity": 0.1247,
+          "profile_path": "/rVKJIdPeSdKIYSUbAcOjQeqq81h.jpg",
+          "total_episode_count": 43,
+          "order": 3668
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 11903,
+          "known_for_department": "Acting",
+          "name": "Joanna Merlin",
+          "original_name": "Joanna Merlin",
+          "popularity": 0.2931,
+          "profile_path": "/6XmZtra49URbifNxnXo2NJsahRv.jpg",
+          "total_episode_count": 43,
+          "order": 4298
+        }
+      ]
+    }
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/mNHRGO1gFpR2CYZdANe72kcKq7G.jpg",
+    "created_by": [
+      {
+        "id": 1215399,
+        "credit_id": "630d77d35ab81a007a85a9ee",
+        "name": "Taylor Sheridan",
+        "original_name": "Taylor Sheridan",
+        "gender": 2,
+        "profile_path": "/vdGTrPJG95AhBXr3xId5Fj8cTCu.jpg"
+      }
+    ],
+    "episode_run_time": [],
+    "first_air_date": "2022-11-13",
+    "genres": [
+      {
+        "id": 80,
+        "name": "Crimen"
+      },
+      {
+        "id": 18,
+        "name": "Drama"
+      },
+      {
+        "id": 35,
+        "name": "Comedia"
+      }
+    ],
+    "homepage": "https://www.paramountplus.com/shows/tulsa-king",
+    "id": 153312,
+    "in_production": true,
+    "languages": [
+      "en"
+    ],
+    "last_air_date": "2025-09-28",
+    "last_episode_to_air": {
+      "id": 6432115,
+      "name": "Episodio 2",
+      "overview": "",
+      "vote_average": 9.3,
+      "vote_count": 5,
+      "air_date": "2025-09-28",
+      "episode_number": 2,
+      "episode_type": "standard",
+      "production_code": "",
+      "runtime": 45,
+      "season_number": 3,
+      "show_id": 153312,
+      "still_path": "/pl4h2iMdnfBcsyQZdzXyJlPttuD.jpg"
+    },
+    "name": "Tulsa King",
+    "next_episode_to_air": {
+      "id": 6432116,
+      "name": "Episodio 3",
+      "overview": "",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "air_date": "2025-10-05",
+      "episode_number": 3,
+      "episode_type": "standard",
+      "production_code": "",
+      "runtime": null,
+      "season_number": 3,
+      "show_id": 153312,
+      "still_path": "/uXhZ701kJlGGxmtUbeNoB5Ai3yS.jpg"
+    },
+    "networks": [
+      {
+        "id": 4330,
+        "logo_path": "/fi83B1oztoS47xxcemFdPMhIzK.png",
+        "name": "Paramount+",
+        "origin_country": "US"
+      }
+    ],
+    "number_of_episodes": 29,
+    "number_of_seasons": 3,
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_name": "Tulsa King",
+    "overview": "Justo después de ser liberado de prisión después de 25 años, el capo de la mafia de Nueva York, Dwight \"El General\" Manfredi, es exiliado sin contemplaciones por su jefe para instalarse en Tulsa, Oklahoma. Al darse cuenta de que su familia de la mafia puede no tener sus mejores intereses en mente, Dwight construye lentamente una \"tripulación\" a partir de un grupo de personajes inverosímiles, para ayudarlo a establecer un nuevo imperio criminal en un lugar que para él bien podría ser otro planeta.",
+    "popularity": 132.6998,
+    "poster_path": "/yzRnj5GMZEjiW9xTGkz8cVNyzH9.jpg",
+    "production_companies": [
+      {
+        "id": 124254,
+        "logo_path": "/Aq2pCS1mXg4AiVwLTkh4bhcejmt.png",
+        "name": "101 Studios",
+        "origin_country": "US"
+      },
+      {
+        "id": 6329,
+        "logo_path": "/4lZJiVHPClma8YB9hXodraFXSwi.png",
+        "name": "MTV Entertainment Studios",
+        "origin_country": "US"
+      },
+      {
+        "id": 106789,
+        "logo_path": "/oEgUdRh5YWF6Il705WnpwauirIj.png",
+        "name": "Bosque Ranch Productions",
+        "origin_country": "US"
+      },
+      {
+        "id": 166120,
+        "logo_path": "/otEUziHlND4he9VvTtQU2gdULSS.png",
+        "name": "Balboa Productions",
+        "origin_country": "US"
+      },
+      {
+        "id": 105968,
+        "logo_path": null,
+        "name": "Cold Front Productions",
+        "origin_country": "US"
+      },
+      {
+        "id": 270146,
+        "logo_path": null,
+        "name": "Paramount Television Studios",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "seasons": [
+      {
+        "air_date": "2022-11-11",
+        "episode_count": 1,
+        "id": 316060,
+        "name": "Especiales",
+        "overview": "",
+        "poster_path": "/8eosbtcbJW87DmF6epumt85QmU4.jpg",
+        "season_number": 0,
+        "vote_average": 0.0
+      },
+      {
+        "air_date": "2022-11-13",
+        "episode_count": 9,
+        "id": 235574,
+        "name": "Temporada 1",
+        "overview": "Después de 25 años en prisión, el miembro de la mafia Dwight \"El General\" Manfredi es exiliado por su jefe a la zona rural de Oklahoma para ampliar sus operaciones. Cuando sospecha que los suyos trabajan en su contra, poco a poco va formando su banda.",
+        "poster_path": "/635Gq7D0QEQGRHMLLtrYeXed96Z.jpg",
+        "season_number": 1,
+        "vote_average": 8.1
+      },
+      {
+        "air_date": "2024-09-15",
+        "episode_count": 10,
+        "id": 400029,
+        "name": "Temporada 2",
+        "overview": "En la segunda temporada, Dwight y su equipo continúan construyendo y defendiendo su creciente imperio en Tulsa, pero, justo cuando se orientan, se dan cuenta de que no son los únicos que quieren reclamar su lugar. Con amenazas inminentes de la mafia de Kansas City y un empresario local muy poderoso, Dwight lucha por mantener a su familia y su equipo a salvo mientras se ocupa de todos sus asuntos. Además, todavía tiene asuntos pendientes en Nueva York.",
+        "poster_path": "/fGvZspAOXxpbcU5TGnJjK9KS3YZ.jpg",
+        "season_number": 2,
+        "vote_average": 7.9
+      },
+      {
+        "air_date": "2025-09-21",
+        "episode_count": 10,
+        "id": 446906,
+        "name": "Temporada 3",
+        "overview": "En la tercera temporada, a medida que el imperio de Dwight se expande, también lo hacen sus enemigos y los riesgos para su equipo. Ahora se enfrenta a sus adversarios más peligrosos hasta la fecha en Tulsa: los Dunmire, una poderosa familia de dinero antiguo que no sigue las reglas del viejo mundo, lo que obliga a Dwight a luchar por todo lo que ha construido y a proteger a su familia.",
+        "poster_path": "/5lMDStjZVv2gRyV3etjJ5NuHKyT.jpg",
+        "season_number": 3,
+        "vote_average": 8.9
+      }
+    ],
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Returning Series",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 8.332,
+    "vote_count": 2253,
+    "aggregate_credits": {
+      "cast": [
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 16483,
+          "known_for_department": "Acting",
+          "name": "Sylvester Stallone",
+          "original_name": "Sylvester Stallone",
+          "popularity": 6.7229,
+          "profile_path": "/gn3pDWthJqR0VDYGViGD3048og7.jpg",
+          "total_episode_count": 29,
+          "order": 0
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 41089,
+          "known_for_department": "Acting",
+          "name": "Martin Starr",
+          "original_name": "Martin Starr",
+          "popularity": 1.9019,
+          "profile_path": "/gNyCdend3C5gY3ucq42Zt3swfg2.jpg",
+          "total_episode_count": 29,
+          "order": 1
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 3479133,
+          "known_for_department": "Acting",
+          "name": "Jay Will",
+          "original_name": "Jay Will",
+          "popularity": 1.1184,
+          "profile_path": "/6ABA1136deiDOBMOHAtJIMsOnSM.jpg",
+          "total_episode_count": 29,
+          "order": 2
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 9828,
+          "known_for_department": "Acting",
+          "name": "Garrett Hedlund",
+          "original_name": "Garrett Hedlund",
+          "popularity": 2.1306,
+          "profile_path": "/9zec61HuFJgiUEzPSt0NfPIj0Xv.jpg",
+          "total_episode_count": 29,
+          "order": 12
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 65002,
+          "known_for_department": "Acting",
+          "name": "Dana Delany",
+          "original_name": "Dana Delany",
+          "popularity": 3.4016,
+          "profile_path": "/tVYfBLQVtUvUr2iqQLdjijmKlZO.jpg",
+          "total_episode_count": 29,
+          "order": 13
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 1184094,
+          "known_for_department": "Acting",
+          "name": "Chris Caldovino",
+          "original_name": "Chris Caldovino",
+          "popularity": 0.7994,
+          "profile_path": "/m1c4zItCH0LQccJZ3oTjCww4xJ.jpg",
+          "total_episode_count": 28,
+          "order": 345
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 3783745,
+          "known_for_department": "Acting",
+          "name": "McKenna Quigley Harrington",
+          "original_name": "McKenna Quigley Harrington",
+          "popularity": 1.1376,
+          "profile_path": "/zCucjO9kk169oOMn4jeoB1vAgBf.jpg",
+          "total_episode_count": 25,
+          "order": 19
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 18750,
+          "known_for_department": "Acting",
+          "name": "Annabella Sciorra",
+          "original_name": "Annabella Sciorra",
+          "popularity": 2.5688,
+          "profile_path": "/p2dnBSjLzKxldrHCQZYmVq0LcFw.jpg",
+          "total_episode_count": 23,
+          "order": 6
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 85924,
+          "known_for_department": "Acting",
+          "name": "Vincent Piazza",
+          "original_name": "Vincent Piazza",
+          "popularity": 0.8521,
+          "profile_path": "/cybUCnpnrvtfmJcF2vC2nBWzmKU.jpg",
+          "total_episode_count": 20,
+          "order": 4
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 2203,
+          "known_for_department": "Acting",
+          "name": "Neal McDonough",
+          "original_name": "Neal McDonough",
+          "popularity": 3.6648,
+          "profile_path": "/3mI3i1CpjATSCta1Tb2qsyl1KCh.jpg",
+          "total_episode_count": 20,
+          "order": 8
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 81685,
+          "known_for_department": "Acting",
+          "name": "Frank Grillo",
+          "original_name": "Frank Grillo",
+          "popularity": 3.0735,
+          "profile_path": "/br2nPzelch2Tb3pZHnYAbXng7cz.jpg",
+          "total_episode_count": 20,
+          "order": 9
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 2521055,
+          "known_for_department": "Acting",
+          "name": "Michael Walden",
+          "original_name": "Michael Walden",
+          "popularity": 0.2419,
+          "profile_path": "/bFPr7XLkk9QL7Lb3NQAIeZL6ey5.jpg",
+          "total_episode_count": 20,
+          "order": 20
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 7133,
+          "known_for_department": "Acting",
+          "name": "Max Casella",
+          "original_name": "Max Casella",
+          "popularity": 1.0984,
+          "profile_path": "/gwjxobbLikH5UV2UROkrNxzpqI0.jpg",
+          "total_episode_count": 19,
+          "order": 3
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 17941,
+          "known_for_department": "Acting",
+          "name": "Domenick Lombardozzi",
+          "original_name": "Domenick Lombardozzi",
+          "popularity": 1.2644,
+          "profile_path": "/ygbrVKqVQe2rog9CFhHhLcBElj8.jpg",
+          "total_episode_count": 19,
+          "order": 10
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 2977599,
+          "known_for_department": "Acting",
+          "name": "Dashiell Connery",
+          "original_name": "Dashiell Connery",
+          "popularity": 0.5701,
+          "profile_path": "/5AgKXYVuPx83zBJpngodboY6LQS.jpg",
+          "total_episode_count": 18,
+          "order": 511
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 3783747,
+          "known_for_department": "Acting",
+          "name": "Justin Garcia-Pruneda",
+          "original_name": "Justin Garcia-Pruneda",
+          "popularity": 0.1131,
+          "profile_path": "/2gczCb2OwHnNKVUQlPi1mFaXXcl.jpg",
+          "total_episode_count": 17,
+          "order": 573
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 2919993,
+          "known_for_department": "Acting",
+          "name": "Tatiana Zappardino",
+          "original_name": "Tatiana Zappardino",
+          "popularity": 2.0074,
+          "profile_path": "/c75NG1HeLv55vk5max3YvGrs90L.jpg",
+          "total_episode_count": 16,
+          "order": 5
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 3258734,
+          "known_for_department": "Acting",
+          "name": "Scarlet Rose Stallone",
+          "original_name": "Scarlet Rose Stallone",
+          "popularity": 0.8477,
+          "profile_path": "/13f6FANe7TdbvjtZCbArygnDv1S.jpg",
+          "total_episode_count": 14,
+          "order": 596
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 71402,
+          "known_for_department": "Acting",
+          "name": "Andrea Savage",
+          "original_name": "Andrea Savage",
+          "popularity": 1.151,
+          "profile_path": "/dh2prcwPU9U1PBdCNu5SSd4Of9j.jpg",
+          "total_episode_count": 11,
+          "order": 11
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 418,
+          "known_for_department": "Acting",
+          "name": "Robert Patrick",
+          "original_name": "Robert Patrick",
+          "popularity": 3.0012,
+          "profile_path": "/qRv2Es9rZoloullTbzss3I5j1Mp.jpg",
+          "total_episode_count": 10,
+          "order": 14
+        }
+      ]
+    }
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/jvTeRgjFsp66xj8SWxhr7O2J4ud.jpg",
+    "created_by": [
+      {
+        "id": 5741,
+        "credit_id": "5256bdc619c2956ff6001be4",
+        "name": "Matt Groening",
+        "original_name": "Matt Groening",
+        "gender": 2,
+        "profile_path": "/2HmAw3AN93DGESPi3ibLZgBa8cT.jpg"
+      }
+    ],
+    "episode_run_time": [
+      22
+    ],
+    "first_air_date": "1989-12-17",
+    "genres": [
+      {
+        "id": 10751,
+        "name": "Familia"
+      },
+      {
+        "id": 16,
+        "name": "Animación"
+      },
+      {
+        "id": 35,
+        "name": "Comedia"
+      }
+    ],
+    "homepage": "https://www.fox.com/detail/series/SER000852IRHK/the-simpsons",
+    "id": 456,
+    "in_production": true,
+    "languages": [
+      "en"
+    ],
+    "last_air_date": "2025-09-28",
+    "last_episode_to_air": {
+      "id": 6524120,
+      "name": "Episodio 1",
+      "overview": "",
+      "vote_average": 0.0,
+      "vote_count": 1,
+      "air_date": "2025-09-28",
+      "episode_number": 1,
+      "episode_type": "standard",
+      "production_code": "36ABF13",
+      "runtime": null,
+      "season_number": 37,
+      "show_id": 456,
+      "still_path": "/wF8LJmZoSwnM0fEADkLm9MLl0kx.jpg"
+    },
+    "name": "Los Simpson",
+    "next_episode_to_air": {
+      "id": 6524121,
+      "name": "Episodio 2",
+      "overview": "",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "air_date": "2025-10-05",
+      "episode_number": 2,
+      "episode_type": "standard",
+      "production_code": "36ABF14",
+      "runtime": null,
+      "season_number": 37,
+      "show_id": 456,
+      "still_path": "/2LAYuOPIjwhqW3UMmw6j0HADyM4.jpg"
+    },
+    "networks": [
+      {
+        "id": 19,
+        "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
+        "name": "FOX",
+        "origin_country": "US"
+      }
+    ],
+    "number_of_episodes": 791,
+    "number_of_seasons": 37,
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_name": "The Simpsons",
+    "overview": "El día a día de una peculiar familia formada por Homer, Marge, Bart, Maggie y Lisa Simpson y otros divertidos personajes de la localidad norteamericana de Springfield. Homer, el padre, es un desastroso inspector de seguridad de una central nuclear. Marge, la madre, es un ama de casa acostumbrada a soportar a su peculiar familia. Bart, de diez años, intenta divertirse con travesuras de todo tipo. Lisa es la más inteligente de la familia, y Maggie, la más pequeña, es un bebé que todavía no habla, pero que juega un importante papel.",
+    "popularity": 98.8347,
+    "poster_path": "/gpGPI732PWspwGpPyWrWov8IYmq.jpg",
+    "production_companies": [
+      {
+        "id": 18,
+        "logo_path": "/uqhagSwM7NAkQWVCQhKTyoqF8XH.png",
+        "name": "Gracie Films",
+        "origin_country": "US"
+      },
+      {
+        "id": 1556,
+        "logo_path": "/31h94rG9hzjprXoYNy3L1ErUya2.png",
+        "name": "20th Century Fox Television",
+        "origin_country": "US"
+      },
+      {
+        "id": 154887,
+        "logo_path": "/wLFPu95hIMmyLR5hdtvYaMuK0tG.png",
+        "name": "20th Television Animation",
+        "origin_country": "US"
+      },
+      {
+        "id": 236166,
+        "logo_path": "/8rFlu5iytnjsciYXZDw90ktllCI.png",
+        "name": "20th Television",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "seasons": [
+      {
+        "air_date": "1987-04-17",
+        "episode_count": 82,
+        "id": 3581,
+        "name": "Especiales",
+        "overview": "Esta temporada de especiales, contiene cortos y rarezas de Los Simpson.",
+        "poster_path": "/cRaA4V2bCBcUkktrFNno9KmDeeC.jpg",
+        "season_number": 0,
+        "vote_average": 0.0
+      },
+      {
+        "air_date": "1989-12-17",
+        "episode_count": 13,
+        "id": 3582,
+        "name": "Temporada 1",
+        "overview": "Todo empezó aquí: la temporada 1 de Los Simpson; los primeros episodios completos de la histórica familia americana de dibujos animados. ¡Mira estos afortunados 13 episodios para descubrir por qué la serie fue un exitazo desde el principio!",
+        "poster_path": "/lGEVDDm1F33GKKu0uSv2mncArjs.jpg",
+        "season_number": 1,
+        "vote_average": 7.0
+      },
+      {
+        "air_date": "1990-10-11",
+        "episode_count": 22,
+        "id": 3583,
+        "name": "Temporada 2",
+        "overview": "La segunda temporada de Los Simpson, cómo Homer conoció a Marge y el primer trío terrorífico de La Casa-Árbol Del Terror. ¡Contiene el mejor debut de la historia, el del Dependiente de Cómics de Springfield!",
+        "poster_path": "/nnwD3pN7XtYFTV9n3o6ifHqotNK.jpg",
+        "season_number": 2,
+        "vote_average": 7.4
+      },
+      {
+        "air_date": "1991-09-19",
+        "episode_count": 24,
+        "id": 3584,
+        "name": "Temporada 3",
+        "overview": "La temporada 3 de Los Simpson está llena de momentos clásicos. Las estrellas son «Bart, El Asesino», «Lisa, El Oráculo» y «Homer, Bateador». ¡Además, ganó 6 premios Emmy!",
+        "poster_path": "/8nYqdg5QGXp7IcpJKbrjQl5GjQN.jpg",
+        "season_number": 3,
+        "vote_average": 7.4
+      },
+      {
+        "air_date": "1992-09-24",
+        "episode_count": 22,
+        "id": 3585,
+        "name": "Temporada 4",
+        "overview": "«Homer, El Hereje». «Marge Contra El Monorraíl». «Última Salida A Springfield». ¡Solo tres de los motivos por los que la temporada 4 de Los Simpson es muy chu-chu-chuli!",
+        "poster_path": "/wi65PjgdzEOmZ0ZFDrA6j6obmGS.jpg",
+        "season_number": 4,
+        "vote_average": 7.7
+      },
+      {
+        "air_date": "1993-09-30",
+        "episode_count": 22,
+        "id": 3586,
+        "name": "Temporada 5",
+        "overview": "La temporada 5 de Los Simpson está a tope, pero el Actor Secundario Bob no, él está pisando rastrillos. ¡Además, «A Bart Le Regalan Un Elefante», «Homer Asiste A La Universidad», Marge se lo apuesta todo y Homer va al espacio!",
+        "poster_path": "/lzeqVbgCYxSbEveduLhb3ajmSF0.jpg",
+        "season_number": 5,
+        "vote_average": 7.7
+      },
+      {
+        "air_date": "1994-09-04",
+        "episode_count": 25,
+        "id": 3587,
+        "name": "Temporada 6",
+        "overview": "Antes de la serie Westworld (pero después de la película Westworld) existió Rascapiquilandia. En la temporada 6 de Los Simpson, junto a «Homer, Hombre Malo», precursor del movimiento #metoo, y «¿Quién Disparó Al Señor Burns?»",
+        "poster_path": "/goKtfMZgnGBUXscU1iHtvDPNDpj.jpg",
+        "season_number": 6,
+        "vote_average": 7.6
+      },
+      {
+        "air_date": "1995-09-17",
+        "episode_count": 25,
+        "id": 3588,
+        "name": "Temporada 7",
+        "overview": "En la temporada 7 de Los Simpson, «Bart Vende Su Alma», pero luego la recupera. Homer engorda demasiado para trabajar. ¡Por fin conocemos a la madre de Homer! Y si necesitas todavía más motivos, ¡Paren el Planeta de los Simios, que yo me bajo!",
+        "poster_path": "/wze5kJ81Zvsdrpwg84TuSuABXGK.jpg",
+        "season_number": 7,
+        "vote_average": 7.6
+      },
+      {
+        "air_date": "1996-10-27",
+        "episode_count": 25,
+        "id": 3589,
+        "name": "Temporada 8",
+        "overview": "Conoce a Hank Scorpio, como hace Homer en la clásica temporada 8 de Los Simpson. Los padres de Milhouse se divorcian, Lisa se enamora de… ¿Nelson? (¡Ja-ja!), Expediente X se encuentra con Los Simpson y asistimos al ascenso y caída de Frank Grimes.",
+        "poster_path": "/sdD27uPSeTOutfgR9BgcLCs73Uc.jpg",
+        "season_number": 8,
+        "vote_average": 7.6
+      },
+      {
+        "air_date": "1997-09-21",
+        "episode_count": 25,
+        "id": 3590,
+        "name": "Temporada 9",
+        "overview": "Homer se enfrenta a Nueva York, Lisa consigue su saxo, Homer consigue una pistola, el episodio 200 (ganador del premio Emmy) y todo lo que podrías esperar de Homer y Marge desnudos en «Marge, ¿Puedo Acostarme Con El Peligro?»",
+        "poster_path": "/1B6vJaUeNAAe76BEdZnuce6bEi6.jpg",
+        "season_number": 9,
+        "vote_average": 7.2
+      },
+      {
+        "air_date": "1998-08-23",
+        "episode_count": 23,
+        "id": 3591,
+        "name": "Temporada 10",
+        "overview": "En la espectacular temporada 10 de Los Simpson, Homer se convierte en inventor, Bart se convierte en madre, «Lisa Obtiene Una Matrícula», Mark Hamill canta, Homer inunda la ciudad por el arte ¡y Stephen Hawking salva el cerebro de Lisa!",
+        "poster_path": "/cX7nggULlQvYACkE0EUBecV6s3N.jpg",
+        "season_number": 10,
+        "vote_average": 6.9
+      },
+      {
+        "air_date": "1999-09-26",
+        "episode_count": 22,
+        "id": 3592,
+        "name": "Temporada 11",
+        "overview": "En la temporada 11 de Los Simpson, a Bart le tratan el TDA con Focusyn, la trágica muerte de Maude Flanders, la espeluznante predicción de que Donald Trump sería presidente ¡y la parodia de documental «Detrás De Las Risas», ganador del premio Emmy!",
+        "poster_path": "/LOCO34oRoktiSFDi4SbGllQuBx.jpg",
+        "season_number": 11,
+        "vote_average": 6.6
+      },
+      {
+        "air_date": "2000-11-01",
+        "episode_count": 21,
+        "id": 3593,
+        "name": "Temporada 12",
+        "overview": "En la temporada 12 de Los Simpson, Springfield obtiene un nuevo prefijo telefónico que divide la ciudad, la nieve atrapa a los niños en el colegio, Homer se corta el pulgar en el complejo «Trilogía Del Error» ¡y Homer se hace amigo de Lisa tras un incremento de su coeficiente intelectual!",
+        "poster_path": "/dfOCZQguTVfxoEUyIXBQp3FUu2v.jpg",
+        "season_number": 12,
+        "vote_average": 6.7
+      },
+      {
+        "air_date": "2001-11-06",
+        "episode_count": 22,
+        "id": 3594,
+        "name": "Temporada 13",
+        "overview": "Homer deja que Artie Ziff pase una noche con su mujer. Después, se vuelve adicto a la marihuana medicinal, los Simpson se meten con Brasil y el gran Stan Lee hace su primera aparición en la serie.",
+        "poster_path": "/2qmtjgHBM7jqukucoSWd85ZVDq9.jpg",
+        "season_number": 13,
+        "vote_average": 6.4
+      },
+      {
+        "air_date": "2002-11-03",
+        "episode_count": 22,
+        "id": 3595,
+        "name": "Temporada 14",
+        "overview": "En la temporada 14 de Los Simpson, ganadora del premio Emmy, la ciudad se enfrenta a una multitud de Homers por Halloween, Homer contrata a un detective para conocer mejor a Lisa, Krusty se hace Kongresista y Maggie encuentra un nuevo amigo en Moe.",
+        "poster_path": "/hcm5cf8evWa2sRY76Ppy0tTj4Oz.jpg",
+        "season_number": 14,
+        "vote_average": 6.5
+      },
+      {
+        "air_date": "2003-11-02",
+        "episode_count": 22,
+        "id": 3596,
+        "name": "Temporada 15",
+        "overview": "En la temporada 15 de Los Simpson, vuelve la madre de Homer, pero solo para volver a irse. Lisa se convierte en Evita, la familia choca con la Reina de Inglaterra, Krusty tiene su Bar Mitzvah con la participación de Mr. T y Milhouse se muda.",
+        "poster_path": "/gdxjIr2bR63iNcHmmJWMwYbcl0o.jpg",
+        "season_number": 15,
+        "vote_average": 6.5
+      },
+      {
+        "air_date": "2004-11-07",
+        "episode_count": 21,
+        "id": 3597,
+        "name": "Temporada 16",
+        "overview": "¿Alguna vez has querido ver a Bart siendo católico? Pues Marge no. Además, Springfield es testigo del apocalipsis, un techador «imaginario» vuelve loco a Homer y Bart tiene un nuevo compañero de habitación: Nelson.",
+        "poster_path": "/8YIzmxFSuZ3W2UZ1FKjxO8axRNZ.jpg",
+        "season_number": 16,
+        "vote_average": 6.3
+      },
+      {
+        "air_date": "2005-09-11",
+        "episode_count": 22,
+        "id": 3598,
+        "name": "Temporada 17",
+        "overview": "La enseñanza de la evolución en Springfield pasa por los juzgados. El enrevesado episodio «La Historia Aparentemente Interminable». ¿Es Abe el padre de Homer, o Michael York? La respuesta se encuentra en la temporada 17 de Los Simpson.",
+        "poster_path": "/efxWHx7NkfDLqNAihvLE17DoSvg.jpg",
+        "season_number": 17,
+        "vote_average": 6.4
+      },
+      {
+        "air_date": "2006-09-10",
+        "episode_count": 22,
+        "id": 3599,
+        "name": "Temporada 18",
+        "overview": "En la temporada 18 de Los Simpson, Homer y Bart se enfrentan a la banda de Tony el Gordo, Bart y Nelson se hacen amigos, Lisa inscribe a Moe en un festival de poesía y justo antes de Los Simpson, La Película, una parodia perfecta de 24.",
+        "poster_path": "/aDFdhMSjYjRYcwDrRs00eWpPwG0.jpg",
+        "season_number": 18,
+        "vote_average": 6.2
+      },
+      {
+        "air_date": "2007-09-23",
+        "episode_count": 20,
+        "id": 3600,
+        "name": "Temporada 19",
+        "overview": "«Eterno Estupor De Una Mente Simpson», brillante episodio ganador del premio Emmy®, está presente en la temporada 19 de Los Simpson. Además, Homer canta ópera, Ralph se presenta a presidente, Martin es asesinado y «El Infilbartado».",
+        "poster_path": "/ztWAZBnbyxVeBW6JROUvLZ556wa.jpg",
+        "season_number": 19,
+        "vote_average": 6.3
+      },
+      {
+        "air_date": "2008-09-28",
+        "episode_count": 21,
+        "id": 3601,
+        "name": "Temporada 20",
+        "overview": "Springfield construye un muro para eludir a sus vecinos, Lisa toma una medicación que llena el mundo de caritas sonrientes y Marge cae víctima de un cocinero de tartas eróticas.",
+        "poster_path": "/yQMc1gFWAR1k0wD1fAU6nyOwHP2.jpg",
+        "season_number": 20,
+        "vote_average": 6.4
+      },
+      {
+        "air_date": "2009-09-27",
+        "episode_count": 23,
+        "id": 3602,
+        "name": "Temporada 21",
+        "overview": "Hitchcock recibe una parodia, Bart recibe un hermano (¡!), Anne Hathaway gana un Emmy y Seth Rogen y Jonah Hill prestan sus voces a la serie. ¡Es la temporada 21 de Los Simpson!",
+        "poster_path": "/3YSgAALEnELMVk5obYCV21zyxYL.jpg",
+        "season_number": 21,
+        "vote_average": 6.2
+      },
+      {
+        "air_date": "2010-09-26",
+        "episode_count": 22,
+        "id": 3603,
+        "name": "Temporada 22",
+        "overview": "¡Contiene el famosísimo chiste del sofá de Banksy! Por no hablar de la parodia de Moneyball (anterior a la película), de marionetas de los Simpson con Katy Perry y de la muerte y «resurrección» de Tony el Gordo. ¡No te pierdas la temporada 22 de Los Simpson!",
+        "poster_path": "/mpuBnAj52nlLME0CdX7vDvexb2a.jpg",
+        "season_number": 22,
+        "vote_average": 6.4
+      },
+      {
+        "air_date": "2011-09-25",
+        "episode_count": 22,
+        "id": 3604,
+        "name": "Temporada 23",
+        "overview": "Neil Gaiman ayuda a Lisa a escribir un libro, nos embarcamos en un viaje con los Simpson a las Navidades del futuro y Bart Se Detiene A Oler Los Roosevelt, entre lo más destacado de la temporada 23 de Los Simpson.",
+        "poster_path": "/426l5lU1mGfFoQ4oXXKGJ2TZsJ3.jpg",
+        "season_number": 23,
+        "vote_average": 6.3
+      },
+      {
+        "air_date": "2012-09-30",
+        "episode_count": 22,
+        "id": 3605,
+        "name": "Temporada 24",
+        "overview": "Una familia de hipsters es la nueva vecina de los Simpson. Milhouse se hace pasar por su padre. ¡Homer atiza a Flanders! Con un trío como este, unido al Sr. Burns como Fruta Batman, esta es una temporada que no te puedes perder.",
+        "poster_path": "/wjnZEcOJJOp69heUh5JK9uzIRIs.jpg",
+        "season_number": 24,
+        "vote_average": 6.4
+      },
+      {
+        "air_date": "2013-09-29",
+        "episode_count": 22,
+        "id": 3606,
+        "name": "Temporada 25",
+        "overview": "El maravilloso episodio de Lego de Los Simpson, «Un Pieza Como Yo», la boda del Dependiente de Cómics, Homer «Roba Este Episodio» y Lisa conoce a una nueva y misteriosa amiga.",
+        "poster_path": "/fh4mG1isnmLXIpB6iuHF1ULwIGu.jpg",
+        "season_number": 25,
+        "vote_average": 6.6
+      },
+      {
+        "air_date": "2014-09-28",
+        "episode_count": 22,
+        "id": 62103,
+        "name": "Temporada 26",
+        "overview": "El cielo de los crossovers con Los Simpson y Futurama, una conmovedora nochebuena para la familia Simpson, un guión del invitado Judd Apatow y «La Casa-Árbol Del Terror XXV», donde a los Simpson se les aparecen… sus versiones de 1987.",
+        "poster_path": "/gLs2aDW7xoCyzRBGHQcBzTpdmtv.jpg",
+        "season_number": 26,
+        "vote_average": 6.5
+      },
+      {
+        "air_date": "2015-09-27",
+        "episode_count": 22,
+        "id": 68067,
+        "name": "Temporada 27",
+        "overview": "Patty y Selma dejan de fumar, Maggie tiene una aventura al estilo Disney, ¿es Bart un psicópata? Los Simpson y los Flanderses visitan el Gran Cañón y uno de los episodios más queridos en años, «Barthood».",
+        "poster_path": "/fmzdTHjFxyWLmLzIhFcDi04Gr5T.jpg",
+        "season_number": 27,
+        "vote_average": 6.4
+      },
+      {
+        "air_date": "2016-09-25",
+        "episode_count": 22,
+        "id": 80361,
+        "name": "Temporada 28",
+        "overview": "En «La Ciudad», los Simpson se mudan a Boston y descubren que es un paraíso. En un episodio doble, el hip-hop se mezcla con «El Gran Gatsby». Bart se hace amigo de una señora mayor que quiere morir. Y la continuación de «Kampamento Krusty».",
+        "poster_path": "/qToFpMiHT6mPYMDdtH6PnhwO5fv.jpg",
+        "season_number": 28,
+        "vote_average": 6.0
+      },
+      {
+        "air_date": "2017-10-01",
+        "episode_count": 21,
+        "id": 91255,
+        "name": "Temporada 29",
+        "overview": "¡El episodio de fantasía «Los Siervison»! El Actor Secundario Bob encuentra a un «Perdido» Bart. ¿Qué misterio se esconde al final de «La Escalera De Flanders»? Y el episodio que superó a La Ley del Revólver, «Perdonar Y Lamentar». Todo esto en la temporada 29 de Los Simpson.",
+        "poster_path": "/q2j0cXVYPaf2fUnbytsDXisNGyu.jpg",
+        "season_number": 29,
+        "vote_average": 6.0
+      },
+      {
+        "air_date": "2018-09-30",
+        "episode_count": 23,
+        "id": 110088,
+        "name": "Temporada 30",
+        "overview": "«Bart No Ha Muerto», pero inspira una película protagonizada por Gal Gadot; Homer casi es asesinado por Krusty el Payaso; Lisa busca asilo en Canadá y mucho, mucho más en la temporada 30 de Los Simpson.",
+        "poster_path": "/6Z2VCkd6NQPwEu70KgDegWr4FMW.jpg",
+        "season_number": 30,
+        "vote_average": 5.8
+      },
+      {
+        "air_date": "2019-09-29",
+        "episode_count": 22,
+        "id": 131143,
+        "name": "Temporada 31",
+        "overview": "Los Simpson vuelve para su temporada 31, la más osada y encantadora de la historia. La temporada incluye a John Mulaney; el episodio 666, «Treehouse Of Horror XXX»; una segunda trilogía terrorífica de la mano de Acción de Gracias y otros invitados como Jason Momoa, Michael Rappaport, John Legend y Chrissy Teigen. Además, Jon Lovitz vuelve como Artie Ziff, que por fin se casa. ¡No esperes más!",
+        "poster_path": "/gbRNhi2znMFxgVTrso60GFHGjVJ.jpg",
+        "season_number": 31,
+        "vote_average": 5.7
+      },
+      {
+        "air_date": "2020-09-27",
+        "episode_count": 22,
+        "id": 156684,
+        "name": "Temporada 32",
+        "overview": "En la temporada 32 de Los Simpson, Burns es el jefe infiltrado, Skinner y Chalmers viajan a Cincinnati, se rueda una película navideña en Springfield, nos despedimos definitivamente de Edna Krabappel… ¡y llega el episodio 700 de Los Simpson!",
+        "poster_path": "/sKYGMZFeNCBcHhc7phxM3qqAhih.jpg",
+        "season_number": 32,
+        "vote_average": 5.9
+      },
+      {
+        "air_date": "2021-09-26",
+        "episode_count": 22,
+        "id": 184349,
+        "name": "Temporada 33",
+        "overview": "Todo empieza con un músical al estilo Broadway, a lo que sigue un especial de Halloween de CINCO historias, un episodio doble en el que un asesino persigue a Flanders, Maggie uniéndose a la mafia, Bart salvando a una cabra de unos satanistas y los Homer y Marge más desnudos y asustados de la historia.",
+        "poster_path": "/iPGholbRc76odjf538DaCO89ZCB.jpg",
+        "season_number": 33,
+        "vote_average": 5.8
+      },
+      {
+        "air_date": "2022-09-25",
+        "episode_count": 22,
+        "id": 296972,
+        "name": "Temporada 34",
+        "overview": "Todo arranca con Homer desesperado por demostrar que no es tonto, para lo cual se dispone a resolver el caso de la tortuga desaparecida del zoo. La temporada también incluye por primera vez en la historia una doble dosis de episodios de Halloween, uno de los cuales es una parodia de «It» con Krusty el Payaso interpretando al malvado Pennywise.",
+        "poster_path": "/ad2de4rEuh5VwdNRKr2MxfqZaMQ.jpg",
+        "season_number": 34,
+        "vote_average": 6.8
+      },
+      {
+        "air_date": "2023-10-01",
+        "episode_count": 18,
+        "id": 336243,
+        "name": "Temporada 35",
+        "overview": "",
+        "poster_path": "/uUWW68jtIuKvRBX0nEe1H2UuUj7.jpg",
+        "season_number": 35,
+        "vote_average": 7.8
+      },
+      {
+        "air_date": "2024-09-29",
+        "episode_count": 18,
+        "id": 384511,
+        "name": "Temporada 36",
+        "overview": "",
+        "poster_path": "/sZp88RhP0i92BITPKqdYpZZWeB3.jpg",
+        "season_number": 36,
+        "vote_average": 6.6
+      },
+      {
+        "air_date": "2025-09-28",
+        "episode_count": 5,
+        "id": 467353,
+        "name": "Temporada 37",
+        "overview": "",
+        "poster_path": "/nRdwZjv3TJZm6Vht76BWiUaQpLQ.jpg",
+        "season_number": 37,
+        "vote_average": 0.0
+      }
+    ],
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Returning Series",
+    "tagline": "En sus puestos, listos, ¡ouch!",
+    "type": "Scripted",
+    "vote_average": 8.0,
+    "vote_count": 10366,
+    "aggregate_credits": {
+      "cast": [
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 198,
+          "known_for_department": "Acting",
+          "name": "Dan Castellaneta",
+          "original_name": "Dan Castellaneta",
+          "popularity": 1.8881,
+          "profile_path": "/AmeqWhP4A46AWkM4kVphg6jOTQX.jpg",
+          "total_episode_count": 791,
+          "order": 0
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 199,
+          "known_for_department": "Acting",
+          "name": "Julie Kavner",
+          "original_name": "Julie Kavner",
+          "popularity": 1.3526,
+          "profile_path": "/87kSPYlWcHvqOVEkhdqxysiAf6w.jpg",
+          "total_episode_count": 791,
+          "order": 1
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 200,
+          "known_for_department": "Acting",
+          "name": "Nancy Cartwright",
+          "original_name": "Nancy Cartwright",
+          "popularity": 0.6316,
+          "profile_path": "/40qNhyYJhSE2Yiy4pnXSZhdufO6.jpg",
+          "total_episode_count": 791,
+          "order": 2
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 5586,
+          "known_for_department": "Acting",
+          "name": "Yeardley Smith",
+          "original_name": "Yeardley Smith",
+          "popularity": 0.9287,
+          "profile_path": "/9AjPwbb3uz4GfgOPBYsy2ILvwkB.jpg",
+          "total_episode_count": 791,
+          "order": 3
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 5587,
+          "known_for_department": "Acting",
+          "name": "Hank Azaria",
+          "original_name": "Hank Azaria",
+          "popularity": 1.4969,
+          "profile_path": "/yFDw4b0jucuFWNnGcBPfpYUtn16.jpg",
+          "total_episode_count": 791,
+          "order": 4
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 6008,
+          "known_for_department": "Acting",
+          "name": "Harry Shearer",
+          "original_name": "Harry Shearer",
+          "popularity": 0.7697,
+          "profile_path": "/7PnGZGVKJNDTUv3DkbaMEnCseT0.jpg",
+          "total_episode_count": 791,
+          "order": 6
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 6009,
+          "known_for_department": "Acting",
+          "name": "Pamela Hayden",
+          "original_name": "Pamela Hayden",
+          "popularity": 0.5266,
+          "profile_path": "/mPMtuVB6AEulRhlfn69y5RvgmNT.jpg",
+          "total_episode_count": 390,
+          "order": 1771
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 34983,
+          "known_for_department": "Acting",
+          "name": "Tress MacNeille",
+          "original_name": "Tress MacNeille",
+          "popularity": 1.3794,
+          "profile_path": "/gI2LsgByvSffQY34vabVnPmrHzw.jpg",
+          "total_episode_count": 310,
+          "order": 1830
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 6036,
+          "known_for_department": "Acting",
+          "name": "Marcia Wallace",
+          "original_name": "Marcia Wallace",
+          "popularity": 0.5197,
+          "profile_path": "/bDCnZlPdUOyeQN0ewvoEjadBr9V.jpg",
+          "total_episode_count": 179,
+          "order": 1287
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 6007,
+          "known_for_department": "Acting",
+          "name": "Maggie Roswell",
+          "original_name": "Maggie Roswell",
+          "popularity": 0.2599,
+          "profile_path": "/pLdSmH5HZYSwTd3aiPlZLbNzvPD.jpg",
+          "total_episode_count": 169,
+          "order": 1634
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 1216346,
+          "known_for_department": "Acting",
+          "name": "Chris Edgerly",
+          "original_name": "Chris Edgerly",
+          "popularity": 0.3371,
+          "profile_path": "/bjkN9Ugv6Kd3Z3y9p9DgWAc10Q7.jpg",
+          "total_episode_count": 131,
+          "order": 1827
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 156910,
+          "known_for_department": "Acting",
+          "name": "Karl Wiedergott",
+          "original_name": "Karl Wiedergott",
+          "popularity": 1.1527,
+          "profile_path": "/r5alSYfltRGa6m8eUT1CuGur2YE.jpg",
+          "total_episode_count": 112,
+          "order": 1773
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 6035,
+          "known_for_department": "Acting",
+          "name": "Russi Taylor",
+          "original_name": "Russi Taylor",
+          "popularity": 0.3667,
+          "profile_path": "/r79GVF7LyBExJP7cRMob8QQZ6IU.jpg",
+          "total_episode_count": 96,
+          "order": 1564
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 24362,
+          "known_for_department": "Acting",
+          "name": "Kevin Michael Richardson",
+          "original_name": "Kevin Michael Richardson",
+          "popularity": 2.0497,
+          "profile_path": "/xXt9Nh7RAT5bOen66TaXreNYmCl.jpg",
+          "total_episode_count": 86,
+          "order": 1688
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 110141,
+          "known_for_department": "Acting",
+          "name": "Alex Désert",
+          "original_name": "Alex Désert",
+          "popularity": 0.6229,
+          "profile_path": "/iz5fLxrOTKYUkpUmGXgVfCfIZxn.jpg",
+          "total_episode_count": 62,
+          "order": 1721
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 3266,
+          "known_for_department": "Acting",
+          "name": "Joe Mantegna",
+          "original_name": "Joe Mantegna",
+          "popularity": 1.2782,
+          "profile_path": "/4jzvAE6B1eoiZDUnDUuMazirCPP.jpg",
+          "total_episode_count": 47,
+          "order": 1366
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 14104,
+          "known_for_department": "Acting",
+          "name": "Phil Hartman",
+          "original_name": "Phil Hartman",
+          "popularity": 2.0727,
+          "profile_path": "/m3QyeaVLzIo2fZJZaGbJalfD56t.jpg",
+          "total_episode_count": 47,
+          "order": 1400
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 15761,
+          "known_for_department": "Acting",
+          "name": "Grey DeLisle",
+          "original_name": "Grey DeLisle",
+          "popularity": 2.3749,
+          "profile_path": "/vrUHaXe1pG56yZkgH7Hs3LGRLTT.jpg",
+          "total_episode_count": 41,
+          "order": 1510
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 7090,
+          "known_for_department": "Acting",
+          "name": "Kelsey Grammer",
+          "original_name": "Kelsey Grammer",
+          "popularity": 1.1914,
+          "profile_path": "/5zik4VJim6YTSWDjC7tkp13wxUp.jpg",
+          "total_episode_count": 25,
+          "order": 1265
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 87819,
+          "known_for_department": "Acting",
+          "name": "Dawnn Lewis",
+          "original_name": "Dawnn Lewis",
+          "popularity": 0.4065,
+          "profile_path": "/ppxGgmkTczev2VsiOSMfaGUy580.jpg",
+          "total_episode_count": 25,
+          "order": 1553
+        }
+      ]
+    }
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/tc7canPSAn2X14hYi6Rl3gZm1o4.jpg",
+    "created_by": [
+      {
+        "id": 117443,
+        "credit_id": "5253851c19c2957940204dd0",
+        "name": "Dick Wolf",
+        "original_name": "Dick Wolf",
+        "gender": 2,
+        "profile_path": "/tRMEuYNVFjXYJ7gh1sGJSxq9Vwq.jpg"
+      }
+    ],
+    "episode_run_time": [
+      42
+    ],
+    "first_air_date": "1990-09-13",
+    "genres": [
+      {
+        "id": 80,
+        "name": "Crimen"
+      },
+      {
+        "id": 18,
+        "name": "Drama"
+      }
+    ],
+    "homepage": "http://www.nbc.com/law-order",
+    "id": 549,
+    "in_production": true,
+    "languages": [
+      "en"
+    ],
+    "last_air_date": "2025-05-15",
+    "last_episode_to_air": {
+      "id": 6414038,
+      "name": "Episodio 1",
+      "overview": "",
+      "vote_average": 10.0,
+      "vote_count": 1,
+      "air_date": "2025-09-25",
+      "episode_number": 1,
+      "episode_type": "standard",
+      "production_code": "",
+      "runtime": null,
+      "season_number": 25,
+      "show_id": 549,
+      "still_path": "/9WBNr4aaRsXFAtBdRLDUwmgjyeP.jpg"
+    },
+    "name": "Ley y orden",
+    "next_episode_to_air": {
+      "id": 6530722,
+      "name": "Episodio 2",
+      "overview": "",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "air_date": "2025-10-02",
+      "episode_number": 2,
+      "episode_type": "standard",
+      "production_code": "",
+      "runtime": null,
+      "season_number": 25,
+      "show_id": 549,
+      "still_path": null
+    },
+    "networks": [
+      {
+        "id": 6,
+        "logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+        "name": "NBC",
+        "origin_country": "US"
+      }
+    ],
+    "number_of_episodes": 529,
+    "number_of_seasons": 25,
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_name": "Law & Order",
+    "overview": "Serie sobre la investigación de crímenes en la ciudad de Nueva York. Policías y jueces son los principales protagonistas.",
+    "popularity": 101.6801,
+    "poster_path": "/z3Qet7Q0ly6lXDzTMI33R6v1p8A.jpg",
+    "production_companies": [
+      {
+        "id": 25545,
+        "logo_path": "/8Lqf0okunSPAwBBL08Ua1IRe1xi.png",
+        "name": "Wolf Entertainment",
+        "origin_country": "US"
+      },
+      {
+        "id": 26727,
+        "logo_path": "/jeTxdjXhzgKZyLr3l9MllkTn3fy.png",
+        "name": "Universal Television",
+        "origin_country": "US"
+      },
+      {
+        "id": 8301,
+        "logo_path": "/zrcVDabl14MNfPwxL8DC2IyR12t.png",
+        "name": "Universal Media Studios",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      },
+      {
+        "iso_3166_1": "CA",
+        "name": "Canada"
+      },
+      {
+        "iso_3166_1": "SG",
+        "name": "Singapore"
+      }
+    ],
+    "seasons": [
+      {
+        "air_date": null,
+        "episode_count": 7,
+        "id": 1684,
+        "name": "Especiales",
+        "overview": "",
+        "poster_path": "/vVUVEqs0KwplqHvv2GyCj2tpMSr.jpg",
+        "season_number": 0,
+        "vote_average": 0.0
+      },
+      {
+        "air_date": "1990-09-13",
+        "episode_count": 22,
+        "id": 1664,
+        "name": "Season 1",
+        "overview": "La primera temporada de La ley y el orden comenzó el 13 de Septiembre de 1990 y finalizó el 9 de Junio de 1991 con un total de 22 episodios.",
+        "poster_path": "/vblhrAaM3LpBD0FRv9HsBZLhCOt.jpg",
+        "season_number": 1,
+        "vote_average": 7.4
+      },
+      {
+        "air_date": "1991-09-16",
+        "episode_count": 22,
+        "id": 1665,
+        "name": "Temporada 2",
+        "overview": "",
+        "poster_path": "/8nnaEOhFOaIp3fv0TzzvqqB3oiT.jpg",
+        "season_number": 2,
+        "vote_average": 7.4
+      },
+      {
+        "air_date": "1992-09-22",
+        "episode_count": 22,
+        "id": 1666,
+        "name": "Temporada 3",
+        "overview": "",
+        "poster_path": "/lpFz75I29JQvA3IQh4JPwvaIPjt.jpg",
+        "season_number": 3,
+        "vote_average": 7.6
+      },
+      {
+        "air_date": "1993-09-15",
+        "episode_count": 22,
+        "id": 1667,
+        "name": "Temporada 4",
+        "overview": "",
+        "poster_path": "/vKBIEO6V33tfbo0AtXB9oBb3TXH.jpg",
+        "season_number": 4,
+        "vote_average": 7.7
+      },
+      {
+        "air_date": "1994-09-21",
+        "episode_count": 23,
+        "id": 1668,
+        "name": "Temporada 5",
+        "overview": "",
+        "poster_path": "/10MCkZIkHzsDwPzQnVb9IMcpBxX.jpg",
+        "season_number": 5,
+        "vote_average": 7.7
+      },
+      {
+        "air_date": "1995-09-20",
+        "episode_count": 23,
+        "id": 1669,
+        "name": "Temporada 6",
+        "overview": "",
+        "poster_path": "/bd8xizr9Zu7jhUww2kSRtGJUTAN.jpg",
+        "season_number": 6,
+        "vote_average": 7.7
+      },
+      {
+        "air_date": "1996-09-18",
+        "episode_count": 23,
+        "id": 1671,
+        "name": "Temporada 7",
+        "overview": "",
+        "poster_path": "/nqyOPzIqVAZhK5o2RYWPak8ngnP.jpg",
+        "season_number": 7,
+        "vote_average": 7.5
+      },
+      {
+        "air_date": "1997-09-24",
+        "episode_count": 24,
+        "id": 1670,
+        "name": "Temporada 8",
+        "overview": "",
+        "poster_path": "/vXqNshmsyFzCPww5c8mosA427PK.jpg",
+        "season_number": 8,
+        "vote_average": 7.5
+      },
+      {
+        "air_date": "1998-09-23",
+        "episode_count": 24,
+        "id": 1672,
+        "name": "Temporada 9",
+        "overview": "",
+        "poster_path": "/jRUCJaZQ52nV9yncilAVHDkrrwI.jpg",
+        "season_number": 9,
+        "vote_average": 7.4
+      },
+      {
+        "air_date": "1999-09-22",
+        "episode_count": 24,
+        "id": 1673,
+        "name": "Temporada 10",
+        "overview": "",
+        "poster_path": "/pBDnKEPQuQhs7xoAPA4XxDUDqze.jpg",
+        "season_number": 10,
+        "vote_average": 7.3
+      },
+      {
+        "air_date": "2000-10-17",
+        "episode_count": 24,
+        "id": 1675,
+        "name": "Temporada 11",
+        "overview": "",
+        "poster_path": "/sVnYLm1ksBjnSSRgH9HwdwX9Vqh.jpg",
+        "season_number": 11,
+        "vote_average": 7.3
+      },
+      {
+        "air_date": "2001-09-25",
+        "episode_count": 24,
+        "id": 1674,
+        "name": "Temporada 12",
+        "overview": "",
+        "poster_path": "/aP5ieyfIAQyXC68njn0kHFoDeWP.jpg",
+        "season_number": 12,
+        "vote_average": 7.5
+      },
+      {
+        "air_date": "2002-10-01",
+        "episode_count": 24,
+        "id": 1676,
+        "name": "Temporada 13",
+        "overview": "",
+        "poster_path": "/iguAYiY4rFlUPSRju3jRGdi8h4H.jpg",
+        "season_number": 13,
+        "vote_average": 7.5
+      },
+      {
+        "air_date": "2003-09-23",
+        "episode_count": 24,
+        "id": 1677,
+        "name": "Temporada 14",
+        "overview": "",
+        "poster_path": "/6za9uB5KyG18GmBvza6YohU7Yx.jpg",
+        "season_number": 14,
+        "vote_average": 7.3
+      },
+      {
+        "air_date": "2004-09-21",
+        "episode_count": 24,
+        "id": 1678,
+        "name": "Temporada 15",
+        "overview": "",
+        "poster_path": "/n6uSncVMjbE1z4F4i3imyCAgXPc.jpg",
+        "season_number": 15,
+        "vote_average": 7.1
+      },
+      {
+        "air_date": "2005-09-20",
+        "episode_count": 22,
+        "id": 1680,
+        "name": "Temporada 16",
+        "overview": "",
+        "poster_path": "/gUqRtg4PV5I4fI1GmTTCBHP7h64.jpg",
+        "season_number": 16,
+        "vote_average": 7.2
+      },
+      {
+        "air_date": "2006-09-21",
+        "episode_count": 22,
+        "id": 1679,
+        "name": "Temporada 17",
+        "overview": "",
+        "poster_path": "/kzOuX1MlzWjCVorPgF5MViP6twB.jpg",
+        "season_number": 17,
+        "vote_average": 7.1
+      },
+      {
+        "air_date": "2008-01-01",
+        "episode_count": 18,
+        "id": 1682,
+        "name": "Temporada 18",
+        "overview": "",
+        "poster_path": "/n5C74HG6MnLzziFBqTkomjwJF2i.jpg",
+        "season_number": 18,
+        "vote_average": 7.1
+      },
+      {
+        "air_date": "2008-11-04",
+        "episode_count": 22,
+        "id": 1681,
+        "name": "Temporada 19",
+        "overview": "",
+        "poster_path": "/icOxM99IJbZfJE61Yg4tR0BxkhT.jpg",
+        "season_number": 19,
+        "vote_average": 7.0
+      },
+      {
+        "air_date": "2009-09-24",
+        "episode_count": 23,
+        "id": 1683,
+        "name": "Temporada 20",
+        "overview": "",
+        "poster_path": "/j9Yz9xPo30HMlH8EiuIKvFAj9uR.jpg",
+        "season_number": 20,
+        "vote_average": 7.0
+      },
+      {
+        "air_date": "2022-02-23",
+        "episode_count": 10,
+        "id": 219379,
+        "name": "Temporada 21",
+        "overview": "",
+        "poster_path": "/nl2OyNeJYmQreUwrNevmUodwtOB.jpg",
+        "season_number": 21,
+        "vote_average": 7.5
+      },
+      {
+        "air_date": "2022-09-22",
+        "episode_count": 22,
+        "id": 299108,
+        "name": "Temporada 22",
+        "overview": "",
+        "poster_path": "/nyziFvpO4Ua3hT6rAeu9sbNLqwV.jpg",
+        "season_number": 22,
+        "vote_average": 7.7
+      },
+      {
+        "air_date": "2024-01-17",
+        "episode_count": 13,
+        "id": 366617,
+        "name": "Temporada 23",
+        "overview": "",
+        "poster_path": "/5vbSU77daAxXigboOMTB5djzcsp.jpg",
+        "season_number": 23,
+        "vote_average": 8.5
+      },
+      {
+        "air_date": "2024-10-03",
+        "episode_count": 22,
+        "id": 401571,
+        "name": "Temporada 24",
+        "overview": "",
+        "poster_path": "/VoGpuMp5WA1i8tAWZkV7WY2phh.jpg",
+        "season_number": 24,
+        "vote_average": 8.4
+      },
+      {
+        "air_date": "2025-09-25",
+        "episode_count": 6,
+        "id": 467359,
+        "name": "Temporada 25",
+        "overview": "",
+        "poster_path": "/haJ9eHytVO3H3JooMJG1DiWwDNm.jpg",
+        "season_number": 25,
+        "vote_average": 10.0
+      }
+    ],
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Returning Series",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 7.393,
+    "vote_count": 635,
+    "aggregate_credits": {
+      "cast": [
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 8975,
+          "known_for_department": "Acting",
+          "name": "Sam Waterston",
+          "original_name": "Sam Waterston",
+          "popularity": 0.9386,
+          "profile_path": "/cSCy9Ng1QJSbEi440342bL71ceF.jpg",
+          "total_episode_count": 405,
+          "order": 22
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 3978,
+          "known_for_department": "Acting",
+          "name": "S. Epatha Merkerson",
+          "original_name": "S. Epatha Merkerson",
+          "popularity": 1.193,
+          "profile_path": "/pXCmHxrWzlv1kPZSxJXFM45QgOP.jpg",
+          "total_episode_count": 391,
+          "order": 71
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 725,
+          "known_for_department": "Acting",
+          "name": "Jerry Orbach",
+          "original_name": "Jerry Orbach",
+          "popularity": 0.7373,
+          "profile_path": "/5ehmno0HuGAz9sTnEmPcHCtbFWq.jpg",
+          "total_episode_count": 274,
+          "order": 67
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 21521,
+          "known_for_department": "Acting",
+          "name": "Steven Hill",
+          "original_name": "Steven Hill",
+          "popularity": 0.6639,
+          "profile_path": "/nEKqHodZLRaGbSmNd3LbLKnq8W9.jpg",
+          "total_episode_count": 229,
+          "order": 17
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 19392,
+          "known_for_department": "Acting",
+          "name": "Jesse L. Martin",
+          "original_name": "Jesse L. Martin",
+          "popularity": 0.8958,
+          "profile_path": "/enyC1P8DQThh1huqFQlVfdRuji1.jpg",
+          "total_episode_count": 202,
+          "order": 8
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 163695,
+          "known_for_department": "Acting",
+          "name": "Leslie Hendrix",
+          "original_name": "Leslie Hendrix",
+          "popularity": 0.4556,
+          "profile_path": "/nNwNGlXSJcd84u0G3gUvk2wGnVi.jpg",
+          "total_episode_count": 142,
+          "order": 6704
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 17874,
+          "known_for_department": "Acting",
+          "name": "Fred Thompson",
+          "original_name": "Fred Thompson",
+          "popularity": 0.5219,
+          "profile_path": "/d3x9crhTbzHaVA2OEsRu1YxirBG.jpg",
+          "total_episode_count": 116,
+          "order": 18
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 38026,
+          "known_for_department": "Acting",
+          "name": "Chris Noth",
+          "original_name": "Chris Noth",
+          "popularity": 0.9888,
+          "profile_path": "/9awGeDN5MSbSefDMAyMglm96vcy.jpg",
+          "total_episode_count": 111,
+          "order": 9
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 4589,
+          "known_for_department": "Acting",
+          "name": "Benjamin Bratt",
+          "original_name": "Benjamin Bratt",
+          "popularity": 2.0866,
+          "profile_path": "/hBenHPT4iJEG2kt5z2TOGnkRZwh.jpg",
+          "total_episode_count": 95,
+          "order": 6
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 21030,
+          "known_for_department": "Acting",
+          "name": "Michael Moriarty",
+          "original_name": "Michael Moriarty",
+          "popularity": 0.8591,
+          "profile_path": "/2EY162LDxpVVG6g10lm70uxkNJp.jpg",
+          "total_episode_count": 88,
+          "order": 21
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 1218281,
+          "known_for_department": "Acting",
+          "name": "Alana de la Garza",
+          "original_name": "Alana de la Garza",
+          "popularity": 1.4737,
+          "profile_path": "/mspGEt558g1s1ZHGCPrIu2cRMRq.jpg",
+          "total_episode_count": 85,
+          "order": 27
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 126932,
+          "known_for_department": "Acting",
+          "name": "Elisabeth Röhm",
+          "original_name": "Elisabeth Röhm",
+          "popularity": 1.6695,
+          "profile_path": "/hIlBBZD2Rou4to1OauI799jV1UH.jpg",
+          "total_episode_count": 85,
+          "order": 28
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 12791,
+          "known_for_department": "Acting",
+          "name": "Hugh Dancy",
+          "original_name": "Hugh Dancy",
+          "popularity": 1.3946,
+          "profile_path": "/zFroAbbLgP8R5rjSRmZc30gk3Q7.jpg",
+          "total_episode_count": 73,
+          "order": 24
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 1639904,
+          "known_for_department": "Acting",
+          "name": "Odelya Halevi",
+          "original_name": "Odelya Halevi",
+          "popularity": 0.5201,
+          "profile_path": "/26jv3dcS5Us8Ut13Tu9PmvT7uPh.jpg",
+          "total_episode_count": 73,
+          "order": 31
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 52929,
+          "known_for_department": "Acting",
+          "name": "Angie Harmon",
+          "original_name": "Angie Harmon",
+          "popularity": 1.7373,
+          "profile_path": "/cntFCwNRBDQi4IMoUrmaVzvT7wa.jpg",
+          "total_episode_count": 72,
+          "order": 26
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 9175,
+          "known_for_department": "Acting",
+          "name": "Dann Florek",
+          "original_name": "Dann Florek",
+          "popularity": 1.4635,
+          "profile_path": "/qVi8ah5m5OP2Jc3DwqGePa5YxDE.jpg",
+          "total_episode_count": 69,
+          "order": 14
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 106753,
+          "known_for_department": "Acting",
+          "name": "Richard Brooks",
+          "original_name": "Richard Brooks",
+          "popularity": 0.6367,
+          "profile_path": "/eL51q3GpEtkdXWE6nE56PQ9kOkK.jpg",
+          "total_episode_count": 69,
+          "order": 30
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 50877,
+          "known_for_department": "Acting",
+          "name": "Jill Hennessy",
+          "original_name": "Jill Hennessy",
+          "popularity": 0.9054,
+          "profile_path": "/dCJvqrN7KXAEJLfb2JFTvMr9HXh.jpg",
+          "total_episode_count": 68,
+          "order": 25
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 84422,
+          "known_for_department": "Acting",
+          "name": "Carolyn McCormick",
+          "original_name": "Carolyn McCormick",
+          "popularity": 0.6456,
+          "profile_path": "/203YNdKZVySGvxeEcRA8dABBUyO.jpg",
+          "total_episode_count": 65,
+          "order": 34
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 23958,
+          "known_for_department": "Acting",
+          "name": "Jeremy Sisto",
+          "original_name": "Jeremy Sisto",
+          "popularity": 1.1373,
+          "profile_path": "/1XfuASLjBhGOhJ4os7juRJot2we.jpg",
+          "total_episode_count": 64,
+          "order": 2393
+        }
+      ]
+    }
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/mrapJp0qb6Fvo3IW9IrjCK9IgSo.jpg",
+    "created_by": [],
+    "episode_run_time": [
+      24
+    ],
+    "first_air_date": "2025-07-06",
+    "genres": [
+      {
+        "id": 16,
+        "name": "Animación"
+      },
+      {
+        "id": 10759,
+        "name": "Action & Adventure"
+      },
+      {
+        "id": 18,
+        "name": "Drama"
+      },
+      {
+        "id": 10765,
+        "name": "Sci-Fi & Fantasy"
+      }
+    ],
+    "homepage": "https://gachiakuta-anime.com",
+    "id": 256721,
+    "in_production": true,
+    "languages": [
+      "en",
+      "fr",
+      "es",
+      "ja",
+      "de",
+      "pt",
+      "it"
+    ],
+    "last_air_date": "2025-09-14",
+    "last_episode_to_air": {
+      "id": 6363208,
+      "name": "Como una maldición",
+      "overview": "El grupo está a merced de Amo, quien con su poder está controlando a todos.",
+      "vote_average": 8.0,
+      "vote_count": 1,
+      "air_date": "2025-09-28",
+      "episode_number": 12,
+      "episode_type": "standard",
+      "production_code": "",
+      "runtime": 24,
+      "season_number": 1,
+      "show_id": 256721,
+      "still_path": "/iM9y3lJYQXifyvu9NPZIXW1qKGk.jpg"
+    },
+    "name": "Gachiakuta",
+    "next_episode_to_air": {
+      "id": 6363222,
+      "name": "Episodio 13",
+      "overview": "",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "air_date": "2025-10-05",
+      "episode_number": 13,
+      "episode_type": "standard",
+      "production_code": "",
+      "runtime": null,
+      "season_number": 1,
+      "show_id": 256721,
+      "still_path": null
+    },
+    "networks": [
+      {
+        "id": 94,
+        "logo_path": "/7RNXnyiMbjgqtPAjja13wchcrGI.png",
+        "name": "MBS",
+        "origin_country": "JP"
+      },
+      {
+        "id": 160,
+        "logo_path": "/lUACMATs6jcscXIrzNCQzbvNVN5.png",
+        "name": "TBS",
+        "origin_country": "JP"
+      },
+      {
+        "id": 201,
+        "logo_path": "/qNooLje0YQh1y3y9LUM2Y5QCtiF.png",
+        "name": "CBC",
+        "origin_country": "JP"
+      },
+      {
+        "id": 896,
+        "logo_path": "/qfUzYnpnN5bnd2bqGUH0OlAMell.png",
+        "name": "Tulip Television",
+        "origin_country": "JP"
+      },
+      {
+        "id": 1559,
+        "logo_path": "/artkCykJgOAh6lAjfrNNgANasgk.png",
+        "name": "SBC",
+        "origin_country": "JP"
+      },
+      {
+        "id": 2460,
+        "logo_path": "/34sNEcsgcTAuDidRMrgxdfNyVjL.png",
+        "name": "BSN",
+        "origin_country": "JP"
+      },
+      {
+        "id": 2461,
+        "logo_path": "/b4Ivxqz6UY0EogjYc09Y22ctC6F.png",
+        "name": "tys",
+        "origin_country": "JP"
+      },
+      {
+        "id": 2462,
+        "logo_path": "/7zXfwh5ZhFqvdOWgWX80weU6Sqb.png",
+        "name": "NBC",
+        "origin_country": "JP"
+      },
+      {
+        "id": 3658,
+        "logo_path": "/sJwRsE1lfMwAwYZi1OtRfn7V03t.png",
+        "name": "HBC",
+        "origin_country": "JP"
+      },
+      {
+        "id": 3705,
+        "logo_path": "/zOgixhlAa61yUb32bsXvRtD63wI.png",
+        "name": "RKK",
+        "origin_country": "JP"
+      },
+      {
+        "id": 3969,
+        "logo_path": "/nhCsLIGjzIIp6jIFCdHN0cQEzjP.png",
+        "name": "i-Television",
+        "origin_country": "JP"
+      },
+      {
+        "id": 3970,
+        "logo_path": "/9coKtCf4jSNCdSqGveVFyzvjrZt.png",
+        "name": "SBS",
+        "origin_country": "JP"
+      },
+      {
+        "id": 3971,
+        "logo_path": "/6bhZ2SWdYTbSTQf8Bhmf1q0aBef.png",
+        "name": "IBC",
+        "origin_country": "JP"
+      },
+      {
+        "id": 3972,
+        "logo_path": "/rL2IlndcEiQnIbym5EoSEM7rGlx.png",
+        "name": "BSS",
+        "origin_country": "JP"
+      },
+      {
+        "id": 3973,
+        "logo_path": "/dh4E8hGvqD9Xqu51kbqUU06UKbt.png",
+        "name": "MRO",
+        "origin_country": "JP"
+      },
+      {
+        "id": 3974,
+        "logo_path": "/yMQxsmGs88q54bslmcSeXlmpObC.png",
+        "name": "OBS",
+        "origin_country": "JP"
+      },
+      {
+        "id": 3975,
+        "logo_path": "/6ACZlk44MWsIIwYHxjRGXGKlpRb.png",
+        "name": "TUF",
+        "origin_country": "JP"
+      },
+      {
+        "id": 3977,
+        "logo_path": "/sGMMrdCmptaLLwJX7CsXTDaduLO.png",
+        "name": "RSK",
+        "origin_country": "JP"
+      },
+      {
+        "id": 3978,
+        "logo_path": "/zOz9LK6WWLUWGuG0fthzDzCIXlA.png",
+        "name": "TUY",
+        "origin_country": "JP"
+      },
+      {
+        "id": 3979,
+        "logo_path": "/yWlWHPUn6FHjNUulL1vp8croYFw.png",
+        "name": "tbc",
+        "origin_country": "JP"
+      },
+      {
+        "id": 4748,
+        "logo_path": "/o5Hlt7ZXJPEm4Qrx2Pl2rtc9A5y.png",
+        "name": "RKB",
+        "origin_country": "JP"
+      },
+      {
+        "id": 4792,
+        "logo_path": "/8kzeHaKeW3gZubs3cqlGWFvfJI7.png",
+        "name": "KUTV",
+        "origin_country": "JP"
+      },
+      {
+        "id": 4859,
+        "logo_path": "/6jr76BpIItwLV5oKbZmRJsVh3c6.png",
+        "name": "RBC",
+        "origin_country": "JP"
+      },
+      {
+        "id": 6171,
+        "logo_path": "/ekXN1cfYutjLfudy1MKyGzNynEa.png",
+        "name": "UTY",
+        "origin_country": "JP"
+      },
+      {
+        "id": 6172,
+        "logo_path": "/mKslL0MTHHt9ukugWOv3Vh8Tn0E.png",
+        "name": "RCC",
+        "origin_country": "JP"
+      },
+      {
+        "id": 6173,
+        "logo_path": "/YfewT1YYtAqkgvdu8oCX4mnJCs.png",
+        "name": "MRT",
+        "origin_country": "JP"
+      },
+      {
+        "id": 6174,
+        "logo_path": "/aawphEBuBGT9RVP6xG3BZV8NOCw.png",
+        "name": "ATV",
+        "origin_country": "JP"
+      },
+      {
+        "id": 6175,
+        "logo_path": "/iaaU6q82URj2mBbjQIbfAMUz14J.png",
+        "name": "MBC",
+        "origin_country": "JP"
+      }
+    ],
+    "number_of_episodes": 24,
+    "number_of_seasons": 1,
+    "origin_country": [
+      "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "ガチアクタ",
+    "overview": "En una ciudad flotante donde los ricos se deshacen de su basura y de las personas, a Ludo lo acusan de asesinato y lo arrojan al Abismo, un infierno habitado por las bestias de la basura. Para sobrevivir, deberá hacer uso de un nuevo poder y unirse a los Limpiadores. El objetivo de Ludo no es solo acabar con los monstruos, sino también con aquellos que lo arrojaron al Infierno.",
+    "popularity": 81.7107,
+    "poster_path": "/RxuL7KuFoOzHC0htjtLGxJEGGx.jpg",
+    "production_companies": [
+      {
+        "id": 244314,
+        "logo_path": "/4nqqgGYwWy65LNVqlcTrvUY1WR2.png",
+        "name": "BONES Film",
+        "origin_country": "JP"
+      },
+      {
+        "id": 55938,
+        "logo_path": "/ku5PUEwBjUx8XaYikgaXRVLIMbb.png",
+        "name": "avex pictures",
+        "origin_country": "JP"
+      },
+      {
+        "id": 2849,
+        "logo_path": "/cN3JNIKawjOMtfk0GBVIbsx69bg.png",
+        "name": "BONES",
+        "origin_country": "JP"
+      },
+      {
+        "id": 59118,
+        "logo_path": "/9nTCEBgGaaI5swkv8gy2vny0Mb5.png",
+        "name": "Kodansha",
+        "origin_country": "JP"
+      },
+      {
+        "id": 87211,
+        "logo_path": "/lzBP1lTYoqqfvGriMMdlvFWDRH7.png",
+        "name": "DMM.com",
+        "origin_country": "JP"
+      },
+      {
+        "id": 12384,
+        "logo_path": "/qNooLje0YQh1y3y9LUM2Y5QCtiF.png",
+        "name": "CBC",
+        "origin_country": "JP"
+      },
+      {
+        "id": 1778,
+        "logo_path": "/b5rT6VbYza3LyfltCmz1OcqzWJM.png",
+        "name": "dentsu",
+        "origin_country": "JP"
+      },
+      {
+        "id": 267226,
+        "logo_path": "/2LA2pKIPJghEvfF90HxAokeAjWY.png",
+        "name": "Com2uS",
+        "origin_country": "KR"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "JP",
+        "name": "Japan"
+      },
+      {
+        "iso_3166_1": "KR",
+        "name": "South Korea"
+      }
+    ],
+    "seasons": [
+      {
+        "air_date": "2025-07-06",
+        "episode_count": 24,
+        "id": 398115,
+        "name": "Temporada 1",
+        "overview": "",
+        "poster_path": "/RxuL7KuFoOzHC0htjtLGxJEGGx.jpg",
+        "season_number": 1,
+        "vote_average": 7.6
+      }
+    ],
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      },
+      {
+        "english_name": "French",
+        "iso_639_1": "fr",
+        "name": "Français"
+      },
+      {
+        "english_name": "Spanish",
+        "iso_639_1": "es",
+        "name": "Español"
+      },
+      {
+        "english_name": "Japanese",
+        "iso_639_1": "ja",
+        "name": "日本語"
+      },
+      {
+        "english_name": "German",
+        "iso_639_1": "de",
+        "name": "Deutsch"
+      },
+      {
+        "english_name": "Portuguese",
+        "iso_639_1": "pt",
+        "name": "Português"
+      },
+      {
+        "english_name": "Italian",
+        "iso_639_1": "it",
+        "name": "Italiano"
+      }
+    ],
+    "status": "Returning Series",
+    "tagline": "¡Regresa del abismo del Infierno para cambiar este mundo miserable!",
+    "type": "Scripted",
+    "vote_average": 8.912,
+    "vote_count": 102,
+    "aggregate_credits": {
+      "cast": [
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 1922613,
+          "known_for_department": "Acting",
+          "name": "Aoi Ichikawa",
+          "original_name": "市川蒼",
+          "popularity": 1.9202,
+          "profile_path": "/tM1PwSZlOT23ia4PDKkGHJVBd0T.jpg",
+          "total_episode_count": 24,
+          "order": 0
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 24647,
+          "known_for_department": "Acting",
+          "name": "Katsuyuki Konishi",
+          "original_name": "小西克幸",
+          "popularity": 1.6799,
+          "profile_path": "/nYM5cH6U7cp4x9dIzW0enmEKmeV.jpg",
+          "total_episode_count": 24,
+          "order": 1
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 1565358,
+          "known_for_department": "Acting",
+          "name": "Yumiri Hanamori",
+          "original_name": "花守ゆみり",
+          "popularity": 2.6313,
+          "profile_path": "/zXVwGxsxwEvL1f6wxzTYtxytjDn.jpg",
+          "total_episode_count": 24,
+          "order": 2
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 1991244,
+          "known_for_department": "Acting",
+          "name": "Ryunosuke Watanuki",
+          "original_name": "綿貫竜之介",
+          "popularity": 0.6815,
+          "profile_path": "/cJBw6vHWD4u9dAdBFA7CUqKUj9A.jpg",
+          "total_episode_count": 2,
+          "order": 511
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 1073136,
+          "known_for_department": "Acting",
+          "name": "Junichi Yanagita",
+          "original_name": "柳田淳一",
+          "popularity": 0.6838,
+          "profile_path": "/tcqR9A87OndSmJFDsWIRypg7O3H.jpg",
+          "total_episode_count": 2,
+          "order": 513
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 1530921,
+          "known_for_department": "Acting",
+          "name": "Miku Ito",
+          "original_name": "伊藤美来",
+          "popularity": 1.6006,
+          "profile_path": "/kP7JBvveQO9ucYpmOvUNcW5RLAp.jpg",
+          "total_episode_count": 1,
+          "order": 500
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 9706,
+          "known_for_department": "Acting",
+          "name": "Toshiyuki Morikawa",
+          "original_name": "森川智之",
+          "popularity": 2.3615,
+          "profile_path": "/hrzGBe4nokgkBNFekNo5hlXB2Bv.jpg",
+          "total_episode_count": 1,
+          "order": 501
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 2401820,
+          "known_for_department": "Acting",
+          "name": "Takako Tanaka",
+          "original_name": "田中貴子",
+          "popularity": 0.5422,
+          "profile_path": "/n4vcp8dA6aAUfeawQDEsGdSIAPP.jpg",
+          "total_episode_count": 1,
+          "order": 502
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 2376502,
+          "known_for_department": "Acting",
+          "name": "Masaaki Mizunaka",
+          "original_name": "水中雅章",
+          "popularity": 0.7956,
+          "profile_path": "/cHb2pr4juxk8A3VTuDxgPWHM6WF.jpg",
+          "total_episode_count": 1,
+          "order": 503
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 2603963,
+          "known_for_department": "Acting",
+          "name": "Kosuke Echigoya",
+          "original_name": "越後屋コースケ",
+          "popularity": 0.5157,
+          "profile_path": "/ehEQGlr5ORQ5DPWWNvqqnMYvppZ.jpg",
+          "total_episode_count": 1,
+          "order": 504
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 2933351,
+          "known_for_department": "Acting",
+          "name": "Kousuke Okamoto",
+          "original_name": "岡本幸輔",
+          "popularity": 0.2944,
+          "profile_path": "/y9zwUxcZeau2yeJaLDcEvpi2a88.jpg",
+          "total_episode_count": 1,
+          "order": 505
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 2411059,
+          "known_for_department": "Acting",
+          "name": "Yuka Iwahashi",
+          "original_name": "岩橋由佳",
+          "popularity": 0.3204,
+          "profile_path": "/7LosFDwp9YPNh2cZV0MSEaB0lWy.jpg",
+          "total_episode_count": 1,
+          "order": 506
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 1324588,
+          "known_for_department": "Acting",
+          "name": "Genki Muro",
+          "original_name": "室元気",
+          "popularity": 0.6459,
+          "profile_path": "/6YF881kJuP2HaSb5PXRO4hWTZA.jpg",
+          "total_episode_count": 1,
+          "order": 509
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 2019929,
+          "known_for_department": "Acting",
+          "name": "Ryota Iwasaki",
+          "original_name": "岩崎諒太",
+          "popularity": 0.9759,
+          "profile_path": "/2aIpmhJ6R49ijYapEAeaAFS9U8g.jpg",
+          "total_episode_count": 1,
+          "order": 510
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 3288856,
+          "known_for_department": "Acting",
+          "name": "Kouki Osuzu",
+          "original_name": "大鈴功起",
+          "popularity": 0.1819,
+          "profile_path": "/999LucUsQrPAnsABM1skmoFvOGP.jpg",
+          "total_episode_count": 1,
+          "order": 511
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 1242005,
+          "known_for_department": "Acting",
+          "name": "Yuka Iguchi",
+          "original_name": "井口裕香",
+          "popularity": 1.1477,
+          "profile_path": "/rXCxuGZg9qSixDpORFtYWJ95PZI.jpg",
+          "total_episode_count": 1,
+          "order": 512
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 1245661,
+          "known_for_department": "Acting",
+          "name": "Hiroshi Iwasaki",
+          "original_name": "岩崎ひろし",
+          "popularity": 2.3139,
+          "profile_path": "/3THPpW2xkD0A7SVFmaUSxHeDzJG.jpg",
+          "total_episode_count": 1,
+          "order": 513
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 1550514,
+          "known_for_department": "Acting",
+          "name": "You Taichi",
+          "original_name": "大地葉",
+          "popularity": 0.6521,
+          "profile_path": "/bt0oOFKknrOG7gNWusq9sc8UOhm.jpg",
+          "total_episode_count": 1,
+          "order": 514
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 1247442,
+          "known_for_department": "Acting",
+          "name": "Setsuji Sato",
+          "original_name": "佐藤せつじ",
+          "popularity": 1.3603,
+          "profile_path": "/hBY5SAWLpkZXoaXhG6ukHgIeova.jpg",
+          "total_episode_count": 1,
+          "order": 515
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 3122731,
+          "known_for_department": "Acting",
+          "name": "渡井奏斗",
+          "original_name": "渡井奏斗",
+          "popularity": 0.1527,
+          "profile_path": "/yO0UFdfssVdQNVL1cNK1MXipgfw.jpg",
+          "total_episode_count": 1,
+          "order": 517
+        }
+      ]
+    }
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/ScaVfT5IkwVC3Edhmxqyl0GbK0.jpg",
+    "created_by": [
+      {
+        "id": 58922,
+        "credit_id": "651675f1967cc7011c8ea0f5",
+        "name": "Craig Rosenberg",
+        "original_name": "Craig Rosenberg",
+        "gender": 2,
+        "profile_path": null
+      },
+      {
+        "id": 54734,
+        "credit_id": "651675f9a199a600e1fb4890",
+        "name": "Evan Goldberg",
+        "original_name": "Evan Goldberg",
+        "gender": 2,
+        "profile_path": "/qh0pRmpYzyix1ErrMGADthTnpLa.jpg"
+      },
+      {
+        "id": 58321,
+        "credit_id": "651675ff967cc7011c8ea100",
+        "name": "Eric Kripke",
+        "original_name": "Eric Kripke",
+        "gender": 2,
+        "profile_path": "/dd7EgfOEKPqQxWtBfAvjYZahbSc.jpg"
+      }
+    ],
+    "episode_run_time": [],
+    "first_air_date": "2023-09-28",
+    "genres": [
+      {
+        "id": 10759,
+        "name": "Action & Adventure"
+      },
+      {
+        "id": 18,
+        "name": "Drama"
+      },
+      {
+        "id": 10765,
+        "name": "Sci-Fi & Fantasy"
+      }
+    ],
+    "homepage": "https://www.amazon.com/dp/B0CBFTRGPZ",
+    "id": 205715,
+    "in_production": true,
+    "languages": [
+      "en"
+    ],
+    "last_air_date": "2025-09-24",
+    "last_episode_to_air": {
+      "id": 6277634,
+      "name": "Bolsas",
+      "overview": "¡Enhorabuena! ¡Has conseguido una entrada VIP para el gran combate! Los asistentes asumen toda responsabilidad. Es posible que aparezcas en cámara o que entres en contacto con fluidos corporales. Te recordamos que el Hotel Balneario Vought International prohíbe las bebidas del exterior y los baños inclusivos. ¡Disfruta de tu experiencia VIP!",
+      "vote_average": 5.1,
+      "vote_count": 12,
+      "air_date": "2025-09-24",
+      "episode_number": 4,
+      "episode_type": "standard",
+      "production_code": "",
+      "runtime": 49,
+      "season_number": 2,
+      "show_id": 205715,
+      "still_path": "/926UtXdbLWH2jqtXFpMDX94k7Gg.jpg"
+    },
+    "name": "Generación V",
+    "next_episode_to_air": {
+      "id": 6277635,
+      "name": "Episodio 5",
+      "overview": "",
+      "vote_average": 1.0,
+      "vote_count": 2,
+      "air_date": "2025-10-01",
+      "episode_number": 5,
+      "episode_type": "standard",
+      "production_code": "",
+      "runtime": 49,
+      "season_number": 2,
+      "show_id": 205715,
+      "still_path": "/x7AMffs5k79qIf0P9KIhqfTu5Wl.jpg"
+    },
+    "networks": [
+      {
+        "id": 1024,
+        "logo_path": "/w7HfLNm9CWwRmAMU58udl2L7We7.png",
+        "name": "Prime Video",
+        "origin_country": ""
+      }
+    ],
+    "number_of_episodes": 16,
+    "number_of_seasons": 2,
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_name": "Gen V",
+    "overview": "En la única universidad para superhéroes de Estados Unidos, los estudiantes superdotados ponen a prueba sus límites morales, compitiendo por la clasificación más alta de la universidad y la oportunidad de unirse a Los Siete, el equipo de élite de superhéroes de Vought International. Cuando los oscuros secretos de la escuela salen a la luz, deben decidir en qué tipo de héroes quieren convertirse.",
+    "popularity": 85.7462,
+    "poster_path": "/fLJzwWk28vRrNQIvIXUSU5YBdT5.jpg",
+    "production_companies": [
+      {
+        "id": 11073,
+        "logo_path": "/wHs44fktdoj6c378ZbSWfzKsM2Z.png",
+        "name": "Sony Pictures Television",
+        "origin_country": "US"
+      },
+      {
+        "id": 20580,
+        "logo_path": "/oRR9EXVoKP9szDkVKlze5HVJS7g.png",
+        "name": "Amazon Studios",
+        "origin_country": "US"
+      },
+      {
+        "id": 38398,
+        "logo_path": null,
+        "name": "Kripke Enterprises",
+        "origin_country": "US"
+      },
+      {
+        "id": 16615,
+        "logo_path": "/dbxHaOtibTKvP6dUMRYdwUOULgY.png",
+        "name": "Point Grey Pictures",
+        "origin_country": "US"
+      },
+      {
+        "id": 333,
+        "logo_path": "/5xUJfzPZ8jWJUDzYtIeuPO4qPIa.png",
+        "name": "Original Film",
+        "origin_country": "US"
+      },
+      {
+        "id": 92828,
+        "logo_path": null,
+        "name": "Fazekas & Butters",
+        "origin_country": "US"
+      },
+      {
+        "id": 2526,
+        "logo_path": "/kzIW6QWhacDwzGoXEIWhac8rb70.png",
+        "name": "Kickstart Entertainment",
+        "origin_country": "US"
+      },
+      {
+        "id": 33728,
+        "logo_path": null,
+        "name": "NightSky Productions",
+        "origin_country": "US"
+      },
+      {
+        "id": 210099,
+        "logo_path": "/d6HwljzlOzxJ4tXlrpRkNZaZMWL.png",
+        "name": "Amazon MGM Studios",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "seasons": [
+      {
+        "air_date": "2023-09-28",
+        "episode_count": 8,
+        "id": 300323,
+        "name": "Temporada 1",
+        "overview": "Del mundo de The Boys llega Generación V, una nueva y emocionante serie ambientada en la única universidad para superhéroes de Estados Unidos. Estos talentosos estudiantes ponen a prueba sus límites morales, compitiendo por la clasificación más alta de la universidad y por la oportunidad de unirse a Los Siete, el equipo de élite de superhéroes de Vought International. Cuando los oscuros secretos de la escuela salen a la luz, deben decidir en qué tipo de héroes quieren convertirse.",
+        "poster_path": "/wCQVrxO9d0cy7u5aQFr180OQZzz.jpg",
+        "season_number": 1,
+        "vote_average": 6.6
+      },
+      {
+        "air_date": "2025-09-17",
+        "episode_count": 8,
+        "id": 458863,
+        "name": "Temporada 2",
+        "overview": "EE. UU. se adapta al reinado de Patriota y, en Godolkin, el nuevo decano imparte clases para hacer más poderosos que nunca a los estudiantes. Cate y Sam son héroes, y Marie, Jordan y Emma regresan a clase tras meses de trauma. Se avecina una guerra entre humanos y superhéroes, y el equipo descubre un programa secreto de los 60 que puede ser vital hoy. De algún modo, Marie forma parte del mismo.",
+        "poster_path": "/5VuqBSpIvkvifmdTmrtQ8ijBjow.jpg",
+        "season_number": 2,
+        "vote_average": 3.9
+      }
+    ],
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Returning Series",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 7.714,
+    "vote_count": 1141,
+    "aggregate_credits": {
+      "cast": [
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 1449596,
+          "known_for_department": "Acting",
+          "name": "Jaz Sinclair",
+          "original_name": "Jaz Sinclair",
+          "popularity": 1.9987,
+          "profile_path": "/rX1HQCi4cd3O14Q1Pn4AHoksPeD.jpg",
+          "total_episode_count": 16,
+          "order": 0
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 1376782,
+          "known_for_department": "Acting",
+          "name": "Lizze Broadway",
+          "original_name": "Lizze Broadway",
+          "popularity": 2.2844,
+          "profile_path": "/4U14Q69wgdxJX4bSJO0VKI7wYFv.jpg",
+          "total_episode_count": 16,
+          "order": 2
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 1475808,
+          "known_for_department": "Acting",
+          "name": "Maddie Phillips",
+          "original_name": "Maddie Phillips",
+          "popularity": 3.6567,
+          "profile_path": "/uuQBuEdkhgDSJ2wnE5N4tyryl4t.jpg",
+          "total_episode_count": 16,
+          "order": 3
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 1949306,
+          "known_for_department": "Acting",
+          "name": "London Thor",
+          "original_name": "London Thor",
+          "popularity": 1.7385,
+          "profile_path": "/tUFq7pqq8UdMqS9GZKdtkBiA4we.jpg",
+          "total_episode_count": 16,
+          "order": 4
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 2498030,
+          "known_for_department": "Acting",
+          "name": "Derek Luh",
+          "original_name": "Derek Luh",
+          "popularity": 1.2941,
+          "profile_path": "/pe2TONQY4BXWeRJQwE8RXQxbCcz.jpg",
+          "total_episode_count": 16,
+          "order": 5
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 2659895,
+          "known_for_department": "Acting",
+          "name": "Asa Germann",
+          "original_name": "Asa Germann",
+          "popularity": 1.8453,
+          "profile_path": "/kVUVy9wL2LYkt69EOxgqywMZSqJ.jpg",
+          "total_episode_count": 16,
+          "order": 6
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 11868,
+          "known_for_department": "Acting",
+          "name": "Sean Patrick Thomas",
+          "original_name": "Sean Patrick Thomas",
+          "popularity": 0.9021,
+          "profile_path": "/59Mqg13DVutKEN4ZmkG8O814uKg.jpg",
+          "total_episode_count": 13,
+          "order": 8
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 2418130,
+          "known_for_department": "Acting",
+          "name": "Maia Jae Bastidas",
+          "original_name": "Maia Jae Bastidas",
+          "popularity": 1.5103,
+          "profile_path": "/3M3TYcLQLT9jzPYshbfaHsuCJLb.jpg",
+          "total_episode_count": 10,
+          "order": 506
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 2035329,
+          "known_for_department": "Acting",
+          "name": "Chance Perdomo",
+          "original_name": "Chance Perdomo",
+          "popularity": 1.0859,
+          "profile_path": "/xRRDtdHhTewrKMj5cpcmEkPNmuP.jpg",
+          "total_episode_count": 8,
+          "order": 1
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 73707,
+          "known_for_department": "Acting",
+          "name": "Shelley Conn",
+          "original_name": "Shelley Conn",
+          "popularity": 0.919,
+          "profile_path": "/pE7dDGnjwxJWD6jjJ1xIbp3G4PW.jpg",
+          "total_episode_count": 8,
+          "order": 7
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 184581,
+          "known_for_department": "Acting",
+          "name": "Hamish Linklater",
+          "original_name": "Hamish Linklater",
+          "popularity": 2.2722,
+          "profile_path": "/hByas1g3htnZFWIbCBdbxC7vGeS.jpg",
+          "total_episode_count": 8,
+          "order": 9
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 1077775,
+          "known_for_department": "Acting",
+          "name": "Alexander Calvert",
+          "original_name": "Alexander Calvert",
+          "popularity": 1.513,
+          "profile_path": "/8T4d7PIOWK90UMQzYXgLHM4zbN5.jpg",
+          "total_episode_count": 8,
+          "order": 505
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 557188,
+          "known_for_department": "Acting",
+          "name": "Jessica Clement",
+          "original_name": "Jessica Clement",
+          "popularity": 1.1755,
+          "profile_path": "/nqD72rIXeRhq1k94GHBVfmRX4L5.jpg",
+          "total_episode_count": 8,
+          "order": 528
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 1053422,
+          "known_for_department": "Acting",
+          "name": "Patrick Schwarzenegger",
+          "original_name": "Patrick Schwarzenegger",
+          "popularity": 1.6672,
+          "profile_path": "/jKbI0OpFMMz4SPCU1VoMHXIbA3Y.jpg",
+          "total_episode_count": 5,
+          "order": 502
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 1504947,
+          "known_for_department": "Acting",
+          "name": "Nicholas Hamilton",
+          "original_name": "Nicholas Hamilton",
+          "popularity": 0.5474,
+          "profile_path": "/6XB730yU5XKJfEhV5W2zV8B9Fmh.jpg",
+          "total_episode_count": 5,
+          "order": 511
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 1252323,
+          "known_for_department": "Acting",
+          "name": "Marco Pigossi",
+          "original_name": "Marco Pigossi",
+          "popularity": 0.4705,
+          "profile_path": "/2Rixkot6LFwxTfxASYjqJgEnQwZ.jpg",
+          "total_episode_count": 5,
+          "order": 565
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 1166834,
+          "known_for_department": "Acting",
+          "name": "Dan Beirne",
+          "original_name": "Dan Beirne",
+          "popularity": 0.5135,
+          "profile_path": "/jCEDTG739T3VZnashONEDdsqcr5.jpg",
+          "total_episode_count": 4,
+          "order": 507
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 2116900,
+          "known_for_department": "Acting",
+          "name": "Siddharth Sharma",
+          "original_name": "Siddharth Sharma",
+          "popularity": 0.1374,
+          "profile_path": "/g1Sk0hNgeRcjcsaoTPh1j8BZiXm.jpg",
+          "total_episode_count": 4,
+          "order": 529
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 2563032,
+          "known_for_department": "Acting",
+          "name": "Robert Bazzocchi",
+          "original_name": "Robert Bazzocchi",
+          "popularity": 0.1501,
+          "profile_path": "/n57kPMcE7Nt9jYonGNCJNFdwlK2.jpg",
+          "total_episode_count": 3,
+          "order": 508
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 27559,
+          "known_for_department": "Acting",
+          "name": "Matthew Edison",
+          "original_name": "Matthew Edison",
+          "popularity": 0.2904,
+          "profile_path": "/hYMwq4AP58Sr3YlmUeCMyFBUQdG.jpg",
+          "total_episode_count": 3,
+          "order": 527
+        }
+      ]
+    }
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/nipbnsKUPLeylYhYdW0DwMtSmFt.jpg",
+    "created_by": [
+      {
+        "id": 1108065,
+        "credit_id": "68c71cedb421aacf4bf21d81",
+        "name": "Chun Sung-il",
+        "original_name": "Chun Sung-il",
+        "gender": 2,
+        "profile_path": "/2rDOOw6nJTy7CR8ujL0lYjEvrKw.jpg"
+      }
+    ],
+    "episode_run_time": [],
+    "first_air_date": "2025-09-26",
+    "genres": [
+      {
+        "id": 18,
+        "name": "Drama"
+      },
+      {
+        "id": 10759,
+        "name": "Action & Adventure"
+      }
+    ],
+    "homepage": "https://www.disneyplus.com/ko-kr/browse/entity-d986ede5-6409-4400-9e39-7362ab8af0f5",
+    "id": 230926,
+    "in_production": true,
+    "languages": [
+      "ko"
+    ],
+    "last_air_date": "2025-09-26",
+    "last_episode_to_air": {
+      "id": 6477825,
+      "name": "Un nuevo hombre fuerte",
+      "overview": "",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "air_date": "2025-09-26",
+      "episode_number": 3,
+      "episode_type": "standard",
+      "production_code": "",
+      "runtime": 49,
+      "season_number": 1,
+      "show_id": 230926,
+      "still_path": "/rRHCZPcVkho8L9vWRhCkxj5rtSw.jpg"
+    },
+    "name": "Aguas turbias",
+    "next_episode_to_air": {
+      "id": 6477826,
+      "name": "Episodio 4",
+      "overview": "",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "air_date": "2025-10-03",
+      "episode_number": 4,
+      "episode_type": "standard",
+      "production_code": "",
+      "runtime": null,
+      "season_number": 1,
+      "show_id": 230926,
+      "still_path": null
+    },
+    "networks": [
+      {
+        "id": 2739,
+        "logo_path": "/1edZOYAfoyZyZ3rklNSiUpXX30Q.png",
+        "name": "Disney+",
+        "origin_country": ""
+      }
+    ],
+    "number_of_episodes": 9,
+    "number_of_seasons": 1,
+    "origin_country": [
+      "KR"
+    ],
+    "original_language": "ko",
+    "original_name": "탁류",
+    "overview": "En la anárquica Joseon, el río Gyeonggang se ha convertido en aguas turbias. Siyul esconde un pasado problemático, Choi Eun sueña con convertirse en la mayor comerciante del país, y Jung Chun aspira a ser un oficial recto. Sus destinos se entrelazan al luchar para dar forma a su mundo.",
+    "popularity": 83.099,
+    "poster_path": "/1XpnL8wrBSe4dhjK2SLcStg3NHN.jpg",
+    "production_companies": [
+      {
+        "id": 168320,
+        "logo_path": "/jEvTJupqEeo4yYLhDV5HO0oQgsl.png",
+        "name": "npio Entertainment",
+        "origin_country": "KR"
+      },
+      {
+        "id": 147139,
+        "logo_path": null,
+        "name": "ANEW",
+        "origin_country": "KR"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "KR",
+        "name": "South Korea"
+      }
+    ],
+    "seasons": [
+      {
+        "air_date": "2025-09-26",
+        "episode_count": 9,
+        "id": 349360,
+        "name": "Temporada 1",
+        "overview": "",
+        "poster_path": "/mc93wPwIQNFhlB9v5rJ68kbgTf1.jpg",
+        "season_number": 1,
+        "vote_average": 0.0
+      }
+    ],
+    "spoken_languages": [
+      {
+        "english_name": "Korean",
+        "iso_639_1": "ko",
+        "name": "한국어/조선말"
+      }
+    ],
+    "status": "Returning Series",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 6.2,
+    "vote_count": 5,
+    "aggregate_credits": {
+      "cast": [
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 1613836,
+          "known_for_department": "Acting",
+          "name": "Rowoon",
+          "original_name": "로운",
+          "popularity": 6.0187,
+          "profile_path": "/sOTYcl8SGmtxpWq0EQKJhX8dztr.jpg",
+          "total_episode_count": 9,
+          "order": 0
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 2256407,
+          "known_for_department": "Acting",
+          "name": "신예은",
+          "original_name": "신예은",
+          "popularity": 1.753,
+          "profile_path": "/dGJRM6rEdk9NLdryDUg172XK5ip.jpg",
+          "total_episode_count": 9,
+          "order": 1
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 3212104,
+          "known_for_department": "Acting",
+          "name": "박서함",
+          "original_name": "박서함",
+          "popularity": 1.0845,
+          "profile_path": "/uUFxDA9iRHVziPx8S4KGiDcXuYx.jpg",
+          "total_episode_count": 9,
+          "order": 2
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 1078674,
+          "known_for_department": "Acting",
+          "name": "박지환",
+          "original_name": "박지환",
+          "popularity": 0.6344,
+          "profile_path": "/yCxBKivLmLaoziCveVbo89aW0zW.jpg",
+          "total_episode_count": 9,
+          "order": 3
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 1572347,
+          "known_for_department": "Acting",
+          "name": "전배수",
+          "original_name": "전배수",
+          "popularity": 1.0559,
+          "profile_path": "/7EhOO3xFN5FvEJwl0b0Eudab5bI.jpg",
+          "total_episode_count": 9,
+          "order": 4
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 1258630,
+          "known_for_department": "Acting",
+          "name": "최원영",
+          "original_name": "최원영",
+          "popularity": 1.2627,
+          "profile_path": "/fd6mthn1EonRrsk2WTtfQhzHCgn.jpg",
+          "total_episode_count": 9,
+          "order": 5
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 1418581,
+          "known_for_department": "Acting",
+          "name": "최귀화",
+          "original_name": "최귀화",
+          "popularity": 1.9336,
+          "profile_path": "/aYiS6jQNNmOSfzcobDs12pLOOjj.jpg",
+          "total_episode_count": 9,
+          "order": 6
+        }
+      ]
+    }
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/lgGZ2ysbRyAOi2VgIZpp6k8qILj.jpg",
+    "created_by": [
+      {
+        "id": 52139,
+        "credit_id": "5256e93919c2956ff610860e",
+        "name": "Seth MacFarlane",
+        "original_name": "Seth MacFarlane",
+        "gender": 2,
+        "profile_path": "/8oQJqM51Z0Qtdb7sE6ZfX1peNCB.jpg"
+      }
+    ],
+    "episode_run_time": [
+      22
+    ],
+    "first_air_date": "1999-01-31",
+    "genres": [
+      {
+        "id": 16,
+        "name": "Animación"
+      },
+      {
+        "id": 35,
+        "name": "Comedia"
+      }
+    ],
+    "homepage": "https://www.fox.com/detail/series/SER000854XOPZ/family-guy",
+    "id": 1434,
+    "in_production": true,
+    "languages": [
+      "en"
+    ],
+    "last_air_date": "2025-07-17",
+    "last_episode_to_air": {
+      "id": 6272257,
+      "name": "El mundo de Twain",
+      "overview": "Brian convence a Stewie de viajar atrás en el tiempo para traer a Mark Twain al presente.",
+      "vote_average": 9.0,
+      "vote_count": 1,
+      "air_date": "2025-07-17",
+      "episode_number": 18,
+      "episode_type": "finale",
+      "production_code": "PACX13",
+      "runtime": 22,
+      "season_number": 23,
+      "show_id": 1434,
+      "still_path": "/yFdFQ6o2dUCNBaCJRb5Jp2Q7CC0.jpg"
+    },
+    "name": "Padre de familia",
+    "next_episode_to_air": null,
+    "networks": [
+      {
+        "id": 19,
+        "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
+        "name": "FOX",
+        "origin_country": "US"
+      }
+    ],
+    "number_of_episodes": 441,
+    "number_of_seasons": 23,
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_name": "Family Guy",
+    "overview": "Los Griffin son una mediocre familia compuesta por Peter y Lois; sus hijos, Meg, Chris, y Stewie; y su antropomórfica mascota canina Brian. Está ambientada en la ciudad ficticia de Quahog, Rhode Island, y gran parte de su humor se exhibe en forma de pequeños cortes que frecuentemente se mofan de la cultura americana.",
+    "popularity": 89.5794,
+    "poster_path": "/oalgdH3vglKvg1SB4OaMyoJ29sx.jpg",
+    "production_companies": [
+      {
+        "id": 1556,
+        "logo_path": "/31h94rG9hzjprXoYNy3L1ErUya2.png",
+        "name": "20th Century Fox Television",
+        "origin_country": "US"
+      },
+      {
+        "id": 8789,
+        "logo_path": "/1smGq637YoNgkeBZXt7TAPDYGda.png",
+        "name": "Fuzzy Door Productions",
+        "origin_country": "US"
+      },
+      {
+        "id": 154887,
+        "logo_path": "/wLFPu95hIMmyLR5hdtvYaMuK0tG.png",
+        "name": "20th Television Animation",
+        "origin_country": "US"
+      },
+      {
+        "id": 236166,
+        "logo_path": "/8rFlu5iytnjsciYXZDw90ktllCI.png",
+        "name": "20th Television",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "seasons": [
+      {
+        "air_date": "1995-01-01",
+        "episode_count": 26,
+        "id": 3831,
+        "name": "Especiales",
+        "overview": "",
+        "poster_path": "/ekMNdIdRbB4Ha5pJZVsMEK2OKFk.jpg",
+        "season_number": 0,
+        "vote_average": 0.0
+      },
+      {
+        "air_date": "1999-01-31",
+        "episode_count": 7,
+        "id": 3821,
+        "name": "Temporada 1",
+        "overview": "¡Ven a conocer a los Griffins y descubre qué diablos está pasando en Quahog, Rhode Island!",
+        "poster_path": "/ccKHQ33Sm7bB38WmclHcJRyqboS.jpg",
+        "season_number": 1,
+        "vote_average": 7.1
+      },
+      {
+        "air_date": "1999-09-23",
+        "episode_count": 21,
+        "id": 3822,
+        "name": "Temporada 2",
+        "overview": "En esta divertidísima segunda temporada, la familia Griffin se enfrenta a una serie de dilemas sin precedentes: desde la incontinencia de Brian hasta la adicción de Peter a la liposucción y los problemas de Meg con la ley, cuando es acusada de difamación tras revelar la \"homosexualidad\" de Luke Perry, el galán favorito de las chicas.\n\nMientras tanto, Peter y Brian compiten como Willy Wonker, pero con cerveza en lugar de chocolate, mientras que Stewie es secuestrado por una banda de mutantes.",
+        "poster_path": "/wWoAiu5QJcqghXyKBeiwPJP6EgK.jpg",
+        "season_number": 2,
+        "vote_average": 7.2
+      },
+      {
+        "air_date": "2001-07-11",
+        "episode_count": 22,
+        "id": 3823,
+        "name": "Temporada 3",
+        "overview": "¡El alocado e irreverente mundo de los Griffin regresa!\n\n¿Qué novedades hay en la familia Griffin? Es trivial: Brian se ha vuelto adicto a la cocaína, algo poco recomendable para un pointer recién entrenado. Los planes de Stewie de conquistar el planeta se ven frustrados una vez más, mientras que Peter debe recuperarse del shock al descubrir que su hijo adolescente es... ¡Físicamente mucho más talentoso que él!",
+        "poster_path": "/qzppn069WDGlCJYTaNXvX2gccUC.jpg",
+        "season_number": 3,
+        "vote_average": 6.9
+      },
+      {
+        "air_date": "2005-05-01",
+        "episode_count": 30,
+        "id": 3824,
+        "name": "Temporada 4",
+        "overview": "La cuarta temporada de Padre de familia dio comienzo el 1 de mayo de 2005 hasta el 21 de mayo de 2006. Fue la primera temporada tras la cancelación de 3 años de la serie. La temporada se compone de 30 episodios, la cual fue dividida en dos bloques dando a entender que la cuarta temporada en realidad eran cuarta y quinta.",
+        "poster_path": "/8Cazky4yQpk57dp57vQRjwYo5dK.jpg",
+        "season_number": 4,
+        "vote_average": 6.8
+      },
+      {
+        "air_date": "2006-09-10",
+        "episode_count": 18,
+        "id": 3825,
+        "name": "Temporada 5",
+        "overview": "La quinta temporada de Padre de familia dio comienzo el 10 de septiembre de 2006 con el episodio Stewie Loves Lois, y concluyó el 20 de mayo de 2007 con Meet the Quagmires.\n\nLa temporada recibió críticas dispares por parte de la crítica, los cuales citan el abuso que se hace de personajes como el Viejo Herbert o el Sordo Engrasado, y la falta de guiones originales. La PTC, grupo frecuentemente crítico con Padre de familia calificó varios episodios como \"el peor programa de prime time para los televidentes\". Los críticos, sin embargo, puntúan que la serie \"no ofrece signos de debilidad\", además de tener \"muchos momentos divertidos como jamás se han visto\".",
+        "poster_path": "/fpruvV8Z4zbDbd1Z7TuLgwn3Oue.jpg",
+        "season_number": 5,
+        "vote_average": 6.8
+      },
+      {
+        "air_date": "2007-09-23",
+        "episode_count": 12,
+        "id": 3826,
+        "name": "Temporada 6",
+        "overview": "La sexta temporada de Padre de familia dio comienzo el 23 de septiembre de 2007 y concluyó el 5 de mayo de 2008. La temporada se compuso de 12 episodios.\n\nFOX celebró el episodio 100 de la serie con Stewie Kills Lois.2 Blue Harvest se contó como un doble episodio, explicando así las diferencias respecto al episodio 100 de la serie.\n\nDebido a la huelga de guionistas del 2007-2008, la temporada tuvo un número reducido de episodios, de los cuales 3 fueron emitidos sin permiso expreso de Seth MacFarlane (quien apoyaba la huelga y se negó a trabajar en más episodios).",
+        "poster_path": "/iKdOJagRmtHMb8ZsuTwe32eNGZL.jpg",
+        "season_number": 6,
+        "vote_average": 7.0
+      },
+      {
+        "air_date": "2008-09-28",
+        "episode_count": 16,
+        "id": 3827,
+        "name": "Temporada 7",
+        "overview": "La séptima temporada de Padre de familia dio comienzo el 28 de septiembre de 2008 hasta el 17 de mayo de 2009. La temporada se compone de 16 episodios que van desde Love Blacktually hasta Peter's Progress.",
+        "poster_path": "/fEW8vuEwbXX8UtOCBXJTLS0aL2N.jpg",
+        "season_number": 7,
+        "vote_average": 6.7
+      },
+      {
+        "air_date": "2009-09-27",
+        "episode_count": 20,
+        "id": 3828,
+        "name": "Temporada 8",
+        "overview": "La octava temporada de Padre de familia dio comienzo el 27 de septiembre de 2009 y finalizó el 23 de mayo de 2010 en FOX a excepción del episodio «Partial Terms of Endearment» que se estrenó a través de BBC Three el 20 de junio del mismo año.",
+        "poster_path": "/dm6dOFt3t7goCAJgbOtLn6mjMbE.jpg",
+        "season_number": 8,
+        "vote_average": 6.7
+      },
+      {
+        "air_date": "2010-09-26",
+        "episode_count": 18,
+        "id": 3829,
+        "name": "Temporada 9",
+        "overview": "La novena temporada de Padre de Familia comenzó el 26 de septiembre de 2010 en FOX. Comenzará con el episodio \"And Then There Were None\" y teminará con \"It's a Trap!\". El comienzo en otoño de 2010 empezó con un episodio de una hora al estilo de las novelas de Agatha Christie, los personajes de la serie tendrán que resolver diversos asesinatos para descubrir al culpable.1 2 Esta temporada es la primera en la que la serie se emite en alta definición.",
+        "poster_path": "/fl3qhgkrrLTNwpqTA2nraEBoLu6.jpg",
+        "season_number": 9,
+        "vote_average": 6.7
+      },
+      {
+        "air_date": "2011-09-25",
+        "episode_count": 23,
+        "id": 3830,
+        "name": "Temporada 10",
+        "overview": "La décima temporada de Padre de Familia comenzó el 25 de septiembre de 2011 y finalizó el 20 de Mayo de 2012.\n\nUn asesino anda suelto entre los desprevenidos ciudadanos de Quahog, reunidos en la finca de James Wood para una noche de intriga y asesinatos. ¿Resolverá Peter el misterio... o empeorará las cosas, como siempre? ¡Únete a tus personajes favoritos en esta divertidísima aventura y en el resto de la diversión!",
+        "poster_path": "/8GfFtiiuq9ZBUoSmB4h0Sb41zXF.jpg",
+        "season_number": 10,
+        "vote_average": 6.9
+      },
+      {
+        "air_date": "2012-09-30",
+        "episode_count": 22,
+        "id": 3832,
+        "name": "Temporada 11",
+        "overview": "La undécima temporada de Padre de familia empezó el 30 de septiembre de 2012 y finalizó el 19 de mayo de 2013 con dos episodios.\n\nDale un toque de risa a tu hogar con los nuevos y divertidísimos episodios de Padre de Familia: Peter necesita un riñón nuevo, Lois se convierte en campeona de boxeo, Chris encuentra un nuevo pasatiempo, y Brian y Stewie ponen a prueba la continuidad del espacio y el tiempo para intentar salvar el universo. ¡Viaja a una nueva galaxia de risas con Padre de Familia!",
+        "poster_path": "/A8K93yxzZte8hBpYPbDMzojddg5.jpg",
+        "season_number": 11,
+        "vote_average": 6.7
+      },
+      {
+        "air_date": "2013-09-29",
+        "episode_count": 21,
+        "id": 3833,
+        "name": "Temporada 12",
+        "overview": "La duodécima temporada de Padre de familia comenzó a transmitirse en FOX el 29 de septiembre de 20131 2 3 .\n\nLa serie presenta a la familia Griffin, una familia disfuncional formada por el padre Peter, la madre Lois, la hija Meg, el hijo Chris, el bebé Stewie y el perro de la familia Brian, que residen en su ciudad natal de Quahog.\n\nLos invitados especiales a la temporada incluyen a Conan O'Brien, Jeff Daniels, Michelle Dockery, Tony Sirico, Yvette Nicole Brown, Gary Cole, y Cesar Millan, Ashton Kutcher, Liam Neeson, Jon Cryer, Liam Neeson, Bryan Cranston, Billie Joe Armstrong, Peter Dinklage y Adam Levine.4 5\n\nLa temporada finalizó el 18 de mayo de 2014 con el episodio \"Chap Stewie\".",
+        "poster_path": "/dwwUoFWoX2HL9PvgEWK8tkmDkw5.jpg",
+        "season_number": 12,
+        "vote_average": 6.5
+      },
+      {
+        "air_date": "2014-09-28",
+        "episode_count": 18,
+        "id": 62024,
+        "name": "Temporada 13",
+        "overview": "La decimotercera temporada de Padre de familia se estrenó en FOX el 28 de septiembre de 2014 y finalizó el 17 de mayo de 2015. Mientras en Hispanoamérica, la temporada inició el 20 de abril de 2015.\n\nLa serie sigue a la familia Griffin, una familia disfuncional formada por el padre Peter, la madre Lois, la hija Meg, el hijo Chris, el bebé Stewie y el perro de la familia Brian, que residen en su ciudad natal de Quahog, Rhode Island.\n\nEl primer episodio de la temporada cuenta con un crossover con la serie Los Simpsons.",
+        "poster_path": "/s3QgubA4fbmttkJtgrfa45cZrXy.jpg",
+        "season_number": 13,
+        "vote_average": 6.6
+      },
+      {
+        "air_date": "2015-09-27",
+        "episode_count": 20,
+        "id": 68069,
+        "name": "Temporada 14",
+        "overview": "El pequeño Stewie se convierte en el único sostén de la disfuncional familia Griffin, mientras las voces de celebridades enriquecen la decimocuarta temporada.",
+        "poster_path": "/pVNr4dosMWPnss2vTDzuvoRmZlX.jpg",
+        "season_number": 14,
+        "vote_average": 6.9
+      },
+      {
+        "air_date": "2016-09-25",
+        "episode_count": 20,
+        "id": 80358,
+        "name": "Temporada 15",
+        "overview": "En la temporada quince, Brian y Stewie comienzan una sociedad, Peter frustra un crimen, Meg prueba el roller derby y Lois descubre una verdad impactante.",
+        "poster_path": "/1YjJVsfkXI6FQNtZofmkf2HIFDo.jpg",
+        "season_number": 15,
+        "vote_average": 6.6
+      },
+      {
+        "air_date": "2017-09-30",
+        "episode_count": 20,
+        "id": 93251,
+        "name": "Temporada 16",
+        "overview": "Brian se muda de casa, Meg se hace un tatuaje, Stewie va al psiquiatra y Peter hace todo lo que está a su alcance para conseguir ese Emmy que se le escapa.",
+        "poster_path": "/b9nuBaJUXA6Zc6d2ugLB34lXTBl.jpg",
+        "season_number": 16,
+        "vote_average": 6.6
+      },
+      {
+        "air_date": "2018-09-29",
+        "episode_count": 20,
+        "id": 109932,
+        "name": "Temporada 17",
+        "overview": "Brian se pone la ortodoncia, Chris cambia de escuela, Meg compite en las Olimpiadas, Lois se dedica a escribir, Stewie hace amigos y Peter encuentra un gran trabajo.",
+        "poster_path": "/srmTU60mU6GVBCdnWvoN3Oq2KIc.jpg",
+        "season_number": 17,
+        "vote_average": 6.2
+      },
+      {
+        "air_date": "2019-09-28",
+        "episode_count": 20,
+        "id": 131144,
+        "name": "Temporada 18",
+        "overview": "A Peter le empieza a gustar el yacht rock, Stewie juega con fuego, Quagmire abre un café para gatos y la familia Griffin considera relanzar la franquicia.",
+        "poster_path": "/rtvzynHFyIjx6zEwWmmM7RiP28a.jpg",
+        "season_number": 18,
+        "vote_average": 5.8
+      },
+      {
+        "air_date": "2020-09-26",
+        "episode_count": 20,
+        "id": 164100,
+        "name": "Temporada 19",
+        "overview": "No se elige una familia, ¡pero nosotros llevamos 19 temporadas emocionantes eligiendo esta! Únete a la familia Griffin en una temporada que se sale de control, Stewie dice su primera palabra y Peter resulta herido en un accidente con una motosierra.",
+        "poster_path": "/bY0kgLkfPGPd7a7BwzRtP8TUwwu.jpg",
+        "season_number": 19,
+        "vote_average": 6.1
+      },
+      {
+        "air_date": "2021-09-25",
+        "episode_count": 20,
+        "id": 188886,
+        "name": "Temporada 20",
+        "overview": "No se elige a la familia, ¡pero nosotros llevamos 20 temporadas divertidísimas eligiendo a esta! Únete a la familia Griffin en la innovadora serie animada del estudio de Seth MacFarlane.",
+        "poster_path": "/t2dmPesDBjm7u0taj4wTJZO79SL.jpg",
+        "season_number": 20,
+        "vote_average": 5.9
+      },
+      {
+        "air_date": "2022-09-24",
+        "episode_count": 20,
+        "id": 297016,
+        "name": "Temporada 21",
+        "overview": "La 21ª temporada de Padre de Familia se centra en parodias de películas famosas como Forrest Gump y El Silencio de los Corderos, un episodio donde Peter es el héroe de Forrest Gump, Stewie y Brian viajan para buscar el triciclo de Stewie y Lois encuentra su libro en Joyce Kinney, Lois hipnotiza a Peter para satisfacer sus fantasías, y Peter y Chris viajan a Canadá para buscar a la supuesta novia de Chris.",
+        "poster_path": "/1NX0Hp6n5b6zHFUxeednoeZrKBA.jpg",
+        "season_number": 21,
+        "vote_average": 6.9
+      },
+      {
+        "air_date": "2023-10-01",
+        "episode_count": 15,
+        "id": 348835,
+        "name": "Temporada 22",
+        "overview": "La temporada 22 de Padre de Familia incluyó la trama de Brian viajando al pasado con la máquina del tiempo de Stewie para intentar eliminar la religión, el embarazo de Meg y el nacimiento de su hija como madre sustituta, y el viaje de Lois y Peter a Florida donde ella se da cuenta de que es el \"alfa\" de la relación. También se contó la historia de Joe y Brian escribiendo una novela sobre un crimen y cómo Lois se enfrenta a los ataques de un tiburón con Peter como una figura inútil.",
+        "poster_path": "/9MPDCPp2Xvu7VLjs8USIVyJ8qzh.jpg",
+        "season_number": 22,
+        "vote_average": 7.3
+      },
+      {
+        "air_date": "2025-02-16",
+        "episode_count": 18,
+        "id": 439123,
+        "name": "Temporada 23",
+        "overview": "La 23ª temporada de Padre de Familia se estrenó en EE. UU. con un especial navideño el 25 de noviembre de 2024, y el estreno oficial de la temporada fue el 16 de febrero de 2025 en Fox. Algunos de los eventos destacados de la temporada incluyen la reconciliación entre Brian y Quagmire, un viaje de Meg a Rusia, y el inicio de un arco argumental donde Meg se convierte en conductora de fugas.",
+        "poster_path": "/nlbEdLnQ6O2SyH8USlQOa29uUas.jpg",
+        "season_number": 23,
+        "vote_average": 6.5
+      }
+    ],
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Returning Series",
+    "tagline": "Se aconseja la discreción de los padres, así es como sabes que es bueno",
+    "type": "Scripted",
+    "vote_average": 7.397,
+    "vote_count": 4671,
+    "aggregate_credits": {
+      "cast": [
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 52139,
+          "known_for_department": "Acting",
+          "name": "Seth MacFarlane",
+          "original_name": "Seth MacFarlane",
+          "popularity": 1.7831,
+          "profile_path": "/8oQJqM51Z0Qtdb7sE6ZfX1peNCB.jpg",
+          "total_episode_count": 441,
+          "order": 0
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 24357,
+          "known_for_department": "Acting",
+          "name": "Alex Borstein",
+          "original_name": "Alex Borstein",
+          "popularity": 1.8099,
+          "profile_path": "/evbCnRe5Yfuy0B41PONLTIcvbem.jpg",
+          "total_episode_count": 441,
+          "order": 1
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 13922,
+          "known_for_department": "Acting",
+          "name": "Seth Green",
+          "original_name": "Seth Green",
+          "popularity": 2.3995,
+          "profile_path": "/l4No5Eu6j0U80hCIkaSn17AOWrj.jpg",
+          "total_episode_count": 441,
+          "order": 3
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 18973,
+          "known_for_department": "Acting",
+          "name": "Mila Kunis",
+          "original_name": "Mila Kunis",
+          "popularity": 3.5001,
+          "profile_path": "/6Lp9qPkMO740Hcp8NBYZZLWWvJF.jpg",
+          "total_episode_count": 434,
+          "order": 2
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 1219665,
+          "known_for_department": "Acting",
+          "name": "Mike Henry",
+          "original_name": "Mike Henry",
+          "popularity": 0.3638,
+          "profile_path": "/4b2315JgnH0O0hJPwLvl01EZEjo.jpg",
+          "total_episode_count": 203,
+          "order": 630
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 9657,
+          "known_for_department": "Acting",
+          "name": "Patrick Warburton",
+          "original_name": "Patrick Warburton",
+          "popularity": 1.8933,
+          "profile_path": "/nDoOii5HaGwPxYa28xFC2sDkF8y.jpg",
+          "total_episode_count": 199,
+          "order": 327
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 24362,
+          "known_for_department": "Acting",
+          "name": "Kevin Michael Richardson",
+          "original_name": "Kevin Michael Richardson",
+          "popularity": 2.0497,
+          "profile_path": "/xXt9Nh7RAT5bOen66TaXreNYmCl.jpg",
+          "total_episode_count": 104,
+          "order": 1844
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 81668,
+          "known_for_department": "Acting",
+          "name": "Rachael MacFarlane",
+          "original_name": "Rachael MacFarlane",
+          "popularity": 0.5585,
+          "profile_path": "/AnLEvMh9pl94uJOO2MnZFQB44b4.jpg",
+          "total_episode_count": 103,
+          "order": 1825
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 26847,
+          "known_for_department": "Acting",
+          "name": "Adam West",
+          "original_name": "Adam West",
+          "popularity": 1.423,
+          "profile_path": "/a3Yw8bb6AF7a8Zr7IyEZhZxWVWN.jpg",
+          "total_episode_count": 92,
+          "order": 1314
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 130836,
+          "known_for_department": "Acting",
+          "name": "John Viener",
+          "original_name": "John Viener",
+          "popularity": 0.3068,
+          "profile_path": "/zOrJ9ypXMjtlhqfl8JRop7my3cr.jpg",
+          "total_episode_count": 91,
+          "order": 1862
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 21163,
+          "known_for_department": "Acting",
+          "name": "Gary Cole",
+          "original_name": "Gary Cole",
+          "popularity": 1.8845,
+          "profile_path": "/cqsNC0LRZZz2k1dbgIcGITQ4DZN.jpg",
+          "total_episode_count": 90,
+          "order": 1840
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 60286,
+          "known_for_department": "Acting",
+          "name": "Ralph Garman",
+          "original_name": "Ralph Garman",
+          "popularity": 0.2436,
+          "profile_path": "/AuDBsawi0M9m9Gd23swFI3mur1v.jpg",
+          "total_episode_count": 83,
+          "order": 1811
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 7906,
+          "known_for_department": "Acting",
+          "name": "Jennifer Tilly",
+          "original_name": "Jennifer Tilly",
+          "popularity": 1.4638,
+          "profile_path": "/jrWj0LKOLGyn8BjxCPfwxX3BXC4.jpg",
+          "total_episode_count": 83,
+          "order": 2098
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 3249539,
+          "known_for_department": "Acting",
+          "name": "Arif Zahir",
+          "original_name": "Arif Zahir",
+          "popularity": 0.0813,
+          "profile_path": "/b8tKuHh132LcOFKC4Nd2fCJDGMt.jpg",
+          "total_episode_count": 73,
+          "order": 7
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 570785,
+          "known_for_department": "Acting",
+          "name": "Alec Sulkin",
+          "original_name": "Alec Sulkin",
+          "popularity": 0.8851,
+          "profile_path": "/zkrJ4ttzvGOAErBeOcbG3FeFxVR.jpg",
+          "total_episode_count": 56,
+          "order": 1739
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 99354,
+          "known_for_department": "Acting",
+          "name": "Danny Smith",
+          "original_name": "Danny Smith",
+          "popularity": 0.2372,
+          "profile_path": null,
+          "total_episode_count": 51,
+          "order": 1762
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 24358,
+          "known_for_department": "Acting",
+          "name": "Lori Alan",
+          "original_name": "Lori Alan",
+          "popularity": 0.4632,
+          "profile_path": "/cavATg4fX0zAl2MHwlt1IZei7EI.jpg",
+          "total_episode_count": 50,
+          "order": 1384
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 77761,
+          "known_for_department": "Acting",
+          "name": "John G. Brennan",
+          "original_name": "John G. Brennan",
+          "popularity": 1.0497,
+          "profile_path": "/g5VkG76RQ9zqKCU1eCQRpU041Bo.jpg",
+          "total_episode_count": 45,
+          "order": 1788
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 31549,
+          "known_for_department": "Acting",
+          "name": "Phil LaMarr",
+          "original_name": "Phil LaMarr",
+          "popularity": 0.9518,
+          "profile_path": "/xP2kNlsmXtzXq0geutflO4K9mSE.jpg",
+          "total_episode_count": 42,
+          "order": 1426
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 207676,
+          "known_for_department": "Acting",
+          "name": "Damien Fahey",
+          "original_name": "Damien Fahey",
+          "popularity": 0.1222,
+          "profile_path": "/b8wIpFlTClZ4cfTCkvV5wK34olt.jpg",
+          "total_episode_count": 42,
+          "order": 1862
+        }
+      ]
+    }
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/bDfboQUb45Cv9MYyVBDZw8M8xSM.jpg",
+    "created_by": [],
+    "episode_run_time": [],
+    "first_air_date": "2022-04-01",
+    "genres": [
+      {
+        "id": 80,
+        "name": "Crimen"
+      },
+      {
+        "id": 18,
+        "name": "Drama"
+      },
+      {
+        "id": 35,
+        "name": "Comedia"
+      }
+    ],
+    "homepage": "https://tv.apple.com/show/umc.cmc.2szz3fdt71tl1ulnbp8utgq5o",
+    "id": 95480,
+    "in_production": true,
+    "languages": [
+      "en"
+    ],
+    "last_air_date": "2025-09-24",
+    "last_episode_to_air": {
+      "id": 6284963,
+      "name": "Malas compañías",
+      "overview": "Un tiroteo masivo sacude Londres y complica las elecciones a la alcaldía. Shirley cree que han intentado atropellar a uno de los Caballos Lentos.",
+      "vote_average": 8.6,
+      "vote_count": 5,
+      "air_date": "2025-09-24",
+      "episode_number": 1,
+      "episode_type": "standard",
+      "production_code": "",
+      "runtime": 46,
+      "season_number": 5,
+      "show_id": 95480,
+      "still_path": "/qE61tCQ8u1n0G1zi4GO42nrgW5Q.jpg"
+    },
+    "name": "Slow Horses",
+    "next_episode_to_air": {
+      "id": 6284964,
+      "name": "Incomunicados",
+      "overview": "Lamb intercepta a un asesino. Taverner recibe información clave sobre el tiroteo de Abbotsfield.",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "air_date": "2025-10-01",
+      "episode_number": 2,
+      "episode_type": "standard",
+      "production_code": "",
+      "runtime": 48,
+      "season_number": 5,
+      "show_id": 95480,
+      "still_path": "/pqYIYtIYDfWYVXbAJh4cbayy1V2.jpg"
+    },
+    "networks": [
+      {
+        "id": 2552,
+        "logo_path": "/4KAy34EHvRM25Ih8wb82AuGU7zJ.png",
+        "name": "Apple TV+",
+        "origin_country": ""
+      }
+    ],
+    "number_of_episodes": 30,
+    "number_of_seasons": 5,
+    "origin_country": [
+      "GB"
+    ],
+    "original_language": "en",
+    "original_name": "Slow Horses",
+    "overview": "Drama de espías con tintes de comedia negra centrado en las andanzas de un incompetente equipo de agentes del MI5 y en su jefe, el irreverente Jackson Lamb, a medida que desmontan los artificios del espionaje para defender Inglaterra de las fuerzas del mal.",
+    "popularity": 73.6641,
+    "poster_path": "/jnbQWjyWxcCf6DaGQXC5AACHCYv.jpg",
+    "production_companies": [
+      {
+        "id": 7217,
+        "logo_path": "/vFbexaF70wSMUHRA6Fy6UcuA1ju.png",
+        "name": "See-Saw Films",
+        "origin_country": "GB"
+      },
+      {
+        "id": 215180,
+        "logo_path": null,
+        "name": "Flying Studio Pictures",
+        "origin_country": "US"
+      },
+      {
+        "id": 11073,
+        "logo_path": "/wHs44fktdoj6c378ZbSWfzKsM2Z.png",
+        "name": "Sony Pictures Television",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "GB",
+        "name": "United Kingdom"
+      },
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "seasons": [
+      {
+        "air_date": "2022-04-01",
+        "episode_count": 6,
+        "id": 135858,
+        "name": "Temporada 1",
+        "overview": "Slow Horses está basada en la novela homónima de Mick Herron, que forma parte de la serie Slough House del autor. Cuenta la historia de un equipo de agentes de la inteligencia británica que han cometido errores que han acabado con su carrera, y que posteriormente trabajan en un departamento del MI5 llamado Slough House.",
+        "poster_path": "/rPQEtuZtDl3HxYWnJAusJYKA52Q.jpg",
+        "season_number": 1,
+        "vote_average": 7.8
+      },
+      {
+        "air_date": "2022-12-02",
+        "episode_count": 6,
+        "id": 310117,
+        "name": "Temporada 2",
+        "overview": "Surgen secretos de la Guerra Fría enterrados desde hace tiempo que amenazan con llevar la carnicería a las calles de Londres. Cuando un enlace con villanos rusos toma un giro fatal, nuestros desventurados héroes deben superar sus fallos individuales y elevar su juego de espionaje en una carrera para evitar un incidente catastrófico.",
+        "poster_path": "/8FM8KCgZQSbLLXcZew0MSj6so1k.jpg",
+        "season_number": 2,
+        "vote_average": 8.1
+      },
+      {
+        "air_date": "2023-11-29",
+        "episode_count": 6,
+        "id": 357755,
+        "name": "Temporada 3",
+        "overview": "Una relación romántica en Estambul amenaza con exponer un secreto del MI5 enterrado en Londres. Cuando Jackson Lamb y su equipo de inadaptados se ven arrastrados a la pelea, se encuentran atrapados en una conspiración que amenaza el futuro no sólo de Slough House sino del propio MI5.",
+        "poster_path": "/hys4WAFuqooLQpItxpFzDlhUHxK.jpg",
+        "season_number": 3,
+        "vote_average": 8.4
+      },
+      {
+        "air_date": "2024-09-04",
+        "episode_count": 6,
+        "id": 400149,
+        "name": "Temporada 4",
+        "overview": "Un atentado hace estallar secretos personales, sacudiendo los ya inestables cimientos de Slough House.",
+        "poster_path": "/wIJTWIPrqso2u0k6BjruSeS3R0A.jpg",
+        "season_number": 4,
+        "vote_average": 8.5
+      },
+      {
+        "air_date": "2025-09-24",
+        "episode_count": 6,
+        "id": 459284,
+        "name": "Temporada 5",
+        "overview": "En la quinta temporada, todos sospechan cuando Roddy Ho, el empollón tecnológico del barrio, aparece con una nueva y glamurosa novia. Cuando se producen una serie de sucesos cada vez más extraños en toda la ciudad, los Slow Horses deben averiguar cómo están relacionados. Al fin y al cabo, Lamb sabe que en el mundo del espionaje siempre se aplican las reglas de Londres: cúbrete las espaldas.",
+        "poster_path": "/glcBuLW6NkZytmcpkkETsFXuVYj.jpg",
+        "season_number": 5,
+        "vote_average": 8.6
+      }
+    ],
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Returning Series",
+    "tagline": "Bebedoir. Astuto. Rebelde. Espía.",
+    "type": "Scripted",
+    "vote_average": 8.0,
+    "vote_count": 635,
+    "aggregate_credits": {
+      "cast": [
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 64,
+          "known_for_department": "Acting",
+          "name": "Gary Oldman",
+          "original_name": "Gary Oldman",
+          "popularity": 16.0358,
+          "profile_path": "/2v9FVVBUrrkW2m3QOcYkuhq9A6o.jpg",
+          "total_episode_count": 30,
+          "order": 0
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 1334638,
+          "known_for_department": "Acting",
+          "name": "Jack Lowden",
+          "original_name": "Jack Lowden",
+          "popularity": 1.3819,
+          "profile_path": "/3wSE6uHLkslE9xvRiMbnphuI0VK.jpg",
+          "total_episode_count": 30,
+          "order": 1
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 5470,
+          "known_for_department": "Acting",
+          "name": "Kristin Scott Thomas",
+          "original_name": "Kristin Scott Thomas",
+          "popularity": 2.3705,
+          "profile_path": "/axksw0vAjBPSW02ZqpcC0V8rPD7.jpg",
+          "total_episode_count": 30,
+          "order": 2
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 1682679,
+          "known_for_department": "Acting",
+          "name": "Rosalind Eleazar",
+          "original_name": "Rosalind Eleazar",
+          "popularity": 1.8233,
+          "profile_path": "/9Tb1rLSnyCfnZXYixfjWJuQJig9.jpg",
+          "total_episode_count": 24,
+          "order": 533
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 13363,
+          "known_for_department": "Acting",
+          "name": "Saskia Reeves",
+          "original_name": "Saskia Reeves",
+          "popularity": 2.6064,
+          "profile_path": "/dTzb4BHZ9T9O2kNgNgTuMtGQ8rB.jpg",
+          "total_episode_count": 23,
+          "order": 5
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 1239342,
+          "known_for_department": "Acting",
+          "name": "Christopher Chung",
+          "original_name": "Christopher Chung",
+          "popularity": 0.5768,
+          "profile_path": "/wV4r6tVjP9Prk2acj7bYTmdtaMF.jpg",
+          "total_episode_count": 23,
+          "order": 518
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 1224269,
+          "known_for_department": "Acting",
+          "name": "Aimee-Ffion Edwards",
+          "original_name": "Aimee-Ffion Edwards",
+          "popularity": 2.224,
+          "profile_path": "/iwk8yjyWd46R5BFAYQLImFUvlHh.jpg",
+          "total_episode_count": 18,
+          "order": 535
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 1411379,
+          "known_for_department": "Acting",
+          "name": "Kadiff Kirwan",
+          "original_name": "Kadiff Kirwan",
+          "popularity": 1.2275,
+          "profile_path": "/pyDKDSVtDTdmnzhOVW1tkQDHKOi.jpg",
+          "total_episode_count": 18,
+          "order": 536
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 1384499,
+          "known_for_department": "Acting",
+          "name": "Chris Reilly",
+          "original_name": "Chris Reilly",
+          "popularity": 0.5239,
+          "profile_path": "/kOhT3CLkncba0b2gyBhfSBVlcbt.jpg",
+          "total_episode_count": 13,
+          "order": 532
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 378,
+          "known_for_department": "Acting",
+          "name": "Jonathan Pryce",
+          "original_name": "Jonathan Pryce",
+          "popularity": 2.1751,
+          "profile_path": "/zwSv5uXzPTtmitFe39UdqnVwmdL.jpg",
+          "total_episode_count": 11,
+          "order": 4
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 1014931,
+          "known_for_department": "Acting",
+          "name": "Freddie Fox",
+          "original_name": "Freddie Fox",
+          "popularity": 2.0674,
+          "profile_path": "/sEFssmnAWoXygusP8IE4URmhmd5.jpg",
+          "total_episode_count": 11,
+          "order": 507
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 1308934,
+          "known_for_department": "Acting",
+          "name": "Dustin Demri-Burns",
+          "original_name": "Dustin Demri-Burns",
+          "popularity": 0.681,
+          "profile_path": "/m0yBhBOqO9HSvsBxj9JzdPfMf3d.jpg",
+          "total_episode_count": 10,
+          "order": 531
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 3399457,
+          "known_for_department": "Acting",
+          "name": "Naomi Wirthner",
+          "original_name": "Naomi Wirthner",
+          "popularity": 0.303,
+          "profile_path": "/qcp8DBhZpiekFnljrD8Axj0Dl1u.jpg",
+          "total_episode_count": 9,
+          "order": 541
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 54447,
+          "known_for_department": "Acting",
+          "name": "Samuel West",
+          "original_name": "Samuel West",
+          "popularity": 2.1024,
+          "profile_path": "/bn1nd5zERi5wyHcA1YMGvrHAD5L.jpg",
+          "total_episode_count": 8,
+          "order": 514
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 194863,
+          "known_for_department": "Acting",
+          "name": "Chris Coghill",
+          "original_name": "Chris Coghill",
+          "popularity": 1.114,
+          "profile_path": "/fQYopflsxgBdlBcMsBY09csyy4O.jpg",
+          "total_episode_count": 7,
+          "order": 519
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 2000704,
+          "known_for_department": "Acting",
+          "name": "Bally Gill",
+          "original_name": "Bally Gill",
+          "popularity": 0.1015,
+          "profile_path": "/kjlgABGFfYHwFmZwc7fBwckngMG.jpg",
+          "total_episode_count": 7,
+          "order": 523
+        },
+        {
+          "adult": false,
+          "gender": 1,
+          "id": 2598,
+          "known_for_department": "Acting",
+          "name": "Sophie Okonedo",
+          "original_name": "Sophie Okonedo",
+          "popularity": 1.1965,
+          "profile_path": "/oMZmk0q04ly3ztD8Us4f1yfPyF1.jpg",
+          "total_episode_count": 7,
+          "order": 524
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 1331,
+          "known_for_department": "Acting",
+          "name": "Hugo Weaving",
+          "original_name": "Hugo Weaving",
+          "popularity": 1.4701,
+          "profile_path": "/t4ScpYIHlXVD41scEyiGdQDYflX.jpg",
+          "total_episode_count": 6,
+          "order": 3
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 1812465,
+          "known_for_department": "Acting",
+          "name": "Antonio Aakeel",
+          "original_name": "Antonio Aakeel",
+          "popularity": 0.2327,
+          "profile_path": "/bZQM9rdsngwVVcnxCQEQEYA9Ycf.jpg",
+          "total_episode_count": 6,
+          "order": 513
+        },
+        {
+          "adult": false,
+          "gender": 2,
+          "id": 1479869,
+          "known_for_department": "Acting",
+          "name": "Ṣọpẹ́ Dìrísù",
+          "original_name": "Ṣọpẹ́ Dìrísù",
+          "popularity": 1.3477,
+          "profile_path": "/24Se9voPxrO200Ae8GQRbMkE55B.jpg",
+          "total_episode_count": 6,
+          "order": 565
+        }
+      ]
+    }
+  }
+]
