@@ -65,7 +65,7 @@ public interface IMainContract {
         /**
          * The view is requested to display the given list of series.
          * Only the Presenter should call this method
-         * @param series the list of charging stations
+         * @param series the list of tv series
          */
         public void showSeries(List<Series> series);
 
