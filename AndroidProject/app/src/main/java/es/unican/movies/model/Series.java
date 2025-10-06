@@ -25,4 +25,16 @@ public class Series {
     @SerializedName("poster_path")
     protected String posterPath;
 
+    @SerializedName("vote_average")
+    protected double voteAverage;
+
+    @SerializedName("vote_count")
+    protected int voteCount;
+
+    @SerializedName("in_production")
+    protected boolean inProduction;
+
+    @SerializedName("overview")
+    protected String overview;
+
 }
