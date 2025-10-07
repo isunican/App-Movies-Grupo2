@@ -18,6 +18,6 @@ public interface IDetailsContract {
         void showError(String message);
 
 
-        void ShowDetailContent(Series serie);
+        void showDetailContent();
     }
 }

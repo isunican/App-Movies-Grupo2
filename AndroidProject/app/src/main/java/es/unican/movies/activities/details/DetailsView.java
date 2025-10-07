@@ -37,12 +37,7 @@ public class DetailsView extends AppCompatActivity implements IDetailsContract.D
 
     @Override
     public void init() {
-        Series series = Parcels.unwrap(getIntent().getExtras().getParcelable(INTENT_MOVIE));
-        assert series != null;
-        TextView tvTitle = findViewById(R.id.tvTitle);
-        TextView tvId = findViewById(R.id.tvId);
-        tvTitle.setText(series.getName());
-        tvId.setText(String.valueOf(series.getId()));
+        showDetailContent();
     }
     @Override
     public void showError(String message) {
@@ -52,7 +47,16 @@ public class DetailsView extends AppCompatActivity implements IDetailsContract.D
 
 
     @Override
-    public void ShowDetailContent(Series serie){
+    public void showDetailContent(){
+
+        Series series = Parcels.unwrap(getIntent().getExtras().getParcelable(INTENT_MOVIE));
+        assert series != null;
+        TextView tvTitle = findViewById(R.id.tvTitle);
+        TextView tvId = findViewById(R.id.tvId);
+        //TextView tvVoteAverage = findViewById(R.id.tvVoteAverage);
+        tvTitle.setText(series.getName());
+        tvId.setText(String.valueOf(series.getId()));
+        //tvVoteAverage.setText(String.valueOf(series.getVoteAverage()));
 
     }
 
