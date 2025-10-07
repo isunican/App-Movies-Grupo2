@@ -29,6 +29,6 @@ public class DetailsView extends AppCompatActivity {
         TextView tvId = findViewById(R.id.tvId);
         tvTitle.setText(series.getName());
         tvId.setText(String.valueOf(series.getId()));
-        
+
     }
 }
