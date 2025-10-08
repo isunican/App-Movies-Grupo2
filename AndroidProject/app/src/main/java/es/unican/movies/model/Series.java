@@ -4,6 +4,8 @@ import com.google.gson.annotations.SerializedName;
 
 import org.parceler.Parcel;
 
+import java.util.Date;
+
 import lombok.Getter;
 import lombok.Setter;
 
@@ -36,5 +38,17 @@ public class Series {
 
     @SerializedName("overview")
     protected String overview;
+
+    @SerializedName("first_air_date")
+    protected String firstAirDate;
+
+    @SerializedName("last_air_date")
+    protected String lastAirDate;
+
+    @SerializedName("number_of_episodes")
+    protected int numberOfEpisodes;
+
+    @SerializedName("number_of_seasons")
+    protected int numberOfSeasons;
 
 }

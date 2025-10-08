@@ -42,7 +42,7 @@ public class Utils {
      * @param voteAverage Valor double de la media de votos proveniente del json.
      * @return La puntuación sumaria de una serie en formato String.
      */
-    public String obtenerPuntuacionSumaria(int voteCount, double voteAverage) {
+    public static String obtenerPuntuacionSumaria(int voteCount, double voteAverage) {
         if (voteCount < 0 || voteAverage < 0) {
             return "-";
         }
