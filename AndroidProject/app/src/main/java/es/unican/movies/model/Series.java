@@ -5,6 +5,7 @@ import com.google.gson.annotations.SerializedName;
 import org.parceler.Parcel;
 
 import java.util.Date;
+import java.util.List;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -50,5 +51,8 @@ public class Series {
 
     @SerializedName("number_of_seasons")
     protected int numberOfSeasons;
+
+    @SerializedName("genres")
+    protected List<Genre> genres;
 
 }

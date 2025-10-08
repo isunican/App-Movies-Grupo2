@@ -11,6 +11,7 @@ import java.io.InputStreamReader;
 import java.lang.reflect.Type;
 import java.util.List;
 
+import es.unican.movies.model.Genre;
 import es.unican.movies.model.Movie;
 import es.unican.movies.model.Series;
 
@@ -52,5 +53,18 @@ public class Utils {
         puntuacionSumaria = Math.round(puntuacionSumaria * 100.0) / 100.0; // Redondear a dos decimales
 
         return String.valueOf(puntuacionSumaria);
+    }
+
+    public static String generateStringFromList(List<Genre> list, String separator) {
+        if (list == null || list.isEmpty()) {
+            return "";
+        }
+        StringBuilder sb = new StringBuilder();
+        for (Genre item : list) {
+            sb.append(item.name).append(separator);
+        }
+        // Remove the last separator
+        sb.setLength(sb.length() - separator.length());
+        return sb.toString();
     }
 }

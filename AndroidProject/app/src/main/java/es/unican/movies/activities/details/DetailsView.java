@@ -12,6 +12,7 @@ import androidx.appcompat.widget.Toolbar;
 import com.squareup.picasso.Picasso;
 
 import org.parceler.Parcels;
+import org.w3c.dom.Text;
 
 import es.unican.movies.R;
 import es.unican.movies.activities.main.MainPresenter;
@@ -59,27 +60,28 @@ public class DetailsView extends AppCompatActivity implements IDetailsContract.D
         Series series = Parcels.unwrap(getIntent().getExtras().getParcelable(INTENT_MOVIE));
         assert series != null;
 
+        String generosARellenar = Utils.generateStringFromList(series.getGenres(), ", ");
+
         TextView tvTitle = findViewById(R.id.tvTitulo);
-        RatingBar tvVoteAverage = findViewById(R.id.rbPuntMediaRellenar);
-        RatingBar sumariaVotes =  findViewById(R.id.rbPuntSumariaRellenar);
+        TextView tvVoteAverage = findViewById(R.id.tvPuntMediaRellenar);
+        TextView sumariaVotes =  findViewById(R.id.tvPuntSumariaRellenar);
         ImageView ivPoster = findViewById(R.id.fotoSerie);
         TextView fechaPE = findViewById(R.id.tvFechaPERellenar);
         TextView fechaUE = findViewById(R.id.tvFechaUERellenar);
         TextView chapters = findViewById(R.id.tvCaptRellenar);
         TextView seasons = findViewById(R.id.tvTempRellenar);
-
+        TextView genres = findViewById(R.id.tvGenerosRellenar);
 
         String puntuacion = Utils.obtenerPuntuacionSumaria(series.getVoteCount(), series.getVoteAverage());
         String imageUrl = ITmdbApi.getFullImagePath(series.getPosterPath(), EImageSize.W92);
         Picasso.get().load(imageUrl).fit().centerInside().into(ivPoster);
 
-        tvVoteAverage.setNumStars(12);
-        sumariaVotes.setNumStars(12);
 
 
+        genres.setText(generosARellenar);
         tvTitle.setText(series.getName());
-        tvVoteAverage.setRating((float) series.getVoteAverage());
-        sumariaVotes.setRating(Float.parseFloat(puntuacion));
+        tvVoteAverage.setText(String.valueOf(series.getVoteAverage()));
+        sumariaVotes.setText(puntuacion);
         fechaPE.setText(series.getFirstAirDate());
         fechaUE.setText(series.getLastAirDate());
         chapters.setText(String.valueOf(series.getNumberOfEpisodes()));
