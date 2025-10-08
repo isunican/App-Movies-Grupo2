@@ -49,4 +49,5 @@ public class MainPresenter implements IMainContract.Presenter {
             }
         });
     }
+
 }
