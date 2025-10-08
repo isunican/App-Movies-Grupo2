@@ -7,9 +7,7 @@ public class DetailsPresenter implements IDetailsContract.DetailPresenter {
         this.view = view;
         this.view.init();
 
-    }
-
-    public void loadDetails(){
 
     }
+
 }
