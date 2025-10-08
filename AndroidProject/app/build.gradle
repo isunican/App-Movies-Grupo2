@@ -81,6 +81,7 @@ android {
         // I need a custom test runner to support Hilt dependency injection
         // testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner
         testInstrumentationRunner "es.unican.movies.utils.CustomTestRunner"
+
     }
 
     buildTypes {
@@ -99,6 +100,12 @@ android {
 }
 
 dependencies {
+    androidTestImplementation 'org.hamcrest:hamcrest:2.2'
+    testImplementation 'org.hamcrest:hamcrest:2.2'
+
+    // (opcionales pero recomendados si no están en tu libs.*)
+    androidTestImplementation 'androidx.test:runner:1.5.2'
+    androidTestImplementation 'androidx.test:rules:1.5.0'
     implementation libs.appcompat
     implementation libs.material
     implementation libs.activity

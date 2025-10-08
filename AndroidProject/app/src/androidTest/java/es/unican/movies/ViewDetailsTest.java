@@ -67,29 +67,24 @@ public class ViewDetailsTest {
 
     @Test
     public void viewDetailsSuccess() {
-
         onData(anything())
                 .inAdapterView(withId(R.id.lvSeries))
-                .atPosition(1)
-                .check(matches(withText("El Pacificador")));
-
-        onData(anything())
-                .inAdapterView(withId(R.id.lvSeries))
-                .atPosition(1)
+                .atPosition(0)
                 .perform(click());
 
-        onView(withId(R.id.lvSeries)).check(doesNotExist());
+        onView(withId(R.id.tvTitulo)).check(matches(withText("El Pacificador")));
+        onView(withId(R.id.tvFechaUERellenar)).check(matches(withText("2022")));
+        onView(withId(R.id.tvFechaPERellenar)).check(matches(withText("2025-09-25")));
+        onView(withId(R.id.tvTempRellenar)).check(matches(withText("2")));
+        onView(withId(R.id.tvCaptRellenar)).check(matches(withText("16")));
+        onView(withId(R.id.tvGenerosRellenar)).check(matches(withText(
+                "Action & Adventure, Sci-Fi & Fantasy, Drama"
+        )));
+        onView(withId(R.id.tvPuntSumariaRellenar)).check(matches(withText("8.20")));
+        onView(withId(R.id.tvPuntMediaRellenar)).check(matches(withText("7.58")));
 
-        onView(withId(R.id.)).check(matches(withText("El Pacificador")));
-        onView(withId(R.id.)).check(matches(withText("2022")));
-        onView(withId(R.id.)).check(matches(withText("2025-09-25")));
-        onView(withId(R.id.)).check(matches(withText("2")));
-        onView(withId(R.id.)).check(matches(withText("16")));
-        onView(withId(R.id.)).check(matches(withText("Action & Adventure, Sci-Fi & Fantasy, Drama")));
-        onView(withId(R.id.)).check(matches(isDisplayed()));
-        onView(withId(R.id.)).check(matches(withText("8.20")));
-        onView(withId(R.id.)).check(matches(withText("7.58")));
     }
+
 
     @Test
     public void viewDetailsMissingData() {
@@ -107,14 +102,14 @@ public class ViewDetailsTest {
 
         onView(withId(R.id.lvSeries)).check(doesNotExist());
 
-        onView(withId(R.id.)).check(matches(withText("Serie Incompleta")));
-        onView(withId(R.id.)).check(matches(withText("-")));
-        onView(withId(R.id.)).check(matches(withText("-")));
-        onView(withId(R.id.)).check(matches(withText("-")));
-        onView(withId(R.id.)).check(matches(withText("-")));
-        onView(withId(R.id.)).check(matches(withText("-")));
-        onView(withId(R.id.)).check(matches(withText("-")));
-        onView(withId(R.id.)).check(matches(withText("-")));
+        onView(withId(R.id.tvTitle)).check(matches(withText("Serie Incompleta")));
+        onView(withId(R.id.tvFechaPEBase)).check(matches(withText("-")));
+        onView(withId(R.id.tvFechaUEBase)).check(matches(withText("-")));
+        onView(withId(R.id.tvNumTempBase)).check(matches(withText("-")));
+        onView(withId(R.id.tvNumCapBase)).check(matches(withText("-")));
+        onView(withId(R.id.tvGenerosBase)).check(matches(withText("-")));
+        onView(withId(R.id.tvPuntSumariaBase)).check(matches(withText("-")));
+        onView(withId(R.id.tvPuntMediaBase)).check(matches(withText("-")));
     }
 
     @Test
@@ -133,13 +128,13 @@ public class ViewDetailsTest {
 
         onView(withId(R.id.lvSeries)).check(doesNotExist());
 
-        onView(withId(R.id.)).check(matches(withText("Serie Anómala")));
-        onView(withId(R.id.)).check(matches(withText("-")));
-        onView(withId(R.id.)).check(matches(withText("-")));
-        onView(withId(R.id.)).check(matches(withText("-")));
-        onView(withId(R.id.)).check(matches(withText("-")));
-        onView(withId(R.id.)).check(matches(withText("-")));
-        onView(withId(R.id.)).check(matches(withText("-")));
-        onView(withId(R.id.)).check(matches(withText("-")));
+        onView(withId(R.id.tvTitle)).check(matches(withText("Serie Anómala")));
+        onView(withId(R.id.tvFechaPEBase)).check(matches(withText("-")));
+        onView(withId(R.id.tvFechaUEBase)).check(matches(withText("-")));
+        onView(withId(R.id.tvNumTempBase)).check(matches(withText("-")));
+        onView(withId(R.id.tvNumCapBase)).check(matches(withText("-")));
+        onView(withId(R.id.tvGenerosBase)).check(matches(withText("-")));
+        onView(withId(R.id.tvPuntSumariaBase)).check(matches(withText("-")));
+        onView(withId(R.id.tvPuntMediaBase)).check(matches(withText("-")));
     }
 }
