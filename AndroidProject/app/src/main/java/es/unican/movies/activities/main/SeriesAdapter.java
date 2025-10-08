@@ -52,11 +52,15 @@ public class SeriesAdapter extends ArrayAdapter<Series> {
         // poster
         ImageView ivPoster = convertView.findViewById(R.id.ivPoster);
         String imageUrl = ITmdbApi.getFullImagePath(series.getPosterPath(), EImageSize.W92);
+
         Picasso.get().load(imageUrl).fit().centerInside().into(ivPoster);
 
         // titulo
         TextView tvTitle = convertView.findViewById(R.id.tvTitle);
         tvTitle.setText(series.getName());
+
+
+
 
         return convertView;
     }

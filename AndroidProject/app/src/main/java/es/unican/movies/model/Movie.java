@@ -24,4 +24,10 @@ public class Movie {
     @SerializedName("poster_path")
     protected String posterPath;
 
+    @SerializedName("vote_average")
+    protected float voteAverage;
+
+    @SerializedName("vote_count")
+    protected int voteCount;
+
 }
