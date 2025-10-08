@@ -41,7 +41,6 @@ import static androidx.test.espresso.assertion.ViewAssertions.doesNotExist;
 import static androidx.test.espresso.assertion.ViewAssertions.matches;
 import static androidx.test.espresso.matcher.ViewMatchers.*;
 import static org.hamcrest.CoreMatchers.anything;
-import static org.hamcrest.Matchers.allOf;
 
 import static es.unican.movies.utils.MockRepositories.getTestRepository;
 
