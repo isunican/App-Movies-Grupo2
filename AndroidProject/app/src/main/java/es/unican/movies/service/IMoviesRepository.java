@@ -2,6 +2,7 @@ package es.unican.movies.service;
 
 import java.util.List;
 
+import es.unican.movies.model.FilterSeries;
 import es.unican.movies.model.Movie;
 import es.unican.movies.model.Series;
 
@@ -21,6 +22,11 @@ public interface IMoviesRepository {
      * @param cb the callback to be called when the request is successful or fails
      */
     public void requestAggregateSeries(ICallback<List<Series>> cb);
+    /**
+     * Request an aggregate list of series.
+     * @param cb the callback to be called when the request is successful or fails
+     */
+    public void requestAggregateSeries(ICallback<List<Series>> cb, FilterSeries filter);
 
     /**
      * Request the details of a movie.

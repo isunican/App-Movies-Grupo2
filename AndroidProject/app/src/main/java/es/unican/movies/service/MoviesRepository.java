@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.util.List;
 
 import es.unican.movies.BuildConfig;
+import es.unican.movies.model.FilterSeries;
 import es.unican.movies.model.Movie;
 import es.unican.movies.model.Series;
 import okhttp3.Interceptor;
@@ -72,6 +73,15 @@ public class MoviesRepository implements IMoviesRepository {
     }
 
 
+    /**
+     * Asynchronously requests a list of aggregated movies from the static API.
+     * This method initiates a network request in the background.
+     * The results, either the list of movies on success or an error on failure,
+     * are delivered via the provided callback.
+     *
+     * @param cb The callback to be invoked when the request is complete.
+     *           It will receive the list of movies on success or a Throwable on failure.
+     */
     @Override
     public void requestAggregateMovies(ICallback<List<Movie>> cb) {
         StaticAPI.getAggregateMovies().enqueue(new Callback<List<Movie>>() {
@@ -88,9 +98,26 @@ public class MoviesRepository implements IMoviesRepository {
         });
     }
 
+
+    @Override
+    public void requestAggregateSeries(ICallback<List<Series>> cb, FilterSeries filter) {
+        StaticAPI.getAggregateSeries(filter.getTitle()).enqueue(new Callback<List<Series>>() {
+            @Override
+            public void onResponse(Call<List<Series>> call, Response<List<Series>> response) {
+                List<Series> series = response.body();
+                cb.onSuccess(series);
+            }
+
+            @Override
+            public void onFailure(Call<List<Series>> call, Throwable t) {
+                cb.onFailure(t);
+            }
+        });
+    }
+
     @Override
     public void requestAggregateSeries(ICallback<List<Series>> cb) {
-        StaticAPI.getAggregateSeries().enqueue(new Callback<List<Series>>() {
+        StaticAPI.getAggregateSeries(null).enqueue(new Callback<List<Series>>() {
             @Override
             public void onResponse(Call<List<Series>> call, Response<List<Series>> response) {
                 List<Series> series = response.body();
