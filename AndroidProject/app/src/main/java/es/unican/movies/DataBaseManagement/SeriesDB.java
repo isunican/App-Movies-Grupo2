@@ -5,6 +5,11 @@ import androidx.room.PrimaryKey;
 import androidx.room.ColumnInfo;
 import androidx.room.Ignore;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 @Entity(tableName = "wishlist_series")
 public class SeriesDB {
 
@@ -47,12 +52,4 @@ public class SeriesDB {
     @Ignore public String originalLanguage;
 
     public SeriesDB() {}
-
-    public String getPosterPathWishlist() {
-        return posterPath;
-    }
-
-    public String getNameWishlist() {
-        return name;
-    }
 }

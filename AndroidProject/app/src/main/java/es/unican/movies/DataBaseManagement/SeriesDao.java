@@ -14,7 +14,7 @@ import es.unican.movies.model.Series;
 public interface SeriesDao {
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    void addToWishlist(Series series);
+    void addToWishlist(SeriesDB series);
 
     @Query("SELECT * FROM wishlist_series")
     List<SeriesDB> getWishlist();

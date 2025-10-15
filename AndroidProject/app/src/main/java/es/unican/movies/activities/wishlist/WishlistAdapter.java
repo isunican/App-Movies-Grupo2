@@ -1,4 +1,4 @@
-package es.unican.movies.activities.main;
+package es.unican.movies.activities.wishlist;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -18,8 +18,6 @@ import java.util.List;
 import es.unican.movies.DataBaseManagement.SeriesDB;
 import es.unican.movies.R;
 import es.unican.movies.model.Series;
-import es.unican.movies.service.EImageSize;
-import es.unican.movies.service.ITmdbApi;
 
 public class WishlistAdapter extends ArrayAdapter<SeriesDB> {
 
@@ -49,13 +47,13 @@ public class WishlistAdapter extends ArrayAdapter<SeriesDB> {
 
         // poster
         ImageView ivPoster = convertView.findViewById(R.id.ivPoster);
-        String imageUrl = series.getPosterPathWishlist();
+        String imageUrl = series.getPosterPath();
 
         Picasso.get().load(imageUrl).fit().centerInside().into(ivPoster);
 
         // titulo
         TextView tvTitle = convertView.findViewById(R.id.tvTitle);
-        tvTitle.setText(series.getNameWishlist());
+        tvTitle.setText(series.getName());
 
 
 
@@ -74,4 +72,11 @@ public class WishlistAdapter extends ArrayAdapter<SeriesDB> {
         return wishlistList.get(position);
     }
 
+    public static SeriesDB convertToSeriesDB(Series series) {
+        SeriesDB seriesDB = new SeriesDB();
+        seriesDB.setId(series.getId());
+        seriesDB.setName(series.getName());
+        seriesDB.setPosterPath(series.getPosterPath());
+        return seriesDB;
+    }
 }

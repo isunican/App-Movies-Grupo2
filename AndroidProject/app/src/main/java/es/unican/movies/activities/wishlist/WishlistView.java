@@ -1,4 +1,4 @@
-package es.unican.movies.activities.main;
+package es.unican.movies.activities.wishlist;
 
 import android.content.Context;
 import android.content.Intent;
@@ -8,7 +8,6 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -28,8 +27,10 @@ import es.unican.movies.DataBaseManagement.SeriesDB;
 import es.unican.movies.R;
 import es.unican.movies.activities.details.DetailsView;
 import es.unican.movies.activities.info.InfoActivity;
-import es.unican.movies.activities.wishlist.WishlistAdapter;
-import es.unican.movies.activities.wishlist.WishlistView;
+import es.unican.movies.activities.main.IMainContract;
+import es.unican.movies.activities.main.MainPresenter;
+import es.unican.movies.activities.main.MainView;
+import es.unican.movies.activities.main.SeriesAdapter;
 import es.unican.movies.model.Series;
 import es.unican.movies.service.IMoviesRepository;
 
@@ -37,18 +38,14 @@ import es.unican.movies.service.IMoviesRepository;
  * Activity to show the list of series.
  */
 @AndroidEntryPoint
-public class MainView extends AppCompatActivity implements IMainContract.View {
+public class WishlistView extends AppCompatActivity implements IWishlistContract.View {
 
     /**
      * Presenter that will take control of this view.
      */
-    private IMainContract.Presenter presenter;
+    private IWishlistContract.Presenter presenter;
 
-    /**
-     * Repository that can be used to retrieve movies or series.
-     */
-    @Inject
-    IMoviesRepository repository;
+
 
     /**
      * Reference to the ListView that shows the list of series
@@ -67,7 +64,7 @@ public class MainView extends AppCompatActivity implements IMainContract.View {
         setSupportActionBar(toolbar);
 
         // instantiate presenter, let it take control
-        presenter = new MainPresenter();
+        presenter = new WishlistPresenter();
         presenter.init(this);
     }
 
@@ -103,17 +100,12 @@ public class MainView extends AppCompatActivity implements IMainContract.View {
         });
     }
 
-    @Override
-    public IMoviesRepository getMoviesRepository() {
-        return repository;
-    }
 
     @Override
-    public void showSeries(List<Series> series) {
-        SeriesAdapter adapter = new SeriesAdapter(this, series);
+    public void showSeries(List<SeriesDB> series) {
+        WishlistAdapter adapter = new WishlistAdapter(this, series);
         lvSeries.setAdapter(adapter);
     }
-
 
     @Override
     public void showLoadCorrect(int series) {
@@ -142,14 +134,12 @@ public class MainView extends AppCompatActivity implements IMainContract.View {
         return this;
     }
 
-    public void onDeseadosClicked(View view) {
+    public void onPrincipalClicked(View view) {
         TextView btnDeseados = findViewById(R.id.tvDeseados);
         TextView btnPrincipal = findViewById(R.id.tvPrincipal);
-        btnDeseados.setTypeface(null, Typeface.BOLD_ITALIC);
-        btnPrincipal.setTypeface(null, Typeface.NORMAL);
-        Intent intent = new Intent(this, WishlistView.class);
+        btnDeseados.setTypeface(null, Typeface.NORMAL);
+        btnPrincipal.setTypeface(null, Typeface.BOLD_ITALIC);
+        Intent intent = new Intent(this, MainView.class);
         startActivity(intent);
     }
-
-
 }

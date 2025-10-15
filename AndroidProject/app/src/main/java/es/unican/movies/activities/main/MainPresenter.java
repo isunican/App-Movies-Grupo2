@@ -1,11 +1,13 @@
 package es.unican.movies.activities.main;
 
 import java.util.List;
+import java.util.concurrent.Executors;
 
-import es.unican.movies.DataBaseManagement.SeriesApp;
 import es.unican.movies.DataBaseManagement.SeriesDatabase;
 import es.unican.movies.DataBaseManagement.SeriesDB;
 import es.unican.movies.DataBaseManagement.SeriesDao;
+import es.unican.movies.MoviesApp;
+import es.unican.movies.activities.wishlist.WishlistAdapter;
 import es.unican.movies.model.Series;
 import es.unican.movies.service.ICallback;
 import es.unican.movies.service.IMoviesRepository;
@@ -13,7 +15,6 @@ import es.unican.movies.service.IMoviesRepository;
 public class MainPresenter implements IMainContract.Presenter {
 
     IMainContract.View view;
-    Boolean wishlist = false;
 
     @Override
     public void init(IMainContract.View view) {
@@ -35,28 +36,23 @@ public class MainPresenter implements IMainContract.Presenter {
         view.showInfoActivity();
     }
 
+
     /**
      * Loads the series from the repository, and sends them to the view
      */
     private void load() {
-       boolean wishlist;
-        if (this.wishlist){
-            loadbyWishlist();
-        } else {
-            loadByAPI();
-        }
-    }
-
-    private void loadByAPI() {
         IMoviesRepository repository = view.getMoviesRepository();
         repository.requestAggregateSeries(new ICallback<>() {
             @Override
             public void onSuccess(List<Series> elements) {
                 view.showSeries(elements);
-                SeriesApp app = (SeriesApp) view.getContext().getApplicationContext();
-                SeriesDatabase db = app.room;
-                SeriesDao dao = db.seriesDao();
-                dao.addToWishlist(elements.get(0));
+                MoviesApp app = (MoviesApp) view.getContext().getApplicationContext();
+                SeriesDatabase db = app.getRoom();
+                SeriesDB seriesDB = WishlistAdapter.convertToSeriesDB(elements.get(0));
+                Executors.newSingleThreadExecutor().execute(() -> {
+                    db.seriesDao().addToWishlist(seriesDB);
+                });
+
                 view.showLoadCorrect(elements.size());
             }
             @Override
@@ -64,13 +60,6 @@ public class MainPresenter implements IMainContract.Presenter {
                 view.showLoadError();
             }
         });
-    }
-    private void loadbyWishlist() {
-        SeriesApp app = (SeriesApp) view.getContext().getApplicationContext();
-        SeriesDatabase db = app.room;
-        SeriesDao dao = db.seriesDao();
-        List<SeriesDB> wishlist = dao.getWishlist();
-        view.showWishlist(wishlist);
     }
 
 

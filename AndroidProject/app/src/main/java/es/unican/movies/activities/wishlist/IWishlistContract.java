@@ -1,4 +1,4 @@
-package es.unican.movies.activities.main;
+package es.unican.movies.activities.wishlist;
 
 import android.content.Context;
 
@@ -11,7 +11,7 @@ import es.unican.movies.service.IMoviesRepository;
 /**
  * Interfaces that define the contract between the Main Presenter and View.
  */
-public interface IMainContract {
+public interface IWishlistContract {
 
     /**
      * Methods that must be implemented in the Main Presenter.
@@ -63,14 +63,9 @@ public interface IMainContract {
          * Only the Presenter should call this method
          * @return a repository that can be called by the Presenter to retrieve series or series
          */
-        public IMoviesRepository getMoviesRepository();
 
-        /**
-         * The view is requested to display the given list of series.
-         * Only the Presenter should call this method
-         * @param series the list of tv series
-         */
-        public void showSeries(List<Series> series);
+
+
 
         /**
          * The view is requested to display a notification indicating that the series
@@ -103,5 +98,7 @@ public interface IMainContract {
 
 
         public Context getContext();
+
+        void showSeries(List<SeriesDB> wishlist);
     }
 }
