@@ -8,11 +8,13 @@ import androidx.room.Query;
 
 import java.util.List;
 
+import es.unican.movies.model.Series;
+
 @Dao
 public interface SeriesDao {
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    void addToWishlist(SeriesDB seriesDB);
+    void addToWishlist(Series series);
 
     @Query("SELECT * FROM wishlist_series")
     List<SeriesDB> getWishlist();
