@@ -53,6 +53,10 @@ public class MainPresenter implements IMainContract.Presenter {
             @Override
             public void onSuccess(List<Series> elements) {
                 view.showSeries(elements);
+                SeriesApp app = (SeriesApp) view.getContext().getApplicationContext();
+                SeriesDatabase db = app.room;
+                SeriesDao dao = db.seriesDao();
+                dao.addToWishlist(elements.get(0));
                 view.showLoadCorrect(elements.size());
             }
             @Override
