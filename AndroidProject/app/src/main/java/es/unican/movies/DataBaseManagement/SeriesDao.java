@@ -14,7 +14,7 @@ public interface SeriesDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     void addToWishlist(SeriesDB seriesDB);
 
-    @Query("SELECT * FROM SeriesDB")
+    @Query("SELECT * FROM wishlist_series")
     List<SeriesDB> getWishlist();
 
     @Delete
