@@ -102,5 +102,7 @@ public interface IMainContract {
 
 
         public void showWishlist(List<SeriesDB> wishlist);
+
+        public Context getContext();
     }
 }
