@@ -29,7 +29,7 @@ public interface IStaticApi {
      * @return the aggregate list of tv series
      */
     @GET("series/aggregate.json")
-    Call<List<Series>> getAggregateSeries(@Query("title") String title );
+    Call<List<Series>> getAggregateSeries();
 
 
 

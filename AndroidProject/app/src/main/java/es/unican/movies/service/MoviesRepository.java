@@ -3,8 +3,10 @@ package es.unican.movies.service;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.List;
+import java.util.Objects;
 
 import es.unican.movies.BuildConfig;
 import es.unican.movies.model.FilterSeries;
@@ -99,9 +101,11 @@ public class MoviesRepository implements IMoviesRepository {
     }
 
 
+
+
     @Override
-    public void requestAggregateSeries(ICallback<List<Series>> cb, FilterSeries filter) {
-        StaticAPI.getAggregateSeries(filter.getTitle()).enqueue(new Callback<List<Series>>() {
+    public void requestAggregateSeries(ICallback<List<Series>> cb) {
+        StaticAPI.getAggregateSeries().enqueue(new Callback<List<Series>>() {
             @Override
             public void onResponse(Call<List<Series>> call, Response<List<Series>> response) {
                 List<Series> series = response.body();
@@ -114,13 +118,16 @@ public class MoviesRepository implements IMoviesRepository {
             }
         });
     }
-
     @Override
-    public void requestAggregateSeries(ICallback<List<Series>> cb) {
-        StaticAPI.getAggregateSeries(null).enqueue(new Callback<List<Series>>() {
+    public void requestAggregateSeries(ICallback<List<Series>> cb, FilterSeries filterSeries) {
+
+        StaticAPI.getAggregateSeries().enqueue(new Callback<List<Series>>() {
             @Override
             public void onResponse(Call<List<Series>> call, Response<List<Series>> response) {
                 List<Series> series = response.body();
+                assert series != null;
+
+                series.removeIf(s -> (!Objects.equals(filterSeries.getTitle(), s.getOriginalTitle()) && !Objects.equals(filterSeries.getTitle(), s.getName()) ));
                 cb.onSuccess(series);
             }
 

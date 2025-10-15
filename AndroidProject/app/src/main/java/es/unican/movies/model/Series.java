@@ -25,6 +25,9 @@ public class Series {
     @SerializedName("name")
     protected String name;
 
+    @SerializedName("original_title")
+    protected String originalTitle;
+
     @SerializedName("poster_path")
     protected String posterPath;
 
