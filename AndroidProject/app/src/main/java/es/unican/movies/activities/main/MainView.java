@@ -19,6 +19,7 @@ import java.util.List;
 import javax.inject.Inject;
 
 import dagger.hilt.android.AndroidEntryPoint;
+import es.unican.movies.DataBaseManagement.SeriesDB;
 import es.unican.movies.R;
 import es.unican.movies.activities.details.DetailsView;
 import es.unican.movies.activities.info.InfoActivity;
@@ -103,6 +104,12 @@ public class MainView extends AppCompatActivity implements IMainContract.View {
     @Override
     public void showSeries(List<Series> series) {
         SeriesAdapter adapter = new SeriesAdapter(this, series);
+        lvSeries.setAdapter(adapter);
+    }
+
+    @Override
+    public void showWishlist(List<SeriesDB> wishlist) {
+        WishlistAdapter adapter = new WishlistAdapter(this, wishlist);
         lvSeries.setAdapter(adapter);
     }
 
