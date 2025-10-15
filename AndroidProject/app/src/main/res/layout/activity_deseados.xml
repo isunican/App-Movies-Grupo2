@@ -53,7 +53,6 @@
                 android:padding="16dp"
                 android:text="Pagina Principal"
                 android:textColor="#FFFFFF"
-                android:textStyle="bold|italic"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/tvDeseados"
                 app:layout_constraintStart_toStartOf="parent" />
@@ -66,6 +65,7 @@
                 android:padding="16dp"
                 android:text="Lista Deseados"
                 android:textColor="#FFFF"
+                android:textStyle="bold|italic"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/tvPrincipal" />
