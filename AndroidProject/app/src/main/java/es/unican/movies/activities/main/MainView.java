@@ -6,6 +6,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.ListView;
+import android.widget.SearchView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -37,6 +38,11 @@ public class MainView extends AppCompatActivity implements IMainContract.View {
     private IMainContract.Presenter presenter;
 
     /**
+     * SearchView for filtering series by title.
+     */
+    private SearchView searchView;
+
+    /**
      * Repository that can be used to retrieve movies or series.
      */
     @Inject
@@ -56,12 +62,16 @@ public class MainView extends AppCompatActivity implements IMainContract.View {
         // In this app the toolbar is explicitly declared in the layout
         // This sets this toolbar as the activity ActionBar
         Toolbar toolbar = findViewById(R.id.toolbar);
+
         setSupportActionBar(toolbar);
 
         // instantiate presenter, let it take control
         presenter = new MainPresenter();
         presenter.init(this);
     }
+
+
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -93,8 +103,30 @@ public class MainView extends AppCompatActivity implements IMainContract.View {
             Series series = (Series) parent.getItemAtPosition(position);
             presenter.onItemClicked(series);
         });
+        this.SearchTitleBarHandler();
+
     }
 
+    private void SearchTitleBarHandler(){
+        searchView = findViewById(R.id.searchTitle);
+        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+            // Is called when the user submits the query
+            @Override
+            public boolean onQueryTextSubmit(String query) {
+
+                return true;
+            }
+
+            // Is called when the text in the search bar changes
+            @Override
+            public boolean onQueryTextChange(String title) {
+                if (title != null) {
+                    presenter.onSearchBarContentChanged(title);
+                }
+                return true;
+            }
+        });
+    }
     @Override
     public IMoviesRepository getMoviesRepository() {
         return repository;

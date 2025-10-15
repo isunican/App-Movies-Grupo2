@@ -22,11 +22,6 @@ public interface IMoviesRepository {
      * @param cb the callback to be called when the request is successful or fails
      */
     public void requestAggregateSeries(ICallback<List<Series>> cb);
-    /**
-     * Request an aggregate list of series.
-     * @param cb the callback to be called when the request is successful or fails
-     */
-    public void requestAggregateSeries(ICallback<List<Series>> cb, FilterSeries filter);
 
     /**
      * Request the details of a movie.

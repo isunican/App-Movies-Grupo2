@@ -118,25 +118,7 @@ public class MoviesRepository implements IMoviesRepository {
             }
         });
     }
-    @Override
-    public void requestAggregateSeries(ICallback<List<Series>> cb, FilterSeries filterSeries) {
 
-        StaticAPI.getAggregateSeries().enqueue(new Callback<List<Series>>() {
-            @Override
-            public void onResponse(Call<List<Series>> call, Response<List<Series>> response) {
-                List<Series> series = response.body();
-                assert series != null;
-
-                series.removeIf(s -> (!Objects.equals(filterSeries.getTitle(), s.getOriginalTitle()) && !Objects.equals(filterSeries.getTitle(), s.getName()) ));
-                cb.onSuccess(series);
-            }
-
-            @Override
-            public void onFailure(Call<List<Series>> call, Throwable t) {
-                cb.onFailure(t);
-            }
-        });
-    }
 
     @Override
     public void requestMovieDetails(int id, ICallback<Movie> cb) {
