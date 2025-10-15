@@ -1,5 +1,6 @@
 package es.unican.movies.activities.main;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
@@ -133,5 +134,10 @@ public class MainView extends AppCompatActivity implements IMainContract.View {
     @Override
     public void showInfoActivity() {
         startActivity(new Intent(this, InfoActivity.class));
+    }
+
+    @Override
+    public Context getContext() {
+        return this;
     }
 }
