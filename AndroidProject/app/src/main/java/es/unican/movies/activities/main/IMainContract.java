@@ -1,7 +1,10 @@
 package es.unican.movies.activities.main;
 
+import android.content.Context;
+
 import java.util.List;
 
+import es.unican.movies.DataBaseManagement.SeriesDB;
 import es.unican.movies.model.Series;
 import es.unican.movies.service.IMoviesRepository;
 
@@ -97,5 +100,7 @@ public interface IMainContract {
          */
         public void showInfoActivity();
 
+
+        public void showWishlist(List<SeriesDB> wishlist);
     }
 }
