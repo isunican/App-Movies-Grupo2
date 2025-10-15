@@ -68,6 +68,8 @@ public class MainPresenter implements IMainContract.Presenter {
         List<SeriesDB> wishlist = dao.getWishlist();
         view.showWishlist(wishlist);
     }
+
+
 }
 
 
