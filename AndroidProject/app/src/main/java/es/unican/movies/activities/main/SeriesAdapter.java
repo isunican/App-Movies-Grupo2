@@ -13,6 +13,7 @@ import androidx.annotation.Nullable;
 
 import com.squareup.picasso.Picasso;
 
+import java.util.Collections;
 import java.util.List;
 
 import es.unican.movies.R;
@@ -33,10 +34,10 @@ public class SeriesAdapter extends ArrayAdapter<Series> {
     private final Context context;
     
     // Constructor without OnItemClickListener, which is now handled by the ListView itself
-    protected SeriesAdapter(@NonNull Context context, @NonNull List<Series> seriesList) {
-        super(context, R.layout.activity_main_movie_item, seriesList);
+    protected SeriesAdapter(@NonNull Context context, @Nullable List<Series> seriesList) {
+        super(context, R.layout.activity_main_movie_item, seriesList == null ? Collections.emptyList() : seriesList);
         this.context = context;
-        this.seriesList = seriesList;
+        this.seriesList = seriesList == null ? Collections.emptyList() : seriesList;
     }
 
     @NonNull
@@ -51,28 +52,29 @@ public class SeriesAdapter extends ArrayAdapter<Series> {
 
         // poster
         ImageView ivPoster = convertView.findViewById(R.id.ivPoster);
-        String imageUrl = ITmdbApi.getFullImagePath(series.getPosterPath(), EImageSize.W92);
-
-        Picasso.get().load(imageUrl).fit().centerInside().into(ivPoster);
+        if (series != null && series.getPosterPath() != null) {
+            String imageUrl = ITmdbApi.getFullImagePath(series.getPosterPath(), EImageSize.W92);
+            Picasso.get().load(imageUrl).fit().centerInside().into(ivPoster);
+        } else {
+            ivPoster.setImageDrawable(null);
+        }
 
         // titulo
         TextView tvTitle = convertView.findViewById(R.id.tvTitle);
-        tvTitle.setText(series.getName());
-
-
-
+        tvTitle.setText(series != null ? series.getName() : "");
 
         return convertView;
     }
 
     @Override
     public int getCount() {
-        return seriesList.size();
+        return seriesList == null ? 0 : seriesList.size();
     }
 
     @Nullable
     @Override
     public Series getItem(int position) {
+        if (seriesList == null || position < 0 || position >= seriesList.size()) return null;
         return seriesList.get(position);
     }
 

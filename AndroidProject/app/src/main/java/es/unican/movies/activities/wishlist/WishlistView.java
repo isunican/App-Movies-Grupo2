@@ -134,12 +134,5 @@ public class WishlistView extends AppCompatActivity implements IWishlistContract
         return this;
     }
 
-    public void onPrincipalClicked(View view) {
-        TextView btnDeseados = findViewById(R.id.tvDeseados);
-        TextView btnPrincipal = findViewById(R.id.tvPrincipal);
-        btnDeseados.setTypeface(null, Typeface.NORMAL);
-        btnPrincipal.setTypeface(null, Typeface.BOLD_ITALIC);
-        Intent intent = new Intent(this, MainView.class);
-        startActivity(intent);
-    }
+
 }
