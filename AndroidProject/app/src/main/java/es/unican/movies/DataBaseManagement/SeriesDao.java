@@ -1,5 +1,6 @@
 package es.unican.movies.DataBaseManagement;
 
+import androidx.lifecycle.LiveData;
 import androidx.room.Dao;
 import androidx.room.Delete;
 import androidx.room.Insert;
@@ -18,6 +19,9 @@ public interface SeriesDao {
 
     @Query("SELECT * FROM wishlist_series")
     List<SeriesDB> getWishlist();
+
+    @Query("SELECT * FROM wishlist_series")
+    LiveData<List<SeriesDB>> getWishlistLive();
 
     @Delete
     void removeFromWishlist(SeriesDB seriesDB);

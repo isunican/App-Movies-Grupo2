@@ -2,20 +2,19 @@ package es.unican.movies.activities.main;
 
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.Button;
-import android.widget.ListView;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
+
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import org.parceler.Parcels;
 
@@ -24,20 +23,18 @@ import java.util.List;
 import javax.inject.Inject;
 
 import dagger.hilt.android.AndroidEntryPoint;
-import es.unican.movies.DataBaseManagement.SeriesDB;
 import es.unican.movies.R;
 import es.unican.movies.activities.details.DetailsView;
 import es.unican.movies.activities.info.InfoActivity;
-import es.unican.movies.activities.wishlist.WishlistAdapter;
-import es.unican.movies.activities.wishlist.WishlistView;
+import es.unican.movies.activities.wishlist.WishlistFragment;
 import es.unican.movies.model.Series;
 import es.unican.movies.service.IMoviesRepository;
 
 /**
- * Activity to show the list of series.
+ * Activity to show the list of series and host fragments.
  */
 @AndroidEntryPoint
-public class MainView extends AppCompatActivity implements IMainContract.View {
+public class MainView extends AppCompatActivity implements IMainContract.View, SeriesListFragment.Listener {
 
     /**
      * Presenter that will take control of this view.
@@ -50,10 +47,11 @@ public class MainView extends AppCompatActivity implements IMainContract.View {
     @Inject
     IMoviesRepository repository;
 
-    /**
-     * Reference to the ListView that shows the list of series
-     */
-    private ListView lvSeries; // Added ListView member
+    private static final String TAG_LIST = "series_list";
+    private static final String TAG_WISHLIST = "wishlist";
+
+    // cache the last series list so we can reapply it when fragments are recreated
+    private List<Series> cachedSeries = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -78,12 +76,6 @@ public class MainView extends AppCompatActivity implements IMainContract.View {
         return true;
     }
 
-    /**
-     * This is called when an item in the action bar menu is selected.
-     * @param item The menu item that was selected.
-     *
-     * @return true if we have handled the selection
-     */
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         int itemId = item.getItemId();
@@ -96,11 +88,64 @@ public class MainView extends AppCompatActivity implements IMainContract.View {
 
     @Override
     public void init() {
-        lvSeries = findViewById(R.id.lvSeries);
-        lvSeries.setOnItemClickListener((parent, view, position, id) -> {
-            Series series = (Series) parent.getItemAtPosition(position);
-            presenter.onItemClicked(series);
-        });
+        // Initialize fragment container with the series list fragment by default
+        FragmentManager fm = getSupportFragmentManager();
+        FragmentTransaction tx = fm.beginTransaction();
+        SeriesListFragment listFragment = (SeriesListFragment) fm.findFragmentByTag(TAG_LIST);
+        if (listFragment == null) {
+            listFragment = new SeriesListFragment();
+            tx.add(R.id.fragment_container, listFragment, TAG_LIST);
+        }
+        // ensure other fragment is not shown by default
+        WishlistFragment wishlistFragment = (WishlistFragment) fm.findFragmentByTag(TAG_WISHLIST);
+        if (wishlistFragment != null) {
+            tx.hide(wishlistFragment);
+        }
+        tx.commitNowAllowingStateLoss();
+
+        // Wire BottomNavigationView
+        BottomNavigationView bottomNav = findViewById(R.id.bottom_navigation);
+        if (bottomNav != null) {
+            bottomNav.setOnItemSelectedListener(item -> {
+                int id = item.getItemId();
+                FragmentTransaction t = getSupportFragmentManager().beginTransaction();
+                FragmentManager fm2 = getSupportFragmentManager();
+
+                SeriesListFragment sf = (SeriesListFragment) fm2.findFragmentByTag(TAG_LIST);
+                WishlistFragment wf = (WishlistFragment) fm2.findFragmentByTag(TAG_WISHLIST);
+
+                if (id == R.id.nav_home) {
+                    // show list fragment
+                    if (wf != null) t.hide(wf);
+                    if (sf == null) {
+                        sf = new SeriesListFragment();
+                        t.add(R.id.fragment_container, sf, TAG_LIST);
+                    } else {
+                        t.show(sf);
+                    }
+                    t.commitNowAllowingStateLoss();
+
+                    if (cachedSeries != null && sf != null) {
+                        sf.setSeries(cachedSeries);
+                    }
+                    return true;
+                } else if (id == R.id.nav_wishlist) {
+                    // show wishlist fragment
+                    if (sf != null) t.hide(sf);
+                    if (wf == null) {
+                        wf = new WishlistFragment();
+                        t.add(R.id.fragment_container, wf, TAG_WISHLIST);
+                    } else {
+                        t.show(wf);
+                    }
+                    t.commitNowAllowingStateLoss();
+                    return true;
+                }
+                return false;
+            });
+            // set default selected
+            bottomNav.setSelectedItemId(R.id.nav_home);
+        }
     }
 
     @Override
@@ -110,8 +155,21 @@ public class MainView extends AppCompatActivity implements IMainContract.View {
 
     @Override
     public void showSeries(List<Series> series) {
-        SeriesAdapter adapter = new SeriesAdapter(this, series);
-        lvSeries.setAdapter(adapter);
+        // cache the list so we can reapply it when returning from other tabs
+        this.cachedSeries = series;
+
+        // Forward the series to the fragment (if present)
+        SeriesListFragment fragment = (SeriesListFragment) getSupportFragmentManager().findFragmentByTag(TAG_LIST);
+        if (fragment != null) {
+            fragment.setSeries(series);
+        } else {
+            // If fragment not present, create it and pass the data after it's attached
+            SeriesListFragment listFragment = new SeriesListFragment();
+            FragmentTransaction tx = getSupportFragmentManager().beginTransaction();
+            tx.add(R.id.fragment_container, listFragment, TAG_LIST);
+            tx.commitNowAllowingStateLoss();
+            listFragment.setSeries(series);
+        }
     }
 
 
@@ -142,13 +200,9 @@ public class MainView extends AppCompatActivity implements IMainContract.View {
         return this;
     }
 
-    public void onDeseadosClicked(View view) {
-        TextView btnDeseados = findViewById(R.id.tvDeseados);
-        TextView btnPrincipal = findViewById(R.id.tvPrincipal);
-        btnDeseados.setTypeface(null, Typeface.BOLD_ITALIC);
-        btnPrincipal.setTypeface(null, Typeface.NORMAL);
-        Intent intent = new Intent(this, WishlistView.class);
-        startActivity(intent);
+    @Override
+    public void onSeriesClicked(Series series) {
+        presenter.onItemClicked(series);
     }
 
 
