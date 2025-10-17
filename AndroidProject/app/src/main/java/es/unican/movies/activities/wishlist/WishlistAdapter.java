@@ -1,6 +1,7 @@
 package es.unican.movies.activities.wishlist;
 
 import android.content.Context;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -18,6 +19,8 @@ import java.util.List;
 import es.unican.movies.DataBaseManagement.SeriesDB;
 import es.unican.movies.R;
 import es.unican.movies.model.Series;
+import es.unican.movies.service.EImageSize;
+import es.unican.movies.service.ITmdbApi;
 
 public class WishlistAdapter extends ArrayAdapter<SeriesDB> {
 
@@ -47,8 +50,7 @@ public class WishlistAdapter extends ArrayAdapter<SeriesDB> {
 
         // poster
         ImageView ivPoster = convertView.findViewById(R.id.ivPoster);
-        String imageUrl = series.getPosterPath();
-
+        String imageUrl = ITmdbApi.getFullImagePath(series.getPosterPath(), EImageSize.W92);
         Picasso.get().load(imageUrl).fit().centerInside().into(ivPoster);
 
         // titulo
