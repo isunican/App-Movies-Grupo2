@@ -62,12 +62,15 @@ public class MainView extends AppCompatActivity implements IMainContract.View, S
         // In this app the toolbar is explicitly declared in the layout
         // This sets this toolbar as the activity ActionBar
         Toolbar toolbar = findViewById(R.id.toolbar);
+
         setSupportActionBar(toolbar);
 
         // instantiate presenter, let it take control
         presenter = new MainPresenter();
         presenter.init(this);
     }
+
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
