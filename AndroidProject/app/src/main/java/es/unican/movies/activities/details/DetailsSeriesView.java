@@ -19,7 +19,7 @@ import es.unican.movies.service.ITmdbApi;
 /**
  * Activity to show the details of a TV series.
  */
-public class DetailsView extends AppCompatActivity implements IDetailsContract.DetailsView {
+public class DetailsSeriesView extends AppCompatActivity implements IDetailsContract.DetailsView {
 
     public static final String INTENT_MOVIE = "INTENT_MOVIE";
 

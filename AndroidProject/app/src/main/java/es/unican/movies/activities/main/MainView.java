@@ -25,7 +25,7 @@ import javax.inject.Inject;
 
 import dagger.hilt.android.AndroidEntryPoint;
 import es.unican.movies.R;
-import es.unican.movies.activities.details.DetailsView;
+import es.unican.movies.activities.details.DetailsSeriesView;
 import es.unican.movies.activities.info.InfoActivity;
 import es.unican.movies.activities.wishlist.WishlistFragment;
 import es.unican.movies.model.Series;
@@ -221,8 +221,8 @@ public class MainView extends AppCompatActivity implements IMainContract.View, S
 
     @Override
     public void showSeriesDetails(Series series) {
-        Intent intent = new Intent(this, DetailsView.class);
-        intent.putExtra(DetailsView.INTENT_MOVIE, Parcels.wrap(series));
+        Intent intent = new Intent(this, DetailsSeriesView.class);
+        intent.putExtra(DetailsSeriesView.INTENT_MOVIE, Parcels.wrap(series));
         startActivity(intent);
     }
 

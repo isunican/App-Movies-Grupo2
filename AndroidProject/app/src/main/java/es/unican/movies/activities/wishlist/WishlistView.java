@@ -20,7 +20,7 @@ import java.util.List;
 import dagger.hilt.android.AndroidEntryPoint;
 import es.unican.movies.DataBaseManagement.SeriesDB;
 import es.unican.movies.R;
-import es.unican.movies.activities.details.DetailsView;
+import es.unican.movies.activities.details.DetailsSeriesView;
 import es.unican.movies.activities.info.InfoActivity;
 import es.unican.movies.model.Series;
 
@@ -109,8 +109,8 @@ public class WishlistView extends AppCompatActivity implements IWishlistContract
 
     @Override
     public void showSeriesDetails(Series series) {
-        Intent intent = new Intent(this, DetailsView.class);
-        intent.putExtra(DetailsView.INTENT_MOVIE, Parcels.wrap(series));
+        Intent intent = new Intent(this, DetailsSeriesView.class);
+        intent.putExtra(DetailsSeriesView.INTENT_MOVIE, Parcels.wrap(series));
         startActivity(intent);
     }
 

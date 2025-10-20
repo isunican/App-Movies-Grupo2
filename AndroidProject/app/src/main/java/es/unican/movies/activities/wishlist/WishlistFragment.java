@@ -22,7 +22,7 @@ import java.util.List;
 import es.unican.movies.DataBaseManagement.SeriesDB;
 import es.unican.movies.MoviesApp;
 import es.unican.movies.R;
-import es.unican.movies.activities.details.DetailsView;
+import es.unican.movies.activities.details.DetailsSeriesView;
 import es.unican.movies.model.Series;
 
 /**
@@ -64,8 +64,8 @@ public class WishlistFragment extends Fragment {
                 lvWishlist.setOnItemClickListener((AdapterView<?> parent, View itemView, int position, long id) -> {
                     SeriesDB selected = (SeriesDB) parent.getItemAtPosition(position);
                     Series series = convertToSeries(selected);
-                    Intent intent = new Intent(requireContext(), DetailsView.class);
-                    intent.putExtra(DetailsView.INTENT_MOVIE, Parcels.wrap(series));
+                    Intent intent = new Intent(requireContext(), DetailsSeriesView.class);
+                    intent.putExtra(DetailsSeriesView.INTENT_MOVIE, Parcels.wrap(series));
                     startActivity(intent);
                 });
             }
