@@ -28,12 +28,9 @@ public class WishlistAdapter extends ArrayAdapter<SeriesDB> {
      */
     private final List<SeriesDB> wishlistList;
 
-    private final Context context;
-
     // Constructor without OnItemClickListener, which is now handled by the ListView itself
     protected WishlistAdapter(@NonNull Context context, @NonNull List<SeriesDB> wishlistList) {
         super(context, R.layout.activity_main_movie_item, wishlistList);
-        this.context = context;
         this.wishlistList = wishlistList;
     }
 
