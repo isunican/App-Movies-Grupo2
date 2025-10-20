@@ -34,6 +34,9 @@ public class WishlistFragment extends Fragment {
     private ListView lvWishlist;
     private TextView tvEmpty;
 
+    /**
+     * Método llamado cuando se crea la vista del fragmento.
+     */
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -43,6 +46,9 @@ public class WishlistFragment extends Fragment {
         return root;
     }
 
+    /**
+     * Método llamado una vez que la vista ya ha sido creada.
+     */
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
@@ -71,6 +77,10 @@ public class WishlistFragment extends Fragment {
         });
     }
 
+    /**
+     * Convierte una entidad de base de datos (SeriesDB) en un objeto de modelo (Series)
+     * para poder pasarla a la pantalla de detalles.
+     */
     private Series convertToSeries(SeriesDB db) {
         Series s = new Series();
         s.setId(db.getId());

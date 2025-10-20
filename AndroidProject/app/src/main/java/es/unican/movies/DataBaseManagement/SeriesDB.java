@@ -54,18 +54,5 @@ public class SeriesDB {
     public List<Genre> genres;
 
 
-    public double popularity;
-
-    public String status;
-
-    public String tagline;
-
-    // 🔸 Campos complejos o listas (ignorados, no se guardan en Room)
-    @Ignore public String homepage;
-    @Ignore public String type;
-    @Ignore public boolean adult;
-    @Ignore public boolean inProduction;
-    @Ignore public String originalLanguage;
-
     public SeriesDB() {}
 }

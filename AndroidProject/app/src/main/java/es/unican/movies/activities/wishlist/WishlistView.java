@@ -68,6 +68,10 @@ public class WishlistView extends AppCompatActivity implements IWishlistContract
         presenter.init(this);
     }
 
+
+    /**
+     * Crea el menú de opciones (parte superior derecha).
+     */
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater menuInflater = getMenuInflater();
@@ -91,6 +95,9 @@ public class WishlistView extends AppCompatActivity implements IWishlistContract
         return super.onOptionsItemSelected(item);
     }
 
+    /**
+     * Inicializa los elementos visuales de la vista.
+     */
     @Override
     public void init() {
         lvSeries = findViewById(R.id.lvSeries);
@@ -101,22 +108,38 @@ public class WishlistView extends AppCompatActivity implements IWishlistContract
     }
 
 
+    /**
+     * Muestra la lista de series en pantalla.
+     *
+     * @param series Lista de series obtenidas desde la base de datos.
+     */
     @Override
     public void showSeries(List<SeriesDB> series) {
         WishlistAdapter adapter = new WishlistAdapter(this, series);
         lvSeries.setAdapter(adapter);
     }
 
+    /**
+     * Muestra un mensaje cuando las series se cargan correctamente.
+     *
+     * @param series Número de series cargadas.
+     */
     @Override
     public void showLoadCorrect(int series) {
         Toast.makeText(this, "Loaded " + series + " series", Toast.LENGTH_SHORT).show();
     }
 
+    /**
+     * Muestra un mensaje de error si hubo un problema al cargar las series.
+     */
     @Override
     public void showLoadError() {
         Toast.makeText(this, "Error loading series", Toast.LENGTH_SHORT).show();
     }
 
+    /**
+     * Navega a la pantalla de detalles de una serie seleccionada.
+     */
     @Override
     public void showSeriesDetails(Series series) {
         Intent intent = new Intent(this, DetailsView.class);
@@ -124,11 +147,17 @@ public class WishlistView extends AppCompatActivity implements IWishlistContract
         startActivity(intent);
     }
 
+    /**
+     * Abre la pantalla de información de la aplicación (InfoActivity).
+     */
     @Override
     public void showInfoActivity() {
         startActivity(new Intent(this, InfoActivity.class));
     }
 
+    /**
+     * Devuelve el contexto actual de la Activity.
+     */
     @Override
     public Context getContext() {
         return this;
