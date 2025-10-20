@@ -79,8 +79,10 @@ public class WishlistFragment extends Fragment {
         s.setVoteAverage(db.getVoteAverage());
         s.setVoteCount(db.getVoteCount());
         s.setFirstAirDate(db.getFirstAirDate());
-        s.setLastAirDate(db.getFirstAirDate());
-        // number_of_episodes / seasons are not stored, leave defaults
+        s.setLastAirDate(db.getLastAirDate());
+        s.setNumberOfEpisodes(db.getNumberOfEpisodes());
+        s.setNumberOfSeasons(db.getNumberOfSeasons());
+        s.setGenres(db.getGenres());
         return s;
     }
 }

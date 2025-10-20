@@ -79,6 +79,14 @@ public class WishlistAdapter extends ArrayAdapter<SeriesDB> {
         seriesDB.setId(series.getId());
         seriesDB.setName(series.getName());
         seriesDB.setPosterPath(series.getPosterPath());
+        seriesDB.setVoteAverage(series.getVoteAverage());
+        seriesDB.setVoteCount(series.getVoteCount());
+        seriesDB.setFirstAirDate(series.getFirstAirDate());
+        seriesDB.setLastAirDate(series.getLastAirDate());
+        seriesDB.setNumberOfEpisodes(series.getNumberOfEpisodes());
+        seriesDB.setNumberOfSeasons(series.getNumberOfSeasons());
+        seriesDB.setGenres(series.getGenres());
+
         return seriesDB;
     }
 }

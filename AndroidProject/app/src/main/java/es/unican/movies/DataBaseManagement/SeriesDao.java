@@ -25,4 +25,7 @@ public interface SeriesDao {
 
     @Delete
     void removeFromWishlist(SeriesDB seriesDB);
+
+    @Query("DELETE FROM wishlist_series")
+    void clearWishlist();
 }

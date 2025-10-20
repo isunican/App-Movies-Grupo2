@@ -14,7 +14,6 @@ import es.unican.movies.service.IMoviesRepository;
 public class WishlistPresenter implements IWishlistContract.Presenter {
 
     IWishlistContract.View view;
-    Boolean wishlist = false;
 
     @Override
     public void init(IWishlistContract.View view) {

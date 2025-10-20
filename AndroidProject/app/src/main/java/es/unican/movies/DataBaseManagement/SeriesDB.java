@@ -5,6 +5,9 @@ import androidx.room.PrimaryKey;
 import androidx.room.ColumnInfo;
 import androidx.room.Ignore;
 
+import java.util.List;
+
+import es.unican.movies.model.Genre;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -32,11 +35,24 @@ public class SeriesDB {
     @ColumnInfo(name = "first_air_date")
     public String firstAirDate;
 
+    @ColumnInfo(name = "last_air_date")
+    public String lastAirDate;
+
+    @ColumnInfo(name = "number_of_episodes")
+    public int numberOfEpisodes;
+
+    @ColumnInfo(name = "number_of_seasons")
+    public int numberOfSeasons;
+
     @ColumnInfo(name = "vote_average")
     public double voteAverage;
 
     @ColumnInfo(name = "vote_count")
     public int voteCount;
+
+    @ColumnInfo(name = "genres")
+    public List<Genre> genres;
+
 
     public double popularity;
 
