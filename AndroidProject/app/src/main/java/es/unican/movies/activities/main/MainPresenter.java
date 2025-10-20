@@ -60,7 +60,10 @@ public class MainPresenter implements IMainContract.Presenter {
         repository.requestAggregateSeries(new ICallback<List<Series>>() {
             @Override
             public void onSuccess(List<Series> elements) {
-                assert elements != null;
+                if (elements == null) {
+                    view.showLoadError();
+                    return;
+                }
                 String filterText = filterSeries.getTitle().toLowerCase();
                 elements.removeIf(s -> {
                     String originalTitle = s.getOriginalTitle() != null ? s.getOriginalTitle().toLowerCase() : "";

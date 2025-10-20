@@ -24,7 +24,7 @@ public class MoviesApp extends Application {
     @Getter
     private SeriesDatabase room;
     private static final String TAG = "MoviesApp";
-
+    @Override
     public void onCreate() {
         super.onCreate();
         instance = this;
