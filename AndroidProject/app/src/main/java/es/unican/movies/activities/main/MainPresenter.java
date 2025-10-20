@@ -5,8 +5,8 @@ import android.util.Log;
 import java.util.List;
 import java.util.concurrent.Executors;
 
-import es.unican.movies.DataBaseManagement.SeriesDatabase;
 import es.unican.movies.DataBaseManagement.SeriesDB;
+import es.unican.movies.DataBaseManagement.SeriesDatabase;
 import es.unican.movies.MoviesApp;
 import es.unican.movies.activities.wishlist.WishlistAdapter;
 import es.unican.movies.model.FilterSeries;

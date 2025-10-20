@@ -8,19 +8,20 @@ import androidx.room.Room;
 import java.util.concurrent.Executors;
 
 import dagger.hilt.android.HiltAndroidApp;
-import es.unican.movies.DataBaseManagement.SeriesDatabase;
 import es.unican.movies.DataBaseManagement.SeriesDB;
+import es.unican.movies.DataBaseManagement.SeriesDatabase;
 import lombok.Getter;
-import lombok.Setter;
 
-@Getter
-@Setter
+
+
 /**
  * This class is the entry point of the application.
  */
 @HiltAndroidApp
 public class MoviesApp extends Application {
+    @Getter
     private static MoviesApp instance;
+    @Getter
     private SeriesDatabase room;
     private static final String TAG = "MoviesApp";
 

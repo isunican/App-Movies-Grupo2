@@ -2,14 +2,11 @@ package es.unican.movies.activities.wishlist;
 
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.ListView;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -20,19 +17,12 @@ import org.parceler.Parcels;
 
 import java.util.List;
 
-import javax.inject.Inject;
-
 import dagger.hilt.android.AndroidEntryPoint;
 import es.unican.movies.DataBaseManagement.SeriesDB;
 import es.unican.movies.R;
 import es.unican.movies.activities.details.DetailsView;
 import es.unican.movies.activities.info.InfoActivity;
-import es.unican.movies.activities.main.IMainContract;
-import es.unican.movies.activities.main.MainPresenter;
-import es.unican.movies.activities.main.MainView;
-import es.unican.movies.activities.main.SeriesAdapter;
 import es.unican.movies.model.Series;
-import es.unican.movies.service.IMoviesRepository;
 
 /**
  * Activity to show the list of series.

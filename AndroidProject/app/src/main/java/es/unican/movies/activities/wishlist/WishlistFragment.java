@@ -14,15 +14,16 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import org.parceler.Parcels;
+
 import java.util.ArrayList;
 import java.util.List;
 
+import es.unican.movies.DataBaseManagement.SeriesDB;
 import es.unican.movies.MoviesApp;
 import es.unican.movies.R;
-import es.unican.movies.DataBaseManagement.SeriesDB;
 import es.unican.movies.activities.details.DetailsView;
 import es.unican.movies.model.Series;
-import org.parceler.Parcels;
 
 /**
  * Fragment that displays the wishlist loaded from Room.

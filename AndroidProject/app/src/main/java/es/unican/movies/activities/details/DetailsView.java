@@ -1,21 +1,16 @@
 package es.unican.movies.activities.details;
 
 import android.os.Bundle;
-import android.view.View;
 import android.widget.ImageView;
-import android.widget.RatingBar;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
 
 import com.squareup.picasso.Picasso;
 
 import org.parceler.Parcels;
-import org.w3c.dom.Text;
 
 import es.unican.movies.R;
-import es.unican.movies.activities.main.MainPresenter;
 import es.unican.movies.common.Utils;
 import es.unican.movies.model.Series;
 import es.unican.movies.service.EImageSize;

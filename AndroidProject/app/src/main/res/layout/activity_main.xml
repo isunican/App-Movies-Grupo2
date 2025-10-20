@@ -25,12 +25,24 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
 
+        <!-- Search bar inserted below the toolbar -->
+        <android.widget.SearchView
+            android:id="@+id/searchTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:queryHint="Search titles"
+            android:iconifiedByDefault="false"
+            android:background="@color/white"
+            app:layout_constraintTop_toBottomOf="@id/toolbar"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
         <!-- Fragment container replaces the previous ListView -->
         <FrameLayout
             android:id="@+id/fragment_container"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            app:layout_constraintTop_toBottomOf="@id/toolbar"
+            app:layout_constraintTop_toBottomOf="@id/searchTitle"
             app:layout_constraintBottom_toTopOf="@id/bottom_navigation"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />

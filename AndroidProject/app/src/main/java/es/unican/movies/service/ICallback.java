@@ -1,6 +1,6 @@
 package es.unican.movies.service;
 
-import java.util.List;
+
 
 /**
  * Interface for callbacks.

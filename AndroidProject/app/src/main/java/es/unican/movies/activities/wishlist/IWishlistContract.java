@@ -6,7 +6,6 @@ import java.util.List;
 
 import es.unican.movies.DataBaseManagement.SeriesDB;
 import es.unican.movies.model.Series;
-import es.unican.movies.service.IMoviesRepository;
 
 /**
  * Interfaces that define the contract between the Main Presenter and View.

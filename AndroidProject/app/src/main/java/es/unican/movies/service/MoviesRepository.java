@@ -5,13 +5,10 @@ import android.util.Log;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
-import java.io.File;
 import java.io.IOException;
 import java.util.List;
-import java.util.Objects;
 
 import es.unican.movies.BuildConfig;
-import es.unican.movies.model.FilterSeries;
 import es.unican.movies.model.Movie;
 import es.unican.movies.model.Series;
 import okhttp3.Interceptor;

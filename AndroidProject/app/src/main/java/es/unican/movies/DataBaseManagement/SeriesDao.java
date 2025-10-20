@@ -9,8 +9,6 @@ import androidx.room.Query;
 
 import java.util.List;
 
-import es.unican.movies.model.Series;
-
 @Dao
 public interface SeriesDao {
 

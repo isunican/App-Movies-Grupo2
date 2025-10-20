@@ -1,9 +1,9 @@
 package es.unican.movies.DataBaseManagement;
 
-import androidx.room.Entity;
-import androidx.room.PrimaryKey;
 import androidx.room.ColumnInfo;
+import androidx.room.Entity;
 import androidx.room.Ignore;
+import androidx.room.PrimaryKey;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -51,5 +51,5 @@ public class SeriesDB {
     @Ignore public boolean inProduction;
     @Ignore public String originalLanguage;
 
-    public SeriesDB() {}
+
 }
