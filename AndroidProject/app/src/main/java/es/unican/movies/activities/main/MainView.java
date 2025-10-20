@@ -26,7 +26,6 @@ import dagger.hilt.android.AndroidEntryPoint;
 import es.unican.movies.R;
 import es.unican.movies.activities.details.DetailsView;
 import es.unican.movies.activities.info.InfoActivity;
-import es.unican.movies.activities.wishlist.WishlistFragment;
 import es.unican.movies.model.Series;
 import es.unican.movies.service.IMoviesRepository;
 

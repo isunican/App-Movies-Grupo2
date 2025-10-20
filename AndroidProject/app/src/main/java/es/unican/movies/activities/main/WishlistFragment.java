@@ -1,4 +1,4 @@
-package es.unican.movies.activities.wishlist;
+package es.unican.movies.activities.main;
 
 import android.content.Intent;
 import android.os.Bundle;

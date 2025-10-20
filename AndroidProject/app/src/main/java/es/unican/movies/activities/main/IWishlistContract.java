@@ -1,4 +1,4 @@
-package es.unican.movies.activities.wishlist;
+package es.unican.movies.activities.main;
 
 import android.content.Context;
 
@@ -6,7 +6,6 @@ import java.util.List;
 
 import es.unican.movies.DataBaseManagement.SeriesDB;
 import es.unican.movies.model.Series;
-import es.unican.movies.service.IMoviesRepository;
 
 /**
  * Interfaces that define the contract between the Main Presenter and View.
