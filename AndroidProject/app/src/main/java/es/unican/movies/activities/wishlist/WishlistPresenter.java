@@ -42,8 +42,8 @@ public class WishlistPresenter implements IWishlistContract.Presenter {
         SeriesDatabase db = app.getRoom();
         SeriesDao dao = db.seriesDao();
         Executors.newSingleThreadExecutor().execute(() -> {
-            List<SeriesDB> wishlist = dao.getWishlist();
-            view.showSeries(wishlist);
+            List<SeriesDB> localWishlist = dao.getWishlist();
+            view.showSeries(localWishlist);
         });
     }
 
