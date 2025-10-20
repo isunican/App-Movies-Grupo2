@@ -20,6 +20,10 @@ import es.unican.movies.service.MoviesRepository;
 @InstallIn(ActivityComponent.class)
 public abstract class RepositoriesModule {
 
+    private RepositoriesModule() {
+        throw new IllegalStateException("RepositoriesModule class");
+    }
+
     @Provides
     public static IMoviesRepository provideRepository() {
         return MoviesRepository.INSTANCE;
