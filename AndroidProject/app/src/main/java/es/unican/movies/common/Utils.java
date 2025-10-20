@@ -19,6 +19,9 @@ import es.unican.movies.model.Series;
  */
 public class Utils {
 
+    private Utils() throws IllegalAccessException {
+        throw new IllegalAccessException("Utility class");
+    }
     /**
      * Parse a JSON resource file into a list of series.
      * @param context the context
