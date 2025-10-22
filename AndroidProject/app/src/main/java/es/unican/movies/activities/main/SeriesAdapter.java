@@ -31,12 +31,9 @@ public class SeriesAdapter extends ArrayAdapter<Series> {
      */
     private final List<Series> seriesList;
 
-    private final Context context;
-    
     // Constructor without OnItemClickListener, which is now handled by the ListView itself
     protected SeriesAdapter(@NonNull Context context, @Nullable List<Series> seriesList) {
         super(context, R.layout.activity_main_movie_item, seriesList == null ? Collections.emptyList() : seriesList);
-        this.context = context;
         this.seriesList = seriesList == null ? Collections.emptyList() : seriesList;
     }
 

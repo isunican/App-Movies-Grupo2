@@ -14,15 +14,16 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import org.parceler.Parcels;
+
 import java.util.ArrayList;
 import java.util.List;
 
+import es.unican.movies.DataBaseManagement.SeriesDB;
 import es.unican.movies.MoviesApp;
 import es.unican.movies.R;
-import es.unican.movies.DataBaseManagement.SeriesDB;
-import es.unican.movies.activities.details.DetailsView;
+import es.unican.movies.activities.details.DetailsSeriesView;
 import es.unican.movies.model.Series;
-import org.parceler.Parcels;
 
 /**
  * Fragment that displays the wishlist loaded from Room.
@@ -34,6 +35,9 @@ public class WishlistFragment extends Fragment {
     private ListView lvWishlist;
     private TextView tvEmpty;
 
+    /**
+     * Método llamado cuando se crea la vista del fragmento.
+     */
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -43,6 +47,9 @@ public class WishlistFragment extends Fragment {
         return root;
     }
 
+    /**
+     * Método llamado una vez que la vista ya ha sido creada.
+     */
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
@@ -63,14 +70,18 @@ public class WishlistFragment extends Fragment {
                 lvWishlist.setOnItemClickListener((AdapterView<?> parent, View itemView, int position, long id) -> {
                     SeriesDB selected = (SeriesDB) parent.getItemAtPosition(position);
                     Series series = convertToSeries(selected);
-                    Intent intent = new Intent(requireContext(), DetailsView.class);
-                    intent.putExtra(DetailsView.INTENT_MOVIE, Parcels.wrap(series));
+                    Intent intent = new Intent(requireContext(), DetailsSeriesView.class);
+                    intent.putExtra(DetailsSeriesView.INTENT_MOVIE, Parcels.wrap(series));
                     startActivity(intent);
                 });
             }
         });
     }
 
+    /**
+     * Convierte una entidad de base de datos (SeriesDB) en un objeto de modelo (Series)
+     * para poder pasarla a la pantalla de detalles.
+     */
     private Series convertToSeries(SeriesDB db) {
         Series s = new Series();
         s.setId(db.getId());
@@ -79,8 +90,10 @@ public class WishlistFragment extends Fragment {
         s.setVoteAverage(db.getVoteAverage());
         s.setVoteCount(db.getVoteCount());
         s.setFirstAirDate(db.getFirstAirDate());
-        s.setLastAirDate(db.getFirstAirDate());
-        // number_of_episodes / seasons are not stored, leave defaults
+        s.setLastAirDate(db.getLastAirDate());
+        s.setNumberOfEpisodes(db.getNumberOfEpisodes());
+        s.setNumberOfSeasons(db.getNumberOfSeasons());
+        s.setGenres(db.getGenres());
         return s;
     }
 }

@@ -96,8 +96,24 @@ public interface IWishlistContract {
 
 
 
+        /**
+         * Devuelve el contexto Android asociado a la vista.
+         *
+         * Este método permite que el Presenter (que no tiene acceso directo a clases de Android)
+         * pueda obtener un Context cuando lo necesite.
+         *
+         * @return El objeto Context de la vista (por ejemplo, una Activity).
+         */
         public Context getContext();
 
+        /**
+         * Muestra en la vista la lista de series almacenadas en la base de datos (wishlist).
+         *
+         * Este método es invocado por el Presenter cuando ya ha cargado los datos desde el modelo.
+         * La vista debe implementar este método para actualizar la interfaz de usuario.
+         *
+         * @param wishlist Lista de objetos SeriesDB que representan las series guardadas en la wishlist.
+         */
         void showSeries(List<SeriesDB> wishlist);
     }
 }

@@ -12,7 +12,6 @@ import java.lang.reflect.Type;
 import java.util.List;
 
 import es.unican.movies.model.Genre;
-import es.unican.movies.model.Movie;
 import es.unican.movies.model.Series;
 
 /**
@@ -20,6 +19,9 @@ import es.unican.movies.model.Series;
  */
 public class Utils {
 
+    private Utils() {
+        throw new IllegalStateException("Utility class");
+    }
     /**
      * Parse a JSON resource file into a list of series.
      * @param context the context
@@ -48,7 +50,7 @@ public class Utils {
             return "-";
         }
 
-        double puntuacionNormalizada = 2*Math.log10(1 + voteCount);
+        double puntuacionNormalizada = 2*Math.log10(1 + (double) voteCount);
         double puntuacionSumaria = (voteAverage + puntuacionNormalizada) / 2;
         puntuacionSumaria = Math.round(puntuacionSumaria * 100.0) / 100.0; // Redondear a dos decimales
 

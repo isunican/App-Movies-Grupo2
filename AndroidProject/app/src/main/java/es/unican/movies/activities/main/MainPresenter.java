@@ -5,10 +5,9 @@ import android.util.Log;
 import java.util.List;
 import java.util.concurrent.Executors;
 
-import es.unican.movies.DataBaseManagement.SeriesDatabase;
 import es.unican.movies.DataBaseManagement.SeriesDB;
+import es.unican.movies.DataBaseManagement.SeriesDatabase;
 import es.unican.movies.MoviesApp;
-import es.unican.movies.activities.wishlist.WishlistAdapter;
 import es.unican.movies.model.FilterSeries;
 import es.unican.movies.model.Series;
 import es.unican.movies.service.ICallback;
@@ -60,7 +59,10 @@ public class MainPresenter implements IMainContract.Presenter {
         repository.requestAggregateSeries(new ICallback<List<Series>>() {
             @Override
             public void onSuccess(List<Series> elements) {
-                assert elements != null;
+                if (elements == null) {
+                    view.showLoadError();
+                    return;
+                }
                 String filterText = filterSeries.getTitle().toLowerCase();
                 elements.removeIf(s -> {
                     String originalTitle = s.getOriginalTitle() != null ? s.getOriginalTitle().toLowerCase() : "";
@@ -108,17 +110,7 @@ public class MainPresenter implements IMainContract.Presenter {
                                 Log.d(TAG, "Insert completed for id=" + seriesDB.getId());
 
                                 // Immediately read back the wishlist from DB to confirm
-                                try {
-                                    java.util.List<SeriesDB> current = db.seriesDao().getWishlist();
-                                    Log.d(TAG, "Wishlist size after insert = " + (current == null ? 0 : current.size()));
-                                    if (current != null) {
-                                        for (SeriesDB s : current) {
-                                            Log.d(TAG, "Wishlist contains id=" + s.getId() + " name=" + s.getName());
-                                        }
-                                    }
-                                } catch (Exception e) {
-                                    Log.e(TAG, "Error reading wishlist after insert", e);
-                                }
+                                readWishList(db);
 
                             } catch (Exception e) {
                                 Log.e(TAG, "Error inserting into wishlist", e);
@@ -132,6 +124,21 @@ public class MainPresenter implements IMainContract.Presenter {
 
                 view.showLoadCorrect(elements.size());
             }
+
+            private void readWishList(SeriesDatabase db) {
+                try {
+                    List<SeriesDB> current = db.seriesDao().getWishlist();
+                    Log.d(TAG, "Wishlist size after insert = " + (current == null ? 0 : current.size()));
+                    if (current != null) {
+                        for (SeriesDB s : current) {
+                            Log.d(TAG, "Wishlist contains id=" + s.getId() + " name=" + s.getName());
+                        }
+                    }
+                } catch (Exception e) {
+                    Log.e(TAG, "Error reading wishlist after insert", e);
+                }
+            }
+
             @Override
             public void onFailure(Throwable e) {
                 view.showLoadError();

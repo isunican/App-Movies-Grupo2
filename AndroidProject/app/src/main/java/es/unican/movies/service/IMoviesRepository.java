@@ -2,7 +2,6 @@ package es.unican.movies.service;
 
 import java.util.List;
 
-import es.unican.movies.model.FilterSeries;
 import es.unican.movies.model.Movie;
 import es.unican.movies.model.Series;
 
