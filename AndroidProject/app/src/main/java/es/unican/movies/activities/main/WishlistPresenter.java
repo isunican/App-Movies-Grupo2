@@ -1,4 +1,4 @@
-package es.unican.movies.activities.wishlist;
+package es.unican.movies.activities.main;
 
 import java.util.List;
 import java.util.concurrent.Executors;
@@ -8,8 +8,6 @@ import es.unican.movies.DataBaseManagement.SeriesDB;
 import es.unican.movies.DataBaseManagement.SeriesDao;
 import es.unican.movies.MoviesApp;
 import es.unican.movies.model.Series;
-import es.unican.movies.service.ICallback;
-import es.unican.movies.service.IMoviesRepository;
 
 public class WishlistPresenter implements IWishlistContract.Presenter {
 

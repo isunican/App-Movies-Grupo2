@@ -96,7 +96,16 @@ android {
         sourceCompatibility JavaVersion.VERSION_11
         targetCompatibility JavaVersion.VERSION_11
     }
+
+    testOptions {
+        unitTests {
+            includeAndroidResources = true
+        }
+    }
 }
+
+
+
 
 dependencies {
 
@@ -115,6 +124,7 @@ dependencies {
     androidTestImplementation libs.ext.junit
     androidTestImplementation libs.espresso.core
     androidTestImplementation libs.espresso.contrib
+    androidTestImplementation "org.hamcrest:hamcrest:2.2"
 
     // Parceler (automatically implements methods to create parcels)
     implementation libs.parceler.api
@@ -141,6 +151,7 @@ dependencies {
 }
 
 dependencies {
+    implementation libs.rules
     def room_version = "2.8.1"
 
     implementation "androidx.room:room-runtime:$room_version"

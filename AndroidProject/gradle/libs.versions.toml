@@ -19,6 +19,7 @@ parceler = "1.1.13"
 recyclerview = "1.4.0"
 lombok = "1.18.42"
 secrets = "2.0.1"
+rules = "1.7.0"
 
 [libraries]
 junit = { group = "junit", name = "junit", version.ref = "junit" }
@@ -43,6 +44,7 @@ parceler = { group = "org.parceler", name = "parceler", version.ref = "parceler"
 parceler-api = { group = "org.parceler", name = "parceler-api", version.ref = "parceler"}
 recyclerview = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "recyclerview" }
 lombok = { group = "org.projectlombok", name = "lombok", version.ref = "lombok"}
+rules = { group = "androidx.test", name = "rules", version.ref = "rules" }
 
 
 [plugins]
