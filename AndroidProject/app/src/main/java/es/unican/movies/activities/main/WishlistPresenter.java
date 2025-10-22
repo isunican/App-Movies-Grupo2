@@ -1,4 +1,4 @@
-package es.unican.movies.activities.wishlist;
+package es.unican.movies.activities.main;
 
 import java.util.List;
 import java.util.concurrent.Executors;
@@ -12,8 +12,12 @@ import es.unican.movies.model.Series;
 public class WishlistPresenter implements IWishlistContract.Presenter {
 
     IWishlistContract.View view;
-    Boolean wishlist = false;
 
+    /**
+     * Inicializa el presenter con la vista.
+     *
+     * @param view La vista que implementa IWishlistContract.View (WishlistView).
+     */
     @Override
     public void init(IWishlistContract.View view) {
         this.view = view;
@@ -21,6 +25,11 @@ public class WishlistPresenter implements IWishlistContract.Presenter {
         load();
     }
 
+    /**
+     * Evento cuando el usuario selecciona una serie de la lista.
+     *
+     * @param series Serie seleccionada (objeto del modelo).
+     */
     @Override
     public void onItemClicked(Series series) {
         if (series == null) {
@@ -29,13 +38,21 @@ public class WishlistPresenter implements IWishlistContract.Presenter {
         view.showSeriesDetails(series);
     }
 
+    /**
+     * Evento cuando el usuario hace clic en el botón "Info" del menú.
+     * Simplemente pide a la vista que abra la actividad de información.
+     */
     @Override
     public void onMenuInfoClicked() {
         view.showInfoActivity();
     }
 
     /**
-     * Loads the series from the repository, and sends them to the view
+     * Carga la lista de series desde la base de datos (Room)
+     * y las envía a la vista.
+     *
+     * Se ejecuta en un hilo secundario porque las operaciones con base de datos
+     * no pueden ejecutarse en el hilo principal (UI thread).
      */
     private void load() {
         MoviesApp app = (MoviesApp) view.getContext().getApplicationContext();
@@ -46,10 +63,6 @@ public class WishlistPresenter implements IWishlistContract.Presenter {
             view.showSeries(localWishlist);
         });
     }
-
-
-
-
 }
 
 

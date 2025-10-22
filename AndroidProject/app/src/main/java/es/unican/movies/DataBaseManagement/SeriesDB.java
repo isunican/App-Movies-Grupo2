@@ -5,6 +5,9 @@ import androidx.room.Entity;
 import androidx.room.Ignore;
 import androidx.room.PrimaryKey;
 
+import java.util.List;
+
+import es.unican.movies.model.Genre;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -32,24 +35,24 @@ public class SeriesDB {
     @ColumnInfo(name = "first_air_date")
     public String firstAirDate;
 
+    @ColumnInfo(name = "last_air_date")
+    public String lastAirDate;
+
+    @ColumnInfo(name = "number_of_episodes")
+    public int numberOfEpisodes;
+
+    @ColumnInfo(name = "number_of_seasons")
+    public int numberOfSeasons;
+
     @ColumnInfo(name = "vote_average")
     public double voteAverage;
 
     @ColumnInfo(name = "vote_count")
     public int voteCount;
 
-    public double popularity;
+    @ColumnInfo(name = "genres")
+    public List<Genre> genres;
 
-    public String status;
-
-    public String tagline;
-
-    // 🔸 Campos complejos o listas (ignorados, no se guardan en Room)
-    @Ignore public String homepage;
-    @Ignore public String type;
-    @Ignore public boolean adult;
-    @Ignore public boolean inProduction;
-    @Ignore public String originalLanguage;
 
 
 }
