@@ -30,7 +30,6 @@
     import static androidx.test.espresso.matcher.ViewMatchers.withText;
     import static es.unican.movies.utils.MockRepositories.getTestRepository;
 
-    import javax.inject.Inject;
 
     @UninstallModules(RepositoriesModule.class)
     @HiltAndroidTest
@@ -54,16 +53,14 @@
 
         @Before
         public void setUp() {
-            // Inicializar Hilt antes de cualquier creación de componentes
             hiltRule.inject();
 
-            // Crear base de datos en memoria para pruebas
-            Context context = ApplicationProvider.getApplicationContext();
-            db = Room.inMemoryDatabaseBuilder(context, SeriesDatabase.class)
-                            .allowMainThreadQueries().build();
+            db = Room.inMemoryDatabaseBuilder(
+                    ApplicationProvider.getApplicationContext(),
+                    SeriesDatabase.class
+            ).allowMainThreadQueries().build();
+
             dao = db.seriesDao();
-
-
         }
 
         /*@Test
