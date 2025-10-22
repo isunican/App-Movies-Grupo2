@@ -55,6 +55,8 @@ public class DetailsSeriesView extends AppCompatActivity implements IDetailsCont
         Series series = Parcels.unwrap(getIntent().getExtras().getParcelable(INTENT_MOVIE));
         assert series != null;
 
+
+
         String generosARellenar = Utils.generateStringFromList(series.getGenres(), ", ");
 
         TextView tvTitle = findViewById(R.id.tvTitulo);
