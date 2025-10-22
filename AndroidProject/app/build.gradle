@@ -65,8 +65,10 @@ secrets {
 
 android {
     namespace = 'es.unican.movies'          // ← cambiado
-    defaultConfig {
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner" // seminario
+    testOptions {
+        unitTests {
+            includeAndroidResources = true
+        }
     }
     compileSdk 36
 
@@ -114,11 +116,11 @@ dependencies {
 
     testImplementation libs.junit
 
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.6.1' // seminario
-    androidTestImplementation 'androidx.test.ext:junit:1.2.1'
     androidTestImplementation libs.ext.junit
     androidTestImplementation libs.espresso.core
     androidTestImplementation libs.espresso.contrib
+    androidTestImplementation "com.jakewharton.espresso:okhttp3-idling-resource:1.0.0"
+
 
     // Parceler (automatically implements methods to create parcels)
     implementation libs.parceler.api
