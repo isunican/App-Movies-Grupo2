@@ -25,6 +25,7 @@ public interface IMainContract {
          * @param view the view that will be controlled by this presenter
          */
         public void init(View view);
+        public void onSearchBarContentChanged(String newText);
 
         /**
          * The presenter is informed that a series has been clicked
@@ -52,6 +53,7 @@ public interface IMainContract {
          * Only the Presenter should call this method
          */
         public void init();
+
 
         /**
          * Returns a repository that can be called by the Presenter to retrieve series or series.
@@ -86,6 +88,12 @@ public interface IMainContract {
          * Only the Presenter should call this method
          */
         public void showLoadError();
+
+        /**
+         * The view is informed that the content of the search bar has changed
+         * Only the View should call this method
+         * @param newText the new text in the search bar
+         */
 
         /**
          * The view is requested to display the detailed view of the given series.

@@ -6,6 +6,7 @@ import es.unican.movies.model.Movie;
 import es.unican.movies.model.Series;
 import retrofit2.Call;
 import retrofit2.http.GET;
+import retrofit2.http.Query;
 
 /**
  * Interface for the static API to retrieve lists of movies and tv series.
@@ -29,5 +30,8 @@ public interface IStaticApi {
      */
     @GET("series/aggregate.json")
     Call<List<Series>> getAggregateSeries();
+
+
+
 
 }
