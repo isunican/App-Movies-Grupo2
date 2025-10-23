@@ -14,12 +14,23 @@ import es.unican.movies.model.Series;
 import es.unican.movies.service.ICallback;
 import es.unican.movies.service.IMoviesRepository;
 
+/**
+ * Presenter for the main activity, implementing the M-V-P pattern.
+ * It is responsible for handling user actions, fetching data from the repository,
+ * and updating the view.
+ */
 public class MainPresenter implements IMainContract.Presenter {
 
+    /** The view attached to this presenter. */
     IMainContract.View view;
     private static final String TAG = "MainPresenter";
+    /** The filter criteria for the series list. */
     private FilterSeries filterSeries = new FilterSeries();
 
+    /**
+     * Initializes the presenter.
+     * @param view The view that this presenter will control.
+     */
     @Override
     public void init(IMainContract.View view) {
         this.view = view;
@@ -27,6 +38,12 @@ public class MainPresenter implements IMainContract.Presenter {
         load();
     }
 
+    /**
+     * Handles the logic when the content of the search bar changes.
+     * It filters the list of series based on the provided title.
+     * If the title is empty, it loads the complete list.
+     * @param title The text from the search bar.
+     */
     @Override
     public void onSearchBarContentChanged(String title){
         if (title == null || title.trim().isEmpty()) {
@@ -37,6 +54,10 @@ public class MainPresenter implements IMainContract.Presenter {
         load(filterSeries);
     }
 
+    /**
+     * Handles the click on a series item in the list.
+     * @param series The series that was clicked.
+     */
     @Override
     public void onItemClicked(Series series) {
         if (series == null) {
@@ -45,6 +66,9 @@ public class MainPresenter implements IMainContract.Presenter {
         view.showSeriesDetails(series);
     }
 
+    /**
+     * Handles the click on the info menu item.
+     */
     @Override
     public void onMenuInfoClicked() {
         view.showInfoActivity();
@@ -52,7 +76,9 @@ public class MainPresenter implements IMainContract.Presenter {
 
 
     /**
-     * Loads the series from the repository, and sends them to the view with filter
+     * Loads the series from the repository, filters them based on the provided filter,
+     * and updates the view.
+     * @param filterSeries The filter to apply to the series list.
      */
     private void load(FilterSeries filterSeries) {
         IMoviesRepository repository = view.getMoviesRepository();
@@ -83,7 +109,8 @@ public class MainPresenter implements IMainContract.Presenter {
         });
     }
     /**
-     * Loads the series from the repository, and sends them to the view
+     * Loads all series from the repository without any filter and updates the view.
+     * It also includes debugging logic to persist a sample series to the database.
      */
     private void load() {
         IMoviesRepository repository = view.getMoviesRepository();
@@ -126,6 +153,11 @@ public class MainPresenter implements IMainContract.Presenter {
                 view.showLoadCorrect(elements.size());
             }
 
+            /**
+             * Reads and logs the current content of the wishlist from the database.
+             * Used for debugging purposes.
+             * @param db The database instance.
+             */
             private void readWishList(SeriesDatabase db) {
                 try {
                     List<SeriesDB> current = db.seriesDao().getWishlist();
