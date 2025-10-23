@@ -2,7 +2,6 @@ package es.unican.movies.service;
 
 import java.util.List;
 
-import es.unican.movies.model.Movie;
 import es.unican.movies.model.Series;
 import retrofit2.Call;
 import retrofit2.http.GET;
@@ -16,12 +15,6 @@ public interface IStaticApi {
 
     final static String BASE_URL = "https://personales.unican.es/rivasjm/resources/tmdb/";
 
-    /**
-     * Get the aggregate list of movies.
-     * @return the aggregate list of movies
-     */
-    @GET("movies/aggregate.json")
-    Call<List<Movie>> getAggregateMovies();
 
     /**
      * Get the aggregate list of tv series.

@@ -1,6 +1,5 @@
 package es.unican.movies.service;
 
-import es.unican.movies.model.Movie;
 import es.unican.movies.model.Series;
 import retrofit2.Call;
 import retrofit2.http.GET;
@@ -18,14 +17,6 @@ public interface ITmdbApi {
     public static String getFullImagePath(String path, EImageSize size) {
         return IMAGE_BASE_URL + size.value + path;
     }
-
-    /**
-     * Get the detailed information of the given movie
-     * @param id the id of the movie
-     * @return the detailed information of the movie
-     */
-    @GET("movie/{id}")
-    Call<Movie> getMovieById(@Path("id") int id);
 
     /**
      * Get the detailed information of the given series
