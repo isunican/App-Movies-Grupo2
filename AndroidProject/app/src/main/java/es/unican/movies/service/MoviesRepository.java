@@ -9,7 +9,6 @@ import java.io.IOException;
 import java.util.List;
 
 import es.unican.movies.BuildConfig;
-import es.unican.movies.model.Movie;
 import es.unican.movies.model.Series;
 import okhttp3.Interceptor;
 import okhttp3.OkHttpClient;
@@ -85,23 +84,7 @@ public class MoviesRepository implements IMoviesRepository {
      * @param cb The callback to be invoked when the request is complete.
      *           It will receive the list of movies on success or a Throwable on failure.
      */
-    @Override
-    public void requestAggregateMovies(ICallback<List<Movie>> cb) {
-        StaticAPI.getAggregateMovies().enqueue(new Callback<List<Movie>>() {
-            @Override
-            public void onResponse(Call<List<Movie>> call, Response<List<Movie>> response) {
-                List<Movie> movies = response.body();
-                Log.d(TAG, "requestAggregateMovies onResponse: body=" + (movies == null ? "null" : "size=" + movies.size()));
-                cb.onSuccess(movies);
-            }
 
-            @Override
-            public void onFailure(Call<List<Movie>> call, Throwable t) {
-                Log.e(TAG, "requestAggregateMovies onFailure", t);
-                cb.onFailure(t);
-            }
-        });
-    }
 
 
 
@@ -125,20 +108,6 @@ public class MoviesRepository implements IMoviesRepository {
     }
 
 
-    @Override
-    public void requestMovieDetails(int id, ICallback<Movie> cb) {
-        TmdbAPI.getMovieById(id).enqueue(new Callback<Movie>() {
-            @Override
-            public void onResponse(Call<Movie> call, Response<Movie> response) {
-                cb.onSuccess(response.body());
-            }
-
-            @Override
-            public void onFailure(Call<Movie> call, Throwable t) {
-                cb.onFailure(t);
-            }
-        });
-    }
 
     @Override
     public void requestSeriesDetails(int id, ICallback<Series> cb) {
