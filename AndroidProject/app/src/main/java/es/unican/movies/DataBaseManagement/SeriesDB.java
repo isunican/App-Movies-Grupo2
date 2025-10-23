@@ -29,6 +29,9 @@ public class SeriesDB {
     @ColumnInfo(name = "poster_path")
     public String posterPath;
 
+    @ColumnInfo(name = "backdrop_path")
+    public String backdropPath;
+
     @ColumnInfo(name = "first_air_date")
     public String firstAirDate;
 
