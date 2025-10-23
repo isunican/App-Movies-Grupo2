@@ -64,11 +64,16 @@ secrets {
 }
 
 android {
-    namespace 'es.unican.movies'
+    namespace = 'es.unican.movies'          // ← cambiado
+    testOptions {
+        unitTests {
+            includeAndroidResources = true
+        }
+    }
     compileSdk 36
 
     buildFeatures {
-        buildConfig true
+        buildConfig = true                  // ← cambiado
     }
 
     defaultConfig {
@@ -89,26 +94,16 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
         debug {
-            testCoverageEnabled true
+            testCoverageEnabled = true      // ← cambiado
         }
     }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_11
         targetCompatibility JavaVersion.VERSION_11
     }
-
-    testOptions {
-        unitTests {
-            includeAndroidResources = true
-        }
-    }
 }
 
-
-
-
 dependencies {
-
     implementation libs.appcompat
     implementation libs.material
     implementation libs.activity
@@ -124,7 +119,8 @@ dependencies {
     androidTestImplementation libs.ext.junit
     androidTestImplementation libs.espresso.core
     androidTestImplementation libs.espresso.contrib
-    androidTestImplementation "org.hamcrest:hamcrest:2.2"
+    androidTestImplementation "com.jakewharton.espresso:okhttp3-idling-resource:1.0.0"
+
 
     // Parceler (automatically implements methods to create parcels)
     implementation libs.parceler.api
@@ -148,27 +144,4 @@ dependencies {
     // lombok
     compileOnly libs.lombok
     annotationProcessor libs.lombok
-}
-
-dependencies {
-    implementation libs.rules
-    def room_version = "2.8.1"
-
-    implementation "androidx.room:room-runtime:$room_version"
-
-    // If this project only uses Java source, use the Java annotationProcessor
-    // No additional plugins are necessary
-    annotationProcessor "androidx.room:room-compiler:$room_version"
-
-    // optional - RxJava2 support for Room
-    implementation "androidx.room:room-rxjava2:$room_version"
-
-    // optional - RxJava3 support for Room
-    implementation "androidx.room:room-rxjava3:$room_version"
-
-    // optional - Test helpers
-    testImplementation "androidx.room:room-testing:$room_version"
-
-    // optional - Paging 3 Integration
-    implementation "androidx.room:room-paging:$room_version"
 }
