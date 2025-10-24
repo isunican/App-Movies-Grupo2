@@ -22,9 +22,6 @@
             android:name=".activities.details.DetailsSeriesView"
             android:exported="false" />
         <activity
-            android:name=".activities.wishlist.WishlistView"
-            android:exported="false" />
-        <activity
             android:name=".activities.main.MainView"
             android:exported="true">
             <intent-filter>
