@@ -1,18 +1,25 @@
 package es.unican.movies;
 
 import org.junit.*;
+import org.junit.runner.RunWith;
+import org.junit.runners.JUnit4;
 import org.mockito.*;
+import org.mockito.junit.MockitoJUnitRunner;
+
 import java.util.*;
 import static org.mockito.Mockito.*;
-import static org.mockito.ArgumentMatchers.*;
 
 import android.util.Log;
+
+import androidx.test.ext.junit.runners.AndroidJUnit4;
 
 import es.unican.movies.activities.main.IMainContract;
 import es.unican.movies.activities.main.MainPresenter;
 import es.unican.movies.model.Series;
 import es.unican.movies.service.ICallback;
 import es.unican.movies.service.IMoviesRepository;
+
+@RunWith(AndroidJUnit4.class)
 public class SearchBarContentUnitTest {
 
     @Mock private IMainContract.View view;
