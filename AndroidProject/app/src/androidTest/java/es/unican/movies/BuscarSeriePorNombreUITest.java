@@ -65,12 +65,10 @@ public class BuscarSeriePorNombreUITest {
      */
     @Test
     public void BuscarSerieExito() {
-        onView(allOf(withContentDescription("Search"),
-                isDescendantOfA(withId(R.id.searchTitle))))
-                .perform(click());
 
-        onView(withId(R.id.searchTitle))
-                .perform(typeText("El Pacificador"), closeSoftKeyboard());
+        onView(allOf(isAssignableFrom(EditText.class), isDisplayed()))
+                .perform(click(), typeText("El Pacificador"), closeSoftKeyboard());
+
 
         onData(anything())
                 .inAdapterView(allOf(withId(R.id.lvSeries), isDisplayed()))
@@ -79,16 +77,15 @@ public class BuscarSeriePorNombreUITest {
                 .check(matches(withText("El Pacificador")));
     }
 
+
     @Test
     public void BuscarSerieNoEncontrada() {
-        onView(allOf(withContentDescription("Search"),
-                isDescendantOfA(withId(R.id.searchTitle))))
-                .perform(click());
 
-        onView(withId(R.id.searchTitle))
-                .perform(typeText("TESTEADOR"), closeSoftKeyboard());
+        onView(allOf(isAssignableFrom(EditText.class), isDisplayed()))
+                .perform(click(), typeText("TESTEADOR"), closeSoftKeyboard());
 
-        onView(withId(R.id.lvSeries)).check(matches(hasChildCount(0)));
 
+        onView(withId(R.id.lvSeries))
+                .check(matches(hasChildCount(0)));
     }
 }

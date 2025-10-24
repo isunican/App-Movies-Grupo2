@@ -6,6 +6,8 @@ import java.util.*;
 import static org.mockito.Mockito.*;
 import static org.mockito.ArgumentMatchers.*;
 
+import android.util.Log;
+
 import es.unican.movies.activities.main.IMainContract;
 import es.unican.movies.activities.main.MainPresenter;
 import es.unican.movies.model.Series;
@@ -21,13 +23,21 @@ public class SearchBarContentUnitTest {
 
     private MainPresenter sut;
 
+    private MockedStatic<Log> logMock;
+
     @Before
     public void setUp() {
         MockitoAnnotations.openMocks(this);
+        logMock = mockStatic(android.util.Log.class);
         when(view.getMoviesRepository()).thenReturn(repo);
         sut = new MainPresenter();
         sut.init(view);
         clearInvocations(repo, view);
+    }
+
+    @After
+    public void tearDown() {
+        logMock.close();
     }
 
     /**
