@@ -11,7 +11,7 @@ import java.io.InputStreamReader;
 import java.lang.reflect.Type;
 import java.util.List;
 
-import es.unican.movies.model.Movie;
+import es.unican.movies.model.Genre;
 import es.unican.movies.model.Series;
 
 /**
@@ -19,6 +19,9 @@ import es.unican.movies.model.Series;
  */
 public class Utils {
 
+    private Utils() {
+        throw new IllegalStateException("Utility class");
+    }
     /**
      * Parse a JSON resource file into a list of series.
      * @param context the context
@@ -34,4 +37,36 @@ public class Utils {
                 .fromJson(reader, typeToken);
     }
 
+    /**
+     * Método para obtener la puntuación sumaria de una película o serie.
+     * Si voteCount o voteAverage son negativos, se devuelve "-".
+     * Si no, devuelve el String de la puntuación sumaria calculada.
+     * @param voteCount Valor entero del número de votos proveniente del json.
+     * @param voteAverage Valor double de la media de votos proveniente del json.
+     * @return La puntuación sumaria de una serie en formato String.
+     */
+    public static String obtenerPuntuacionSumaria(int voteCount, double voteAverage) {
+        if (voteCount < 0 || voteAverage < 0) {
+            return "-";
+        }
+
+        double puntuacionNormalizada = 2*Math.log10(1 + (double) voteCount);
+        double puntuacionSumaria = (voteAverage + puntuacionNormalizada) / 2;
+        puntuacionSumaria = Math.round(puntuacionSumaria * 100.0) / 100.0; // Redondear a dos decimales
+
+        return String.valueOf(puntuacionSumaria);
+    }
+
+    public static String generateStringFromList(List<Genre> list, String separator) {
+        if (list == null || list.isEmpty()) {
+            return "";
+        }
+        StringBuilder sb = new StringBuilder();
+        for (Genre item : list) {
+            sb.append(item.name).append(separator);
+        }
+        // Remove the last separator
+        sb.setLength(sb.length() - separator.length());
+        return sb.toString();
+    }
 }

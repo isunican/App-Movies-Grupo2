@@ -30,4 +30,7 @@ public interface IStaticApi {
     @GET("series/aggregate.json")
     Call<List<Series>> getAggregateSeries();
 
+
+
+
 }

@@ -1,5 +1,7 @@
 package es.unican.movies.service;
 
+import android.util.Log;
+
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
@@ -22,6 +24,8 @@ import retrofit2.converter.gson.GsonConverterFactory;
  * This class is the implementation of @link{IMoviesRepository}
  */
 public class MoviesRepository implements IMoviesRepository {
+
+    private static final String TAG = "MoviesRepository";
 
     /**
      * The singleton instance of this class that can be used anywhere to access movies or series.
@@ -72,21 +76,35 @@ public class MoviesRepository implements IMoviesRepository {
     }
 
 
+    /**
+     * Asynchronously requests a list of aggregated movies from the static API.
+     * This method initiates a network request in the background.
+     * The results, either the list of movies on success or an error on failure,
+     * are delivered via the provided callback.
+     *
+     * @param cb The callback to be invoked when the request is complete.
+     *           It will receive the list of movies on success or a Throwable on failure.
+     */
     @Override
     public void requestAggregateMovies(ICallback<List<Movie>> cb) {
         StaticAPI.getAggregateMovies().enqueue(new Callback<List<Movie>>() {
             @Override
             public void onResponse(Call<List<Movie>> call, Response<List<Movie>> response) {
                 List<Movie> movies = response.body();
+                Log.d(TAG, "requestAggregateMovies onResponse: body=" + (movies == null ? "null" : "size=" + movies.size()));
                 cb.onSuccess(movies);
             }
 
             @Override
             public void onFailure(Call<List<Movie>> call, Throwable t) {
+                Log.e(TAG, "requestAggregateMovies onFailure", t);
                 cb.onFailure(t);
             }
         });
     }
+
+
+
 
     @Override
     public void requestAggregateSeries(ICallback<List<Series>> cb) {
@@ -94,15 +112,18 @@ public class MoviesRepository implements IMoviesRepository {
             @Override
             public void onResponse(Call<List<Series>> call, Response<List<Series>> response) {
                 List<Series> series = response.body();
+                Log.d(TAG, "requestAggregateSeries onResponse: body=" + (series == null ? "null" : "size=" + series.size()));
                 cb.onSuccess(series);
             }
 
             @Override
             public void onFailure(Call<List<Series>> call, Throwable t) {
+                Log.e(TAG, "requestAggregateSeries onFailure", t);
                 cb.onFailure(t);
             }
         });
     }
+
 
     @Override
     public void requestMovieDetails(int id, ICallback<Movie> cb) {

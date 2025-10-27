@@ -23,10 +23,11 @@ import dagger.hilt.android.testing.HiltAndroidRule;
 import dagger.hilt.android.testing.HiltAndroidTest;
 import dagger.hilt.android.testing.UninstallModules;
 import es.unican.movies.activities.main.MainView;
+import es.unican.movies.di.DatabaseModule;
 import es.unican.movies.injection.RepositoriesModule;
 import es.unican.movies.service.IMoviesRepository;
 
-@UninstallModules(RepositoriesModule.class)
+@UninstallModules({RepositoriesModule.class, DatabaseModule.class})
 @HiltAndroidTest
 public class ExampleUITest {
 

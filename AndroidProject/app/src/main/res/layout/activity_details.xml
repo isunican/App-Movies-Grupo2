@@ -5,23 +5,187 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.details.DetailsView">
+    tools:context=".activities.details.DetailsSeriesView">
 
-    <TextView
-        android:id="@+id/tvTitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <!-- Contenedor vertical que ocupa toda la pantalla -->
+    <LinearLayout
+        android:id="@+id/contenedor"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:text="Título de la Película" />
+        app:layout_constraintTop_toTopOf="parent">
 
-    <TextView
-        android:id="@+id/tvId"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="#D7CBCB"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        <!-- Encabezado -->
+        <LinearLayout
+            android:id="@+id/Encabezado"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/tvTitulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Título de la serie"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- Foto -->
+        <LinearLayout
+            android:id="@+id/Foto"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/fotoSerie"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:contentDescription="foto de la serie"
+                android:scaleType="centerCrop" />
+        </LinearLayout>
+
+        <!-- Información + puntuaciones -->
+        <LinearLayout
+            android:id="@+id/Informacion"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:orientation="vertical"
+            android:paddingHorizontal="16dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="16dp">
+
+            <!-- Dos columnas: títulos y valores -->
+            <LinearLayout
+                android:id="@+id/Informacion3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <!-- Columna izquierda -->
+                <LinearLayout
+                    android:id="@+id/TitulosInfo"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvFechaPEBase"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Fecha primera emisión:" />
+
+                    <TextView
+                        android:id="@+id/tvFechaUEBase"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Fecha última emisión:" />
+
+                    <TextView
+                        android:id="@+id/tvNumTempBase"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Temporadas:" />
+
+                    <TextView
+                        android:id="@+id/tvNumCapBase"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Capítulos:" />
+
+                    <TextView
+                        android:id="@+id/tvGenerosBase"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Géneros:" />
+                </LinearLayout>
+
+                <!-- Columna derecha -->
+                <LinearLayout
+                    android:id="@+id/RellenarInfo"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvFechaPERellenar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="—" />
+
+                    <TextView
+                        android:id="@+id/tvFechaUERellenar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="—" />
+
+                    <TextView
+                        android:id="@+id/tvTempRellenar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="—" />
+
+                    <TextView
+                        android:id="@+id/tvCaptRellenar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="—" />
+
+                    <TextView
+                        android:id="@+id/tvGenerosRellenar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="—" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Puntuaciones -->
+            <LinearLayout
+                android:id="@+id/Puntuaciones"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingTop="12dp">
+
+                <TextView
+                    android:id="@+id/tvPuntMediaBase"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Puntuación media:" />
+
+                <TextView
+                    android:id="@+id/tvPuntMediaRellenar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="—" />
+
+                <TextView
+                    android:id="@+id/tvPuntSumariaBase"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:text="Puntuación sumaria:" />
+
+                <TextView
+                    android:id="@+id/tvPuntSumariaRellenar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="—" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

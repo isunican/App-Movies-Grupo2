@@ -19,7 +19,7 @@
             android:name=".activities.info.InfoActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.details.DetailsView"
+            android:name=".activities.details.DetailsSeriesView"
             android:exported="false" />
         <activity
             android:name=".activities.main.MainView"
