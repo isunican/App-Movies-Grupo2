@@ -64,11 +64,16 @@ secrets {
 }
 
 android {
-    namespace 'es.unican.movies'
+    namespace = 'es.unican.movies'          // ← cambiado
+    testOptions {
+        unitTests {
+            includeAndroidResources = true
+        }
+    }
     compileSdk 36
 
     buildFeatures {
-        buildConfig true
+        buildConfig = true                  // ← cambiado
     }
 
     defaultConfig {
@@ -89,7 +94,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
         debug {
-            testCoverageEnabled true
+            testCoverageEnabled = true      // ← cambiado
         }
     }
     compileOptions {
@@ -99,7 +104,6 @@ android {
 }
 
 dependencies {
-
     implementation libs.appcompat
     implementation libs.material
     implementation libs.activity
@@ -109,12 +113,24 @@ dependencies {
     implementation libs.retrofit
     implementation libs.retrofit.gson
     implementation libs.recyclerview
+    implementation libs.room.common.jvm
+    implementation libs.room.runtime
+    implementation libs.ext.junit
+
+    def room_version = "2.8.3"
+
+    implementation "androidx.room:room-runtime:$room_version"
+    annotationProcessor "androidx.room:room-compiler:$room_version"
+
 
     testImplementation libs.junit
 
     androidTestImplementation libs.ext.junit
     androidTestImplementation libs.espresso.core
     androidTestImplementation libs.espresso.contrib
+    androidTestImplementation "com.jakewharton.espresso:okhttp3-idling-resource:1.0.0"
+    androidTestImplementation 'org.hamcrest:hamcrest:2.2'           // paquete completo
+
 
     // Parceler (automatically implements methods to create parcels)
     implementation libs.parceler.api
@@ -130,6 +146,7 @@ dependencies {
     androidTestImplementation  libs.hilt.android.testing
     androidTestAnnotationProcessor libs.hilt.compiler
     testImplementation libs.hilt.android.testing
+    annotationProcessor libs.room.compiler
     testAnnotationProcessor libs.hilt.compiler
 
     // Roboelectric (to get a proper Context object in unit tests)

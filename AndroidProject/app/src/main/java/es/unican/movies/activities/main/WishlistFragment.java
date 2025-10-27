@@ -19,8 +19,11 @@ import org.parceler.Parcels;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.inject.Inject;
+
+import dagger.hilt.android.AndroidEntryPoint;
 import es.unican.movies.DataBaseManagement.SeriesDB;
-import es.unican.movies.MoviesApp;
+import es.unican.movies.DataBaseManagement.SeriesDao;
 import es.unican.movies.R;
 import es.unican.movies.activities.details.DetailsSeriesView;
 import es.unican.movies.model.Series;
@@ -28,9 +31,13 @@ import es.unican.movies.model.Series;
 /**
  * Fragment that displays the wishlist loaded from Room.
  */
+@AndroidEntryPoint
 public class WishlistFragment extends Fragment {
 
     private static final String TAG = "WishlistFragment";
+
+    @Inject
+    SeriesDao seriesDao;
 
     private ListView lvWishlist;
     private TextView tvEmpty;
@@ -55,8 +62,7 @@ public class WishlistFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
         // Observe wishlist LiveData so UI updates when DB changes
-        MoviesApp app = (MoviesApp) requireActivity().getApplication();
-        app.getRoom().seriesDao().getWishlistLive().observe(getViewLifecycleOwner(), dbList -> {
+        seriesDao.getWishlistLive().observe(getViewLifecycleOwner(), dbList -> {
             List<SeriesDB> list = dbList == null ? new ArrayList<>() : dbList;
             Log.d(TAG, "Observed wishlist change, size=" + list.size());
             if (list.isEmpty()) {
