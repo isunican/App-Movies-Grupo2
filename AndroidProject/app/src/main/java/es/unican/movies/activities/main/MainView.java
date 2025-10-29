@@ -55,6 +55,9 @@ public class MainView extends AppCompatActivity implements IMainContract.View, S
 
     private static final String TAG_LIST = "series_list";
 
+    // toast
+    private Toast currentToast;
+
     // cache the last series list so we can reapply it when fragments are recreated
     private List<Series> cachedSeries = null;
 
@@ -214,6 +217,14 @@ public class MainView extends AppCompatActivity implements IMainContract.View, S
     public void showLoadError() {
         Toast.makeText(this, "Error loading series", Toast.LENGTH_SHORT).show();
     }
+
+    @Override
+    public void showSearchErrorNotFound() {
+        if (currentToast != null) {
+            currentToast.cancel(); // Cancela el anterior si sigue visible
+        }
+        currentToast = Toast.makeText(this, "No se encontraron coincidencias", Toast.LENGTH_SHORT);
+        currentToast.show();}
 
     @Override
     public void showSeriesDetails(Series series) {
