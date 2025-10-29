@@ -2,12 +2,16 @@ package es.unican.movies.activities.main;
 
 
 
+import java.util.Collection;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 import java.util.concurrent.Executors;
 
 import es.unican.movies.DataBaseManagement.SeriesDB;
 import es.unican.movies.DataBaseManagement.SeriesDatabase;
 import es.unican.movies.MoviesApp;
+import es.unican.movies.common.Utils;
 import es.unican.movies.model.FilterSeries;
 import es.unican.movies.model.Series;
 import es.unican.movies.service.ICallback;
@@ -163,6 +167,47 @@ public class MainPresenter implements IMainContract.Presenter {
                         }
                     }
                 } catch (Exception e) {
+                }
+            }
+
+            public void ordenarSeries(String tipo, boolean ascendente) {
+                if (tipo.equals("Normal")) {
+                    if (ascendente) {
+                        currentSeriesList.sort(Comparator.comparingDouble(Series::getVoteAverage));
+                    } else {
+                        currentSeriesList.sort(Comparator.comparingDouble(Series::getVoteAverage).reversed());
+                    }
+                } else {
+                    if (ascendente) {
+                        currentSeriesList.sort(Comparator.comparingDouble(series -> {
+                                    try {
+                                        return Double.parseDouble(
+                                                Utils.obtenerPuntuacionSumaria(
+                                                        series.getVoteCount(),
+                                                        series.getVoteAverage()
+                                                ));
+                                    } catch (NumberFormatException e) {
+                                        return Double.NEGATIVE_INFINITY; // or some other default value
+                                    }
+                                }
+                        ));
+
+                    } else {
+                        currentSeriesList.sort(
+                                Comparator.comparingDouble((Series series) -> {
+                                    try {
+                                        return Double.parseDouble(
+                                                Utils.obtenerPuntuacionSumaria(
+                                                        series.getVoteCount(),
+                                                        series.getVoteAverage()
+                                                ));
+                                    } catch (NumberFormatException e) {
+                                        return Double.NEGATIVE_INFINITY;
+                                    }
+                                }).reversed()
+                        );
+
+                    }
                 }
             }
 
