@@ -10,4 +10,12 @@
         android:divider="@android:color/darker_gray"
         android:dividerHeight="1dp" />
 
+    <TextView
+        android:id="@+id/tvEmptyWishlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Aún no tienes series en tu lista de deseados"
+        android:visibility="gone" />
+
 </FrameLayout>
