@@ -29,6 +29,7 @@ import es.unican.movies.activities.details.DetailsSeriesView;
 import es.unican.movies.activities.info.InfoActivity;
 import es.unican.movies.model.Series;
 import es.unican.movies.service.IMoviesRepository;
+import hilt_aggregated_deps._es_unican_movies_activities_main_MainView_GeneratedInjector;
 
 /**
  * Activity to show the list of series and host fragments.
@@ -90,9 +91,12 @@ public class MainView extends AppCompatActivity implements IMainContract.View, S
         if (itemId == R.id.menuItemInfo) {
             presenter.onMenuInfoClicked();
             return true;
+        } else if (itemId == R.id.action_filter) {
+            new es.unican.movies.activities.main.FilterDialogFragment().show(getSupportFragmentManager(), "DialogFilter");
         }
         return super.onOptionsItemSelected(item);
     }
+
 
     @Override
     public void init() {
@@ -111,7 +115,7 @@ public class MainView extends AppCompatActivity implements IMainContract.View, S
         }
         tx.commitNowAllowingStateLoss();
 
-        // Wire BottomNavigationView
+        // Wire BottomNavigationView// Wire BottomNavigationView
         BottomNavigationView bottomNav = findViewById(R.id.bottom_navigation);
         if (bottomNav != null) {
             bottomNav.setOnItemSelectedListener(item -> {
