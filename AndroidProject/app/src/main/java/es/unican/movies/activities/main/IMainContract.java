@@ -91,8 +91,9 @@ public interface IMainContract {
         /**
          * The view is informed that the content of the search bar has changed
          * Only the View should call this method
-         * @param newText the new text in the search bar
          */
+
+        void showSearchErrorNotFound();
 
         /**
          * The view is requested to display the detailed view of the given series.

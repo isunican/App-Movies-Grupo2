@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- pressed state uses the semi-transparent white defined in colors.xml -->
+    <item android:color="@color/bnv_ripple_color" android:state_pressed="true"/>
+    <!-- default: transparent -->
+    <item android:color="@android:color/transparent"/>
+</selector>
+
