@@ -12,4 +12,11 @@
 
     <!--   a secondary color for controls like checkboxes and text fields. -->
     <color name="colorAccent">#FF4081</color>
+
+    <!-- BottomNavigationView specific colors -->
+    <color name="bnv_background">#3F51B5</color> <!-- same as colorPrimary by default -->
+    <color name="bnv_item_active">#FFFFFFFF</color>
+    <color name="bnv_item_inactive">#BDBDBD</color>
+    <!-- ripple color used on top of a dark background (black with ~12% alpha for contrast) -->
+    <color name="bnv_ripple_color">#00000000</color>
 </resources>

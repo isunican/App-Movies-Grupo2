@@ -53,12 +53,18 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             app:menu="@menu/bottom_nav_menu"
-            app:itemIconTint="?attr/colorOnPrimary"
-            app:itemTextColor="?attr/colorOnPrimary"
+            app:itemIconTint="@color/bottom_nav_item_color_state"
+            app:itemTextColor="@color/bottom_nav_item_color_state"
             android:background="?attr/colorPrimary"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:itemActiveIndicatorStyle="@style/ShapeAppearance.Material3.Corner.None"
+            app:itemTextAppearanceActive="@color/white"
+            app:itemTextAppearanceActiveBoldEnabled="true"/>
+
+
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
