@@ -54,7 +54,6 @@ public class MainView extends AppCompatActivity implements IMainContract.View, S
     IMoviesRepository repository;
 
     private static final String TAG_LIST = "series_list";
-    private static final String TAG_WISHLIST = "wishlist";
 
     // cache the last series list so we can reapply it when fragments are recreated
     private List<Series> cachedSeries = null;
@@ -108,11 +107,6 @@ public class MainView extends AppCompatActivity implements IMainContract.View, S
             listFragment = new SeriesListFragment();
             tx.add(R.id.fragment_container, listFragment, TAG_LIST);
         }
-        // ensure other fragment is not shown by default
-        WishlistFragment wishlistFragment = (WishlistFragment) fm.findFragmentByTag(TAG_WISHLIST);
-        if (wishlistFragment != null) {
-            tx.hide(wishlistFragment);
-        }
         tx.commitNowAllowingStateLoss();
 
         // Wire BottomNavigationView// Wire BottomNavigationView
@@ -124,17 +118,16 @@ public class MainView extends AppCompatActivity implements IMainContract.View, S
                 FragmentManager fm2 = getSupportFragmentManager();
 
                 SeriesListFragment sf = (SeriesListFragment) fm2.findFragmentByTag(TAG_LIST);
-                WishlistFragment wf = (WishlistFragment) fm2.findFragmentByTag(TAG_WISHLIST);
 
                 if (id == R.id.nav_home) {
-                    // show list fragment
-                    if (wf != null) t.hide(wf);
+                    // show list fragment in ALL mode
                     if (sf == null) {
                         sf = new SeriesListFragment();
                         t.add(R.id.fragment_container, sf, TAG_LIST);
                     } else {
                         t.show(sf);
                     }
+                    sf.setMode(SeriesListFragment.MODE_ALL);
                     t.commitNowAllowingStateLoss();
 
                     if (cachedSeries != null && sf != null) {
@@ -142,14 +135,14 @@ public class MainView extends AppCompatActivity implements IMainContract.View, S
                     }
                     return true;
                 } else if (id == R.id.nav_wishlist) {
-                    // show wishlist fragment
-                    if (sf != null) t.hide(sf);
-                    if (wf == null) {
-                        wf = new WishlistFragment();
-                        t.add(R.id.fragment_container, wf, TAG_WISHLIST);
+                    // show wishlist inside the same fragment
+                    if (sf == null) {
+                        sf = new SeriesListFragment();
+                        t.add(R.id.fragment_container, sf, TAG_LIST);
                     } else {
-                        t.show(wf);
+                        t.show(sf);
                     }
+                    sf.setMode(SeriesListFragment.MODE_WISHLIST);
                     t.commitNowAllowingStateLoss();
                     return true;
                 }
