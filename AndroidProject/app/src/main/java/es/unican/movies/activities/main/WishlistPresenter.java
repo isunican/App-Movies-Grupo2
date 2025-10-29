@@ -55,14 +55,11 @@ public class WishlistPresenter implements IWishlistContract.Presenter {
      * no pueden ejecutarse en el hilo principal (UI thread).
      */
     private void load() {
-        MoviesApp app = (MoviesApp) view.getContext().getApplicationContext();
-        SeriesDatabase db = app.getRoom();
-        SeriesDao dao = db.seriesDao();
-        Executors.newSingleThreadExecutor().execute(() -> {
-            List<SeriesDB> localWishlist = dao.getWishlist();
-            view.showSeries(localWishlist);
-        });
+
+        SeriesDao dao = view.getSeriesDao();
+
+        List<SeriesDB> localWishlist = dao.getWishlist();
+        view.showSeries(localWishlist);
+
     }
 }
-
-
