@@ -109,7 +109,11 @@ public class MainPresenter implements IMainContract.Presenter {
         }
 
         currentSeriesWithFilter = filtered; // new list, original stays unchanged
+        if(currentSeriesWithFilter.isEmpty()){
+            view.showSearchErrorNotFound();
+        }
         view.showSeries(filtered);
+
 
     }
     /**
