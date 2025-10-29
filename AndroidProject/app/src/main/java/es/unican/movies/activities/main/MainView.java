@@ -6,7 +6,11 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+import android.widget.RadioGroup;
 import android.widget.SearchView;
+import android.widget.Spinner;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -245,4 +249,24 @@ public class MainView extends AppCompatActivity implements IMainContract.View, S
     }
 
 
+    private void aplicarOrdenar() {
+        Spinner spinner = findViewById(R.id.spinnerOrdenar);
+        RadioGroup radioGroupOrden = findViewById(R.id.radioGroupOrden);
+        Button btnAplicar = findViewById(R.id.btnAplicarOrden);
+
+
+        btnAplicar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String tipo = spinner.getSelectedItem().toString();
+
+
+                int idSeleccionado = radioGroupOrden.getCheckedRadioButtonId();
+                boolean ascendente = (idSeleccionado == R.id.radioAscendente);
+
+                presenter.ordenarSeries(tipo, ascendente);
+            }
+        });
+
+    }
 }

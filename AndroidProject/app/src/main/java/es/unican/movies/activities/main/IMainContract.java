@@ -39,6 +39,8 @@ public interface IMainContract {
          */
         public void onMenuInfoClicked();
 
+
+        public void ordenarSeries(String tipo, boolean ascendente);
     }
 
     /**

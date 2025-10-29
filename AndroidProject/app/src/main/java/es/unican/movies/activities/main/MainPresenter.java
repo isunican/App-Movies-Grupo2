@@ -33,6 +33,7 @@ public class MainPresenter implements IMainContract.Presenter {
     private List<Series> currentSeriesList = null;
     private List<Series> currentSeriesWithFilter = null;
 
+
     /**
      * Initializes the presenter.
      * @param view The view that this presenter will control.
@@ -75,6 +76,35 @@ public class MainPresenter implements IMainContract.Presenter {
     @Override
     public void onMenuInfoClicked() {
         view.showInfoActivity();
+    }
+
+    @Override
+    public void ordenarSeries(String tipo, boolean ascendente) {
+        Comparator<Series> comparator = Comparator.comparing(Series::getName);
+        if (tipo.equals("Normal")) {
+            comparator = Comparator.comparingDouble(Series::getVoteAverage);
+        } else if (tipo.equals("Sumaria")) {
+            comparator = Comparator.comparingDouble(series -> {
+                        try {
+                            return Double.parseDouble(
+                                    Utils.obtenerPuntuacionSumaria(
+                                            series.getVoteCount(),
+                                            series.getVoteAverage()
+                                    ));
+                        } catch (NumberFormatException e) {
+                            return Double.NEGATIVE_INFINITY;
+                        }
+                    }
+            );
+        }
+
+        if (!ascendente) {
+            comparator = comparator.reversed();
+        }
+
+        currentSeriesList.sort(comparator);
+
+        view.showSeries(currentSeriesList);
     }
 
 
@@ -174,46 +204,7 @@ public class MainPresenter implements IMainContract.Presenter {
                 }
             }
 
-            public void ordenarSeries(String tipo, boolean ascendente) {
-                if (tipo.equals("Normal")) {
-                    if (ascendente) {
-                        currentSeriesList.sort(Comparator.comparingDouble(Series::getVoteAverage));
-                    } else {
-                        currentSeriesList.sort(Comparator.comparingDouble(Series::getVoteAverage).reversed());
-                    }
-                } else {
-                    if (ascendente) {
-                        currentSeriesList.sort(Comparator.comparingDouble(series -> {
-                                    try {
-                                        return Double.parseDouble(
-                                                Utils.obtenerPuntuacionSumaria(
-                                                        series.getVoteCount(),
-                                                        series.getVoteAverage()
-                                                ));
-                                    } catch (NumberFormatException e) {
-                                        return Double.NEGATIVE_INFINITY; // or some other default value
-                                    }
-                                }
-                        ));
 
-                    } else {
-                        currentSeriesList.sort(
-                                Comparator.comparingDouble((Series series) -> {
-                                    try {
-                                        return Double.parseDouble(
-                                                Utils.obtenerPuntuacionSumaria(
-                                                        series.getVoteCount(),
-                                                        series.getVoteAverage()
-                                                ));
-                                    } catch (NumberFormatException e) {
-                                        return Double.NEGATIVE_INFINITY;
-                                    }
-                                }).reversed()
-                        );
-
-                    }
-                }
-            }
 
             @Override
             public void onFailure(Throwable e) {
