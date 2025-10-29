@@ -4,6 +4,7 @@ import android.content.Context;
 
 import java.util.List;
 
+import es.unican.movies.DataBaseManagement.SeriesDao;
 import es.unican.movies.model.Series;
 import es.unican.movies.service.IMoviesRepository;
 
@@ -21,14 +22,17 @@ public interface IMainContract {
         /**
          * Links the presenter with its view.
          * Only the View should call this method
+         *
          * @param view the view that will be controlled by this presenter
          */
         public void init(View view);
+
         public void onSearchBarContentChanged(String newText);
 
         /**
          * The presenter is informed that a series has been clicked
          * Only the View should call this method
+         *
          * @param series the series that has been clicked
          */
         public void onItemClicked(Series series);
@@ -62,6 +66,7 @@ public interface IMainContract {
          * therefore the Presenter should be unable to instantiate repositories and must rely on
          * the view to create the repository.
          * Only the Presenter should call this method
+         *
          * @return a repository that can be called by the Presenter to retrieve series or series
          */
         public IMoviesRepository getMoviesRepository();
@@ -69,6 +74,7 @@ public interface IMainContract {
         /**
          * The view is requested to display the given list of series.
          * Only the Presenter should call this method
+         *
          * @param series the list of tv series
          */
         public void showSeries(List<Series> series);
@@ -77,6 +83,7 @@ public interface IMainContract {
          * The view is requested to display a notification indicating that the series
          * were loaded correctly.
          * Only the Presenter should call this method
+         *
          * @param series number of series
          */
         public void showLoadCorrect(int series);
@@ -91,13 +98,13 @@ public interface IMainContract {
         /**
          * The view is informed that the content of the search bar has changed
          * Only the View should call this method
+         * @param newText the new text in the search bar
          */
-
-        void showSearchErrorNotFound();
 
         /**
          * The view is requested to display the detailed view of the given series.
          * Only the Presenter should call this method
+         *
          * @param series the series
          */
         public void showSeriesDetails(Series series);
@@ -109,7 +116,9 @@ public interface IMainContract {
         public void showInfoActivity();
 
 
-
         public Context getContext();
+
+        public SeriesDao getSeriesDao();
+
     }
 }

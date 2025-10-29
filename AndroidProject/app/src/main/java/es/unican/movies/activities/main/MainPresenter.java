@@ -3,9 +3,9 @@ package es.unican.movies.activities.main;
 
 
 import java.util.List;
-import java.util.concurrent.Executors;
 
 import es.unican.movies.DataBaseManagement.SeriesDB;
+import es.unican.movies.DataBaseManagement.SeriesDao;
 import es.unican.movies.DataBaseManagement.SeriesDatabase;
 import es.unican.movies.MoviesApp;
 import es.unican.movies.model.FilterSeries;
@@ -105,11 +105,7 @@ public class MainPresenter implements IMainContract.Presenter {
         }
 
         currentSeriesWithFilter = filtered; // new list, original stays unchanged
-        if(currentSeriesWithFilter.isEmpty()){
-            view.showSearchErrorNotFound();
-        }
         view.showSeries(filtered);
-
 
     }
     /**
@@ -133,19 +129,10 @@ public class MainPresenter implements IMainContract.Presenter {
                 // Only try to persist a sample if we actually have at least one element
                 if (!elements.isEmpty()) {
                     try {
-                        MoviesApp app = (MoviesApp) view.getContext().getApplicationContext();
-                        SeriesDatabase db = app.getRoom();
                         SeriesDB seriesDB = WishlistAdapter.convertToSeriesDB(elements.get(0));
-                        Executors.newSingleThreadExecutor().execute(() -> {
-                            try {
-                                db.seriesDao().addToWishlist(seriesDB);
+                        SeriesDao dao = view.getSeriesDao();
+                        dao.addToWishlist(seriesDB);
 
-                                // Immediately read back the wishlist from DB to confirm
-                                readWishList(db);
-
-                            } catch (Exception e) {
-                            }
-                        });
                     } catch (Exception ex) {
                         // Swallow persistence errors to avoid crashing the UI thread
                     }

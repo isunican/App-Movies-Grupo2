@@ -5,6 +5,7 @@ import android.content.Context;
 import java.util.List;
 
 import es.unican.movies.DataBaseManagement.SeriesDB;
+import es.unican.movies.DataBaseManagement.SeriesDao;
 import es.unican.movies.model.Series;
 
 /**
@@ -115,5 +116,7 @@ public interface IWishlistContract {
          * @param wishlist Lista de objetos SeriesDB que representan las series guardadas en la wishlist.
          */
         void showSeries(List<SeriesDB> wishlist);
+
+        public SeriesDao getSeriesDao();
     }
 }
