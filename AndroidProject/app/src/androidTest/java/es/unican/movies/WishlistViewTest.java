@@ -62,7 +62,7 @@ public class WishlistViewTest {
         ).allowMainThreadQueries().build();
 
         dao = db.seriesDao();
-    }
+    }-
 
     /*@Test
     public void testMostrarListaDeseadaValida() {
