@@ -19,6 +19,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import org.parceler.Parcels;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.inject.Inject;
@@ -76,8 +77,8 @@ public class MainView extends AppCompatActivity implements IMainContract.View, S
         presenter.init(this);
 
         getSupportFragmentManager().setFragmentResultListener("filter_key", this, (requestKey, bundle) -> {
-            List<String> genres = bundle.getStringArrayList("genres");
-
+            ArrayList<String> genres = bundle.getStringArrayList("genres");
+            presenter.onGenresSelected(genres);
         });
     }
 
@@ -97,7 +98,10 @@ public class MainView extends AppCompatActivity implements IMainContract.View, S
             presenter.onMenuInfoClicked();
             return true;
         } else if (itemId == R.id.action_filter) {
-            new FilterDialogFragment().show(getSupportFragmentManager(), "DialogFilter");
+            ArrayList<String> selectedGenres = new ArrayList<>(presenter.getSelectedGenres());
+            FilterDialogFragment dialog = FilterDialogFragment.newInstance(selectedGenres);
+            dialog.show(getSupportFragmentManager(), "DialogFilter");
+            return true;
         }
         return super.onOptionsItemSelected(item);
     }

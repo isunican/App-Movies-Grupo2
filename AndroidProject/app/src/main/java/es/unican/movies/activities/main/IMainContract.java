@@ -27,7 +27,28 @@ public interface IMainContract {
          */
         public void init(View view);
 
+        /**
+         * The presenter is informed that the content of the search bar has changed
+         * Only the View should call this method
+         * @param newText the new text in the search bar
+         */
         public void onSearchBarContentChanged(String newText);
+
+        /**
+         * The presenter is informed that new genres have been selected
+         * Only the View should call this method
+         *
+         * @param genres the list of selected genres
+         */
+        void onGenresSelected(List<String> genres);
+
+        /**
+         * Returns the list of selected genres
+         * Only the View should call this method
+         *
+         * @return the list of selected genres
+         */
+        List<String> getSelectedGenres();
 
         /**
          * The presenter is informed that a series has been clicked

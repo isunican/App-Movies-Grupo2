@@ -1,14 +1,16 @@
 package es.unican.movies.activities.main;
 
 
-
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
+import java.util.stream.Collectors;
 
 import es.unican.movies.DataBaseManagement.SeriesDB;
 import es.unican.movies.DataBaseManagement.SeriesDao;
 import es.unican.movies.DataBaseManagement.SeriesDatabase;
-import es.unican.movies.MoviesApp;
 import es.unican.movies.model.FilterSeries;
+import es.unican.movies.model.Genre;
 import es.unican.movies.model.Series;
 import es.unican.movies.service.ICallback;
 import es.unican.movies.service.IMoviesRepository;
@@ -48,10 +50,21 @@ public class MainPresenter implements IMainContract.Presenter {
      */
     @Override
     public void onSearchBarContentChanged(String title){
-
         this.filterSeries.setTitle(title);
         load(filterSeries);
     }
+
+    @Override
+    public void onGenresSelected(List<String> genres) {
+        this.filterSeries.setGenres(genres);
+        load(this.filterSeries);
+    }
+
+    @Override
+    public List<String> getSelectedGenres() {
+        return filterSeries.getGenres() == null ? new ArrayList<>() : filterSeries.getGenres();
+    }
+
 
     /**
      * Handles the click on a series item in the list.
@@ -85,28 +98,67 @@ public class MainPresenter implements IMainContract.Presenter {
             return;
         }
 
-        String title = filterSeries.getTitle();
+        List<Series> filteredSeriesList = getFilteredSeries(filterSeries);
+        currentSeriesWithFilter = filteredSeriesList;
+        view.showSeries(filteredSeriesList);
+    }
+
+    /**
+     * Filters the current series list based on the provided filter.
+     * @param filter The filter criteria.
+     * @return The filtered list of series.
+     */
+    private List<Series> getFilteredSeries(FilterSeries filter) {
+        final String title = filter.getTitle();
+        final List<String> selectedGenres = filter.getGenres();
+
+        if ((title == null || title.trim().isEmpty()) && (selectedGenres == null || selectedGenres.isEmpty())) {
+            return currentSeriesList;
+        }
+
+        final List<String> normalizedSelectedGenres = (selectedGenres == null || selectedGenres.isEmpty()) ?
+                Collections.emptyList() :
+                selectedGenres.stream().map(g -> g.trim().toLowerCase()).collect(Collectors.toList());
+
+        return currentSeriesList.stream()
+                .filter(series -> matchesTitle(series, title))
+                .filter(series -> matchesGenres(series, normalizedSelectedGenres))
+                .collect(Collectors.toList());
+    }
+
+    /**
+     * Checks if the series matches the given title filter.
+     * @param series The series to check.
+     * @param title The title filter.
+     * @return true if the series matches the title filter, false otherwise.
+     */
+    private boolean matchesTitle(Series series, String title) {
         if (title == null || title.trim().isEmpty()) {
-            // Reset to full list (non-destructive)
-            currentSeriesWithFilter = currentSeriesList;
-            view.showSeries(currentSeriesList);
-
-            return;
+            return true;
         }
-
         String filterText = title.toLowerCase().trim();
-        List<Series> filtered = new java.util.ArrayList<>();
-        for (Series s : currentSeriesList) {
-            String originalTitle = s.getOriginalTitle() != null ? s.getOriginalTitle().toLowerCase() : "";
-            String name = s.getName() != null ? s.getName().toLowerCase() : "";
-            if (originalTitle.contains(filterText) || name.contains(filterText)) {
-                filtered.add(s);
-            }
+        String originalTitle = series.getOriginalTitle() != null ? series.getOriginalTitle().toLowerCase() : "";
+        String name = series.getName() != null ? series.getName().toLowerCase() : "";
+        return originalTitle.contains(filterText) || name.contains(filterText);
+    }
+
+    /**
+     * Checks if the series matches any of the selected genres.
+     * @param series The series to check.
+     * @param normalizedSelectedGenres The list of selected genres in normalized form (lowercase and trimmed).
+     * @return true if the series matches any of the selected genres, false otherwise.
+     */
+    private boolean matchesGenres(Series series, List<String> normalizedSelectedGenres) {
+        if (normalizedSelectedGenres.isEmpty()) {
+            return true;
         }
-
-        currentSeriesWithFilter = filtered; // new list, original stays unchanged
-        view.showSeries(filtered);
-
+        if (series.getGenres() == null || series.getGenres().isEmpty()) {
+            return false;
+        }
+        List<String> normalizedSeriesGenres = series.getGenres().stream()
+                .map(g -> g.name.trim().toLowerCase())
+                .collect(Collectors.toList());
+        return !Collections.disjoint(normalizedSeriesGenres, normalizedSelectedGenres);
     }
     /**
      * Loads all series from the repository without any filter and updates the view.
@@ -118,7 +170,6 @@ public class MainPresenter implements IMainContract.Presenter {
             @Override
             public void onSuccess(List<Series> elements) {
                 if (elements == null) {
-                    // Avoid NPE and inform the view
                     view.showLoadError();
                     return;
                 }
@@ -126,7 +177,6 @@ public class MainPresenter implements IMainContract.Presenter {
                 view.showSeries(elements);
                 currentSeriesList = elements;
                 currentSeriesWithFilter = currentSeriesList;
-                // Only try to persist a sample if we actually have at least one element
                 if (!elements.isEmpty()) {
                     try {
                         SeriesDB seriesDB = WishlistAdapter.convertToSeriesDB(elements.get(0));
@@ -141,11 +191,6 @@ public class MainPresenter implements IMainContract.Presenter {
                 view.showLoadCorrect(elements.size());
             }
 
-            /**
-             * Reads and logs the current content of the wishlist from the database.
-             * Used for debugging purposes.
-             * @param db The database instance.
-             */
             private void readWishList(SeriesDatabase db) {
                 try {
                     List<SeriesDB> current = db.seriesDao().getWishlist();

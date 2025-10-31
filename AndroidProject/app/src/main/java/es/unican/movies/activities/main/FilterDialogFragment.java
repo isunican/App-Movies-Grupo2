@@ -14,13 +14,32 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.DialogFragment;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import es.unican.movies.R;
 
 public class FilterDialogFragment extends DialogFragment {
 
+    private static final String SELECTED_GENRES = "selected_genres";
     private ListView listView;
     private String[] genres;
+    private List<String> selectedGenres;
+
+    public static FilterDialogFragment newInstance(ArrayList<String> selectedGenres) {
+        FilterDialogFragment fragment = new FilterDialogFragment();
+        Bundle args = new Bundle();
+        args.putStringArrayList(SELECTED_GENRES, selectedGenres);
+        fragment.setArguments(args);
+        return fragment;
+    }
+
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        if (getArguments() != null) {
+            selectedGenres = getArguments().getStringArrayList(SELECTED_GENRES);
+        }
+    }
 
     @Nullable
     @Override
@@ -40,8 +59,17 @@ public class FilterDialogFragment extends DialogFragment {
         listView.setAdapter(adapter);
         listView.setChoiceMode(ListView.CHOICE_MODE_MULTIPLE);
 
+        if (selectedGenres != null) {
+            for (int i = 0; i < genres.length; i++) {
+                if (selectedGenres.contains(genres[i])) {
+                    listView.setItemChecked(i, true);
+                }
+            }
+        }
+
         Button btnAceptar = v.findViewById(R.id.btnAceptar);
-        btnAceptar.setOnClickListener(view -> {ArrayList<String> seleccionados = new ArrayList<>();
+        btnAceptar.setOnClickListener(view -> {
+            ArrayList<String> seleccionados = new ArrayList<>();
             for (int i = 0; i < genres.length; i++) {
                 if (listView.isItemChecked(i)) {
                     seleccionados.add(genres[i]);
@@ -60,7 +88,6 @@ public class FilterDialogFragment extends DialogFragment {
     public void onStart() {
         super.onStart();
         Dialog d = getDialog();
-
 
         if (d != null && d.getWindow() != null) {
             int width = (int) (requireContext().getResources().getDisplayMetrics().widthPixels * 0.85);
