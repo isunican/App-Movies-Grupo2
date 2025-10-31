@@ -31,7 +31,6 @@ import es.unican.movies.activities.details.DetailsSeriesView;
 import es.unican.movies.activities.info.InfoActivity;
 import es.unican.movies.model.Series;
 import es.unican.movies.service.IMoviesRepository;
-import hilt_aggregated_deps._es_unican_movies_activities_main_MainView_GeneratedInjector;
 
 /**
  * Activity to show the list of series and host fragments.
@@ -106,6 +105,14 @@ public class MainView extends AppCompatActivity implements IMainContract.View, S
 
     @Override
     public void init() {
+        initFragment();
+        initBottomNav();
+        initSearch();
+    }
+    /*
+     * Initializes the fragment container with the series list fragment by default.
+     */
+    private void initFragment() {
         // Initialize fragment container with the series list fragment by default
         FragmentManager fm = getSupportFragmentManager();
         FragmentTransaction tx = fm.beginTransaction();
@@ -115,8 +122,13 @@ public class MainView extends AppCompatActivity implements IMainContract.View, S
             tx.add(R.id.fragment_container, listFragment, TAG_LIST);
         }
         tx.commitNowAllowingStateLoss();
-
-        // Wire BottomNavigationView// Wire BottomNavigationView
+    }
+    /*
+     * Initializes the BottomNavigationView and sets up the item selected listener.
+     * Depending on the selected item, it shows the appropriate fragment and mode.
+     */
+    private void initBottomNav() {
+        // Wire BottomNavigationView
         BottomNavigationView bottomNav = findViewById(R.id.bottom_navigation);
         if (bottomNav != null) {
             bottomNav.setOnItemSelectedListener(item -> {
@@ -137,7 +149,7 @@ public class MainView extends AppCompatActivity implements IMainContract.View, S
                     sf.setMode(SeriesListFragment.MODE_ALL);
                     t.commitNowAllowingStateLoss();
 
-                    if (cachedSeries != null && sf != null) {
+                    if (cachedSeries != null) {
                         sf.setSeries(cachedSeries);
                     }
                     return true;
@@ -158,12 +170,12 @@ public class MainView extends AppCompatActivity implements IMainContract.View, S
             // set default selected
             bottomNav.setSelectedItemId(R.id.nav_home);
         }
-
-        // Wire search bar
-        SearchTitleBarHandler();
     }
-
-    private void SearchTitleBarHandler(){
+    /*
+     * Initializes the SearchView and sets up the query text listener.
+     * It notifies the presenter when the search bar content changes.
+     */
+    private void initSearch() {
         searchView = findViewById(R.id.searchTitle);
         if (searchView == null) return;
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
