@@ -70,7 +70,7 @@ public class DetailsSeriesView extends AppCompatActivity implements IDetailsCont
         TextView genres = findViewById(R.id.tvGenerosRellenar);
 
         String puntuacion = Utils.obtenerPuntuacionSumaria(series.getVoteCount(), series.getVoteAverage());
-        String imageUrl = ITmdbApi.getFullImagePath(series.getPosterPath(), EImageSize.W92);
+        String imageUrl = ITmdbApi.getFullImagePath(series.getPosterPath(), EImageSize.W500);
         Picasso.get().load(imageUrl).fit().centerInside().into(ivPoster);
 
 

@@ -81,9 +81,9 @@ public class MainPresenter implements IMainContract.Presenter {
     @Override
     public void ordenarSeries(String tipo, boolean ascendente) {
         Comparator<Series> comparator = Comparator.comparing(Series::getName);
-        if (tipo.equals("Normal")) {
+        if (tipo.equals("Puntuacion Normal")) {
             comparator = Comparator.comparingDouble(Series::getVoteAverage);
-        } else if (tipo.equals("Sumaria")) {
+        } else if (tipo.equals("Puntuacion Sumaria")) {
             comparator = Comparator.comparingDouble(series -> {
                         try {
                             return Double.parseDouble(

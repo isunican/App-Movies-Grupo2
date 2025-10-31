@@ -25,7 +25,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
 
-        <!-- Search bar inserted below the toolbar -->
         <android.widget.SearchView
             android:id="@+id/searchTitle"
             android:layout_width="0dp"
@@ -35,7 +34,24 @@
             android:background="@color/white"
             app:layout_constraintTop_toBottomOf="@id/toolbar"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
+            app:layout_constraintEnd_toStartOf="@+id/menufilterButton"
+            android:layout_marginEnd="4dp" />
+
+        <!-- 2. Botón de Filtro (ImageButton) -->
+        <ImageButton
+            android:id="@+id/menufilterButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="4dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:onClick="onFilterButtonClicked"
+            android:padding="8dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/flechasorden"
+            app:layout_constraintBottom_toBottomOf="@+id/searchTitle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/searchTitle"
+            app:tint="?attr/colorPrimary" />
 
         <!-- Fragment container replaces the previous ListView -->
         <FrameLayout

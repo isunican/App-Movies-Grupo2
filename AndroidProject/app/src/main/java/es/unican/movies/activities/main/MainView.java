@@ -7,7 +7,6 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
 import android.widget.RadioGroup;
 import android.widget.SearchView;
 import android.widget.Spinner;
@@ -96,6 +95,8 @@ public class MainView extends AppCompatActivity implements IMainContract.View, S
         if (itemId == R.id.menuItemInfo) {
             presenter.onMenuInfoClicked();
             return true;
+        } else if (itemId == R.id.menufilterButton) {
+            new es.unican.movies.activities.main.OrdenDialogFragment().show(getSupportFragmentManager(), "DialogFilter");
         }
         return super.onOptionsItemSelected(item);
     }
@@ -258,4 +259,6 @@ public class MainView extends AppCompatActivity implements IMainContract.View, S
 
         presenter.ordenarSeries(tipo, ascendente);
     }
+
+
 }
