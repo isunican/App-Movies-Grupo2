@@ -19,6 +19,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import org.parceler.Parcels;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.inject.Inject;
@@ -74,6 +75,11 @@ public class MainView extends AppCompatActivity implements IMainContract.View, S
         // instantiate presenter, let it take control
         presenter = new MainPresenter();
         presenter.init(this);
+
+        getSupportFragmentManager().setFragmentResultListener("filter_key", this, (requestKey, bundle) -> {
+            ArrayList<String> genres = bundle.getStringArrayList("genres");
+            presenter.onGenresSelected(genres);
+        });
     }
 
 
@@ -91,12 +97,26 @@ public class MainView extends AppCompatActivity implements IMainContract.View, S
         if (itemId == R.id.menuItemInfo) {
             presenter.onMenuInfoClicked();
             return true;
+        } else if (itemId == R.id.action_filter) {
+            ArrayList<String> selectedGenres = new ArrayList<>(presenter.getSelectedGenres());
+            FilterDialogFragment dialog = FilterDialogFragment.newInstance(selectedGenres);
+            dialog.show(getSupportFragmentManager(), "DialogFilter");
+            return true;
         }
         return super.onOptionsItemSelected(item);
     }
 
+
     @Override
     public void init() {
+        initFragment();
+        initBottomNav();
+        initSearch();
+    }
+    /*
+     * Initializes the fragment container with the series list fragment by default.
+     */
+    private void initFragment() {
         // Initialize fragment container with the series list fragment by default
         FragmentManager fm = getSupportFragmentManager();
         FragmentTransaction tx = fm.beginTransaction();
@@ -106,7 +126,12 @@ public class MainView extends AppCompatActivity implements IMainContract.View, S
             tx.add(R.id.fragment_container, listFragment, TAG_LIST);
         }
         tx.commitNowAllowingStateLoss();
-
+    }
+    /*
+     * Initializes the BottomNavigationView and sets up the item selected listener.
+     * Depending on the selected item, it shows the appropriate fragment and mode.
+     */
+    private void initBottomNav() {
         // Wire BottomNavigationView
         BottomNavigationView bottomNav = findViewById(R.id.bottom_navigation);
         if (bottomNav != null) {
@@ -128,7 +153,7 @@ public class MainView extends AppCompatActivity implements IMainContract.View, S
                     sf.setMode(SeriesListFragment.MODE_ALL);
                     t.commitNowAllowingStateLoss();
 
-                    if (cachedSeries != null && sf != null) {
+                    if (cachedSeries != null) {
                         sf.setSeries(cachedSeries);
                     }
                     return true;
@@ -149,12 +174,12 @@ public class MainView extends AppCompatActivity implements IMainContract.View, S
             // set default selected
             bottomNav.setSelectedItemId(R.id.nav_home);
         }
-
-        // Wire search bar
-        SearchTitleBarHandler();
     }
-
-    private void SearchTitleBarHandler(){
+    /*
+     * Initializes the SearchView and sets up the query text listener.
+     * It notifies the presenter when the search bar content changes.
+     */
+    private void initSearch() {
         searchView = findViewById(R.id.searchTitle);
         if (searchView == null) return;
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {

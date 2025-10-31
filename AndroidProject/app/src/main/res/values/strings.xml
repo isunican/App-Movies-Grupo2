@@ -2,4 +2,11 @@
     <string name="app_name">Movies</string>
     <string name="movie_poster">Movie Poster</string>
     <string name="info">Info</string>
+    <string-array name="genres">
+        <item>Acción</item>
+        <item>Comedia</item>
+        <item>Drama</item>
+        <item>Ciencia ficción</item>
+        <item>Terror</item>
+    </string-array>
 </resources>

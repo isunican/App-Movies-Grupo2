@@ -30,12 +30,12 @@
             android:id="@+id/searchTitle"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:queryHint="Search titles"
-            android:iconifiedByDefault="false"
             android:background="@color/white"
-            app:layout_constraintTop_toBottomOf="@id/toolbar"
+            android:iconifiedByDefault="false"
+            android:queryHint="Search titles"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
+            app:layout_constraintTop_toBottomOf="@id/toolbar" />
 
         <!-- Fragment container replaces the previous ListView -->
         <FrameLayout

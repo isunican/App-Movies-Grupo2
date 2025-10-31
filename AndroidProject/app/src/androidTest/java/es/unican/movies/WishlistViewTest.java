@@ -64,26 +64,7 @@ public class WishlistViewTest {
         dao = db.seriesDao();
     }
 
-    /*@Test
-    public void testMostrarListaDeseadaValida() {
-        SeriesDB s1 = new SeriesDB();
-        s1.setId(1);
-        s1.setName("El Pacificador");
-        s1.setPosterPath(ITmdbApi.getFullImagePath("/gpGPI732PWspwGpPyWrWov8IYmq.jpg", EImageSize.W92));
 
-        SeriesDB s2 = new SeriesDB();
-        s2.setId(2);
-        s2.setName("Los Simpson");
-        s2.setPosterPath(ITmdbApi.getFullImagePath("/gpGPI732PWspwGpPyWrWov8IYmq.jpg", EImageSize.W92));
-
-        dao.addToWishlist(s1);
-        dao.addToWishlist(s2);
-
-        onView(withId(R.id.nav_wishlist)).perform(click());
-        onView(withId(R.id.lvWishlist)).check(matches(isDisplayed()));
-        onView(withText("El Pacificador")).check(matches(isDisplayed()));
-        onView(withText("Los Simpson")).check(matches(isDisplayed()));
-    }*/
 
     @Test
     public void testMostrarListaDeseadaVacia() {
@@ -97,7 +78,7 @@ public class WishlistViewTest {
                 .check(matches(isDisplayed()));
 
         // Verifica que la lista está visible (aunque esté vacía)
-        onView(withId(R.id.lvWishlist))
+        onView(withId(R.id.lvSeries))
                 .check(matches(not(isDisplayed())));
     }
 }
