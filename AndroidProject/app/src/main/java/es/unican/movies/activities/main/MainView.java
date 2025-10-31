@@ -248,25 +248,14 @@ public class MainView extends AppCompatActivity implements IMainContract.View, S
         presenter.onItemClicked(series);
     }
 
-
-    private void aplicarOrdenar() {
-        Spinner spinner = findViewById(R.id.spinnerOrdenar);
+    public void aplicarOrdenar(View v) {
+        Spinner spinner = findViewById(R.id.spinnerTipoOrden);
         RadioGroup radioGroupOrden = findViewById(R.id.radioGroupOrden);
-        Button btnAplicar = findViewById(R.id.btnAplicarOrden);
 
+        String tipo = spinner.getSelectedItem().toString();
+        int idSeleccionado = radioGroupOrden.getCheckedRadioButtonId();
+        boolean ascendente = (idSeleccionado == R.id.radioAsc);
 
-        btnAplicar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                String tipo = spinner.getSelectedItem().toString();
-
-
-                int idSeleccionado = radioGroupOrden.getCheckedRadioButtonId();
-                boolean ascendente = (idSeleccionado == R.id.radioAscendente);
-
-                presenter.ordenarSeries(tipo, ascendente);
-            }
-        });
-
+        presenter.ordenarSeries(tipo, ascendente);
     }
 }
