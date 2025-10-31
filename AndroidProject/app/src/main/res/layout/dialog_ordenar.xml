@@ -27,7 +27,8 @@
         app:layout_constraintTop_toBottomOf="@id/tvOrdenarPor"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:spinnerMode="dropdown" />
+        android:spinnerMode="dropdown"
+        android:entries="@array/tipo_orden" />
 
     <!-- RadioGroup -->
     <RadioGroup
