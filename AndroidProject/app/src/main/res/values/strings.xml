@@ -2,4 +2,10 @@
     <string name="app_name">Movies</string>
     <string name="movie_poster">Movie Poster</string>
     <string name="info">Info</string>
+
+
+    <string-array name="tipo_orden">
+        <item>Puntuacion Normal</item>
+        <item>Puntuacion Sumaria</item>
+    </string-array>
 </resources>
