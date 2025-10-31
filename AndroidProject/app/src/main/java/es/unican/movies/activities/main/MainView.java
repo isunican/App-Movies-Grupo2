@@ -56,7 +56,6 @@ public class MainView extends AppCompatActivity implements IMainContract.View, S
     IMoviesRepository repository;
 
     private static final String TAG_LIST = "series_list";
-    private static final String TAG_WISHLIST = "wishlist";
 
     // cache the last series list so we can reapply it when fragments are recreated
     private List<Series> cachedSeries = null;
