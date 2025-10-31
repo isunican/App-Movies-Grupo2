@@ -74,6 +74,11 @@ public class MainView extends AppCompatActivity implements IMainContract.View, S
         // instantiate presenter, let it take control
         presenter = new MainPresenter();
         presenter.init(this);
+
+        getSupportFragmentManager().setFragmentResultListener("filter_key", this, (requestKey, bundle) -> {
+            List<String> genres = bundle.getStringArrayList("genres");
+
+        });
     }
 
 
@@ -92,7 +97,7 @@ public class MainView extends AppCompatActivity implements IMainContract.View, S
             presenter.onMenuInfoClicked();
             return true;
         } else if (itemId == R.id.action_filter) {
-            new es.unican.movies.activities.main.FilterDialogFragment().show(getSupportFragmentManager(), "DialogFilter");
+            new FilterDialogFragment().show(getSupportFragmentManager(), "DialogFilter");
         }
         return super.onOptionsItemSelected(item);
     }
@@ -100,6 +105,12 @@ public class MainView extends AppCompatActivity implements IMainContract.View, S
 
     @Override
     public void init() {
+        setupFragments();
+        setupBottomNavigation();
+        SearchTitleBarHandler();
+    }
+
+    private void setupFragments() {
         // Initialize fragment container with the series list fragment by default
         FragmentManager fm = getSupportFragmentManager();
         FragmentTransaction tx = fm.beginTransaction();
@@ -114,17 +125,18 @@ public class MainView extends AppCompatActivity implements IMainContract.View, S
             tx.hide(wishlistFragment);
         }
         tx.commitNowAllowingStateLoss();
+    }
 
-        // Wire BottomNavigationView// Wire BottomNavigationView
+    private void setupBottomNavigation() {
+        // Wire BottomNavigationView
         BottomNavigationView bottomNav = findViewById(R.id.bottom_navigation);
         if (bottomNav != null) {
             bottomNav.setOnItemSelectedListener(item -> {
                 int id = item.getItemId();
                 FragmentTransaction t = getSupportFragmentManager().beginTransaction();
-                FragmentManager fm2 = getSupportFragmentManager();
 
-                SeriesListFragment sf = (SeriesListFragment) fm2.findFragmentByTag(TAG_LIST);
-                WishlistFragment wf = (WishlistFragment) fm2.findFragmentByTag(TAG_WISHLIST);
+                SeriesListFragment sf = (SeriesListFragment) getSupportFragmentManager().findFragmentByTag(TAG_LIST);
+                WishlistFragment wf = (WishlistFragment) getSupportFragmentManager().findFragmentByTag(TAG_WISHLIST);
 
                 if (id == R.id.nav_home) {
                     // show list fragment
@@ -158,9 +170,6 @@ public class MainView extends AppCompatActivity implements IMainContract.View, S
             // set default selected
             bottomNav.setSelectedItemId(R.id.nav_home);
         }
-
-        // Wire search bar
-        SearchTitleBarHandler();
     }
 
     private void SearchTitleBarHandler(){
