@@ -95,8 +95,6 @@ public class MainView extends AppCompatActivity implements IMainContract.View, S
         if (itemId == R.id.menuItemInfo) {
             presenter.onMenuInfoClicked();
             return true;
-        } else if (itemId == R.id.menufilterButton) {
-            new es.unican.movies.activities.main.OrdenDialogFragment().show(getSupportFragmentManager(), "DialogFilter");
         }
         return super.onOptionsItemSelected(item);
     }
@@ -249,15 +247,25 @@ public class MainView extends AppCompatActivity implements IMainContract.View, S
         presenter.onItemClicked(series);
     }
 
-    public void aplicarOrdenar(View v) {
-        Spinner spinner = findViewById(R.id.spinnerTipoOrden);
-        RadioGroup radioGroupOrden = findViewById(R.id.radioGroupOrden);
-
-        String tipo = spinner.getSelectedItem().toString();
-        int idSeleccionado = radioGroupOrden.getCheckedRadioButtonId();
-        boolean ascendente = (idSeleccionado == R.id.radioAsc);
+    public void procesarOrden(Bundle bundle) {
+        String tipo = bundle.getString("tipo");
+        boolean ascendente = bundle.getBoolean("ascendente");
 
         presenter.ordenarSeries(tipo, ascendente);
+    }
+
+    public void inicializarListenerOrden() {
+        getSupportFragmentManager().setFragmentResultListener("orden_key", this, (requestKey, bundle) -> {
+            procesarOrden(bundle);
+        });
+    }
+
+    public void mostrarDialogoOrdenar(View v) {
+        // Registrar listener para recibir resultado
+        inicializarListenerOrden();
+
+        OrdenDialogFragment dialog = new OrdenDialogFragment();
+        dialog.show(getSupportFragmentManager(), "DialogOrdenar");
     }
 
 
