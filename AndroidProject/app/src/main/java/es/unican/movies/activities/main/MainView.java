@@ -56,6 +56,7 @@ public class MainView extends AppCompatActivity implements IMainContract.View, S
     IMoviesRepository repository;
 
     private static final String TAG_LIST = "series_list";
+    private static final String TAG_WISHLIST = "wishlist";
 
     // cache the last series list so we can reapply it when fragments are recreated
     private List<Series> cachedSeries = null;
@@ -75,6 +76,11 @@ public class MainView extends AppCompatActivity implements IMainContract.View, S
         // instantiate presenter, let it take control
         presenter = new MainPresenter();
         presenter.init(this);
+
+        getSupportFragmentManager().setFragmentResultListener("filter_key", this, (requestKey, bundle) -> {
+            List<String> genres = bundle.getStringArrayList("genres");
+
+        });
     }
 
 
@@ -93,7 +99,7 @@ public class MainView extends AppCompatActivity implements IMainContract.View, S
             presenter.onMenuInfoClicked();
             return true;
         } else if (itemId == R.id.action_filter) {
-            new es.unican.movies.activities.main.FilterDialogFragment().show(getSupportFragmentManager(), "DialogFilter");
+            new FilterDialogFragment().show(getSupportFragmentManager(), "DialogFilter");
         }
         return super.onOptionsItemSelected(item);
     }
